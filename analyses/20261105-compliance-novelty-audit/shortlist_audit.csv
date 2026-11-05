@@ -1,0 +1,20 @@
+design_id,结果,长度,Cys,疏水比例,CDR3长度,问题,提示,最相似参考,一致性%,覆盖%
+TNFR1_bulk1_rfd4_crd2_compact_00_8fced7a5fd5b,FAIL,115,2,0.409,10,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,,,
+TNFR1_bc2_recovery_bc2_gpu_crd3_16_203250d5c341,FAIL,127,2,0.417,18,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,,,
+TNFR1_bc2_recovery_bc2_gpu_crd3_16_3d4bb6dbe6ef,FAIL,127,2,0.417,18,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,,,
+TNFR1_bc2_recovery_bc2_gpu_crd3_16_65a7d122d0cc,FAIL,127,2,0.409,18,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,,,
+TNFR1_bc2_recovery_bc2_gpu_crd3_16_de38b5b8dffd,FAIL,127,2,0.417,18,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,,,
+TNFR1_bc2_recovery_bc2_gpu_crd3_16_f3e9090a3bc7,FAIL,127,2,0.409,18,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,,,
+TNFR1_bc2_recovery_bc2_gpu_crd3_16_8d57eb434a12,FAIL,127,2,0.409,18,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,,,
+TNFR1_bc2_recovery_bc2_gpu_crd3_16_bf4208b6c1a3,FAIL,127,2,0.409,18,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,,,
+TNFR1_bulk1_rfd4_crd2_long_03_04ca5213f78c,FAIL,126,2,0.413,19,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,,,
+TNFR1_bc2_recovery_bc2_gpu_crd3_16_9a7253825d68,FAIL,127,2,0.409,18,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,,,
+TNFR1_bc2_recovery_bc2_gpu_crd3_16_2c7aa98120fe,FAIL,127,2,0.417,18,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,,,
+TNFR1_bc2_recovery_bc2_gpu_crd3_16_d6d7c130646d,FAIL,127,2,0.417,18,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,,,
+TNFR1_bulk1_rfd4_crd2_long_01_fe0d12bf75bb,FAIL,123,2,0.407,16,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,,,
+TNFR1_bc2_recovery_bc2_gpu_crd2_08_14c12a1d7ac8,FAIL,127,2,0.441,18,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,IL7Ra_known_binders.fasta::6P50_2|anti-IL-7R,23.8,56.8
+TNFR1_bc2_recovery_bc2_gpu_crd2_08_245eee99a81f,FAIL,127,2,0.433,18,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,,,
+TNFR1_bulk1_rfd4_crd3_long_01_ab9de9edd9d5,FAIL,126,2,0.389,19,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,EGFR_known_binders.fasta::3G5Y_2|175,47.3,52.8
+TNFR1_bc2_recovery_bc2_gpu_crd3_12_083b9fc2dcc0,FAIL,127,2,0.402,18,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,EGFR_known_binders.fasta::4UV7_3|GC1118A,27.2,59.5
+TNFR1_bc2_recovery_bc2_gpu_crd2_01_7d878eb23d8e,FAIL,127,2,0.394,18,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,,,
+TNFR1_bc2_recovery_bc2_gpu_crd2_08_60371bf2a410,FAIL,127,2,0.433,18,VHH 框架不完整，缺 FR4 的 WGxGTxVTVSS,,IL7Ra_known_binders.fasta::6P50_2|anti-IL-7R,23.8,56.8
