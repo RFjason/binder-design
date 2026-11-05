@@ -26,7 +26,7 @@
 
 ## 克隆和协作
 
-仓库保持私有，协作者需要获得仓库访问权限后才能克隆或推送。
+仓库已公开，任何人都可以克隆和拉取代码及结果。直接推送仍需要写入权限；其他协作者可以通过Fork和Pull Request提交修改。
 
 ```bash
 git clone https://github.com/RFjason/binder-design.git
