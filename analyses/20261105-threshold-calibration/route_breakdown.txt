@@ -1,0 +1,33 @@
+路线与表位层的效率拆解  来源 results/all_candidates.csv (n=1127)
+
+--- 按 structure_method ---
+取值                           n   ipsae中位   ipsae最大   dockq中位    过线     过线率
+bindcraft2                 250     0.130     0.673     0.636    15   6.00%
+rfantibody                 357     0.000     0.491     0.019     0   0.00%
+rfd4                       520     0.000     0.698     0.047     4   0.77%
+
+--- 按 stratum ---
+取值                           n   ipsae中位   ipsae最大   dockq中位    过线     过线率
+crd2                       308     0.005     0.621     0.034     4   1.30%
+crd2_compact               120     0.000     0.698     0.036     1   0.83%
+crd2_long                  140     0.000     0.649     0.050     2   1.43%
+crd3                       299     0.011     0.673     0.068    11   3.68%
+crd3_compact               140     0.000     0.556     0.088     0   0.00%
+crd3_long                  120     0.000     0.611     0.025     1   0.83%
+
+--- 按 pose_dockq_status ---
+取值                           n   ipsae中位   ipsae最大   dockq中位    过线     过线率
+(空)                        717     0.000     0.698     0.031     4   0.56%
+ASSESSED                   402     0.022     0.673     0.426    15   3.73%
+NO_DOCKQ_ASSESSABLE_INTE     8     0.000     0.269       nan     0   0.00%
+
+受控对比：同一路线内，空 status 与 ASSESSED 的 dockq
+路线                   状态     n   dockq中位
+bindcraft2     ASSESSED   250     0.636
+rfantibody            空   237     0.019
+rfantibody     ASSESSED   112     0.019
+rfd4                  空   480     0.045
+rfd4           ASSESSED    40     0.068
+
+结论：同一路线内两种状态的 dockq 几乎相同，说明 status 字段不是造成差异的原因，
+之前看到的 0.031 对 0.426 是被路线混淆的。RF 两路的低 dockq 是真实的。
