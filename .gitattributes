@@ -1,0 +1,8 @@
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+*.slurm text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+# Preserve the byte hashes of immutable exported scientific inputs and results.
+campaigns/** -text

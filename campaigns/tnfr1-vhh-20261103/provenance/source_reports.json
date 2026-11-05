@@ -1,0 +1,522 @@
+[
+  {
+    "name": "canary_result_bulk1_bc2_crd2_00.json",
+    "sha256": "a1cbf19fd7ba3701c300637582436329c331c26ee1271cdfb301853199eb89ff"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_01.json",
+    "sha256": "2b50ce530cf02acb00baf29b2c7cd3a0a80b618b0072f936c818205e9a18dca5"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_02.json",
+    "sha256": "400a78bc178d1daf071acb1cb1c0fabeb83d86ad54637b84a7924ac0345acd4f"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_03.json",
+    "sha256": "f1a6474dfd24355f9bafae41972efc9e13e16b0f6520322315a0ee4707369bad"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_04.json",
+    "sha256": "b7dbec0d82a255dc9b79a8cfa9fb4db3a91bb0e848071d35611da6d25f907a79"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_05.json",
+    "sha256": "86aa8a8fcbe2360a623bb804944dca53b04b50ba6a94f67e5fe23995af036984"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_06.json",
+    "sha256": "f5cef779140ca16f816545fae772ce22eb7e70b489580432ceddc1f6952e8234"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_07.json",
+    "sha256": "2f4e259ba5e52afd5f71bbe77fc987803f45c252483b30ec35bd48acb5b251fc"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_08.json",
+    "sha256": "8feb6b71950cc39ae057bf170db75115c0b7d8a817c23830addaf0623760518d"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_09.json",
+    "sha256": "553c78f1d7128ba7b00317bd24e786b80140c9977f77ba3b9ba2fd75769e63a1"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_10.json",
+    "sha256": "180fb69216741f0a295a2785d60df9b5c5bc3da4803b5f888fc5874e8ec67b83"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_11.json",
+    "sha256": "264dc9ad8a06f26d481f57e9f2cb3c81132261b9aa18ff9837637a699f8951ca"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_12.json",
+    "sha256": "630aad94f12629da8862ec1e1e06ef19711b459fecfca6be12e78fe8b1105ce7"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_13.json",
+    "sha256": "f924eef20fc484aabfa7e48618fd23376801854b87a73c23ae97b8c86163ff78"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_14.json",
+    "sha256": "330e13846f0e6fca952e2cf6663ac369285db7c0662c3e69bb13d0c45719e96c"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_15.json",
+    "sha256": "a74edb3cc575b16e36964cea17846c8c2fbf76a9a994978e58246c824de0a821"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_16.json",
+    "sha256": "557177e8742a63ea5b1e2871a6a7320c3ff092e2f5023aae0bb00bfac4a627ed"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_17.json",
+    "sha256": "faa54723a3a62c31425d3f0a4d76d385db3481d70873988b097d554f0fecf66e"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_18.json",
+    "sha256": "86ee68391eab71406eae6d85ddcd8886c476e93027f6ad1f7192352b9063e73f"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd2_19.json",
+    "sha256": "0a034593747122b4735fb0139d99a2f8e4e04571fc0e4044ff068cd153163884"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_00.json",
+    "sha256": "1d086b4a712ae9d525377aac93a15231c50433bb4067c85d228e903c1d1a9ad9"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_01.json",
+    "sha256": "646316720d5c13b971c78ec20c3ff8027131303fd48e4eb6f14cf2d063749f38"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_02.json",
+    "sha256": "a35e91012d1dd27290b4b65f760a7db73bab3b7a6fe964e8905957923c324dc1"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_03.json",
+    "sha256": "ac5349baedf2acc2fba8ecc61e719c547c44f08f554f4baaf38cfee8a7732d0e"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_04.json",
+    "sha256": "ae01031653f2865c7ac93bac8502043e3c61f9011ebdec51ac210012d9f3b5b8"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_05.json",
+    "sha256": "eff407cc3fc5a66f1978ea7f29f7f52566c20baf64040428a9648cbb7f1f343f"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_06.json",
+    "sha256": "5f6001d4149fdef4ac32252fae6d6c9a30803caedc3fbc56837671cb040d957a"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_07.json",
+    "sha256": "86b1bc53f8bac0dfc5d822fde82f839c212d14aed6ce7ab21bd23c2a2266d9ff"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_08.json",
+    "sha256": "24547071cc4405a1a99bfb1f6e8026f0d4d39aa7a03cc59db86fb01ddf3a094a"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_09.json",
+    "sha256": "4e8fb3dc263d9c285d4bfa85dd2d881cbba0322cf15db69452d3c0676784c186"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_10.json",
+    "sha256": "576de9a587ef4e084120ebc75d9cf20c4d8e0f870b47a7f4705cecb45986d2ec"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_11.json",
+    "sha256": "8ce76b01f339466916457063285f8a51502dfd0fc147f8161741edc2538c7d69"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_12.json",
+    "sha256": "3b7f41c980243511f7e9bbaf768e9c079509776b7442613659c7550fb35cab84"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_13.json",
+    "sha256": "e61a5c775d940b20ef39760b98c9dc3e30cd29235c75ef020938eb8d8de65c3b"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_14.json",
+    "sha256": "4733758857458ccfc3bce76d5dac70e29f97b11ec70984e9cf2221360fbab93b"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_15.json",
+    "sha256": "906b9791efced0a15c289db4c8427061b2e0493c101f1f96b493b26d580e96f9"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_16.json",
+    "sha256": "abe12f7373fb7761a61fb1feed99d313e76b0f276b5ba2f2381199fa13da2914"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_17.json",
+    "sha256": "51a640d96381561e3ee7b32acef65a8c0812bcdad3eecc2506b304a68103ccde"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_18.json",
+    "sha256": "ac363de01c12c1280017ac4bab12e8dc04604a3ffea4b0d9015c4baee6959263"
+  },
+  {
+    "name": "canary_result_bulk1_bc2_crd3_19.json",
+    "sha256": "d9bf34bcd6610bddc6162851ab9457a5188213a23209efe572012e8690dccc47"
+  },
+  {
+    "name": "canary_result_bulk1_rfantibody_crd2_00.json",
+    "sha256": "73a7a9806a7f3860f9f59deca7657b468cc392d5825367f8a893d321e6bbb993"
+  },
+  {
+    "name": "canary_result_bulk1_rfantibody_crd2_01.json",
+    "sha256": "a8d49d031895aab94c01faa3698a19d54d6fcf0972759688b1d9da74bf10e36f"
+  },
+  {
+    "name": "canary_result_bulk1_rfantibody_crd2_02.json",
+    "sha256": "f895e34c0e2cc4be6e356d895d55f75ba5180f1a5c93d275f2b14f6b81eb7215"
+  },
+  {
+    "name": "canary_result_bulk1_rfantibody_crd2_03.json",
+    "sha256": "df85f757804cd6d2b220436c5f09b8d4437fe6356c58262102db44d45a4b60ad"
+  },
+  {
+    "name": "canary_result_bulk1_rfantibody_crd2_04.json",
+    "sha256": "6302eeb4de23867fa02d092a305114842ccbb1e2dba8ce3060436773c45ddf82"
+  },
+  {
+    "name": "canary_result_bulk1_rfantibody_crd3_00.json",
+    "sha256": "4903fe9443c24eb61ee61a4493de2bbfd250eff79361cdae9f877541d74b6e1b"
+  },
+  {
+    "name": "canary_result_bulk1_rfantibody_crd3_01.json",
+    "sha256": "71cb90d894c3e5af790b572aabf3aebb8a0c5b9b2aa599e47ed1e9b7f2e31794"
+  },
+  {
+    "name": "canary_result_bulk1_rfantibody_crd3_02.json",
+    "sha256": "3c9dd28b5c8fa91bbbd1346390f783d0245e57c4ab66083e7dca73be034fd204"
+  },
+  {
+    "name": "canary_result_bulk1_rfantibody_crd3_03.json",
+    "sha256": "26bd41ee10cba7d647751e53fed44e330358ed59bd08dfc61c4ff6d13879cac3"
+  },
+  {
+    "name": "canary_result_bulk1_rfantibody_crd3_04.json",
+    "sha256": "165f29900b67141c7d6a8fa6614b06f4b4a8fb67da7c44c96fcd60432d870ab1"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_compact_00.json",
+    "sha256": "317ed51c98cd7dc3fc5fd0671fe46b5d9f5c0378ee45a90131284f7070ea1c61"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_compact_01.json",
+    "sha256": "d344354aa45c9e43cdca3ac2bcf552f4665c08d158ff10e9413e3012b4dfd9e0"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_compact_02.json",
+    "sha256": "e78f0a7fd97b721c52aa8fae5afd6f6cf9ce9d34261d5b4afe1359ea76cf96dd"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_compact_03.json",
+    "sha256": "4131fac9854fc5712282896047aa99e4a4b7fe366b74876e5ecfc7aa94ed13e3"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_compact_04.json",
+    "sha256": "e921393b40744b7c4ecdb60455cfaf9ccb04523d1f626110e0c7120df05f361b"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_compact_05.json",
+    "sha256": "d86161f7d77729829bfcf5fda11a33ed09717142ff1757eca4ce224d0ca95b60"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_compact_06.json",
+    "sha256": "dcc71bf3c4805d7ca92f2c7bd9bf7eecea6ba8f6acd4c44eedc8373dc8d4e990"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_compact_07.json",
+    "sha256": "605bc63c3bbbd1ae721f8bf118b6edd703e77be69780460b5c61e0081bc4d521"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_compact_08.json",
+    "sha256": "3a68221e3a700a8df11ee681ffdd53ebb55eed2c1e6a9aaa885d8c5b2324bdd8"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_compact_09.json",
+    "sha256": "943463ffb7215f415673ea800bea3f94830de38b04c57500cdce5e87004dddf8"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_long_00.json",
+    "sha256": "cb767af250ea996c14f0c2471b70f71a2d6fb218a8c98274833f0c310d199f58"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_long_01.json",
+    "sha256": "b39f322ab91b2d0be91caf69433975dc1a67e577727e0ba44efcab3a7210c1cf"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_long_02.json",
+    "sha256": "9466c4e33ea0763c4f88952cf8e9a8821ee135cfe798b5e948bd8079e9667a33"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_long_03.json",
+    "sha256": "ed4fc9255f8acf2168234973f796c34d20f4c17d4caf612c9837dc92068b6109"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_long_04.json",
+    "sha256": "f07cabbe6b66cb67431f9f80a4a2807b20e601b1758cd2774bb8f371a257496f"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_long_05.json",
+    "sha256": "52ebb23d786023b11b1b43b8b35a0adb0bb74c6f70b0401c8aa7fc77e16c49cc"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_long_06.json",
+    "sha256": "cdd41470d08d5700c95bcd5870c4c7a19d4e5eb63880fb83c79a621c25871aff"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_long_07.json",
+    "sha256": "b40ad436ebf7a6b5e04ec1a099d286b1120959122959d96f380773aa2534c35b"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_long_08.json",
+    "sha256": "d624c2d310d4b32268d27d2c695c2aff171675aaffc54f0be46d37f876d6d017"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd2_long_09.json",
+    "sha256": "317252b50790f6f89bd74f5250b15420c894021fe78eb51493d92952bbbc2417"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_compact_00.json",
+    "sha256": "6b310bf9c06fdb1d7d14bc83921f814262f5449ae3185a43545f1a9054b59bac"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_compact_01.json",
+    "sha256": "53c2ece907321ec13a41fe257fa6a41f70462d62df3fab20c63cafcfeb48318a"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_compact_02.json",
+    "sha256": "9ba3bf789c206dcee58d37429c9e3070aa31c9b8f866bdf610c85eb4d2feb767"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_compact_03.json",
+    "sha256": "d6d6f20a0f157804913d0c39a5dedea51e5cb8f8a55426a80b947d55169957b9"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_compact_04.json",
+    "sha256": "f9d338959857c45ed7531ca1c2359923ee88135b5a4aa7c8b884b5c1d07cba2d"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_compact_05.json",
+    "sha256": "0d5fd5348896454d03488ac885fbdeee8ae0fc58f4e481bf9601a31d16f13caf"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_compact_06.json",
+    "sha256": "1364881c16b752e6cfcb20f5c4d78702e84b0616e39c95be96818977d57fe236"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_compact_07.json",
+    "sha256": "a084ab8aea83923679349c729edb1cae90bcd3a2b7250efa628bea73c6e789ed"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_compact_08.json",
+    "sha256": "5cae50aef674639862d53ad21171f3cff47a41e39b8a0d0a8d1a05451b3f05a4"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_compact_09.json",
+    "sha256": "891d25aff855aa86c70f41a566a07a1737234001fa02efa951abb0a7c428431b"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_long_00.json",
+    "sha256": "3870e19bc1d29a8ddb935d3fe24a6c7dc59c5bd5a3dbec91f25caefaa6f017a4"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_long_01.json",
+    "sha256": "b12ad82c220611e84dbe64345eef1c722c9eb1dcde4af8eb188e65508a715e1c"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_long_02.json",
+    "sha256": "9a2b93f5ba3baa15d55e94653c9b43261ad2b3481c2b2fa79bb4b2a2d6a71426"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_long_03.json",
+    "sha256": "9309b5e381482bfef58a767cae1c467043806f79f05566255db67d9e64b036bd"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_long_04.json",
+    "sha256": "859c56e0073c456f43345968b82dd43933ed421a0aed1c767eab3e9a1246e476"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_long_05.json",
+    "sha256": "38f6b53c5055ee4ed2888b8ffa61f7cf96645a23df0c7bc093640a6b347be7cc"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_long_06.json",
+    "sha256": "73835268703c43690deccb84917dd604fe0e7187a1336e593fcbf2dc9158c914"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_long_07.json",
+    "sha256": "6499308bdec89d2f03959d4ba1ed0785c4703bde182c59e471b18f61856918d1"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_long_08.json",
+    "sha256": "3ffaf2884c38a40af66f83630f562eaf434cfa87a5ea9aeab8b40dfe4618171d"
+  },
+  {
+    "name": "canary_result_bulk1_rfd4_crd3_long_09.json",
+    "sha256": "04d99f3bdaa1bbfaff9ae0ea93178ac08a46025e8f57d61f9c4fdd21f6298db6"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_00.json",
+    "sha256": "0cfaf7293b5701f0c565972833dd18362e7812cd26548623e5ebfeaa70aaaa6f"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_01.json",
+    "sha256": "12b096619751ac281651afdc3091cd91c1b5e9e5af87bc6be94f553c0617c063"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_02.json",
+    "sha256": "21def696b46ab612cd3588b41f5a533e86ad72f59b58c2736b8402492b01c651"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_03.json",
+    "sha256": "4489d0bdb2fec08e1f5f12c9de96d365960d68d95df71646f0a0216ee784c47a"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_04.json",
+    "sha256": "4c68a09f4016a36c35f87a9a85594179fe745d7540f4bf472bb5731ee98ac249"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_05.json",
+    "sha256": "20a297b24430ddc1d678baa4d4a58943e0bdfbac31321a3c4afa8acae71d906f"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_06.json",
+    "sha256": "473e3a7fa6624d91e9f6f8a89fb823fd86e0176f930588dda9041822e6d06a25"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_07.json",
+    "sha256": "7e204a7a115df116b9a045051f9fc1cf2f90af95447ec6220e9b5db12c7209a0"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_08.json",
+    "sha256": "c98a12470e832c5ab8c1cd13260253d30454dee5c0029082662324bb9a4ccf02"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_09.json",
+    "sha256": "81aef1b383a579ce4f11054b767138e9f3e647b729bcd539265d031ffd258f45"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_10.json",
+    "sha256": "a586d55445ebd7808c0b2fe141eb1a9a5c9c508de8b7cc7ba3bde092b2b2d22e"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_11.json",
+    "sha256": "413ba9db22469442898029b27d49a958005832de97d9be9f8b5a2bfafe452770"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_12.json",
+    "sha256": "b6b803e575fd811cda1867a65c50aab23db9ccfbec0e72184ac175c1ef2a9657"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_13.json",
+    "sha256": "46c7af8a5a0dcbb65c3be8022f47a6e8be963df94856269f888a62b0fb13b1a2"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_14.json",
+    "sha256": "b9f397fb0e5b3241638ef57d81132019fb3229eb5264764c6a395556d1c24f5f"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_15.json",
+    "sha256": "b93a156275795e495d2415ba0bf75a8ac2bc0b11f01ad0cd55cc958c0e524bea"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_16.json",
+    "sha256": "d7d2aae2057d4526958d544fe49cc782b6a2aa09b3894c429a3511288584d8e5"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_17.json",
+    "sha256": "0390abb944fb445b3eb654c9957331f9a5daf816018c0f4498e637e7c66fdfb8"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_18.json",
+    "sha256": "ca331148b3deaf5f379f5fed53f2ef84f357be2a7de162dd961cb9ca50e15173"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd2_19.json",
+    "sha256": "8d78c429940ecb06b584cafa8d55eaf545e432d27862bb41f71289652353aa6d"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_00.json",
+    "sha256": "f8617cdda350785ca203f9aa4a60dcfa8de14155857bf46c78fb4920d2442a79"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_01.json",
+    "sha256": "96f3ce6726a2c420763f17c7df03486b9c0bec14be286c98524bb5b1f018341f"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_02.json",
+    "sha256": "92e05e99c6126e808eb32f5875d96a8fa6df1885dccdc49ce3fd4e5f75165d78"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_03.json",
+    "sha256": "c6c785e45b7334a33d9587b93c44068994053d2cd6ab0f48ecc5ab1b9778a9d5"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_04.json",
+    "sha256": "7484533dfeb2d7e499da22105fa410774b6b07964c555e6a0456d620504d0be6"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_05.json",
+    "sha256": "207d2d6859f036a8b8b9049b7914917eb7ec53a4541bf5cc513bfad238a2c200"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_06.json",
+    "sha256": "2f55fe19095d288ec70de980137af8a01bd89360cbe4316641bf6ec5400e6672"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_07.json",
+    "sha256": "eda5fe53ea89c1c1c5960e98c0386c98237ac2ef440212507e7a63880c3987c5"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_08.json",
+    "sha256": "42015bfb93324d1f7c4b31a0f5f5ffdbfb0c176118808565795a9e3cfc5489e3"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_09.json",
+    "sha256": "5759e748e62c8a43f270b6dff90fb04b7d8cf43eaa53a68d10bbfd83adb65abd"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_10.json",
+    "sha256": "30f2ef5875d90d096a16ede6cb45d29ca3393314086b090447f00e4762e23acc"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_11.json",
+    "sha256": "d123b9409265893efb88b8842d05d3a9eee86aefd8f7837a20f6c6a4e799f78c"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_12.json",
+    "sha256": "082cbcb2c53c07470f343e417395c80512f962bb8dade92a6358bdd976384fd4"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_13.json",
+    "sha256": "a251f75b81d278d8444a5bfb7b167b71ee2cf10b39b726bf8a49bb4479ccdbaf"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_14.json",
+    "sha256": "59c70eff2ba888f866699f535c48d8b5c89a78df20eb9523529dce8c8ec8de4b"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_15.json",
+    "sha256": "d8360233450baf6afc25c2e319013d667a8b7d65cbb939c34a6a8b20df256372"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_16.json",
+    "sha256": "4330e184ca2013cd462275f890f02b2b7497e90017be25549feac2775327f54a"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_17.json",
+    "sha256": "918c221949525d33db2c84f23defd4d3826bee5f43fac34ef895ebf73799fc87"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_18.json",
+    "sha256": "c7a814653eb7c0f8ca11f34cff2397bde6c50ea1613ba5e3637cd132bac39896"
+  },
+  {
+    "name": "canary_result_bc2_recovery_bc2_gpu_crd3_19.json",
+    "sha256": "6353ef64a6b4165837f9a053fb8fd8a830cbf0007de63255e9f5cec0fcb52e1f"
+  }
+]

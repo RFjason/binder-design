@@ -1,0 +1,2225 @@
+{
+  "job_id": "64651676",
+  "updated_epoch": 1793889970.5579894,
+  "candidate_count": 19,
+  "distinct_parent_ids": 8,
+  "candidates": [
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_8fced7a5fd5b",
+      "method": "rfd4",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGDISNITYWGWFRQAPGQGLEAVAYISPGGDINYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAAGSSGAFDYWGQGTLVTVS",
+      "structure_method": "rfd4",
+      "run_variant": "bulk1_rfd4",
+      "length": 115,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bulk1/rfd4_crd2_compact_00/inference_samples/tnfr1_crd2_compact_rep1/tnfr1_crd2_compact_rep1_generated.cif",
+      "source_sha256": "6431c63cc29cd962c211a17a74984aaea698c04ba7f86bf17ebff0ed2bc6c9fb",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASGDISNITYWG",
+        "YISPGGDIN",
+        "AAGSSGAFDY"
+      ],
+      "cdr_lengths": [
+        13,
+        9,
+        10
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        1.940995693206787,
+        1.940995693206787
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 1.940995693206787,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bulk1_rfd4_crd2_compact_00_8fced7a5fd5b/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bulk1",
+      "batch_id": "rfd4_crd2_compact_00",
+      "stratum": "crd2_compact",
+      "parent_id": "rfd4_crd2_compact_00:tnfr1_crd2_compact_rep1_generated",
+      "generation_seed": 110000,
+      "ipsae_min": 0.697982,
+      "ipsae_directions": {
+        "A_to_B": 0.811547,
+        "B_to_A": 0.697982
+      },
+      "ipTM": 0.9140852093696594,
+      "complex_binder_plddt": 91.78213500976562,
+      "monomer_plddt": 87.8279800415039,
+      "pose_dockq": 0.7540720906556079,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 2.0064399242401123,
+      "predicted_full_CDR_interface_fraction_4p5A": 0.64,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 0,
+      "mature_construct_validation_required": false,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 11.482892036437988,
+        "145": 18.702194213867188,
+        "151": 33.24855041503906
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 5858.2001953125,
+      "monomer_hydrophobic_SASA_fraction": 0.24738474190235138,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASGDISNITYWG",
+          "start_1based": 23,
+          "end_1based": 35,
+          "mean_plddt": 85.03769230769231,
+          "minimum_plddt": 76.47,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 642.75,
+          "hydrophobic_SASA_A2": 177.4379119873047
+        },
+        {
+          "CDR": 2,
+          "sequence": "YISPGGDIN",
+          "start_1based": 50,
+          "end_1based": 58,
+          "mean_plddt": 85.36333333333333,
+          "minimum_plddt": 81.9,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 548.5177001953125,
+          "hydrophobic_SASA_A2": 166.1959991455078
+        },
+        {
+          "CDR": 3,
+          "sequence": "AAGSSGAFDY",
+          "start_1based": 96,
+          "end_1based": 105,
+          "mean_plddt": 82.73400000000001,
+          "minimum_plddt": 70.43,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 420.36773681640625,
+          "hydrophobic_SASA_A2": 139.00111389160156
+        }
+      ],
+      "potential_N_glycosylation_sequons": [
+        {
+          "position_1based": 30,
+          "motif": "NIT",
+          "CDR": 1
+        }
+      ],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    },
+    {
+      "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_203250d5c341",
+      "method": "bc2_v2",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASIDSYLPIELISLGWFRQAPGQGLEAVAAINLRNNETYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAADHNIVVEEPDVHPRVEWGQGTLVTVS",
+      "structure_method": "bindcraft2",
+      "run_variant": "bc2_recovery_bc2_v2",
+      "length": 127,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_16/2_Refolded/Complexes/design_l127_3786237fd501798d_candidate3.cif",
+      "source_sha256": "88aaf5ffddfd95d8f1a44a6f189e1be2c86d796679b69076959a005becc21934",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASIDSYLPIELISLG",
+        "AINLRNNETY",
+        "AADHNIVVEEPDVHPRVE"
+      ],
+      "cdr_lengths": [
+        16,
+        10,
+        18
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        2.064718246459961,
+        2.064718246459961
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 2.064718246459961,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bc2_recovery_bc2_gpu_crd3_16_203250d5c341/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bc2_recovery",
+      "batch_id": "bc2_gpu_crd3_16",
+      "stratum": "crd3",
+      "parent_id": "bc2_gpu_crd3_16:trajectory_1",
+      "generation_seed": 410036,
+      "source_generation_stage": "native_generated_or_refolded",
+      "ipsae_min": 0.673109,
+      "ipsae_directions": {
+        "A_to_B": 0.79114,
+        "B_to_A": 0.673109
+      },
+      "ipTM": 0.8987292051315308,
+      "complex_binder_plddt": 90.01874542236328,
+      "monomer_plddt": 78.25286865234375,
+      "pose_dockq": 0.7502164948102766,
+      "pose_dockq_status": "ASSESSED",
+      "source_interface_diagnostic": null,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 2.1021499633789062,
+      "predicted_full_CDR_interface_fraction_4p5A": 0.7083333333333334,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 0,
+      "mature_construct_validation_required": false,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 19.14493179321289,
+        "145": 10.571789741516113,
+        "151": 22.02181053161621
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 7049.99365234375,
+      "monomer_hydrophobic_SASA_fraction": 0.293236643075943,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASIDSYLPIELISLG",
+          "start_1based": 23,
+          "end_1based": 38,
+          "mean_plddt": 70.718125,
+          "minimum_plddt": 54.57,
+          "fraction_plddt_below_70": 0.5,
+          "SASA_A2": 853.15087890625,
+          "hydrophobic_SASA_A2": 499.1271667480469
+        },
+        {
+          "CDR": 2,
+          "sequence": "AINLRNNETY",
+          "start_1based": 53,
+          "end_1based": 62,
+          "mean_plddt": 76.877,
+          "minimum_plddt": 65.69,
+          "fraction_plddt_below_70": 0.1,
+          "SASA_A2": 749.0899047851562,
+          "hydrophobic_SASA_A2": 187.7547149658203
+        },
+        {
+          "CDR": 3,
+          "sequence": "AADHNIVVEEPDVHPRVE",
+          "start_1based": 100,
+          "end_1based": 117,
+          "mean_plddt": 56.26888888888889,
+          "minimum_plddt": 39.98,
+          "fraction_plddt_below_70": 0.7222222222222222,
+          "SASA_A2": 1130.4305419921875,
+          "hydrophobic_SASA_A2": 366.24700927734375
+        }
+      ],
+      "potential_N_glycosylation_sequons": [
+        {
+          "position_1based": 59,
+          "motif": "NET",
+          "CDR": 2
+        }
+      ],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    },
+    {
+      "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_3d4bb6dbe6ef",
+      "method": "bc2_v2",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASINSYLPIDLISLGWFRQAPGQGLEAVAAIDLRNNKTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAADHNIIVEEPDVHPRVEWGQGTLVTVS",
+      "structure_method": "bindcraft2",
+      "run_variant": "bc2_recovery_bc2_v2",
+      "length": 127,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_16/2_Refolded/Complexes/design_l127_3786237fd501798d_candidate5.cif",
+      "source_sha256": "2e1575c25cc618628cda532a806122a1cd4590b8f9c5a63ca5e1b7466ec13ef4",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASINSYLPIDLISLG",
+        "AIDLRNNKTY",
+        "AADHNIIVEEPDVHPRVE"
+      ],
+      "cdr_lengths": [
+        16,
+        10,
+        18
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        2.051138401031494,
+        2.051138401031494
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 2.051138401031494,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bc2_recovery_bc2_gpu_crd3_16_3d4bb6dbe6ef/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bc2_recovery",
+      "batch_id": "bc2_gpu_crd3_16",
+      "stratum": "crd3",
+      "parent_id": "bc2_gpu_crd3_16:trajectory_1",
+      "generation_seed": 410036,
+      "source_generation_stage": "native_generated_or_refolded",
+      "ipsae_min": 0.666539,
+      "ipsae_directions": {
+        "A_to_B": 0.787524,
+        "B_to_A": 0.666539
+      },
+      "ipTM": 0.8977483510971069,
+      "complex_binder_plddt": 89.491943359375,
+      "monomer_plddt": 75.75582885742188,
+      "pose_dockq": 0.8596617162155855,
+      "pose_dockq_status": "ASSESSED",
+      "source_interface_diagnostic": null,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 2.0415198802948,
+      "predicted_full_CDR_interface_fraction_4p5A": 0.6956521739130435,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 0,
+      "mature_construct_validation_required": false,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 19.153608322143555,
+        "145": 10.534576416015625,
+        "151": 21.616744995117188
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 6804.6103515625,
+      "monomer_hydrophobic_SASA_fraction": 0.2504374086856842,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASINSYLPIDLISLG",
+          "start_1based": 23,
+          "end_1based": 38,
+          "mean_plddt": 57.65875,
+          "minimum_plddt": 31.78,
+          "fraction_plddt_below_70": 0.6875,
+          "SASA_A2": 971.718017578125,
+          "hydrophobic_SASA_A2": 492.4364929199219
+        },
+        {
+          "CDR": 2,
+          "sequence": "AIDLRNNKTY",
+          "start_1based": 53,
+          "end_1based": 62,
+          "mean_plddt": 75.06500000000001,
+          "minimum_plddt": 64.34,
+          "fraction_plddt_below_70": 0.2,
+          "SASA_A2": 623.9005737304688,
+          "hydrophobic_SASA_A2": 100.48049926757812
+        },
+        {
+          "CDR": 3,
+          "sequence": "AADHNIIVEEPDVHPRVE",
+          "start_1based": 100,
+          "end_1based": 117,
+          "mean_plddt": 56.36555555555556,
+          "minimum_plddt": 43.43,
+          "fraction_plddt_below_70": 0.8888888888888888,
+          "SASA_A2": 1045.6444091796875,
+          "hydrophobic_SASA_A2": 228.7724151611328
+        }
+      ],
+      "potential_N_glycosylation_sequons": [
+        {
+          "position_1based": 59,
+          "motif": "NKT",
+          "CDR": 2
+        }
+      ],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    },
+    {
+      "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_65a7d122d0cc",
+      "method": "bc2_v2",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASINSYLPIELISLGWFRQAPGQGLEAVAAIDLRNNKTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAADHNIIVEEPDRHPRVEWGQGTLVTVS",
+      "structure_method": "bindcraft2",
+      "run_variant": "bc2_recovery_bc2_v2",
+      "length": 127,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_16/2_Refolded/Complexes/design_l127_3786237fd501798d_candidate2.cif",
+      "source_sha256": "0d4bd16868aa0902630db471d4e047c4d427e72bb3bb723f8914d21e70537a23",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASINSYLPIELISLG",
+        "AIDLRNNKTY",
+        "AADHNIIVEEPDRHPRVE"
+      ],
+      "cdr_lengths": [
+        16,
+        10,
+        18
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        2.047653913497925,
+        2.047653913497925
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 2.047653913497925,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bc2_recovery_bc2_gpu_crd3_16_65a7d122d0cc/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bc2_recovery",
+      "batch_id": "bc2_gpu_crd3_16",
+      "stratum": "crd3",
+      "parent_id": "bc2_gpu_crd3_16:trajectory_1",
+      "generation_seed": 410036,
+      "source_generation_stage": "native_generated_or_refolded",
+      "ipsae_min": 0.665371,
+      "ipsae_directions": {
+        "A_to_B": 0.784856,
+        "B_to_A": 0.665371
+      },
+      "ipTM": 0.8954131603240967,
+      "complex_binder_plddt": 89.27799224853516,
+      "monomer_plddt": 77.78850555419922,
+      "pose_dockq": 0.8740872136924333,
+      "pose_dockq_status": "ASSESSED",
+      "source_interface_diagnostic": null,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 2.0615572929382324,
+      "predicted_full_CDR_interface_fraction_4p5A": 0.7407407407407407,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 21,
+      "mature_construct_validation_required": true,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 18.621309280395508,
+        "145": 10.85155200958252,
+        "151": 21.39078712463379
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 7363.88427734375,
+      "monomer_hydrophobic_SASA_fraction": 0.26882901787757874,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASINSYLPIELISLG",
+          "start_1based": 23,
+          "end_1based": 38,
+          "mean_plddt": 70.11812499999999,
+          "minimum_plddt": 55.0,
+          "fraction_plddt_below_70": 0.5625,
+          "SASA_A2": 847.8972778320312,
+          "hydrophobic_SASA_A2": 475.8221435546875
+        },
+        {
+          "CDR": 2,
+          "sequence": "AIDLRNNKTY",
+          "start_1based": 53,
+          "end_1based": 62,
+          "mean_plddt": 76.303,
+          "minimum_plddt": 66.2,
+          "fraction_plddt_below_70": 0.2,
+          "SASA_A2": 791.9428100585938,
+          "hydrophobic_SASA_A2": 189.81649780273438
+        },
+        {
+          "CDR": 3,
+          "sequence": "AADHNIIVEEPDRHPRVE",
+          "start_1based": 100,
+          "end_1based": 117,
+          "mean_plddt": 55.50277777777777,
+          "minimum_plddt": 34.02,
+          "fraction_plddt_below_70": 0.7222222222222222,
+          "SASA_A2": 1400.3790283203125,
+          "hydrophobic_SASA_A2": 300.0382385253906
+        }
+      ],
+      "potential_N_glycosylation_sequons": [
+        {
+          "position_1based": 59,
+          "motif": "NKT",
+          "CDR": 2
+        }
+      ],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    },
+    {
+      "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_de38b5b8dffd",
+      "method": "bc2_v2",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASIDSYLPIELISLGWFRQAPGQGLEAVAAIDLRNNKTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAADHNIVVEEPDVHPRVEWGQGTLVTVS",
+      "structure_method": "bindcraft2",
+      "run_variant": "bc2_recovery_bc2_v2",
+      "length": 127,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_16/2_Refolded/Complexes/design_l127_3786237fd501798d_candidate9.cif",
+      "source_sha256": "7f805744b21691781b1542faa683c89fa103160278e1a1b9a4ef33242b9ca861",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASIDSYLPIELISLG",
+        "AIDLRNNKTY",
+        "AADHNIVVEEPDVHPRVE"
+      ],
+      "cdr_lengths": [
+        16,
+        10,
+        18
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        2.0524370670318604,
+        2.0524370670318604
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 2.0524370670318604,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bc2_recovery_bc2_gpu_crd3_16_de38b5b8dffd/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bc2_recovery",
+      "batch_id": "bc2_gpu_crd3_16",
+      "stratum": "crd3",
+      "parent_id": "bc2_gpu_crd3_16:trajectory_1",
+      "generation_seed": 410036,
+      "source_generation_stage": "native_generated_or_refolded",
+      "ipsae_min": 0.658668,
+      "ipsae_directions": {
+        "A_to_B": 0.775486,
+        "B_to_A": 0.658668
+      },
+      "ipTM": 0.8920792937278748,
+      "complex_binder_plddt": 89.4699478149414,
+      "monomer_plddt": 77.16270446777344,
+      "pose_dockq": 0.7537525357288418,
+      "pose_dockq_status": "ASSESSED",
+      "source_interface_diagnostic": null,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 2.078369379043579,
+      "predicted_full_CDR_interface_fraction_4p5A": 0.7083333333333334,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 0,
+      "mature_construct_validation_required": false,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 19.148178100585938,
+        "145": 10.592264175415039,
+        "151": 21.720420837402344
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 7230.48876953125,
+      "monomer_hydrophobic_SASA_fraction": 0.2858501970767975,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASIDSYLPIELISLG",
+          "start_1based": 23,
+          "end_1based": 38,
+          "mean_plddt": 68.865,
+          "minimum_plddt": 53.58,
+          "fraction_plddt_below_70": 0.625,
+          "SASA_A2": 910.328125,
+          "hydrophobic_SASA_A2": 536.7720336914062
+        },
+        {
+          "CDR": 2,
+          "sequence": "AIDLRNNKTY",
+          "start_1based": 53,
+          "end_1based": 62,
+          "mean_plddt": 75.072,
+          "minimum_plddt": 63.48,
+          "fraction_plddt_below_70": 0.2,
+          "SASA_A2": 776.7886352539062,
+          "hydrophobic_SASA_A2": 185.14076232910156
+        },
+        {
+          "CDR": 3,
+          "sequence": "AADHNIVVEEPDVHPRVE",
+          "start_1based": 100,
+          "end_1based": 117,
+          "mean_plddt": 55.382222222222225,
+          "minimum_plddt": 40.95,
+          "fraction_plddt_below_70": 0.7777777777777778,
+          "SASA_A2": 1201.9814453125,
+          "hydrophobic_SASA_A2": 331.3532409667969
+        }
+      ],
+      "potential_N_glycosylation_sequons": [
+        {
+          "position_1based": 59,
+          "motif": "NKT",
+          "CDR": 2
+        }
+      ],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    },
+    {
+      "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_f3e9090a3bc7",
+      "method": "bc2_v2",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASIDSYLPIELISLGWFRQAPGQGLEAVAAIDMRNNKTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAADHNIIVEEPDRHPRVEWGQGTLVTVS",
+      "structure_method": "bindcraft2",
+      "run_variant": "bc2_recovery_bc2_v2",
+      "length": 127,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_16/2_Refolded/Complexes/design_l127_3786237fd501798d_candidate6.cif",
+      "source_sha256": "63c88099e42c7f25f6c02bf23ac18fa97324376071556fd7227559bab3124c72",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASIDSYLPIELISLG",
+        "AIDMRNNKTY",
+        "AADHNIIVEEPDRHPRVE"
+      ],
+      "cdr_lengths": [
+        16,
+        10,
+        18
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        2.05440616607666,
+        2.05440616607666
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 2.05440616607666,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bc2_recovery_bc2_gpu_crd3_16_f3e9090a3bc7/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bc2_recovery",
+      "batch_id": "bc2_gpu_crd3_16",
+      "stratum": "crd3",
+      "parent_id": "bc2_gpu_crd3_16:trajectory_1",
+      "generation_seed": 410036,
+      "source_generation_stage": "native_generated_or_refolded",
+      "ipsae_min": 0.6557,
+      "ipsae_directions": {
+        "A_to_B": 0.771987,
+        "B_to_A": 0.6557
+      },
+      "ipTM": 0.8897128105163574,
+      "complex_binder_plddt": 88.77053833007812,
+      "monomer_plddt": 73.34783935546875,
+      "pose_dockq": 0.8682116986066594,
+      "pose_dockq_status": "ASSESSED",
+      "source_interface_diagnostic": null,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 2.0372824668884277,
+      "predicted_full_CDR_interface_fraction_4p5A": 0.7407407407407407,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 19,
+      "mature_construct_validation_required": true,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 18.562673568725586,
+        "145": 10.694031715393066,
+        "151": 21.837106704711914
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 6890.6767578125,
+      "monomer_hydrophobic_SASA_fraction": 0.2537013292312622,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASIDSYLPIELISLG",
+          "start_1based": 23,
+          "end_1based": 38,
+          "mean_plddt": 60.41312500000001,
+          "minimum_plddt": 43.3,
+          "fraction_plddt_below_70": 0.75,
+          "SASA_A2": 823.2401123046875,
+          "hydrophobic_SASA_A2": 413.6443176269531
+        },
+        {
+          "CDR": 2,
+          "sequence": "AIDMRNNKTY",
+          "start_1based": 53,
+          "end_1based": 62,
+          "mean_plddt": 70.501,
+          "minimum_plddt": 60.65,
+          "fraction_plddt_below_70": 0.5,
+          "SASA_A2": 610.318603515625,
+          "hydrophobic_SASA_A2": 132.20425415039062
+        },
+        {
+          "CDR": 3,
+          "sequence": "AADHNIIVEEPDRHPRVE",
+          "start_1based": 100,
+          "end_1based": 117,
+          "mean_plddt": 48.00055555555556,
+          "minimum_plddt": 35.18,
+          "fraction_plddt_below_70": 0.8888888888888888,
+          "SASA_A2": 1215.708251953125,
+          "hydrophobic_SASA_A2": 238.19029235839844
+        }
+      ],
+      "potential_N_glycosylation_sequons": [
+        {
+          "position_1based": 59,
+          "motif": "NKT",
+          "CDR": 2
+        }
+      ],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    },
+    {
+      "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_8d57eb434a12",
+      "method": "bc2_v2",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASIDSYLPVELISLGWFRQAPGQGLEAVAAINLRNNETYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAADHNIIVEEPDKHPRVEWGQGTLVTVS",
+      "structure_method": "bindcraft2",
+      "run_variant": "bc2_recovery_bc2_v2",
+      "length": 127,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_16/2_Refolded/Complexes/design_l127_3786237fd501798d_candidate4.cif",
+      "source_sha256": "37de8628caf94533d2ba0de15ecfba0e8062182d9167b2e8484860487aba91b3",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASIDSYLPVELISLG",
+        "AINLRNNETY",
+        "AADHNIIVEEPDKHPRVE"
+      ],
+      "cdr_lengths": [
+        16,
+        10,
+        18
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        2.0659751892089844,
+        2.0659751892089844
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 2.0659751892089844,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bc2_recovery_bc2_gpu_crd3_16_8d57eb434a12/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bc2_recovery",
+      "batch_id": "bc2_gpu_crd3_16",
+      "stratum": "crd3",
+      "parent_id": "bc2_gpu_crd3_16:trajectory_1",
+      "generation_seed": 410036,
+      "source_generation_stage": "native_generated_or_refolded",
+      "ipsae_min": 0.654135,
+      "ipsae_directions": {
+        "A_to_B": 0.779205,
+        "B_to_A": 0.654135
+      },
+      "ipTM": 0.8911314010620117,
+      "complex_binder_plddt": 88.70843505859375,
+      "monomer_plddt": 74.27574157714844,
+      "pose_dockq": 0.8535085583035474,
+      "pose_dockq_status": "ASSESSED",
+      "source_interface_diagnostic": null,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 2.052816152572632,
+      "predicted_full_CDR_interface_fraction_4p5A": 0.7407407407407407,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 19,
+      "mature_construct_validation_required": true,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 18.47551155090332,
+        "145": 10.781542778015137,
+        "151": 21.48539924621582
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 6741.4287109375,
+      "monomer_hydrophobic_SASA_fraction": 0.25190261006355286,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASIDSYLPVELISLG",
+          "start_1based": 23,
+          "end_1based": 38,
+          "mean_plddt": 58.294375,
+          "minimum_plddt": 36.18,
+          "fraction_plddt_below_70": 0.6875,
+          "SASA_A2": 958.691162109375,
+          "hydrophobic_SASA_A2": 512.9734497070312
+        },
+        {
+          "CDR": 2,
+          "sequence": "AINLRNNETY",
+          "start_1based": 53,
+          "end_1based": 62,
+          "mean_plddt": 73.809,
+          "minimum_plddt": 61.23,
+          "fraction_plddt_below_70": 0.1,
+          "SASA_A2": 589.7354125976562,
+          "hydrophobic_SASA_A2": 110.14349365234375
+        },
+        {
+          "CDR": 3,
+          "sequence": "AADHNIIVEEPDKHPRVE",
+          "start_1based": 100,
+          "end_1based": 117,
+          "mean_plddt": 52.71777777777778,
+          "minimum_plddt": 43.64,
+          "fraction_plddt_below_70": 0.8888888888888888,
+          "SASA_A2": 1013.5859375,
+          "hydrophobic_SASA_A2": 159.3678741455078
+        }
+      ],
+      "potential_N_glycosylation_sequons": [
+        {
+          "position_1based": 59,
+          "motif": "NET",
+          "CDR": 2
+        }
+      ],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    },
+    {
+      "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_bf4208b6c1a3",
+      "method": "bc2_v2",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASIDSYLPVELISLGWFRQAPGQGLEAVAAIDMRNNTTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAADHNIIVEEPDRHPRVEWGQGTLVTVS",
+      "structure_method": "bindcraft2",
+      "run_variant": "bc2_recovery_bc2_v2",
+      "length": 127,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_16/2_Refolded/Complexes/design_l127_3786237fd501798d_candidate10.cif",
+      "source_sha256": "7249314fee13d7d3c590055c0354bd2a6a79385484d4c29550851c19d42c1a2e",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASIDSYLPVELISLG",
+        "AIDMRNNTTY",
+        "AADHNIIVEEPDRHPRVE"
+      ],
+      "cdr_lengths": [
+        16,
+        10,
+        18
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        2.0677645206451416,
+        2.0677645206451416
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 2.0677645206451416,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bc2_recovery_bc2_gpu_crd3_16_bf4208b6c1a3/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bc2_recovery",
+      "batch_id": "bc2_gpu_crd3_16",
+      "stratum": "crd3",
+      "parent_id": "bc2_gpu_crd3_16:trajectory_1",
+      "generation_seed": 410036,
+      "source_generation_stage": "native_generated_or_refolded",
+      "ipsae_min": 0.651592,
+      "ipsae_directions": {
+        "A_to_B": 0.772976,
+        "B_to_A": 0.651592
+      },
+      "ipTM": 0.8887379765510559,
+      "complex_binder_plddt": 88.29611206054688,
+      "monomer_plddt": 80.11101531982422,
+      "pose_dockq": 0.8500024204015705,
+      "pose_dockq_status": "ASSESSED",
+      "source_interface_diagnostic": null,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 2.078014850616455,
+      "predicted_full_CDR_interface_fraction_4p5A": 0.6923076923076923,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 21,
+      "mature_construct_validation_required": true,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 18.663129806518555,
+        "145": 10.779444694519043,
+        "151": 21.64366340637207
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 6940.783203125,
+      "monomer_hydrophobic_SASA_fraction": 0.27451378107070923,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASIDSYLPVELISLG",
+          "start_1based": 23,
+          "end_1based": 38,
+          "mean_plddt": 73.35125,
+          "minimum_plddt": 59.06,
+          "fraction_plddt_below_70": 0.375,
+          "SASA_A2": 893.3616943359375,
+          "hydrophobic_SASA_A2": 519.601806640625
+        },
+        {
+          "CDR": 2,
+          "sequence": "AIDMRNNTTY",
+          "start_1based": 53,
+          "end_1based": 62,
+          "mean_plddt": 78.69000000000001,
+          "minimum_plddt": 67.13,
+          "fraction_plddt_below_70": 0.1,
+          "SASA_A2": 705.1417236328125,
+          "hydrophobic_SASA_A2": 189.22702026367188
+        },
+        {
+          "CDR": 3,
+          "sequence": "AADHNIIVEEPDRHPRVE",
+          "start_1based": 100,
+          "end_1based": 117,
+          "mean_plddt": 65.07833333333333,
+          "minimum_plddt": 51.04,
+          "fraction_plddt_below_70": 0.7222222222222222,
+          "SASA_A2": 1138.00390625,
+          "hydrophobic_SASA_A2": 204.28468322753906
+        }
+      ],
+      "potential_N_glycosylation_sequons": [
+        {
+          "position_1based": 58,
+          "motif": "NNT",
+          "CDR": 2
+        },
+        {
+          "position_1based": 59,
+          "motif": "NTT",
+          "CDR": 2
+        }
+      ],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_04ca5213f78c",
+      "method": "rfd4",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSVTFSSYAMGWFRQAPGQGLEAVAAINYNGGTTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARHLGFDPVHWTDPRYYDYWGQGTLVTVS",
+      "structure_method": "rfd4",
+      "run_variant": "bulk1_rfd4",
+      "length": 126,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bulk1/rfd4_crd2_long_03/inference_samples/tnfr1_crd2_long_rep5/tnfr1_crd2_long_rep5_generated.cif",
+      "source_sha256": "eee50c9d1cdb60011a19df5d1d144fd08db42dc07ea428cc9232ae4fed8a853a",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASGSVTFSSYAMG",
+        "AINYNGGTTY",
+        "ARHLGFDPVHWTDPRYYDY"
+      ],
+      "cdr_lengths": [
+        14,
+        10,
+        19
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        1.9792122840881348,
+        1.9792122840881348
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 1.9792122840881348,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bulk1_rfd4_crd2_long_03_04ca5213f78c/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bulk1",
+      "batch_id": "rfd4_crd2_long_03",
+      "stratum": "crd2_long",
+      "parent_id": "rfd4_crd2_long_03:tnfr1_crd2_long_rep5_generated",
+      "generation_seed": 110013,
+      "ipsae_min": 0.649393,
+      "ipsae_directions": {
+        "A_to_B": 0.76602,
+        "B_to_A": 0.649393
+      },
+      "ipTM": 0.8944808840751648,
+      "complex_binder_plddt": 92.74195861816406,
+      "monomer_plddt": 92.35631561279297,
+      "pose_dockq": 0.740722368449485,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 2.0796847343444824,
+      "predicted_full_CDR_interface_fraction_4p5A": 1.0,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 0,
+      "mature_construct_validation_required": false,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 11.002115249633789,
+        "145": 26.042890548706055,
+        "151": 35.9781494140625
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 6247.66064453125,
+      "monomer_hydrophobic_SASA_fraction": 0.27323535084724426,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASGSVTFSSYAMG",
+          "start_1based": 23,
+          "end_1based": 36,
+          "mean_plddt": 85.03928571428571,
+          "minimum_plddt": 59.01,
+          "fraction_plddt_below_70": 0.14285714285714285,
+          "SASA_A2": 558.59814453125,
+          "hydrophobic_SASA_A2": 184.9629364013672
+        },
+        {
+          "CDR": 2,
+          "sequence": "AINYNGGTTY",
+          "start_1based": 51,
+          "end_1based": 60,
+          "mean_plddt": 93.922,
+          "minimum_plddt": 91.4,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 467.23028564453125,
+          "hydrophobic_SASA_A2": 162.37893676757812
+        },
+        {
+          "CDR": 3,
+          "sequence": "ARHLGFDPVHWTDPRYYDY",
+          "start_1based": 98,
+          "end_1based": 116,
+          "mean_plddt": 91.68368421052631,
+          "minimum_plddt": 79.92,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 1139.748291015625,
+          "hydrophobic_SASA_A2": 494.6551818847656
+        }
+      ],
+      "potential_N_glycosylation_sequons": [],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    },
+    {
+      "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_9a7253825d68",
+      "method": "bc2_v2",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASIDSYLPVELISLGWFRQAPGQGLEAVAAIDLRNNTTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAADHNIIVEEPDRHPRVEWGQGTLVTVS",
+      "structure_method": "bindcraft2",
+      "run_variant": "bc2_recovery_bc2_v2",
+      "length": 127,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_16/2_Refolded/Complexes/design_l127_3786237fd501798d_candidate1.cif",
+      "source_sha256": "f5b1a8bc579485fe7f796061be386ba0e38f6bd9a4444ffbe187f403fa78a2d5",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASIDSYLPVELISLG",
+        "AIDLRNNTTY",
+        "AADHNIIVEEPDRHPRVE"
+      ],
+      "cdr_lengths": [
+        16,
+        10,
+        18
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        2.050212860107422,
+        2.050212860107422
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 2.050212860107422,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bc2_recovery_bc2_gpu_crd3_16_9a7253825d68/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bc2_recovery",
+      "batch_id": "bc2_gpu_crd3_16",
+      "stratum": "crd3",
+      "parent_id": "bc2_gpu_crd3_16:trajectory_1",
+      "generation_seed": 410036,
+      "source_generation_stage": "native_generated_or_refolded",
+      "ipsae_min": 0.648075,
+      "ipsae_directions": {
+        "A_to_B": 0.777654,
+        "B_to_A": 0.648075
+      },
+      "ipTM": 0.8913514614105225,
+      "complex_binder_plddt": 88.72637176513672,
+      "monomer_plddt": 77.64022064208984,
+      "pose_dockq": 0.8517407030549938,
+      "pose_dockq_status": "ASSESSED",
+      "source_interface_diagnostic": null,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 2.071535348892212,
+      "predicted_full_CDR_interface_fraction_4p5A": 0.72,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 19,
+      "mature_construct_validation_required": true,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 18.859844207763672,
+        "145": 10.858434677124023,
+        "151": 21.454551696777344
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 7081.9892578125,
+      "monomer_hydrophobic_SASA_fraction": 0.2750285565853119,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASIDSYLPVELISLG",
+          "start_1based": 23,
+          "end_1based": 38,
+          "mean_plddt": 70.11125,
+          "minimum_plddt": 54.09,
+          "fraction_plddt_below_70": 0.5,
+          "SASA_A2": 851.8468017578125,
+          "hydrophobic_SASA_A2": 486.2966003417969
+        },
+        {
+          "CDR": 2,
+          "sequence": "AIDLRNNTTY",
+          "start_1based": 53,
+          "end_1based": 62,
+          "mean_plddt": 76.439,
+          "minimum_plddt": 64.84,
+          "fraction_plddt_below_70": 0.2,
+          "SASA_A2": 704.8333129882812,
+          "hydrophobic_SASA_A2": 182.49197387695312
+        },
+        {
+          "CDR": 3,
+          "sequence": "AADHNIIVEEPDRHPRVE",
+          "start_1based": 100,
+          "end_1based": 117,
+          "mean_plddt": 56.457777777777785,
+          "minimum_plddt": 41.56,
+          "fraction_plddt_below_70": 0.7222222222222222,
+          "SASA_A2": 1266.759521484375,
+          "hydrophobic_SASA_A2": 277.0507507324219
+        }
+      ],
+      "potential_N_glycosylation_sequons": [
+        {
+          "position_1based": 58,
+          "motif": "NNT",
+          "CDR": 2
+        },
+        {
+          "position_1based": 59,
+          "motif": "NTT",
+          "CDR": 2
+        }
+      ],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    },
+    {
+      "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_2c7aa98120fe",
+      "method": "bc2_v2",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASINSYLPVELISLGWFRQAPGQGLEAVAAIDLRNNETYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAADHNIVVEEPDLHPRVEWGQGTLVTVS",
+      "structure_method": "bindcraft2",
+      "run_variant": "bc2_recovery_bc2_v2",
+      "length": 127,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_16/2_Refolded/Complexes/design_l127_3786237fd501798d_candidate8.cif",
+      "source_sha256": "63d8fee85d75a8102bbad293a944652fc95b001718f6f84f4e226afa5f7146c4",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASINSYLPVELISLG",
+        "AIDLRNNETY",
+        "AADHNIVVEEPDLHPRVE"
+      ],
+      "cdr_lengths": [
+        16,
+        10,
+        18
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        2.055637836456299,
+        2.055637836456299
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 2.055637836456299,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bc2_recovery_bc2_gpu_crd3_16_2c7aa98120fe/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bc2_recovery",
+      "batch_id": "bc2_gpu_crd3_16",
+      "stratum": "crd3",
+      "parent_id": "bc2_gpu_crd3_16:trajectory_1",
+      "generation_seed": 410036,
+      "source_generation_stage": "native_generated_or_refolded",
+      "ipsae_min": 0.642211,
+      "ipsae_directions": {
+        "A_to_B": 0.769182,
+        "B_to_A": 0.642211
+      },
+      "ipTM": 0.887474000453949,
+      "complex_binder_plddt": 88.49790954589844,
+      "monomer_plddt": 77.67313385009766,
+      "pose_dockq": 0.8526418682401204,
+      "pose_dockq_status": "ASSESSED",
+      "source_interface_diagnostic": null,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 2.079812526702881,
+      "predicted_full_CDR_interface_fraction_4p5A": 0.7307692307692307,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 19,
+      "mature_construct_validation_required": true,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 17.3643798828125,
+        "145": 10.678627014160156,
+        "151": 21.205795288085938
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 7061.1083984375,
+      "monomer_hydrophobic_SASA_fraction": 0.2919536232948303,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASINSYLPVELISLG",
+          "start_1based": 23,
+          "end_1based": 38,
+          "mean_plddt": 70.77374999999999,
+          "minimum_plddt": 55.95,
+          "fraction_plddt_below_70": 0.5,
+          "SASA_A2": 864.4788818359375,
+          "hydrophobic_SASA_A2": 492.9830017089844
+        },
+        {
+          "CDR": 2,
+          "sequence": "AIDLRNNETY",
+          "start_1based": 53,
+          "end_1based": 62,
+          "mean_plddt": 76.107,
+          "minimum_plddt": 65.87,
+          "fraction_plddt_below_70": 0.2,
+          "SASA_A2": 738.109375,
+          "hydrophobic_SASA_A2": 184.92832946777344
+        },
+        {
+          "CDR": 3,
+          "sequence": "AADHNIVVEEPDLHPRVE",
+          "start_1based": 100,
+          "end_1based": 117,
+          "mean_plddt": 55.40111111111111,
+          "minimum_plddt": 40.19,
+          "fraction_plddt_below_70": 0.7222222222222222,
+          "SASA_A2": 1187.6546630859375,
+          "hydrophobic_SASA_A2": 389.1217956542969
+        }
+      ],
+      "potential_N_glycosylation_sequons": [
+        {
+          "position_1based": 59,
+          "motif": "NET",
+          "CDR": 2
+        }
+      ],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    },
+    {
+      "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_d6d7c130646d",
+      "method": "bc2_v2",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASIDSYLPVELISLGWFRQAPGQGLEAVAAIDMRNNKTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAADHNIIVEEPDVHPRVEWGQGTLVTVS",
+      "structure_method": "bindcraft2",
+      "run_variant": "bc2_recovery_bc2_v2",
+      "length": 127,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_16/2_Refolded/Complexes/design_l127_3786237fd501798d_candidate7.cif",
+      "source_sha256": "d06e3813193229e93ddf002e2afd71154a5ce2256ad8692c28d20c77c4298d67",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASIDSYLPVELISLG",
+        "AIDMRNNKTY",
+        "AADHNIIVEEPDVHPRVE"
+      ],
+      "cdr_lengths": [
+        16,
+        10,
+        18
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        2.0566322803497314,
+        2.0566322803497314
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 2.0566322803497314,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bc2_recovery_bc2_gpu_crd3_16_d6d7c130646d/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bc2_recovery",
+      "batch_id": "bc2_gpu_crd3_16",
+      "stratum": "crd3",
+      "parent_id": "bc2_gpu_crd3_16:trajectory_1",
+      "generation_seed": 410036,
+      "source_generation_stage": "native_generated_or_refolded",
+      "ipsae_min": 0.642191,
+      "ipsae_directions": {
+        "A_to_B": 0.76523,
+        "B_to_A": 0.642191
+      },
+      "ipTM": 0.8861140012741089,
+      "complex_binder_plddt": 88.28726959228516,
+      "monomer_plddt": 79.66805267333984,
+      "pose_dockq": 0.8385405884250042,
+      "pose_dockq_status": "ASSESSED",
+      "source_interface_diagnostic": null,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 2.080944299697876,
+      "predicted_full_CDR_interface_fraction_4p5A": 0.6923076923076923,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 18,
+      "mature_construct_validation_required": true,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 18.865005493164062,
+        "145": 10.568655967712402,
+        "151": 21.63909912109375
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 7082.400390625,
+      "monomer_hydrophobic_SASA_fraction": 0.2804359793663025,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASIDSYLPVELISLG",
+          "start_1based": 23,
+          "end_1based": 38,
+          "mean_plddt": 72.6925,
+          "minimum_plddt": 58.44,
+          "fraction_plddt_below_70": 0.4375,
+          "SASA_A2": 905.9827880859375,
+          "hydrophobic_SASA_A2": 516.3075561523438
+        },
+        {
+          "CDR": 2,
+          "sequence": "AIDMRNNKTY",
+          "start_1based": 53,
+          "end_1based": 62,
+          "mean_plddt": 77.514,
+          "minimum_plddt": 66.3,
+          "fraction_plddt_below_70": 0.2,
+          "SASA_A2": 764.0153198242188,
+          "hydrophobic_SASA_A2": 191.2787322998047
+        },
+        {
+          "CDR": 3,
+          "sequence": "AADHNIIVEEPDVHPRVE",
+          "start_1based": 100,
+          "end_1based": 117,
+          "mean_plddt": 63.532777777777774,
+          "minimum_plddt": 49.24,
+          "fraction_plddt_below_70": 0.7222222222222222,
+          "SASA_A2": 1184.103515625,
+          "hydrophobic_SASA_A2": 300.8072814941406
+        }
+      ],
+      "potential_N_glycosylation_sequons": [
+        {
+          "position_1based": 59,
+          "motif": "NKT",
+          "CDR": 2
+        }
+      ],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_fe0d12bf75bb",
+      "method": "rfd4",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGRSLSSYAMGWFRQAPGQGLEAVAAISGGSGGNTNYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAVFDVFDSSTYGYYDYWGQGTLVTVS",
+      "structure_method": "rfd4",
+      "run_variant": "bulk1_rfd4",
+      "length": 123,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bulk1/rfd4_crd2_long_01/inference_samples/tnfr1_crd2_long_rep3/tnfr1_crd2_long_rep3_generated.cif",
+      "source_sha256": "6e062ea5fdb9a1e8b2913c637dce50b3eb8f6b54e641281653e3fb269829c016",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASGRSLSSYAMG",
+        "AISGGSGGNTN",
+        "AVFDVFDSSTYGYYDY"
+      ],
+      "cdr_lengths": [
+        13,
+        11,
+        16
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        1.9867031574249268,
+        1.9867031574249268
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 1.9867031574249268,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bulk1_rfd4_crd2_long_01_fe0d12bf75bb/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bulk1",
+      "batch_id": "rfd4_crd2_long_01",
+      "stratum": "crd2_long",
+      "parent_id": "rfd4_crd2_long_01:tnfr1_crd2_long_rep3_generated",
+      "generation_seed": 110011,
+      "ipsae_min": 0.629173,
+      "ipsae_directions": {
+        "A_to_B": 0.733324,
+        "B_to_A": 0.629173
+      },
+      "ipTM": 0.8799839019775391,
+      "complex_binder_plddt": 91.56549072265625,
+      "monomer_plddt": 79.2426986694336,
+      "pose_dockq": 0.6108565308553343,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 1.9084551334381104,
+      "predicted_full_CDR_interface_fraction_4p5A": 0.6111111111111112,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 0,
+      "mature_construct_validation_required": false,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 25.770347595214844,
+        "145": 11.287843704223633,
+        "151": 18.407472610473633
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 6136.794921875,
+      "monomer_hydrophobic_SASA_fraction": 0.24126045405864716,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASGRSLSSYAMG",
+          "start_1based": 23,
+          "end_1based": 35,
+          "mean_plddt": 76.04846153846155,
+          "minimum_plddt": 61.61,
+          "fraction_plddt_below_70": 0.07692307692307693,
+          "SASA_A2": 554.8135986328125,
+          "hydrophobic_SASA_A2": 137.30335998535156
+        },
+        {
+          "CDR": 2,
+          "sequence": "AISGGSGGNTN",
+          "start_1based": 50,
+          "end_1based": 60,
+          "mean_plddt": 75.52999999999999,
+          "minimum_plddt": 63.38,
+          "fraction_plddt_below_70": 0.2727272727272727,
+          "SASA_A2": 522.7955322265625,
+          "hydrophobic_SASA_A2": 10.13955307006836
+        },
+        {
+          "CDR": 3,
+          "sequence": "AVFDVFDSSTYGYYDY",
+          "start_1based": 98,
+          "end_1based": 113,
+          "mean_plddt": 54.511875,
+          "minimum_plddt": 43.43,
+          "fraction_plddt_below_70": 0.875,
+          "SASA_A2": 928.150390625,
+          "hydrophobic_SASA_A2": 422.31072998046875
+        }
+      ],
+      "potential_N_glycosylation_sequons": [],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    },
+    {
+      "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_08_14c12a1d7ac8",
+      "method": "bc2_v2",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASVDSDYEVEFMSLGWFRQAPGQGLEAVAAIDLVKNETYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAADMKVIYDGEVIKMDVEWGQGTLVTVS",
+      "structure_method": "bindcraft2",
+      "run_variant": "bc2_recovery_bc2_v2",
+      "length": 127,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_08/2_Refolded/Complexes/design_l127_7453769041fc502f_candidate9.cif",
+      "source_sha256": "3d911858d3c69319cf9c68750e41d76009568eefd6a621b00028b2f495a1a5d1",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASVDSDYEVEFMSLG",
+        "AIDLVKNETY",
+        "AADMKVIYDGEVIKMDVE"
+      ],
+      "cdr_lengths": [
+        16,
+        10,
+        18
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        1.8639158010482788,
+        1.8639158010482788
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 1.8639158010482788,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bc2_recovery_bc2_gpu_crd2_08_14c12a1d7ac8/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bc2_recovery",
+      "batch_id": "bc2_gpu_crd2_08",
+      "stratum": "crd2",
+      "parent_id": "bc2_gpu_crd2_08:trajectory_1",
+      "generation_seed": 410008,
+      "source_generation_stage": "native_generated_or_refolded",
+      "ipsae_min": 0.620725,
+      "ipsae_directions": {
+        "A_to_B": 0.721399,
+        "B_to_A": 0.620725
+      },
+      "ipTM": 0.8685814738273621,
+      "complex_binder_plddt": 90.23090362548828,
+      "monomer_plddt": 85.70269012451172,
+      "pose_dockq": 0.751201755451781,
+      "pose_dockq_status": "ASSESSED",
+      "source_interface_diagnostic": null,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 2.0897274017333984,
+      "predicted_full_CDR_interface_fraction_4p5A": 0.6086956521739131,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 0,
+      "mature_construct_validation_required": false,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 16.36354637145996,
+        "145": 10.514641761779785,
+        "151": 21.980308532714844
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 7151.8701171875,
+      "monomer_hydrophobic_SASA_fraction": 0.2953619360923767,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASVDSDYEVEFMSLG",
+          "start_1based": 23,
+          "end_1based": 38,
+          "mean_plddt": 80.87562499999999,
+          "minimum_plddt": 71.93,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 891.2399291992188,
+          "hydrophobic_SASA_A2": 300.0517578125
+        },
+        {
+          "CDR": 2,
+          "sequence": "AIDLVKNETY",
+          "start_1based": 53,
+          "end_1based": 62,
+          "mean_plddt": 85.03399999999999,
+          "minimum_plddt": 78.13,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 807.983642578125,
+          "hydrophobic_SASA_A2": 312.4891662597656
+        },
+        {
+          "CDR": 3,
+          "sequence": "AADMKVIYDGEVIKMDVE",
+          "start_1based": 100,
+          "end_1based": 117,
+          "mean_plddt": 82.99333333333333,
+          "minimum_plddt": 77.41,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 1137.86279296875,
+          "hydrophobic_SASA_A2": 510.9379577636719
+        }
+      ],
+      "potential_N_glycosylation_sequons": [
+        {
+          "position_1based": 59,
+          "motif": "NET",
+          "CDR": 2
+        }
+      ],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    },
+    {
+      "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_08_245eee99a81f",
+      "method": "bc2_v2",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASINSDYKVEIMSLGWFRQAPGQGLEAVAAIDVKENKTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAADMRVIYDGEVIKMDVEWGQGTLVTVS",
+      "structure_method": "bindcraft2",
+      "run_variant": "bc2_recovery_bc2_v2",
+      "length": 127,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_08/2_Refolded/Complexes/design_l127_7453769041fc502f_candidate8.cif",
+      "source_sha256": "a002dc386c92e00422818b0a77d684c1020507d2b7aa38dc7b7592387029c5a7",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASINSDYKVEIMSLG",
+        "AIDVKENKTY",
+        "AADMRVIYDGEVIKMDVE"
+      ],
+      "cdr_lengths": [
+        16,
+        10,
+        18
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        1.8927263021469116,
+        1.8927263021469116
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 1.8927263021469116,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bc2_recovery_bc2_gpu_crd2_08_245eee99a81f/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bc2_recovery",
+      "batch_id": "bc2_gpu_crd2_08",
+      "stratum": "crd2",
+      "parent_id": "bc2_gpu_crd2_08:trajectory_1",
+      "generation_seed": 410008,
+      "source_generation_stage": "native_generated_or_refolded",
+      "ipsae_min": 0.613828,
+      "ipsae_directions": {
+        "A_to_B": 0.726173,
+        "B_to_A": 0.613828
+      },
+      "ipTM": 0.8704808950424194,
+      "complex_binder_plddt": 89.46833038330078,
+      "monomer_plddt": 84.75489044189453,
+      "pose_dockq": 0.8461401358737647,
+      "pose_dockq_status": "ASSESSED",
+      "source_interface_diagnostic": null,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 2.0859594345092773,
+      "predicted_full_CDR_interface_fraction_4p5A": 0.7083333333333334,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 0,
+      "mature_construct_validation_required": false,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 17.438528060913086,
+        "145": 10.593215942382812,
+        "151": 21.311870574951172
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 7367.611328125,
+      "monomer_hydrophobic_SASA_fraction": 0.28810060024261475,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASINSDYKVEIMSLG",
+          "start_1based": 23,
+          "end_1based": 38,
+          "mean_plddt": 79.90062499999999,
+          "minimum_plddt": 71.11,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 976.9183959960938,
+          "hydrophobic_SASA_A2": 379.4552917480469
+        },
+        {
+          "CDR": 2,
+          "sequence": "AIDVKENKTY",
+          "start_1based": 53,
+          "end_1based": 62,
+          "mean_plddt": 80.15,
+          "minimum_plddt": 71.25,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 827.573486328125,
+          "hydrophobic_SASA_A2": 197.310302734375
+        },
+        {
+          "CDR": 3,
+          "sequence": "AADMRVIYDGEVIKMDVE",
+          "start_1based": 100,
+          "end_1based": 117,
+          "mean_plddt": 81.49777777777778,
+          "minimum_plddt": 76.17,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 1246.64501953125,
+          "hydrophobic_SASA_A2": 562.7266235351562
+        }
+      ],
+      "potential_N_glycosylation_sequons": [
+        {
+          "position_1based": 59,
+          "motif": "NKT",
+          "CDR": 2
+        }
+      ],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_ab9de9edd9d5",
+      "method": "rfd4",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGDNFLSNLLNMGWFRQAPGQGLEAVASISSGGSTSYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAALVLHVDLDTRQGHEESYWGQGTLVTVS",
+      "structure_method": "rfd4",
+      "run_variant": "bulk1_rfd4",
+      "length": 126,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bulk1/rfd4_crd3_long_01/inference_samples/tnfr1_crd3_long_rep12/tnfr1_crd3_long_rep12_generated.cif",
+      "source_sha256": "fe6ee900fdbf3dc59e26c9860b4c94a171e1019392acf05ac8b3df82b6d4133a",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASGDNFLSNLLNMG",
+        "SISSGGSTS",
+        "AALVLHVDLDTRQGHEESY"
+      ],
+      "cdr_lengths": [
+        15,
+        9,
+        19
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        1.9009664058685303,
+        1.9009664058685303
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 1.9009664058685303,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bulk1_rfd4_crd3_long_01_ab9de9edd9d5/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bulk1",
+      "batch_id": "rfd4_crd3_long_01",
+      "stratum": "crd3_long",
+      "parent_id": "rfd4_crd3_long_01:tnfr1_crd3_long_rep12_generated",
+      "generation_seed": 110031,
+      "ipsae_min": 0.610932,
+      "ipsae_directions": {
+        "A_to_B": 0.772947,
+        "B_to_A": 0.610932
+      },
+      "ipTM": 0.8929186463356018,
+      "complex_binder_plddt": 88.26255798339844,
+      "monomer_plddt": 81.87834167480469,
+      "pose_dockq": 0.587086983402819,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 2.0380444526672363,
+      "predicted_full_CDR_interface_fraction_4p5A": 0.75,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 0,
+      "mature_construct_validation_required": false,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 35.978981018066406,
+        "145": 8.290654182434082,
+        "151": 12.191973686218262
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 6948.095703125,
+      "monomer_hydrophobic_SASA_fraction": 0.2598152160644531,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASGDNFLSNLLNMG",
+          "start_1based": 23,
+          "end_1based": 37,
+          "mean_plddt": 66.59066666666666,
+          "minimum_plddt": 41.82,
+          "fraction_plddt_below_70": 0.6,
+          "SASA_A2": 838.7933349609375,
+          "hydrophobic_SASA_A2": 392.10546875
+        },
+        {
+          "CDR": 2,
+          "sequence": "SISSGGSTS",
+          "start_1based": 52,
+          "end_1based": 60,
+          "mean_plddt": 84.05111111111111,
+          "minimum_plddt": 75.98,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 480.6676330566406,
+          "hydrophobic_SASA_A2": 11.574541091918945
+        },
+        {
+          "CDR": 3,
+          "sequence": "AALVLHVDLDTRQGHEESY",
+          "start_1based": 98,
+          "end_1based": 116,
+          "mean_plddt": 70.06736842105265,
+          "minimum_plddt": 60.79,
+          "fraction_plddt_below_70": 0.631578947368421,
+          "SASA_A2": 1387.588623046875,
+          "hydrophobic_SASA_A2": 359.09100341796875
+        }
+      ],
+      "potential_N_glycosylation_sequons": [],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    },
+    {
+      "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_12_083b9fc2dcc0",
+      "method": "bc2_v2",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASNLPLDPNLDISLGWFRQAPGQGLEAVAAINLKTGKTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAAHITEQVDEQIRKSSMFWGQGTLVTVS",
+      "structure_method": "bindcraft2",
+      "run_variant": "bc2_recovery_bc2_v2",
+      "length": 127,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_12/2_Refolded/Complexes/design_l127_1fd60f9ab8118bf9_candidate1.cif",
+      "source_sha256": "7821a6e269e6f11ec546ad65307e6e02701c7e3d1d3cd303eb7c9edd477649c2",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASNLPLDPNLDISLG",
+        "AINLKTGKTY",
+        "AAHITEQVDEQIRKSSMF"
+      ],
+      "cdr_lengths": [
+        16,
+        10,
+        18
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        2.4930078983306885,
+        2.4930078983306885
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 2.4930078983306885,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bc2_recovery_bc2_gpu_crd3_12_083b9fc2dcc0/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bc2_recovery",
+      "batch_id": "bc2_gpu_crd3_12",
+      "stratum": "crd3",
+      "parent_id": "bc2_gpu_crd3_12:trajectory_1",
+      "generation_seed": 410032,
+      "source_generation_stage": "native_generated_or_refolded",
+      "ipsae_min": 0.610717,
+      "ipsae_directions": {
+        "A_to_B": 0.814088,
+        "B_to_A": 0.610717
+      },
+      "ipTM": 0.9098379611968994,
+      "complex_binder_plddt": 88.8492202758789,
+      "monomer_plddt": 86.77885437011719,
+      "pose_dockq": 0.6031355107942917,
+      "pose_dockq_status": "ASSESSED",
+      "source_interface_diagnostic": null,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 2.050143241882324,
+      "predicted_full_CDR_interface_fraction_4p5A": 0.5428571428571428,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 0,
+      "mature_construct_validation_required": false,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 21.95948028564453,
+        "145": 10.062056541442871,
+        "151": 13.368002891540527
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 7221.5556640625,
+      "monomer_hydrophobic_SASA_fraction": 0.2561687231063843,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASNLPLDPNLDISLG",
+          "start_1based": 23,
+          "end_1based": 38,
+          "mean_plddt": 84.16125,
+          "minimum_plddt": 74.34,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 842.4551391601562,
+          "hydrophobic_SASA_A2": 311.9414367675781
+        },
+        {
+          "CDR": 2,
+          "sequence": "AINLKTGKTY",
+          "start_1based": 53,
+          "end_1based": 62,
+          "mean_plddt": 86.47400000000002,
+          "minimum_plddt": 76.42,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 755.4212036132812,
+          "hydrophobic_SASA_A2": 204.48492431640625
+        },
+        {
+          "CDR": 3,
+          "sequence": "AAHITEQVDEQIRKSSMF",
+          "start_1based": 100,
+          "end_1based": 117,
+          "mean_plddt": 77.52388888888889,
+          "minimum_plddt": 60.73,
+          "fraction_plddt_below_70": 0.3888888888888889,
+          "SASA_A2": 1304.65380859375,
+          "hydrophobic_SASA_A2": 322.8212890625
+        }
+      ],
+      "potential_N_glycosylation_sequons": [],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    },
+    {
+      "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_01_7d878eb23d8e",
+      "method": "bc2_v2",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASVSDPENTTITSLGWFRQAPGQGLEAVAAIDLRTNKTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAAEVEVKYDEDTVKMEEAWGQGTLVTVS",
+      "structure_method": "bindcraft2",
+      "run_variant": "bc2_recovery_bc2_v2",
+      "length": 127,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_01/2_Refolded/Complexes/design_l127_cce47249308f9c0a_candidate5.cif",
+      "source_sha256": "7398e1b558db887275e1e2cffbe5d7859b6c4d205a63d1ccc2267644a5343b92",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASVSDPENTTITSLG",
+        "AIDLRTNKTY",
+        "AAEVEVKYDEDTVKMEEA"
+      ],
+      "cdr_lengths": [
+        16,
+        10,
+        18
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        2.401273250579834,
+        2.401273250579834
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 2.401273250579834,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bc2_recovery_bc2_gpu_crd2_01_7d878eb23d8e/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bc2_recovery",
+      "batch_id": "bc2_gpu_crd2_01",
+      "stratum": "crd2",
+      "parent_id": "bc2_gpu_crd2_01:trajectory_1",
+      "generation_seed": 410001,
+      "source_generation_stage": "native_generated_or_refolded",
+      "ipsae_min": 0.600578,
+      "ipsae_directions": {
+        "A_to_B": 0.600578,
+        "B_to_A": 0.624596
+      },
+      "ipTM": 0.8014230728149414,
+      "complex_binder_plddt": 90.08929443359375,
+      "monomer_plddt": 87.15048217773438,
+      "pose_dockq": 0.7398722316066092,
+      "pose_dockq_status": "ASSESSED",
+      "source_interface_diagnostic": null,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 2.0661046504974365,
+      "predicted_full_CDR_interface_fraction_4p5A": 0.7272727272727273,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 0,
+      "mature_construct_validation_required": false,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 17.502349853515625,
+        "145": 11.564708709716797,
+        "151": 18.655717849731445
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 7237.4814453125,
+      "monomer_hydrophobic_SASA_fraction": 0.24040617048740387,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASVSDPENTTITSLG",
+          "start_1based": 23,
+          "end_1based": 38,
+          "mean_plddt": 86.159375,
+          "minimum_plddt": 76.78,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 770.621337890625,
+          "hydrophobic_SASA_A2": 132.4739990234375
+        },
+        {
+          "CDR": 2,
+          "sequence": "AIDLRTNKTY",
+          "start_1based": 53,
+          "end_1based": 62,
+          "mean_plddt": 84.998,
+          "minimum_plddt": 73.89,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 769.930908203125,
+          "hydrophobic_SASA_A2": 201.54913330078125
+        },
+        {
+          "CDR": 3,
+          "sequence": "AAEVEVKYDEDTVKMEEA",
+          "start_1based": 100,
+          "end_1based": 117,
+          "mean_plddt": 83.31888888888889,
+          "minimum_plddt": 72.44,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 1283.07275390625,
+          "hydrophobic_SASA_A2": 354.05389404296875
+        }
+      ],
+      "potential_N_glycosylation_sequons": [
+        {
+          "position_1based": 31,
+          "motif": "NTT",
+          "CDR": 1
+        },
+        {
+          "position_1based": 59,
+          "motif": "NKT",
+          "CDR": 2
+        }
+      ],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    },
+    {
+      "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_08_60371bf2a410",
+      "method": "bc2_v2",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASVDSDYEVEFMSLGWFRQAPGQGLEAVAAIDLEKKETYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAADMKVIYDGEVIKMDVEWGQGTLVTVS",
+      "structure_method": "bindcraft2",
+      "run_variant": "bc2_recovery_bc2_v2",
+      "length": 127,
+      "source_file": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_08/2_Refolded/Complexes/design_l127_7453769041fc502f_candidate7.cif",
+      "source_sha256": "d7d466dd24d2171528e56630c11a6d36d0dcbdf8634dac0f4cba7437c5f9c631",
+      "canonical_target_verified": true,
+      "frame_endpoints_checked": true,
+      "framework_identity_verified": true,
+      "fixed_framework_residues": 83,
+      "cdr_sequences": [
+        "AASVDSDYEVEFMSLG",
+        "AIDLEKKETY",
+        "AADMKVIYDGEVIKMDVE"
+      ],
+      "cdr_lengths": [
+        16,
+        10,
+        18
+      ],
+      "cysteine_geometry_ok": true,
+      "cysteine_nearest_SG_A": [
+        1.8682209253311157,
+        1.8682209253311157
+      ],
+      "cysteine_count": 2,
+      "source_SG_atom_count": 2,
+      "source_atom_scope": "all_or_partial_sidechains",
+      "source_disulfide_status": "ASSESSED",
+      "core_cysteine_SG_distance_A": 1.8682209253311157,
+      "reference_pdb": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/candidates/TNFR1_bc2_recovery_bc2_gpu_crd2_08_60371bf2a410/designed_complex.pdb",
+      "reference_pdb_b_factor": "zero placeholder; never used as predicted confidence",
+      "status": "BULK_CANDIDATE_PENDING_SCORE",
+      "novelty_status": "NOT_RUN",
+      "vhh_numbering_status": "EXACT_SOURCE_FRAMEWORK_AND_THREE_CDR_SEGMENTS_VERIFIED",
+      "campaign": "bc2_recovery",
+      "batch_id": "bc2_gpu_crd2_08",
+      "stratum": "crd2",
+      "parent_id": "bc2_gpu_crd2_08:trajectory_1",
+      "generation_seed": 410008,
+      "source_generation_stage": "native_generated_or_refolded",
+      "ipsae_min": 0.600342,
+      "ipsae_directions": {
+        "A_to_B": 0.709421,
+        "B_to_A": 0.600342
+      },
+      "ipTM": 0.8629541993141174,
+      "complex_binder_plddt": 89.7217788696289,
+      "monomer_plddt": 85.20086669921875,
+      "pose_dockq": 0.7370021539350816,
+      "pose_dockq_status": "ASSESSED",
+      "source_interface_diagnostic": null,
+      "monomer_disulfide_geometry_ok": true,
+      "monomer_core_SG_distance_A": 2.030747175216675,
+      "predicted_full_CDR_interface_fraction_4p5A": 0.6521739130434783,
+      "predicted_signal_peptide_contact_binder_residues_4p5A": 0,
+      "mature_construct_validation_required": false,
+      "predicted_glycan_anchor_clearance_A": {
+        "54": 16.29835319519043,
+        "145": 10.496866226196289,
+        "151": 22.02316665649414
+      },
+      "scoring_protocol_verified": true,
+      "pipeline_canary_pass": true,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false,
+      "pending_final_gate": "novelty/developability/selection audit",
+      "monomer_total_SASA_A2": 7194.490234375,
+      "monomer_hydrophobic_SASA_fraction": 0.2800479829311371,
+      "CDR_local_descriptors": [
+        {
+          "CDR": 1,
+          "sequence": "AASVDSDYEVEFMSLG",
+          "start_1based": 23,
+          "end_1based": 38,
+          "mean_plddt": 80.12375,
+          "minimum_plddt": 71.11,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 874.8026123046875,
+          "hydrophobic_SASA_A2": 285.3268127441406
+        },
+        {
+          "CDR": 2,
+          "sequence": "AIDLEKKETY",
+          "start_1based": 53,
+          "end_1based": 62,
+          "mean_plddt": 83.11800000000001,
+          "minimum_plddt": 77.32,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 877.3644409179688,
+          "hydrophobic_SASA_A2": 212.90109252929688
+        },
+        {
+          "CDR": 3,
+          "sequence": "AADMKVIYDGEVIKMDVE",
+          "start_1based": 100,
+          "end_1based": 117,
+          "mean_plddt": 82.76833333333333,
+          "minimum_plddt": 77.24,
+          "fraction_plddt_below_70": 0.0,
+          "SASA_A2": 1128.52587890625,
+          "hydrophobic_SASA_A2": 513.3867797851562
+        }
+      ],
+      "potential_N_glycosylation_sequons": [],
+      "longest_homopolymer": 3,
+      "novelty_audit": "NOT_RUN",
+      "full_glycan_accessibility_audit": "NOT_RUN"
+    }
+  ],
+  "failures": [],
+  "scope": "Sequence liabilities and predicted monomer surface/CDR confidence descriptors. Final selection still requires novelty and full glycan accessibility audits."
+}

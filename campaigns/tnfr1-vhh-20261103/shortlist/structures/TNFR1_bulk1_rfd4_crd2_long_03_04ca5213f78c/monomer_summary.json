@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "id": "TNFR1_bulk1_rfd4_crd2_long_03_04ca5213f78c_monomer",
+  "job_id": "64567915",
+  "protocol_id": "TNFR1_VHH_ESMFold2_single_seed_v1_20261103",
+  "driver_sha256": "6a822e369643dfbc925b773a7fc2d2979b53013fcad19182a990a6c71d4b7a35",
+  "hostname": "gpu07.pi.sjtu.edu.cn",
+  "esm": "3.4.1.post1",
+  "kwargs": {
+    "num_loops": 20,
+    "num_sampling_steps": 200,
+    "num_diffusion_samples": 1,
+    "seed": 0,
+    "msa_max_depth": 1024,
+    "msa_column_mask_rate": 0.1,
+    "lm_dropout": 0.3
+  },
+  "templates": false,
+  "initial_guess": false,
+  "msa_records": [
+    {
+      "chain": "B",
+      "msa": null,
+      "rows": 0,
+      "sha256": null
+    }
+  ],
+  "fold_seconds": 4.727913962677121,
+  "peak_gpu_memory_bytes": 14071291904,
+  "pae_cif_mapping_validated": true,
+  "chain_plddt": {
+    "B": 92.35631561279297
+  }
+}

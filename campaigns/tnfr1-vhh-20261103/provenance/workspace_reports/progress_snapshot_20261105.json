@@ -1,0 +1,31 @@
+{
+  "snapshot_time": "2026-11-05T22:49:11+08:00",
+  "generation_and_scoring_complete": true,
+  "collected_and_scored": 1127,
+  "methods": {
+    "rfd4": {
+      "scored": 520,
+      "quality_pass": 4
+    },
+    "rfantibody": {
+      "scored": 357,
+      "quality_pass": 0
+    },
+    "bindcraft2": {
+      "scored": 250,
+      "quality_pass": 15
+    }
+  },
+  "computational_quality_pass": 19,
+  "distinct_parent_trajectories": 8,
+  "best_ipsae_min": 0.697982,
+  "best_bc2_ipsae_min": 0.673109,
+  "final_submission_eligible": 0,
+  "allocated_gpu_hours": 74.19666666666662,
+  "gpu_hours_budget": 80,
+  "pending_final_audits": [
+    "public-sequence novelty",
+    "full target glycan accessibility",
+    "diversity and final selection"
+  ]
+}

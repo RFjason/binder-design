@@ -1,0 +1,47 @@
+{
+  "status": "FULL_DESIGN_AND_PREDICTION_OUTPUTS",
+  "candidate_count": 1127,
+  "files": 11270,
+  "parts": [
+    {
+      "filename": "tnfr1-full-predictions-part01.zip",
+      "files": 3381,
+      "uncompressed_bytes": 629036989,
+      "bytes": 381562864,
+      "sha256": "6ad675b1c49ef08712153d007e6b5627ea5e5c864b96239c939565b637137bed"
+    },
+    {
+      "filename": "tnfr1-full-predictions-part02.zip",
+      "files": 4048,
+      "uncompressed_bytes": 629141624,
+      "bytes": 430194682,
+      "sha256": "5f84fab538dfa76e0659a3a0b75eba014b3f447d06f749e11006ceda9673bec2"
+    },
+    {
+      "filename": "tnfr1-full-predictions-part03.zip",
+      "files": 2792,
+      "uncompressed_bytes": 629021177,
+      "bytes": 326192385,
+      "sha256": "6311ce92046db3187e72a084f323e1b7deeabab0b77731cf45a12e2facdc670b"
+    },
+    {
+      "filename": "tnfr1-full-predictions-part04.zip",
+      "files": 1049,
+      "uncompressed_bytes": 253209515,
+      "bytes": 127982269,
+      "sha256": "a89843e074362699bc0461dcc3afca1b7a7a4d1cd28090ff7400af9ecbe934af"
+    }
+  ],
+  "included_per_candidate": [
+    "original_generated_structure",
+    "designed_complex.pdb",
+    "complex/model.cif",
+    "complex/pae.npz",
+    "complex/summary.json",
+    "complex/input_and_token_mapping.json",
+    "monomer/model.cif",
+    "monomer/pae.npz",
+    "monomer/summary.json",
+    "monomer/input_and_token_mapping.json"
+  ]
+}

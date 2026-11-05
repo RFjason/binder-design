@@ -1,0 +1,30 @@
+{
+  "campaign": "tnfr1-vhh-20261103",
+  "export_job": "64654285",
+  "export_epoch": 1793892301.981949,
+  "scored_candidates": 1127,
+  "screen_pass_candidates": 19,
+  "passing_parent_trajectories": 8,
+  "methods": {
+    "rfd4": {
+      "scored": 520,
+      "screen_pass": 4
+    },
+    "rfantibody": {
+      "scored": 357,
+      "screen_pass": 0
+    },
+    "bindcraft2": {
+      "scored": 250,
+      "screen_pass": 15
+    }
+  },
+  "final_submission_eligible": 0,
+  "status": "COMPUTATIONAL_SCREENING_ONLY",
+  "allocated_gpu_hours": 74.19666666666662,
+  "pending_final_audits": [
+    "public_sequence_novelty",
+    "full_target_glycan_accessibility",
+    "diversity_and_final_selection"
+  ]
+}

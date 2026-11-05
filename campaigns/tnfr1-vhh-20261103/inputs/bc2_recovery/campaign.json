@@ -1,0 +1,411 @@
+{
+  "campaign": "bc2_recovery",
+  "batches": [
+    {
+      "task_id": 0,
+      "batch_id": "bc2_gpu_crd2_00",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410000,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_00",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_00.json"
+    },
+    {
+      "task_id": 1,
+      "batch_id": "bc2_gpu_crd3_00",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410020,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_00",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_00.json"
+    },
+    {
+      "task_id": 2,
+      "batch_id": "bc2_gpu_crd2_01",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410001,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_01",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_01.json"
+    },
+    {
+      "task_id": 3,
+      "batch_id": "bc2_gpu_crd3_01",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410021,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_01",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_01.json"
+    },
+    {
+      "task_id": 4,
+      "batch_id": "bc2_gpu_crd2_02",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410002,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_02",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_02.json"
+    },
+    {
+      "task_id": 5,
+      "batch_id": "bc2_gpu_crd3_02",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410022,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_02",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_02.json"
+    },
+    {
+      "task_id": 6,
+      "batch_id": "bc2_gpu_crd2_03",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410003,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_03",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_03.json"
+    },
+    {
+      "task_id": 7,
+      "batch_id": "bc2_gpu_crd3_03",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410023,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_03",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_03.json"
+    },
+    {
+      "task_id": 8,
+      "batch_id": "bc2_gpu_crd2_04",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410004,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_04",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_04.json"
+    },
+    {
+      "task_id": 9,
+      "batch_id": "bc2_gpu_crd3_04",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410024,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_04",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_04.json"
+    },
+    {
+      "task_id": 10,
+      "batch_id": "bc2_gpu_crd2_05",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410005,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_05",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_05.json"
+    },
+    {
+      "task_id": 11,
+      "batch_id": "bc2_gpu_crd3_05",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410025,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_05",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_05.json"
+    },
+    {
+      "task_id": 12,
+      "batch_id": "bc2_gpu_crd2_06",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410006,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_06",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_06.json"
+    },
+    {
+      "task_id": 13,
+      "batch_id": "bc2_gpu_crd3_06",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410026,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_06",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_06.json"
+    },
+    {
+      "task_id": 14,
+      "batch_id": "bc2_gpu_crd2_07",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410007,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_07",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_07.json"
+    },
+    {
+      "task_id": 15,
+      "batch_id": "bc2_gpu_crd3_07",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410027,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_07",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_07.json"
+    },
+    {
+      "task_id": 16,
+      "batch_id": "bc2_gpu_crd2_08",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410008,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_08",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_08.json"
+    },
+    {
+      "task_id": 17,
+      "batch_id": "bc2_gpu_crd3_08",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410028,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_08",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_08.json"
+    },
+    {
+      "task_id": 18,
+      "batch_id": "bc2_gpu_crd2_09",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410009,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_09",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_09.json"
+    },
+    {
+      "task_id": 19,
+      "batch_id": "bc2_gpu_crd3_09",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410029,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_09",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_09.json"
+    },
+    {
+      "task_id": 20,
+      "batch_id": "bc2_gpu_crd2_10",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410010,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_10",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_10.json"
+    },
+    {
+      "task_id": 21,
+      "batch_id": "bc2_gpu_crd3_10",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410030,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_10",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_10.json"
+    },
+    {
+      "task_id": 22,
+      "batch_id": "bc2_gpu_crd2_11",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410011,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_11",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_11.json"
+    },
+    {
+      "task_id": 23,
+      "batch_id": "bc2_gpu_crd3_11",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410031,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_11",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_11.json"
+    },
+    {
+      "task_id": 24,
+      "batch_id": "bc2_gpu_crd2_12",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410012,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_12",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_12.json"
+    },
+    {
+      "task_id": 25,
+      "batch_id": "bc2_gpu_crd3_12",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410032,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_12",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_12.json"
+    },
+    {
+      "task_id": 26,
+      "batch_id": "bc2_gpu_crd2_13",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410013,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_13",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_13.json"
+    },
+    {
+      "task_id": 27,
+      "batch_id": "bc2_gpu_crd3_13",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410033,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_13",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_13.json"
+    },
+    {
+      "task_id": 28,
+      "batch_id": "bc2_gpu_crd2_14",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410014,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_14",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_14.json"
+    },
+    {
+      "task_id": 29,
+      "batch_id": "bc2_gpu_crd3_14",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410034,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_14",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_14.json"
+    },
+    {
+      "task_id": 30,
+      "batch_id": "bc2_gpu_crd2_15",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410015,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_15",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_15.json"
+    },
+    {
+      "task_id": 31,
+      "batch_id": "bc2_gpu_crd3_15",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410035,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_15",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_15.json"
+    },
+    {
+      "task_id": 32,
+      "batch_id": "bc2_gpu_crd2_16",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410016,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_16",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_16.json"
+    },
+    {
+      "task_id": 33,
+      "batch_id": "bc2_gpu_crd3_16",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410036,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_16",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_16.json"
+    },
+    {
+      "task_id": 34,
+      "batch_id": "bc2_gpu_crd2_17",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410017,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_17",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_17.json"
+    },
+    {
+      "task_id": 35,
+      "batch_id": "bc2_gpu_crd3_17",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410037,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_17",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_17.json"
+    },
+    {
+      "task_id": 36,
+      "batch_id": "bc2_gpu_crd2_18",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410018,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_18",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_18.json"
+    },
+    {
+      "task_id": 37,
+      "batch_id": "bc2_gpu_crd3_18",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410038,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_18",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_18.json"
+    },
+    {
+      "task_id": 38,
+      "batch_id": "bc2_gpu_crd2_19",
+      "method": "bc2_v2",
+      "patch": "crd2",
+      "stratum": "crd2",
+      "seed": 410019,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd2_19",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd2_19.json"
+    },
+    {
+      "task_id": 39,
+      "batch_id": "bc2_gpu_crd3_19",
+      "method": "bc2_v2",
+      "patch": "crd3",
+      "stratum": "crd3",
+      "seed": 410039,
+      "output_dir": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/generation/bc2_recovery/bc2_gpu_crd3_19",
+      "config": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/bc2_recovery/bc2_gpu_crd3_19.json"
+    }
+  ],
+  "baseline_allocated_gpu_hours_ceiling": 68.0,
+  "combined_gpu_hours_limit": 80.0,
+  "new_gpu_stage_stop_threshold": 76.0,
+  "generation_concurrency": 4,
+  "scoring_concurrency": 2,
+  "note": "Includes saved gradient endpoint before ProteinMPNN plus refolded variants; no change to generation filters or frozen ESMFold2 selection thresholds."
+}

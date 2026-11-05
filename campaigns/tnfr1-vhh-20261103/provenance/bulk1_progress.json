@@ -1,0 +1,1017 @@
+{
+  "campaign": "bulk1",
+  "updated_epoch": 1793761059.0258968,
+  "batches_planned": 90,
+  "expected_attempts": 940,
+  "sequence_upper_bound": 1600,
+  "collection_completed": 90,
+  "new_unique_collected": 877,
+  "source_rejected": 0,
+  "duplicates_skipped": 0,
+  "scoring_audits_written": 90,
+  "scored_and_audited": 877,
+  "quality_pass": 4,
+  "final_submission_eligible": 0,
+  "methods": {
+    "rfd4": {
+      "unique_collected": 520,
+      "scored": 520,
+      "quality_pass": 4,
+      "max_ipsae": 0.697982
+    },
+    "rfantibody": {
+      "unique_collected": 357,
+      "scored": 357,
+      "quality_pass": 0,
+      "max_ipsae": 0.490614
+    },
+    "bc2_v2": {
+      "unique_collected": 0,
+      "scored": 0,
+      "quality_pass": 0,
+      "max_ipsae": null
+    }
+  },
+  "stage_failures": [
+    {
+      "batch_id": "rfantibody_crd2_00",
+      "stage": "audit",
+      "error": "CalledProcessError(1, ['/dssg/home/acct-clshzh/jasoncao1280/benchmarks/anthropic_pdl1_pipeline_20261006/envs/esmfold2-esm-cu128/bin/python', '/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/scripts/audit_canary_scores.py', 'rfantibody', '--batch-id', 'rfantibody_crd2_00'])"
+    },
+    {
+      "batch_id": "rfantibody_crd3_01",
+      "stage": "audit",
+      "error": "CalledProcessError(1, ['/dssg/home/acct-clshzh/jasoncao1280/benchmarks/anthropic_pdl1_pipeline_20261006/envs/esmfold2-esm-cu128/bin/python', '/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/scripts/audit_canary_scores.py', 'rfantibody', '--batch-id', 'rfantibody_crd3_01'])"
+    },
+    {
+      "batch_id": "bc2_crd3_05",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd3_06",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd3_compact_03",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd3_compact_03",
+      "stage": "audit",
+      "error": "CalledProcessError(1, ['/dssg/home/acct-clshzh/jasoncao1280/benchmarks/anthropic_pdl1_pipeline_20261006/envs/esmfold2-esm-cu128/bin/python', '/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/scripts/audit_canary_scores.py', 'rfd4', '--batch-id', 'rfd4_crd3_compact_03'])"
+    },
+    {
+      "batch_id": "bc2_crd2_07",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfantibody_crd2_04",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfantibody_crd2_04",
+      "stage": "audit",
+      "error": "CalledProcessError(1, ['/dssg/home/acct-clshzh/jasoncao1280/benchmarks/anthropic_pdl1_pipeline_20261006/envs/esmfold2-esm-cu128/bin/python', '/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/scripts/audit_canary_scores.py', 'rfantibody', '--batch-id', 'rfantibody_crd2_04'])"
+    },
+    {
+      "batch_id": "rfd4_crd2_long_04",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd2_long_04",
+      "stage": "audit",
+      "error": "CalledProcessError(1, ['/dssg/home/acct-clshzh/jasoncao1280/benchmarks/anthropic_pdl1_pipeline_20261006/envs/esmfold2-esm-cu128/bin/python', '/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/scripts/audit_canary_scores.py', 'rfd4', '--batch-id', 'rfd4_crd2_long_04'])"
+    },
+    {
+      "batch_id": "bc2_crd3_08",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfantibody_crd3_04",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfantibody_crd3_04",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd2_09",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd2_09",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd3_09",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd3_09",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd2_compact_05",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd2_compact_05",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd2_long_05",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd2_long_05",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd3_10",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd3_10",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd2_11",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd2_11",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd3_long_05",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd3_long_05",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd2_compact_06",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd2_compact_06",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd2_12",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd2_12",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd3_12",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd3_12",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd3_compact_06",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd3_compact_06",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd3_long_06",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd3_long_06",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd3_13",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd3_13",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd2_14",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd2_14",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd2_long_07",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd2_long_07",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd3_compact_07",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd3_compact_07",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd2_15",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd2_15",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd3_15",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd3_15",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd2_compact_08",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd2_compact_08",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd2_16",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd2_long_08",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd2_long_08",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd3_16",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd3_16",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd2_17",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd2_17",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd3_long_08",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd3_long_08",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd3_17",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd2_compact_09",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd2_compact_09",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd2_18",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd2_18",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd3_18",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd3_18",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd3_compact_09",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd3_compact_09",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd2_19",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd3_long_09",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "rfd4_crd3_long_09",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd3_19",
+      "stage": "generation",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    },
+    {
+      "batch_id": "bc2_crd3_19",
+      "stage": "scoring",
+      "error": "AssertionError('BULK1_RESOURCE_BUDGET_STOP')"
+    }
+  ],
+  "top_candidates": [
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_8fced7a5fd5b",
+      "method": "rfd4",
+      "stratum": "crd2_compact",
+      "parent_id": "rfd4_crd2_compact_00:tnfr1_crd2_compact_rep1_generated",
+      "length": 115,
+      "ipsae_min": 0.697982,
+      "monomer_plddt": 87.8279800415039,
+      "pose_dockq": 0.7540720906556079,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_04ca5213f78c",
+      "method": "rfd4",
+      "stratum": "crd2_long",
+      "parent_id": "rfd4_crd2_long_03:tnfr1_crd2_long_rep5_generated",
+      "length": 126,
+      "ipsae_min": 0.649393,
+      "monomer_plddt": 92.35631561279297,
+      "pose_dockq": 0.740722368449485,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_fe0d12bf75bb",
+      "method": "rfd4",
+      "stratum": "crd2_long",
+      "parent_id": "rfd4_crd2_long_01:tnfr1_crd2_long_rep3_generated",
+      "length": 123,
+      "ipsae_min": 0.629173,
+      "monomer_plddt": 79.2426986694336,
+      "pose_dockq": 0.6108565308553343,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_ab9de9edd9d5",
+      "method": "rfd4",
+      "stratum": "crd3_long",
+      "parent_id": "rfd4_crd3_long_01:tnfr1_crd3_long_rep12_generated",
+      "length": 126,
+      "ipsae_min": 0.610932,
+      "monomer_plddt": 81.87834167480469,
+      "pose_dockq": 0.587086983402819,
+      "computational_quality_pass": true,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_aa4f4a9ee7a5",
+      "method": "rfd4",
+      "stratum": "crd3_compact",
+      "parent_id": "rfd4_crd3_compact_04:tnfr1_crd3_compact_rep7_generated",
+      "length": 114,
+      "ipsae_min": 0.555514,
+      "monomer_plddt": 89.79116821289062,
+      "pose_dockq": 0.7911058851690759,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_6033557006af",
+      "method": "rfd4",
+      "stratum": "crd2_long",
+      "parent_id": "rfd4_crd2_long_04:tnfr1_crd2_long_rep18_generated",
+      "length": 125,
+      "ipsae_min": 0.551999,
+      "monomer_plddt": 92.15646362304688,
+      "pose_dockq": 0.766909604913469,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_6531e22c449a",
+      "method": "rfd4",
+      "stratum": "crd2_compact",
+      "parent_id": "rfd4_crd2_compact_00:tnfr1_crd2_compact_rep3_generated",
+      "length": 117,
+      "ipsae_min": 0.523522,
+      "monomer_plddt": 84.29310607910156,
+      "pose_dockq": 0.830880044822853,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_ea559bfd3e49",
+      "method": "rfd4",
+      "stratum": "crd2_long",
+      "parent_id": "rfd4_crd2_long_04:tnfr1_crd2_long_rep11_generated",
+      "length": 123,
+      "ipsae_min": 0.517504,
+      "monomer_plddt": 85.95000457763672,
+      "pose_dockq": 0.7282728166363924,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_5d3a6d13016c",
+      "method": "rfd4",
+      "stratum": "crd3_compact",
+      "parent_id": "rfd4_crd3_compact_03:tnfr1_crd3_compact_rep12_generated",
+      "length": 115,
+      "ipsae_min": 0.509474,
+      "monomer_plddt": 91.11184692382812,
+      "pose_dockq": 0.6459507328237096,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_0be5133e3abf",
+      "method": "rfd4",
+      "stratum": "crd3_compact",
+      "parent_id": "rfd4_crd3_compact_00:tnfr1_crd3_compact_rep13_generated",
+      "length": 117,
+      "ipsae_min": 0.50505,
+      "monomer_plddt": 88.33482360839844,
+      "pose_dockq": 0.7670530077123695,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_98303d015d3d",
+      "method": "rfd4",
+      "stratum": "crd2_long",
+      "parent_id": "rfd4_crd2_long_04:tnfr1_crd2_long_rep10_generated",
+      "length": 129,
+      "ipsae_min": 0.502246,
+      "monomer_plddt": 89.68861389160156,
+      "pose_dockq": 0.8341889840075015,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfantibody_crd2_01_bb9b5c7a9ee2",
+      "method": "rfantibody",
+      "stratum": "crd2",
+      "parent_id": "rfantibody_crd2_01:samples_design_210012",
+      "length": 119,
+      "ipsae_min": 0.490614,
+      "monomer_plddt": 86.16535949707031,
+      "pose_dockq": 0.20176089865466737,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_ffc95aa5ba70",
+      "method": "rfd4",
+      "stratum": "crd3_compact",
+      "parent_id": "rfd4_crd3_compact_01:tnfr1_crd3_compact_rep5_generated",
+      "length": 113,
+      "ipsae_min": 0.478525,
+      "monomer_plddt": 88.5877685546875,
+      "pose_dockq": 0.7164892515902409,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_40cbf65a1c5d",
+      "method": "rfd4",
+      "stratum": "crd3_long",
+      "parent_id": "rfd4_crd3_long_00:tnfr1_crd3_long_rep7_generated",
+      "length": 125,
+      "ipsae_min": 0.464894,
+      "monomer_plddt": 88.45123291015625,
+      "pose_dockq": 0.33693857828178464,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_bdb24a51fe77",
+      "method": "rfd4",
+      "stratum": "crd3_compact",
+      "parent_id": "rfd4_crd3_compact_08:tnfr1_crd3_compact_rep3_generated",
+      "length": 115,
+      "ipsae_min": 0.462131,
+      "monomer_plddt": 89.08308410644531,
+      "pose_dockq": 0.4091579554960594,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfantibody_crd2_01_8a61a6526f20",
+      "method": "rfantibody",
+      "stratum": "crd2",
+      "parent_id": "rfantibody_crd2_01:samples_design_210017",
+      "length": 120,
+      "ipsae_min": 0.453749,
+      "monomer_plddt": 83.4620590209961,
+      "pose_dockq": 0.03492754380479723,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_45f03619ba6f",
+      "method": "rfd4",
+      "stratum": "crd3_long",
+      "parent_id": "rfd4_crd3_long_04:tnfr1_crd3_long_rep0_generated",
+      "length": 130,
+      "ipsae_min": 0.450219,
+      "monomer_plddt": 92.22518157958984,
+      "pose_dockq": 0.018986351307995256,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_ec0911f0fd2c",
+      "method": "rfd4",
+      "stratum": "crd3_compact",
+      "parent_id": "rfd4_crd3_compact_01:tnfr1_crd3_compact_rep3_generated",
+      "length": 116,
+      "ipsae_min": 0.446287,
+      "monomer_plddt": 85.91645050048828,
+      "pose_dockq": 0.06501328516688741,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_aee3f7295904",
+      "method": "rfd4",
+      "stratum": "crd3_compact",
+      "parent_id": "rfd4_crd3_compact_08:tnfr1_crd3_compact_rep19_generated",
+      "length": 115,
+      "ipsae_min": 0.442907,
+      "monomer_plddt": 88.6280517578125,
+      "pose_dockq": 0.8273225535115899,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_dd257eb66225",
+      "method": "rfd4",
+      "stratum": "crd2_compact",
+      "parent_id": "rfd4_crd2_compact_07:tnfr1_crd2_compact_rep2_generated",
+      "length": 118,
+      "ipsae_min": 0.440958,
+      "monomer_plddt": 90.49395751953125,
+      "pose_dockq": 0.6958514471352558,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_08b7f56434f9",
+      "method": "rfd4",
+      "stratum": "crd3_compact",
+      "parent_id": "rfd4_crd3_compact_05:tnfr1_crd3_compact_rep8_generated",
+      "length": 114,
+      "ipsae_min": 0.440453,
+      "monomer_plddt": 81.83894348144531,
+      "pose_dockq": 0.06715056175555599,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_b119429cf3e4",
+      "method": "rfd4",
+      "stratum": "crd3_compact",
+      "parent_id": "rfd4_crd3_compact_00:tnfr1_crd3_compact_rep19_generated",
+      "length": 116,
+      "ipsae_min": 0.440274,
+      "monomer_plddt": 89.5747299194336,
+      "pose_dockq": 0.8297023897314647,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_11a14cd905ab",
+      "method": "rfd4",
+      "stratum": "crd2_long",
+      "parent_id": "rfd4_crd2_long_01:tnfr1_crd2_long_rep5_generated",
+      "length": 125,
+      "ipsae_min": 0.43842,
+      "monomer_plddt": 93.68115234375,
+      "pose_dockq": 0.7941564737968799,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfantibody_crd3_01_18170d0bb92a",
+      "method": "rfantibody",
+      "stratum": "crd3",
+      "parent_id": "rfantibody_crd3_01:samples_design_210068",
+      "length": 122,
+      "ipsae_min": 0.436493,
+      "monomer_plddt": 90.26620483398438,
+      "pose_dockq": 0.7620305509993041,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_2aa5da27aa5b",
+      "method": "rfd4",
+      "stratum": "crd3_compact",
+      "parent_id": "rfd4_crd3_compact_04:tnfr1_crd3_compact_rep16_generated",
+      "length": 113,
+      "ipsae_min": 0.425234,
+      "monomer_plddt": 87.52761840820312,
+      "pose_dockq": 0.6529870826003282,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_c861495baae1",
+      "method": "rfd4",
+      "stratum": "crd3_long",
+      "parent_id": "rfd4_crd3_long_02:tnfr1_crd3_long_rep2_generated",
+      "length": 125,
+      "ipsae_min": 0.421659,
+      "monomer_plddt": 89.94174194335938,
+      "pose_dockq": 0.36978421047705307,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfantibody_crd3_01_822705f8db98",
+      "method": "rfantibody",
+      "stratum": "crd3",
+      "parent_id": "rfantibody_crd3_01:samples_design_210067",
+      "length": 121,
+      "ipsae_min": 0.417778,
+      "monomer_plddt": 89.46406555175781,
+      "pose_dockq": 0.25836462726542225,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_6b2450421ba2",
+      "method": "rfd4",
+      "stratum": "crd2_compact",
+      "parent_id": "rfd4_crd2_compact_02:tnfr1_crd2_compact_rep8_generated",
+      "length": 116,
+      "ipsae_min": 0.416397,
+      "monomer_plddt": 87.52033996582031,
+      "pose_dockq": 0.6700972487984075,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfantibody_crd3_00_9f710e92c8d4",
+      "method": "rfantibody",
+      "stratum": "crd3",
+      "parent_id": "rfantibody_crd3_00:samples_design_210057",
+      "length": 121,
+      "ipsae_min": 0.407036,
+      "monomer_plddt": 88.15292358398438,
+      "pose_dockq": 0.016166821452522268,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_8ee59dc9c7b7",
+      "method": "rfd4",
+      "stratum": "crd2_long",
+      "parent_id": "rfd4_crd2_long_09:tnfr1_crd2_long_rep7_generated",
+      "length": 128,
+      "ipsae_min": 0.406034,
+      "monomer_plddt": 93.31745910644531,
+      "pose_dockq": 0.049318872369678614,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_7f69480f8fe8",
+      "method": "rfd4",
+      "stratum": "crd2_compact",
+      "parent_id": "rfd4_crd2_compact_01:tnfr1_crd2_compact_rep17_generated",
+      "length": 114,
+      "ipsae_min": 0.404509,
+      "monomer_plddt": 90.0492935180664,
+      "pose_dockq": 0.07089064001945933,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_101aeef17fb4",
+      "method": "rfd4",
+      "stratum": "crd3_long",
+      "parent_id": "rfd4_crd3_long_04:tnfr1_crd3_long_rep14_generated",
+      "length": 127,
+      "ipsae_min": 0.403526,
+      "monomer_plddt": 92.81536102294922,
+      "pose_dockq": 0.11575908057983429,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfantibody_crd2_02_56c64635947d",
+      "method": "rfantibody",
+      "stratum": "crd2",
+      "parent_id": "rfantibody_crd2_02:samples_design_210026",
+      "length": 121,
+      "ipsae_min": 0.401673,
+      "monomer_plddt": 91.32978057861328,
+      "pose_dockq": 0.02554965957285188,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfantibody_crd2_00_7966b0b9c61a",
+      "method": "rfantibody",
+      "stratum": "crd2",
+      "parent_id": "rfantibody_crd2_00:samples_design_210002",
+      "length": 122,
+      "ipsae_min": 0.39774,
+      "monomer_plddt": 90.4421157836914,
+      "pose_dockq": 0.021797616647591108,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfantibody_crd3_01_3677adf04b1d",
+      "method": "rfantibody",
+      "stratum": "crd3",
+      "parent_id": "rfantibody_crd3_01:samples_design_210060",
+      "length": 123,
+      "ipsae_min": 0.3976,
+      "monomer_plddt": 92.24168395996094,
+      "pose_dockq": 0.01712955784117056,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_d5ef77d9b8e4",
+      "method": "rfd4",
+      "stratum": "crd3_long",
+      "parent_id": "rfd4_crd3_long_03:tnfr1_crd3_long_rep5_generated",
+      "length": 128,
+      "ipsae_min": 0.39382,
+      "monomer_plddt": 93.56271362304688,
+      "pose_dockq": 0.03500616828895952,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfantibody_crd3_01_0aee675e8999",
+      "method": "rfantibody",
+      "stratum": "crd3",
+      "parent_id": "rfantibody_crd3_01:samples_design_210067",
+      "length": 121,
+      "ipsae_min": 0.391252,
+      "monomer_plddt": 90.1753158569336,
+      "pose_dockq": 0.2588364677152795,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_650b749e4711",
+      "method": "rfd4",
+      "stratum": "crd3_compact",
+      "parent_id": "rfd4_crd3_compact_04:tnfr1_crd3_compact_rep17_generated",
+      "length": 113,
+      "ipsae_min": 0.390031,
+      "monomer_plddt": 87.48625183105469,
+      "pose_dockq": 0.7914898931739467,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfantibody_crd3_03_e5943338eee2",
+      "method": "rfantibody",
+      "stratum": "crd3",
+      "parent_id": "rfantibody_crd3_03:samples_design_210086",
+      "length": 121,
+      "ipsae_min": 0.385696,
+      "monomer_plddt": 89.77020263671875,
+      "pose_dockq": 0.038599772131905914,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_5fecc519ecd0",
+      "method": "rfd4",
+      "stratum": "crd2_long",
+      "parent_id": "rfd4_crd2_long_03:tnfr1_crd2_long_rep15_generated",
+      "length": 128,
+      "ipsae_min": 0.381888,
+      "monomer_plddt": 92.94256591796875,
+      "pose_dockq": 0.03852480591248191,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_7b4ae28301c8",
+      "method": "rfd4",
+      "stratum": "crd3_compact",
+      "parent_id": "rfd4_crd3_compact_00:tnfr1_crd3_compact_rep12_generated",
+      "length": 116,
+      "ipsae_min": 0.380438,
+      "monomer_plddt": 85.43021392822266,
+      "pose_dockq": 0.7376657380123893,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_0371ebd5e8c9",
+      "method": "rfd4",
+      "stratum": "crd3_compact",
+      "parent_id": "rfd4_crd3_compact_05:tnfr1_crd3_compact_rep19_generated",
+      "length": 114,
+      "ipsae_min": 0.380384,
+      "monomer_plddt": 89.05742645263672,
+      "pose_dockq": 0.5537065843424137,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfantibody_crd2_02_a2b1d1807ede",
+      "method": "rfantibody",
+      "stratum": "crd2",
+      "parent_id": "rfantibody_crd2_02:samples_design_210023",
+      "length": 124,
+      "ipsae_min": 0.377556,
+      "monomer_plddt": 83.94482421875,
+      "pose_dockq": 0.017223126750228097,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_23f60198592f",
+      "method": "rfd4",
+      "stratum": "crd2_long",
+      "parent_id": "rfd4_crd2_long_02:tnfr1_crd2_long_rep13_generated",
+      "length": 125,
+      "ipsae_min": 0.375725,
+      "monomer_plddt": 88.16067504882812,
+      "pose_dockq": 0.009240194572287171,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfantibody_crd3_01_97bc4021ab07",
+      "method": "rfantibody",
+      "stratum": "crd3",
+      "parent_id": "rfantibody_crd3_01:samples_design_210063",
+      "length": 120,
+      "ipsae_min": 0.375352,
+      "monomer_plddt": 88.3730697631836,
+      "pose_dockq": 0.01447161599110367,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_03b616f8ccde",
+      "method": "rfd4",
+      "stratum": "crd2_long",
+      "parent_id": "rfd4_crd2_long_01:tnfr1_crd2_long_rep6_generated",
+      "length": 128,
+      "ipsae_min": 0.374836,
+      "monomer_plddt": 92.66171264648438,
+      "pose_dockq": 0.04580792789232677,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfantibody_crd3_03_999a5ae6bbca",
+      "method": "rfantibody",
+      "stratum": "crd3",
+      "parent_id": "rfantibody_crd3_03:samples_design_210086",
+      "length": 121,
+      "ipsae_min": 0.370171,
+      "monomer_plddt": 91.29627990722656,
+      "pose_dockq": 0.03903373616034662,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfantibody_crd3_03_143ac30bf4a9",
+      "method": "rfantibody",
+      "stratum": "crd3",
+      "parent_id": "rfantibody_crd3_03:samples_design_210087",
+      "length": 122,
+      "ipsae_min": 0.368929,
+      "monomer_plddt": 91.9822998046875,
+      "pose_dockq": 0.014302885622067607,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfantibody_crd3_03_9fec109d8670",
+      "method": "rfantibody",
+      "stratum": "crd3",
+      "parent_id": "rfantibody_crd3_03:samples_design_210086",
+      "length": 121,
+      "ipsae_min": 0.367642,
+      "monomer_plddt": 89.5409927368164,
+      "pose_dockq": 0.037681946546684546,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    {
+      "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_0046ba1f0214",
+      "method": "rfd4",
+      "stratum": "crd3_long",
+      "parent_id": "rfd4_crd3_long_00:tnfr1_crd3_long_rep5_generated",
+      "length": 125,
+      "ipsae_min": 0.36743,
+      "monomer_plddt": 83.30289459228516,
+      "pose_dockq": 0.5231913743655506,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    }
+  ],
+  "completed_gpu_hours_from_stage_metadata": 17.13187047574254,
+  "gpu_hours_note": "Metadata sums completed generation/scoring elapsed time only; Slurm accounting is authoritative and also captures interrupted jobs.",
+  "distinct_scored_parent_ids": 610
+}

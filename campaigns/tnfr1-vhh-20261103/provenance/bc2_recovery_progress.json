@@ -1,0 +1,12 @@
+{
+  "campaign": "bc2_recovery",
+  "updated_epoch": 1793804492.484815,
+  "planned_trajectories": 40,
+  "collected": 250,
+  "scored": 250,
+  "quality_pass": 15,
+  "generated_batches": 40,
+  "stage_failures": [],
+  "baseline_gpu_hours_ceiling": 68.0,
+  "completed_gpu_hours": 6.626556902858949
+}

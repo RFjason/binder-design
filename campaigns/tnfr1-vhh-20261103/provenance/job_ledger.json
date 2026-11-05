@@ -1,0 +1,341 @@
+{
+  "project": "tnfr1_vhh_20261103",
+  "scope": "Canary history plus bulk1 generation/collection/frozen scoring/audit campaign",
+  "design_input_job": "64536912",
+  "rfd4_preflight_job": "64536914",
+  "bc2_preflight_job": "64536756",
+  "target_diagnostic_job": "64536318",
+  "routes": {
+    "rfd4": {
+      "generation": "64563125",
+      "collection": "64564387",
+      "prediction": "64564469_0",
+      "audit": "64564490"
+    },
+    "rfantibody": {
+      "generation": "64563119",
+      "collection": "64564388",
+      "prediction": "64564469_1",
+      "audit": "64564491"
+    },
+    "bc2_v2": {
+      "generation_array": "64563169",
+      "collection": "64563172",
+      "prediction": "64564469_2",
+      "audit": "64564492"
+    },
+    "rfantibody_crd3": {
+      "generation": "64564331",
+      "collection": "64564389",
+      "prediction": "64564469_3",
+      "audit": "64564493"
+    }
+  },
+  "cancelled_obsolete_generation_jobs": [
+    "64536504",
+    "64536506",
+    "64536508"
+  ],
+  "cpu_preparation_failure_history": [
+    "64536459",
+    "64536542",
+    "64536579",
+    "64536594",
+    "64536631"
+  ],
+  "superseded_preparation": "64536740",
+  "cancelled_no_progress_preflight": "64536755",
+  "model_validation_detected_condition_loss": "64536802",
+  "production_campaign_submitted": true,
+  "candidate_outputs_available_at_creation": false,
+  "notes": "Read Slurm for live state. Generation, collection, CPU analysis and scoring run independently subject to their own input readiness. The scoring array enforces at most two simultaneous ESMFold2 workers. All computations use Slurm compute nodes.",
+  "initial_routes": {
+    "rfd4": {
+      "generation": "64536748",
+      "collection": "64536757",
+      "prediction": "64536761",
+      "audit": "64536764"
+    },
+    "rfantibody": {
+      "generation": "64536749",
+      "collection": "64536758",
+      "prediction": "64536762",
+      "audit": "64536765"
+    },
+    "bc2": {
+      "generation": "64536750",
+      "collection": "64536759",
+      "prediction": "64536763",
+      "audit": "64536772"
+    }
+  },
+  "recovery_preflights": {
+    "rfd4_launcher": "64563118",
+    "bc2_v2": "64563164"
+  },
+  "first_generation_failures": {
+    "64536748": "Hydra override ordering in shared launcher; failed before generation",
+    "64536749": "RFantibody subprocess could not find python; failed before generation"
+  },
+  "observed_results": {
+    "target_prediction": "COMPLETED",
+    "bc2_v1_unique_sequences": 10,
+    "bc2_v1_length": 127,
+    "bc2_v1_internal_accepted": 0,
+    "bc2_v1_cysteine_count": 5,
+    "bc2_v1_cysteine_geometry_pass": 0,
+    "current_submission_eligible_count": 0,
+    "candidate_ipSAE_available_at_update": true,
+    "rfd4_unique_sequences": 1,
+    "rfantibody_unique_sequences": 2,
+    "bc2_v2_unique_sequences": 10,
+    "bc2_v2_lengths": [
+      127
+    ],
+    "bc2_v2_cysteine_counts": [
+      2
+    ],
+    "new_candidates_collected": 23,
+    "candidate_outputs_available": true,
+    "rfd4_first_scored_candidate": {
+      "design_id": "TNFR1_rfd4_77582e25770d",
+      "length": 119,
+      "ipsae_min": 0.0,
+      "monomer_plddt": 83.52523040771484,
+      "pose_dockq": 0.1073038357877204,
+      "monomer_disulfide_geometry_ok": true,
+      "computational_quality_pass": false,
+      "final_rank_eligible": false
+    },
+    "rfantibody_crd3_unique_sequences": 10,
+    "completed_full_scoring_and_audit": 13,
+    "computational_quality_pass_count": 0,
+    "best_current_ipsae": 0.697982,
+    "bulk1_computational_quality_pass_count": 4,
+    "combined_collected_candidates": 1127,
+    "combined_scored_and_audited": 997,
+    "combined_computational_quality_pass_count": 8
+  },
+  "bc2_v1_score_subset": "Canceled rejected-sequence diagnostic before execution; no GPU scoring allocated to the first BC2 batch.",
+  "old_dependency_jobs_cancelled_for_recovery": [
+    "64536757",
+    "64536758",
+    "64536761",
+    "64536762",
+    "64536764",
+    "64536765"
+  ],
+  "dependency_policy": "Success-only local dependencies with kill-on-invalid-dep; unrelated routes do not block each other.",
+  "replaced_recovery_routes": {
+    "rfd4": {
+      "generation": "64563125",
+      "collection": "64563167",
+      "prediction": "64563170",
+      "audit": "64563174"
+    },
+    "rfantibody": {
+      "generation": "64563119",
+      "collection": "64563168",
+      "prediction": "64563171",
+      "audit": "64563175"
+    },
+    "bc2": {
+      "generation": "64536750",
+      "collection": "64536759",
+      "prediction": "64536763",
+      "audit": "64536772"
+    },
+    "bc2_v2": {
+      "generation_array": "64563169",
+      "collection": "64563172",
+      "prediction": "64563176",
+      "audit": "64563179"
+    }
+  },
+  "score_pool": {
+    "array_job": "64564469",
+    "array_task_throttle": 2,
+    "methods_in_task_order": [
+      "rfd4",
+      "rfantibody",
+      "bc2_v2",
+      "rfantibody_crd3"
+    ],
+    "task_partitions": {
+      "0": "a800",
+      "1": "a100",
+      "2": "a800",
+      "3": "a100"
+    },
+    "dependency_rule": "Each task depends only on its own successful collection; no dependency on an unrelated method."
+  },
+  "parallel_quality_audit": {
+    "job": "64564197",
+    "state_observed": "COMPLETED",
+    "report": "reports/parallel_quality_audit_v1.json"
+  },
+  "canceled_or_failed_postprocessing_history": {
+    "64563167": "NaN source B-factor blocked reference PDB export; preserve raw CIF and use zero placeholders in reference PDB only",
+    "64563168": "RFantibody source has backbone atoms only; missing SG is now unassessable at source, checked on complete ESMFold2 monomer",
+    "64564196": "CPU node019 made no progress; canceled and collector resubmitted on debug CPU",
+    "64563170": "superseded after collector failure",
+    "64563171": "superseded after collector failure",
+    "64563174": "superseded audit",
+    "64563175": "superseded audit",
+    "64564267": "canceled after stalled dependency collector",
+    "64564332": "superseded audit",
+    "64563176": "replaced by two-worker scoring pool",
+    "64563179": "replaced audit",
+    "64536763": "canceled rejected BC2 diagnostic",
+    "64536772": "canceled rejected BC2 diagnostic audit"
+  },
+  "last_updated_utc": "2026-11-04T13:46:32.775867+00:00",
+  "parallel_quality_audit_v2": {
+    "job": "64565173",
+    "dependency": "afterok:64564389",
+    "report": "reports/parallel_quality_audit_v2.json",
+    "backbone_only_SASA": "not calculated",
+    "state_observed": "COMPLETED",
+    "audited_sequences": 33,
+    "failures": 0
+  },
+  "latest_progress_snapshot": "reports/progress_snapshot_20261103.json",
+  "bulk1": {
+    "campaign": "bulk1",
+    "generation": "64567741",
+    "collection": "64567742",
+    "scoring": "64567743",
+    "audit": "64567744",
+    "summary": "64568138",
+    "generation_throttle": 6,
+    "scoring_throttle": 2,
+    "generation_walltime": "02:00:00",
+    "scoring_walltime": "01:00:00",
+    "preflight_job": "64567725",
+    "preflight_state_observed": "COMPLETED",
+    "failed_preflight_history": {
+      "64567614": "Windows serialization produced backslash paths; fixed to PurePosixPath before any generation was released"
+    },
+    "generator_batches": {
+      "rfd4": 40,
+      "rfantibody": 10,
+      "bc2_v2": 40
+    },
+    "attempt_upper_bound": 940,
+    "sequence_upper_bound": 1600,
+    "gpu_hours_budget": 80,
+    "resource_guard": "Stop starting GPU batches at 64 observed GPU hours; reserve 14 hours for eight active jobs plus 2 hours bootstrap overhead",
+    "state_observed": "GENERATION_ENDED_RESOURCE_GUARD_RECOVERY_SCORING_QUEUED",
+    "snapshot_time": "2026-11-03T21:25:19+08:00",
+    "submission_recovery": "Initial held setup stopped on CRLF in the TSV partition column; normalized to LF and resumed the same four held arrays; no duplicate arrays submitted",
+    "independent_dependencies_verified": true,
+    "slurm_throttles_verified": {
+      "generation": 6,
+      "scoring": 2
+    },
+    "campaign_config": "inputs/bulk1/campaign.json",
+    "latest_snapshot": {
+      "time": "2026-11-04T17:04:33+08:00",
+      "collected_unique": 877,
+      "scored_and_audited": 877,
+      "quality_pass": 4,
+      "final_submission_eligible": 0,
+      "rfd4_collected": 520,
+      "rfantibody_collected": 357,
+      "bc2_collected": 0,
+      "remaining_existing_candidates_to_score": 0,
+      "gpu_hours_slurm_snapshot_including_running": 66.66777777777772
+    },
+    "scoring_walltime_by_method": {
+      "rfd4": "00:30:00",
+      "rfantibody": "00:45:00",
+      "bc2_v2": "00:20:00"
+    },
+    "scoring_limits_update": "Applied with scontrol to all90 tasks in array64567743; limits verified for representative tasks0,1,2; protocol, partitions and throttle unchanged.",
+    "interim_summary_job": "64569634",
+    "recovery": {
+      "score_array": "64584094",
+      "audit_array": "64584095",
+      "bc2_probe": "64584096",
+      "score_gpu_hours_reserved_max": 2.25,
+      "bc2_generation_canary": {
+        "job_id": "64584136",
+        "dependency": "afterok:64584096",
+        "kill_on_invalid_dependency": true,
+        "walltime": "00:30:00",
+        "state_observed": "COMPLETED",
+        "gpu_hours_reserved_max": 0.5,
+        "config": "inputs/bc2_gpu_recovery_canary.json",
+        "launcher": "scripts/run_bc2_gpu_required.py",
+        "scope": "One complete GPU-only design trajectory; independent output directory; no CUDA module load; mandatory CUDA device check before design",
+        "elapsed": "00:05:18",
+        "exit_code": "0:0",
+        "internal_accepted": 0,
+        "internal_iptm": 0.51
+      },
+      "bc2_probe_state": "COMPLETED_CUDA_BACKEND_VERIFIED"
+    },
+    "incident": {
+      "cause_observed": "BC2 cuSPARSE load failure caused JAX CPU fallback; launcher lacked mandatory GPU-backend check",
+      "timed_out_generation_jobs": 24,
+      "cancelled_cpu_fallback_job": "64567741_44",
+      "generation_jobs_stopped_by_budget_guard": 30,
+      "backend_probe_state": "COMPLETED_GPU_VERIFIED",
+      "corrective_actions": [
+        "Stop remaining CPU-fallback GPU allocation",
+        "Prefix BC2 bundled NVIDIA library directories and force JAX_PLATFORMS=cuda in probe",
+        "Do not relaunch bulk BC2 before GPU check passes",
+        "Recover 80 existing unscored candidates within original80 GPU-hour allowance",
+        "Retain8 completed predictions with unavailable reference-interface DockQ as nonpassing pose assessments"
+      ]
+    }
+  },
+  "bc2_gpu_recovery": {
+    "generation": "64608432",
+    "collection": "64608433",
+    "scoring": "64608434",
+    "audit": "64608435",
+    "generation_concurrency": 4,
+    "scoring_concurrency": 2,
+    "submitted_time": "2026-11-04T17:04:33+08:00",
+    "trajectories": 40,
+    "patch_counts": {
+      "crd2": 20,
+      "crd3": 20
+    },
+    "generation_time_limit": "00:30:00",
+    "scoring_time_limit": "00:20:00",
+    "state_observed": "RELEASED_PENDING_PRIORITY",
+    "baseline_slurm_gpu_hours": 67.54805555555551,
+    "budget_baseline_ceiling": 68.0,
+    "combined_gpu_hours_cap": 80,
+    "new_gpu_stage_stop_threshold": 76,
+    "retention_change": "save_design_trajectory=true, save_design_sequences=true, sparse_output=false; preserve one gradient endpoint before MPNN and refolded variants; source stage and shared parent recorded",
+    "selection_thresholds_changed": false,
+    "inputs": "inputs/bc2_recovery/campaign.json",
+    "independent_dependencies_verified": true,
+    "latest_snapshot": {
+      "time": "2026-11-04T21:46:32+08:00",
+      "generated_batches": 40,
+      "collected": 250,
+      "scored_and_audited": 120,
+      "quality_pass": 4,
+      "passing_parent_trajectories": 2,
+      "stage_failures": 0,
+      "generation_timeouts": 0,
+      "phase_allocated_gpu_hours_including_running_snapshot": 5.283611111111111,
+      "combined_allocated_gpu_hours_snapshot": 72.83166666666662,
+      "best_bc2_ipsae_min": 0.620725
+    }
+  },
+  "shortlist_descriptor_audit": {
+    "job_id": "64618025",
+    "scope": "Current passing candidates: CDR local pLDDT, monomer SASA, hydrophobic surface fraction, sequence liabilities and N-glycosylation motifs",
+    "report": "reports/current_shortlist_descriptors.json",
+    "state_observed": "COMPLETED",
+    "elapsed": "00:00:09",
+    "candidates": 8,
+    "distinct_parent_ids": 6,
+    "failures": 0
+  }
+}

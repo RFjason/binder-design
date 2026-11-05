@@ -1,0 +1,7 @@
+{
+  "optional_reports_not_present_on_hpc": [
+    "target_planning_audit.json",
+    "local_structure_audit.json"
+  ],
+  "note": "Planning reports made on the Windows workspace may be added separately with their own hashes."
+}

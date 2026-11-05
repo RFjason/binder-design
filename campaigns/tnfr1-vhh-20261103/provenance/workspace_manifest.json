@@ -1,0 +1,46 @@
+{
+  "files": {
+    "provenance/workspace_reports/design_input_audit.json": {
+      "bytes": 8665,
+      "sha256": "f99e83efbac31faa4812b2078a7757b15b019d0b05a44fd8c2b0bb69a969b715"
+    },
+    "provenance/workspace_reports/export_status.json": {
+      "bytes": 1352,
+      "sha256": "85ec0765415f7d4335433be61078d78b58e1ba6307f8e0f1f62ff02a12bbc4c6"
+    },
+    "provenance/workspace_reports/job_ledger.json": {
+      "bytes": 12517,
+      "sha256": "8dcc72901f070a8c12184872cddaed02b1e8d390b97855894925db17fa7d0ee6"
+    },
+    "provenance/workspace_reports/local_structure_audit.json": {
+      "bytes": 3276,
+      "sha256": "798ffe22572fe342771d68f3f0e88ea6bf084afc3b7921c9245f4ce0fbed395d"
+    },
+    "provenance/workspace_reports/progress_snapshot_20261105.json": {
+      "bytes": 768,
+      "sha256": "18a60acf2d47f41ee4bf39fc93e051e78ae4a6c5346863c845d3c9ccfd4328cf"
+    },
+    "provenance/workspace_reports/target_planning_audit.json": {
+      "bytes": 7010,
+      "sha256": "0e8ced97d17ef367d0701d90e063d825fcccbeff91f233640920362b9f31bf12"
+    },
+    "provenance/workspace_reports/执行计划_提交前.md": {
+      "bytes": 9885,
+      "sha256": "83a7e8343a080a37099a1b13df53d5fc5929ad861d5be2c68a0539d024fe9d17"
+    },
+    "provenance/workspace_reports/规模化首轮计划_v1.md": {
+      "bytes": 4055,
+      "sha256": "a2c966940c1ac64b9896db8cc6ab1025b249f4a5a09d63916a04b4d65623dd2f"
+    },
+    "provenance/workspace_reports/进度与故障处理_20261104.md": {
+      "bytes": 5160,
+      "sha256": "cc5e52698d888ce243c20e536834bf8b1e75d1c1a32965fd6a719276cd2611ee"
+    },
+    "provenance/workspace_reports/进度汇总_20261105.md": {
+      "bytes": 1548,
+      "sha256": "5eb7ec6642739da8d6dac99844612bc1b0129fa4988af1d2ea323c22fee50bd2"
+    }
+  },
+  "file_count": 10,
+  "scope": "Planning and latest verified status reports produced in the Windows workspace"
+}

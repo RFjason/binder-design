@@ -1,0 +1,21 @@
+{
+  "job_id": "64584096",
+  "ok": true,
+  "runtime_library_paths": [
+    "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/.venv/lib/python3.14/site-packages/nvidia/cublas/lib",
+    "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/.venv/lib/python3.14/site-packages/nvidia/cuda_cccl/lib",
+    "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/.venv/lib/python3.14/site-packages/nvidia/cuda_cupti/lib",
+    "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/.venv/lib/python3.14/site-packages/nvidia/cuda_nvrtc/lib",
+    "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/.venv/lib/python3.14/site-packages/nvidia/cuda_runtime/lib",
+    "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/.venv/lib/python3.14/site-packages/nvidia/cudnn/lib",
+    "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/.venv/lib/python3.14/site-packages/nvidia/cufft/lib",
+    "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/.venv/lib/python3.14/site-packages/nvidia/cusolver/lib",
+    "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/.venv/lib/python3.14/site-packages/nvidia/cusparse/lib",
+    "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/.venv/lib/python3.14/site-packages/nvidia/nccl/lib",
+    "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/.venv/lib/python3.14/site-packages/nvidia/nvjitlink/lib",
+    "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/.venv/lib/python3.14/site-packages/nvidia/nvshmem/lib"
+  ],
+  "jax_platforms": "cuda",
+  "stdout": "{\"backend\": \"gpu\", \"devices\": [\"cuda:0\"]}\n",
+  "stderr": ""
+}

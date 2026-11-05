@@ -1,0 +1,313 @@
+{
+  "job_id": "64536912",
+  "target_length": 182,
+  "design_context_source": "AFDB AF-P19438-F1-model_v6, canonical mature L30-T211",
+  "design_context_sha256": "bcf25f623a23442906df7390d23030f9fb6f826f624742e89f0d00cf57e2a98d",
+  "target_sequence_sha256": "b977f5b0c0cf5688a2262bf0c0fe8e40d19f9f49a9da70bb09932434da550212",
+  "experimental_domain_CA_RMSD_A": {
+    "42-81": 1.2301312685012817,
+    "84-125": 0.8039325475692749,
+    "127-166": 0.6413924694061279
+  },
+  "potential_glycan_anchors": [
+    54,
+    145,
+    151
+  ],
+  "patches": {
+    "crd2": {
+      "selected_hotspot_atoms": [
+        {
+          "position": 96,
+          "aa": "L",
+          "atom": "CD2",
+          "sasa_A2": 60.837318420410156,
+          "glycan_anchor_distance_A": 22.11250877380371,
+          "index": 516
+        },
+        {
+          "position": 100,
+          "aa": "L",
+          "atom": "CD2",
+          "sasa_A2": 50.021793365478516,
+          "glycan_anchor_distance_A": 27.96706771850586,
+          "index": 551
+        },
+        {
+          "position": 98,
+          "aa": "H",
+          "atom": "CE1",
+          "sasa_A2": 39.150611877441406,
+          "glycan_anchor_distance_A": 23.939231872558594,
+          "index": 536
+        }
+      ],
+      "all_considered": [
+        {
+          "position": 96,
+          "aa": "L",
+          "atom": "CD2",
+          "sasa_A2": 60.837318420410156,
+          "glycan_anchor_distance_A": 22.11250877380371,
+          "index": 516
+        },
+        {
+          "position": 104,
+          "aa": "K",
+          "atom": "NZ",
+          "sasa_A2": 57.3698844909668,
+          "glycan_anchor_distance_A": 25.972320556640625,
+          "index": 578
+        },
+        {
+          "position": 106,
+          "aa": "R",
+          "atom": "NH2",
+          "sasa_A2": 56.90535354614258,
+          "glycan_anchor_distance_A": 21.661405563354492,
+          "index": 594
+        },
+        {
+          "position": 100,
+          "aa": "L",
+          "atom": "CD2",
+          "sasa_A2": 50.021793365478516,
+          "glycan_anchor_distance_A": 27.96706771850586,
+          "index": 551
+        },
+        {
+          "position": 98,
+          "aa": "H",
+          "atom": "CE1",
+          "sasa_A2": 39.150611877441406,
+          "glycan_anchor_distance_A": 23.939231872558594,
+          "index": 536
+        },
+        {
+          "position": 109,
+          "aa": "M",
+          "atom": "CE",
+          "sasa_A2": 38.12472152709961,
+          "glycan_anchor_distance_A": 15.89487075805664,
+          "index": 621
+        },
+        {
+          "position": 108,
+          "aa": "E",
+          "atom": "CB",
+          "sasa_A2": 34.609676361083984,
+          "glycan_anchor_distance_A": 15.21765422821045,
+          "index": 608
+        }
+      ],
+      "interpretation": "Solvent-exposed structural candidate patch, not experimentally validated energetic hotspots"
+    },
+    "crd3": {
+      "selected_hotspot_atoms": [
+        {
+          "position": 134,
+          "aa": "H",
+          "atom": "CE1",
+          "sasa_A2": 40.65640640258789,
+          "glycan_anchor_distance_A": 14.953512191772461,
+          "index": 816
+        },
+        {
+          "position": 142,
+          "aa": "Q",
+          "atom": "NE2",
+          "sasa_A2": 39.25307846069336,
+          "glycan_anchor_distance_A": 10.189388275146484,
+          "index": 893
+        },
+        {
+          "position": 140,
+          "aa": "L",
+          "atom": "CD2",
+          "sasa_A2": 37.04316711425781,
+          "glycan_anchor_distance_A": 18.848249435424805,
+          "index": 874
+        }
+      ],
+      "all_considered": [
+        {
+          "position": 129,
+          "aa": "K",
+          "atom": "NZ",
+          "sasa_A2": 57.3698844909668,
+          "glycan_anchor_distance_A": 15.020058631896973,
+          "index": 767
+        },
+        {
+          "position": 138,
+          "aa": "E",
+          "atom": "OE1",
+          "sasa_A2": 44.96976089477539,
+          "glycan_anchor_distance_A": 26.984893798828125,
+          "index": 857
+        },
+        {
+          "position": 134,
+          "aa": "H",
+          "atom": "CE1",
+          "sasa_A2": 40.65640640258789,
+          "glycan_anchor_distance_A": 14.953512191772461,
+          "index": 816
+        },
+        {
+          "position": 142,
+          "aa": "Q",
+          "atom": "NE2",
+          "sasa_A2": 39.25307846069336,
+          "glycan_anchor_distance_A": 10.189388275146484,
+          "index": 893
+        },
+        {
+          "position": 140,
+          "aa": "L",
+          "atom": "CD2",
+          "sasa_A2": 37.04316711425781,
+          "glycan_anchor_distance_A": 18.848249435424805,
+          "index": 874
+        },
+        {
+          "position": 136,
+          "aa": "W",
+          "atom": "CZ3",
+          "sasa_A2": 32.625511169433594,
+          "glycan_anchor_distance_A": 16.704938888549805,
+          "index": 843
+        },
+        {
+          "position": 133,
+          "aa": "R",
+          "atom": "NH2",
+          "sasa_A2": 26.01387596130371,
+          "glycan_anchor_distance_A": 16.126781463623047,
+          "index": 806
+        },
+        {
+          "position": 135,
+          "aa": "Y",
+          "atom": "CB",
+          "sasa_A2": 21.09027099609375,
+          "glycan_anchor_distance_A": 17.657363891601562,
+          "index": 821
+        },
+        {
+          "position": 132,
+          "aa": "Y",
+          "atom": "OH",
+          "sasa_A2": 20.352005004882812,
+          "glycan_anchor_distance_A": 9.50492000579834,
+          "index": 795
+        },
+        {
+          "position": 141,
+          "aa": "F",
+          "atom": "CE1",
+          "sasa_A2": 15.810824394226074,
+          "glycan_anchor_distance_A": 16.242277145385742,
+          "index": 883
+        }
+      ],
+      "interpretation": "Solvent-exposed structural candidate patch, not experimentally validated energetic hotspots"
+    }
+  },
+  "inputs": [
+    {
+      "path": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/rfd4/tnfr1_crd2_compact.cif",
+      "sha256": "aa1936a7275330b2a41c7adb07850902c1ac33f00d3fad0c1d024916df92fcfd",
+      "framework_residues": 83,
+      "CDR_ranges": [
+        [
+          11,
+          13
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          10,
+          14
+        ]
+      ],
+      "minimum_vhh_length": 112,
+      "maximum_vhh_length": 120,
+      "cdr_length_CATH_internal_coordinate_annotations_roundtrip_verified": true
+    },
+    {
+      "path": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/rfd4/tnfr1_crd2_long.cif",
+      "sha256": "5c35143ecc819a9a7befcac9fb805d5423d5794ef4e9ab8555710a0316875a40",
+      "framework_residues": 83,
+      "CDR_ranges": [
+        [
+          13,
+          15
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          16,
+          22
+        ]
+      ],
+      "minimum_vhh_length": 121,
+      "maximum_vhh_length": 131,
+      "cdr_length_CATH_internal_coordinate_annotations_roundtrip_verified": true
+    },
+    {
+      "path": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/rfd4/tnfr1_crd3_compact.cif",
+      "sha256": "ec400b563afcc4a686984e9d50ede608b58c434505734ab4f51d37d9beb86f2d",
+      "framework_residues": 83,
+      "CDR_ranges": [
+        [
+          11,
+          13
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          10,
+          14
+        ]
+      ],
+      "minimum_vhh_length": 112,
+      "maximum_vhh_length": 120,
+      "cdr_length_CATH_internal_coordinate_annotations_roundtrip_verified": true
+    },
+    {
+      "path": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103/inputs/rfd4/tnfr1_crd3_long.cif",
+      "sha256": "a4e6a64119d30c8672553de7b88dd5927bef0a766f1a726c53f4933b6a910aa7",
+      "framework_residues": 83,
+      "CDR_ranges": [
+        [
+          13,
+          15
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          16,
+          22
+        ]
+      ],
+      "minimum_vhh_length": 121,
+      "maximum_vhh_length": 131,
+      "cdr_length_CATH_internal_coordinate_annotations_roundtrip_verified": true
+    }
+  ],
+  "sequence_conditions": "target and framework fixed; only CDR placeholder sequence/structure generated",
+  "bc2_framework": {
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGGSEYSYSTFSLGWFRQAPGQGLEAVAAIASMGGLTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAAVRGYFMRLPSSHNFRYWGQGTLVTVS",
+    "source": "/dssg/home/acct-clshzh/jasoncao1280/RFantibody/scripts/examples/example_inputs/h-NbBCII10.pdb",
+    "sha256": "d1cd47ae709c3456f682600b1ce79f21b1f4e8ce5f5ae9a87decf222a3a8bee7"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "protocol_id": "TNFR1_VHH_ESMFold2_single_seed_v1_20261103",
+  "remote_root": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261103",
+  "target": {
+    "uniprot": "P19438-1",
+    "competition_range": [
+      1,
+      211
+    ],
+    "competition_sequence_sha256": "d789eba40906d7de44c23be02d12520328c4d85e2f9f10f457ac37ea7f1e0a78",
+    "mature_range": [
+      30,
+      211
+    ],
+    "msa": "inputs/TNFR1_competition_M1_T211.a3m",
+    "msa_sha256": "e9b5842143af0f98b72addf251e1f6207d3ae40addbec6484acaea0b737d4192",
+    "design_context": "Official AFDB AF-P19438-F1-model_v6 mature ectodomain; experimental-domain consistency checked separately",
+    "design_source_full_pdb_sha256": "64966bc10ab09446bae4bf45e86dc35e47eb91d6f7a7ef69782d3ce4cecc1552"
+  },
+  "binder": {
+    "modality": "one complete mature VHH domain",
+    "length": [
+      100,
+      150
+    ],
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "signal_peptide": false,
+    "tags_or_fusions": false,
+    "msa": null,
+    "framework": "h-NbBCII10; exact conserved 83-residue core plus three designed CDR segments",
+    "framework_validation": "Exact source-core sequence and three intervening CDR segments, not an inferred VHH label from length"
+  },
+  "predictor": {
+    "implementation": "native esm==3.4.1.post1 ESMFold2 Full",
+    "seed": 0,
+    "num_diffusion_samples": 1,
+    "num_loops": 20,
+    "num_sampling_steps": 200,
+    "msa_max_depth": 1024,
+    "msa_column_mask_rate": 0.1,
+    "lm_dropout": 0.3,
+    "templates": false,
+    "initial_guess": false,
+    "target_msa_only": true
+  },
+  "score": {
+    "primary": "min(ipSAE_target_to_binder, ipSAE_binder_to_target)",
+    "pae_cutoff_A": 10,
+    "distance_cutoff_A": 10,
+    "variant": "d0res",
+    "reference_script_sha256": "10cf9b08c68c91e06cb28526cf2026f47a3980c9048fd3226d13e3304eaf1c27",
+    "best_of_seed_selection": false,
+    "pose_check": "DockQ on mature full ectodomain after removing target signal peptide from prediction; exact chain mapping TH:TH"
+  },
+  "canary_gates": {
+    "pipeline": "Complete legal VHH and unchanged full mature target; frozen ESMFold2 prediction and PAE mapping; two ipSAE directions; independent monomer fold; successful DockQ adapter",
+    "computational_quality_provisional": {
+      "monomer_plddt_min": 70,
+      "pose_dockq_min": 0.23,
+      "ipsae_min_min": 0.6,
+      "all_cysteines_paired_geometry": true,
+      "disulfide_geometry_reference": "Complete ESMFold2 monomer; missing SG atoms in a backbone-only generation output are marked unassessable, not failed"
+    },
+    "final_rank_requires_additional_gates": [
+      "novelty",
+      "developability",
+      "glycan_accessibility",
+      "CDR_interface_engagement",
+      "diversity"
+    ]
+  },
+  "resources": {
+    "slurm_only": true,
+    "max_simultaneous_gpu": 8,
+    "pilot_gpu_hours_ceiling": 24,
+    "overall_gpu_hours_internal_ceiling": 200,
+    "canary_stage_only_submitted": true
+  }
+}
