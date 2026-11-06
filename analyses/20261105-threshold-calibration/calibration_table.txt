@@ -1,5 +1,7 @@
 单种子 ipsae_min 阈值标定  来源 Anthropic cofold_predictions.parquet，ef2full，设计靶点
-单种子与 5 种子取最大之差：中位 0.012，均值 0.050
+单种子与 5 种子取最大之差：中位 0.00922，均值 0.03616（2026-11-06 更正）
+  0.6 线上改变过线状态 73 条，其中真结合体 13、非结合体 60
+  复算脚本 recompute_calibration.py，输出见 calibration_recompute_output.txt
 真结合体 n=354 中位 0.798   非结合体 n=966 中位 0.642
 
     阈值         留住真结合体     留存率       混入非结合体     命中率
