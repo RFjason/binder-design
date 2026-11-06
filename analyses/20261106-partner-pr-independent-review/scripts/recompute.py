@@ -41,7 +41,7 @@ fasta=ROOT/'novelty_backend_repro.fasta';fasta.write_text('>q1\n'+seq1+'\n')
 ref=SOURCES/'pr1/analyses/20261105-compliance-novelty-audit/reference_library/TNFR1_known_binders.fasta'
 call=subprocess.run([sys.executable,str(SOURCES/'pr1/tools/check_submission.py'),str(fasta),'vhh','--no-anarcii','--refs',str(ref),'--mmseqs',str(ROOT/'definitely_absent_mmseqs'),'--out',str(ROOT/'novelty_backend_repro.csv')],capture_output=True,text=True,encoding='utf8',env={**__import__('os').environ,'PYTHONIOENCODING':'utf-8'})
 assert call.returncode==0
-(ROOT/'novelty_backend_repro_stdout.txt').write_text(call.stdout,encoding='utf8')
+(ROOT/'novelty_backend_repro_stdout.txt').write_text(call.stdout.replace(str(ROOT),'[OUTPUT_DIR]'),encoding='utf8')
 report={'input_hash_checks':hash_checks,'route':route,'patch':patch,'cdr2_omission_repro':false_pairs,'missing_novelty_backend_exit_code':call.returncode}
 (ROOT/'local_checks.json').write_text(json.dumps(report,indent=2))
 print(json.dumps({k:v for k,v in report.items() if k!='input_hash_checks'},indent=2))

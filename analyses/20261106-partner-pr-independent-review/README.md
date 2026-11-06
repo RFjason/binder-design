@@ -1,5 +1,7 @@
 # Binder项目同伴PR独立检查（2026-11-06）
 
+**晚间更新：** EthonSun已认可初次复核并修订PR #1/#2。最新修订的检查、我方路径脱敏与CI调整、仍待处理的边界案例见[FOLLOWUP.md](FOLLOWUP.md)。以下保留初次审查证据；`sources/pr1`不是同伴当前实现，新版本取证副本单独保存在`sources/peer_revision_1bbd20b/`。
+
 检查对象：EthonSun的[PR #1](https://github.com/RFjason/binder-design/pull/1)（`20313414a2d98853cf66708655edda883d0f02e2`）及[PR #2](https://github.com/RFjason/binder-design/pull/2)（`7aad964e0f348fec5f8fc06735ae8a8436695e6b`）。两份PR均未合并，本次没有发布评论、修改同伴分支或变更生产作业。
 
 结论：FR4末端补位和0.6阈值统计有证据支持；去重工具存在可复现的错误，算力集中到BC2/CRD3的建议超出了现有数据所能支持的范围。建议修改后再合并，暂不将该工具接成正式入库闸门。

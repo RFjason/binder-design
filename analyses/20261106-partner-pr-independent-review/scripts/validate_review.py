@@ -4,6 +4,7 @@ from difflib import SequenceMatcher
 import hashlib
 from itertools import combinations
 import json
+import re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];REPO=ROOT.parents[1]
 def read(path):return json.loads(path.read_text(encoding='utf8'))
@@ -62,4 +63,6 @@ for patch in ('crd2','crd3'):
  assert len({r['parent_id'] for r in group})==2
 assert read(ROOT/'results/local_checks.json')['missing_novelty_backend_exit_code']==0
 assert table('novelty_backend_repro.csv')[0]['结果']=='PASS'
+stdout=(ROOT/'results/novelty_backend_repro_stdout.txt').read_text(encoding='utf8')
+assert not re.search(r'[A-Za-z]:[\\/]|/home/|/Users/',stdout),'Published stdout must not contain local absolute paths'
 print(f'PASS: {len(manifest["files"])} evidence hashes; 38 raw numberings; 19 distinct CDR triplets; 1320 calibration rows; threshold tables; route/parent claims.')

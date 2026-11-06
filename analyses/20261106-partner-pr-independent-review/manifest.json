@@ -33,27 +33,31 @@
   "files": {
     ".gitattributes": "308a40fa1d89ae5ea4390b4c9b46a0108b09f171f07898f25d451fa0c69c4e9f",
     ".gitignore": "72de61229fec302638188cb75f528ace015c9aeabd6af63dffb4cfbf89e4a13a",
+    "FOLLOWUP.md": "cdc5bc8e8ab753ef3b751423c4cb368c02956a9f08cf2a5954666cd3a3782578",
     "inputs/candidates.csv": "0daa5fa091df6c685b6e43b9d41d504fdf2133b38042a22a34266403a512ed31",
     "provenance/executed/number_independent.py": "a2f71613f4833ba8a9e4588ea198e6770466bf472dacab6799c5e71f73ccf2b6",
     "provenance/executed/number_independent.slurm": "ccd783d8038646c4f6c367ad8ae29dbb399124b3e964b13913860174881668ee",
     "provenance/original_novelty_backend_repro_cp936.csv": "dbefe0569645b41b4e47174bf17e40c530135c30c91fee66f2df655d4d91da6c",
-    "README.md": "1b45595142d38032dd90a4424b0b79575bba9443038c57f790674f24307d89e5",
+    "README.md": "fbbd30ac85eb962eef214f74ad6a767e97a976d69957e3c9b0359719f43d47dd",
     "results/anarcii_raw.json": "aa3f633231bc00d9026ed28aba45c9a201e1edf546114cf80e0a7cd8b997857d",
     "results/calibration_recomputed.json": "bbf7f93a8c7b13fb0dfa575ac72870e066d0727970e31628030ab22c541b6748",
     "results/calibration_seed0_per_design.csv": "006cb7d46b5f8afe8a03cd0213208f01ea11e682b6e3882d0de0904c5a99bc03",
     "results/cdr_local_exact_check.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "results/followup_partial_cdr_repro.json": "08adaa56f1d2a411dddac0e99d8a555abae287253083a3f271bf688a59c3e9a8",
     "results/independent_numbering.json": "7dae0a1532b8ef9b8284679a80a34b77b78ba6673440663cb9d2eea46875fd0f",
     "results/local_checks.json": "653be9bf34014ee438a6f0b3d33de8c4065946f0f05f92c0b5698e00b7efa3b5",
     "results/novelty_backend_repro.csv": "74cda4ba842f0fbe0086dee3737edbb7d31fce4c7fead87ba1cdeb550a021ef1",
     "results/novelty_backend_repro.fasta": "88608864744e026edb736897c3acc57a640177120859ac3b38d83586e4f60e7b",
-    "results/novelty_backend_repro_stdout.txt": "d2fa33645e1f9b9fc7f4597fdf06989f3836cd065b1b2301e9a95658ebcfb4d2",
+    "results/novelty_backend_repro_stdout.txt": "871cfb2792a55121737a6fa5d31bf3d2dec4723470ba6493ed945057f88c05be",
     "results/numbered_cdrs.csv": "09bf34a93b5c4cbc29153f51351830002933a5381990847aacd0acbd089ff51d",
     "results/route_epitope_counts.csv": "a634366b5e304d84f3ff7ecf78b979c0e7a0a52528276f0a58c6e8628193f227",
     "results/route_parent_counts.csv": "8fabb88ab529dbe427e89ce9565bed4325becec5096c7b9ca5170ac5c1064f4f",
     "results/threshold_calibration.csv": "92f7444b894290b772d8e01eed2eec86979af2b633607af916030f75a78d6613",
+    "scripts/check_peer_revision.py": "4ac1c7c58bab4c4bec6a0872d0dd802a0c25f3dc5cf534400d0e11024b48ec6a",
     "scripts/fetch_public_data.py": "476891696f6db2bf60c31646b8e23405918eec713d53238cd1c09efcaab3b934",
-    "scripts/recompute.py": "1f3f4daec1c61c22f51d55ca88cb9ce2f4946d6f05c688bae25350736a5d4197",
-    "scripts/validate_review.py": "dc445421cd09541bf64ea4ec55c270f28a192ad7755d947f9cbb10b8e72261c5",
+    "scripts/recompute.py": "449fe5646dfab0a97c202d2e8c8e145cb3c1291e037d4e37c1826b42bcd2a2ad",
+    "scripts/validate_review.py": "630b570389a80c21eba890ff41300f52c3cd31872975c07bc7c853dd627ad9e8",
+    "sources/peer_revision_1bbd20b/check_submission.py": "0ba078d1a0a2e1ce196fc3974f8fa195bf29d8f8cc5a76d0b6dfa5b17c847ffe",
     "sources/pr1/analyses/20261105-compliance-novelty-audit/imgt_fr4_evidence.txt": "0e4a5e287773df4e87885ececddfd17e0d7620e1628d7d3a10c1f06903538a8d",
     "sources/pr1/analyses/20261105-compliance-novelty-audit/input_hashes.txt": "11ee39505afa589f85ca0ed17a2ff76e3da546f4d9303338d95f043e49b543ea",
     "sources/pr1/analyses/20261105-compliance-novelty-audit/README.md": "e7ae2a5664a2dbfb25277948ff23e68d90fa34bdfca9c82c90e0acd0e84bdfa3",
@@ -71,5 +75,15 @@
     "sources/pr2/analyses/20261105-threshold-calibration/README.md": "7bd01589b7d049779d2323a08cc731bf258f90b9c3fb18b4037f058cc94fcfe5",
     "sources/pr2/analyses/20261105-threshold-calibration/route_breakdown.txt": "d903b387bc1ca144f9f75df54944d116dd05a4b386c8c339044f2d85dd71c55b",
     "sources/pr2/analyses/20261105-threshold-calibration/\u884c\u52a8\u5efa\u8bae.md": "2b2ee03542eabf044fff86525ef50089ceccb83a2d9beb612acda15a21cbe40a"
+  },
+  "redactions": {
+    "results/novelty_backend_repro_stdout.txt": {
+      "original_sha256": "d2fa33645e1f9b9fc7f4597fdf06989f3836cd065b1b2301e9a95658ebcfb4d2",
+      "scope": "replace local absolute output path with [OUTPUT_DIR]; no numeric changes"
+    }
+  },
+  "followup_reviewed_heads": {
+    "PR1": "1bbd20b7b6cb97304c42b6c9dae54d92feb589a4",
+    "PR2": "d299605032220344086ed190245fcb646c3ea178"
   }
 }

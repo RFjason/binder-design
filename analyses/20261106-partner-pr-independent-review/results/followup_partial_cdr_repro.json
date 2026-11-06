@@ -1,0 +1,11 @@
+{
+  "new_checker_commit": "1bbd20b",
+  "canonical_short": "GDISNITYIDLRNNKTAAGSSGAFDY",
+  "canonical_long": "GDISNITYIDLRNNKTAAGSSGAFDYG",
+  "exact_identity": 1,
+  "longer_coverage": 0.9629629629629629,
+  "returned": [
+    [],
+    0
+  ]
+}
