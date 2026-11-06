@@ -1,0 +1,14 @@
+ANARCII (IMGT 编号) 末位残基核验  2026-11-05
+IMGT 的 FR4-IMGT 为 118-128 位，标准 VHH 以 S128 收尾（...VTVSS）
+
+序列                                            末位 IMGT  末位残基
+ref_hNbBCII10 (inputs/h-NbBCII10_complete.cif)      127        S
+TNFR1_bulk1_rfd4_crd2_compact_00_8fced7a5fd5b       127        S
+TNFR1_bc2_recovery_bc2_gpu_crd3_16_203250d5c341     127        S
+
+全部 19 条候选的 C 端 14 位（去重后 7 种）：
+  AFDYWGQGTLVTVS   EESYWGQGTLVTVS   MDVEWGQGTLVTVS   MEEAWGQGTLVTVS
+  PRVEWGQGTLVTVS   SSMFWGQGTLVTVS   YYDYWGQGTLVTVS
+均缺 S128。
+
+工具：anarcii 2.0.8，seq_type=antibody，cpu 模式
