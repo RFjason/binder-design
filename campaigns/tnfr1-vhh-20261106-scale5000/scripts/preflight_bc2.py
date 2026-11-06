@@ -11,7 +11,7 @@ ROOT=Path(__file__).resolve().parents[1]
 c=json.loads((ROOT/'config/campaign.json').read_text());af2,mpnn=model_weights(download=False)
 rows=[]
 for patch in ('crd2','crd3'):
- group=[b for b in c['batches'] if b['method']=='bc2_v2' and b['patch']==patch];assert len(group)==50
+ group=[b for b in c['batches'] if b['method']=='bc2_v2' and b['patch']==patch and not b.get('framework_contract')];assert len(group)==50
  for b in group:
   cfg=json.loads(Path(b['config']).read_text());assert cfg['campaign_seed']==b['seed']
   assert cfg['project_folder']==b['output_dir'] and cfg['max_trajectories']==1

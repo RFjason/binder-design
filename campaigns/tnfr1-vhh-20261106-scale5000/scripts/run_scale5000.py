@@ -17,6 +17,7 @@ parser=argparse.ArgumentParser();parser.add_argument('stage',choices=['generatio
 task=int(os.environ.get('S5K_TASK',os.environ.get('SLURM_ARRAY_TASK_ID','-1')));b=c['batches'][task]
 assert b['task_id']==task and read_json(ROOT/'reports/prepared.json')['ok']
 ident=b['batch_id'];label='scale5000_'+ident;out=Path(b['output_dir']);out.mkdir(parents=True,exist_ok=True)
+route=b.get('canary_route',b['method'])
 env=os.environ.copy();env.update(PYTHONNOUSERSITE='1',PYTHONDONTWRITEBYTECODE='1',OMP_NUM_THREADS='4',OPENBLAS_NUM_THREADS='2',S5K_TASK=str(task))
 env['PATH']=str(RF/'.venv/bin')+':'+env['PATH']
 path=ROOT/'reports/jobs'/(ident+'_'+a.stage+'.json');old=read_json(path,{})
@@ -42,14 +43,16 @@ save()
 try:
  if a.stage in ('generation','scoring'):budget()
  if a.stage=='generation':
-  if task not in c['canary_tasks'].values():assert read_json(ROOT/'reports'/('route_ready_'+b['method']+'.json'),{}).get('ok'),'Route canary not ready'
+  if task not in c['canary_tasks'].values():assert read_json(ROOT/'reports'/('route_ready_'+route+'.json'),{}).get('ok'),'Route canary not ready'
   if new_count(read_json(ROOT/'state/registry.json',{}))>=c['new_quota']:record['state']='SKIPPED_QUOTA_FULL'
   elif (out/'GENERATION_COMPLETE.json').exists():record['state']='SKIPPED_ALREADY_COMPLETE'
   else:
    if b['method']=='rfd4':
     project=RFD/'src/RFD4-Proteina';env['PROJECT_ROOT']=str(project)
     run(['bash',RFD/'scripts/run.sh','python',ROOT/'scripts/gpu_guard.py',project/'src/rfproteina/generate.py','--config-path',project/'examples/antibody_design','--config-name','vhh',f'hf_ckpt_path={RFD}/cache/huggingface/hub/models--nvidia--RFD4-Proteina/snapshots/a06e2509c7033b010fc43614e9fd840303588502','inference_experiment=quickstart','recycle_strategy=high/front_loaded','inputs='+b['input_cif'],'num_replicates=20','batch_size=1','num_workers=0','seed='+str(b['seed']),'compile_lengths=null','generation.dataset.sampling_transforms=null','metrics_tags=[]','out_dir='+str(out),f'hydra.run.dir={ROOT}/cache/hydra/{ident}_{os.environ["SLURM_JOB_ID"]}','prevalidate_inputs=true'])
-   elif b['method']=='bc2_v2':run([BC/'.venv/bin/python',ROOT/'scripts/run_bc2_gpu_required.py',b['config']])
+   elif b['method']=='bc2_v2':
+    if b.get('framework_contract'):run([sys.executable,ROOT/'scripts/prepare_multiframe_gpu.py',json.dumps(b)])
+    run([BC/'.venv/bin/python',ROOT/'scripts/run_bc2_gpu_required.py',b['config']])
    else:
     mpnn=[RF/'.venv/bin/python',ROOT/'scripts/gpu_guard.py',RF/'scripts/proteinmpnn_interface_design.py','-checkpoint_path',RF/'weights/ProteinMPNN_v48_noise_0.2.pt','-temperature',str(b.get('temperature',.2)),'-seqs_per_struct',str(20 if b['method']=='mpnn_refine' else 4),'-loop_string','H1,H2,H3','-omit_AAs','CX','-deterministic','-debug']
     if b['method']=='rfantibody':
@@ -77,7 +80,7 @@ try:
   result=read_json(ROOT/'reports'/('canary_result_'+label+'.json'))
   if task in c['canary_tasks'].values():
    assert result['pipeline_pass'] and result['scored_candidates'] and not result['failures'],'Canary requires a novel scored candidate'
-   atomic_json(ROOT/'reports'/('route_ready_'+b['method']+'.json'),{'ok':True,'canary_task':task,'job_id':os.environ['SLURM_JOB_ID'],'scored':len(result['scored_candidates'])})
+   atomic_json(ROOT/'reports'/('route_ready_'+route+'.json'),{'ok':True,'canary_task':task,'job_id':os.environ['SLURM_JOB_ID'],'scored':len(result['scored_candidates'])})
  if record['state']=='RUNNING':record['state']='COMPLETED'
 except Exception as exc:record.update(state='FAILED',error=repr(exc),traceback=traceback.format_exc())
 finally:

@@ -10,7 +10,7 @@ from biotite.structure.io.pdb import PDBFile
 from s5k_common import atomic_json,read_json
 assert os.environ.get('SLURM_JOB_ID')
 ROOT=Path(__file__).resolve().parents[1];c=read_json(ROOT/'config/campaign.json');OLD=Path(c['baseline_root'])
-assert len(c['batches'])==306 and c['new_quota']==3873
+assert len(c['batches']) in (306,324) and c['new_quota']==3873
 for sub in ('reports','state','predictions','candidates','cache','generation','logs','inputs/rfd4'):(ROOT/sub).mkdir(parents=True,exist_ok=True)
 for name in ('P19438.json','scoring_protocol_v1.json'):shutil.copy2(OLD/name,ROOT/name)
 files=['TNFR1_competition_M1_T211.a3m','TNFR1_mature_canonical.pdb','h-NbBCII10_complete.cif','hotspots_crd2.txt','hotspots_crd3.txt']

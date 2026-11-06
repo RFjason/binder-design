@@ -75,10 +75,11 @@ for candidate in collection['candidates']:
         sg_dist = np.linalg.norm(mono_sg.coord[:,None,:]-mono_sg.coord[None,:,:],axis=-1)
         np.fill_diagonal(sg_dist,np.inf)
         source_frame = ['QVQLVESGGGLVQPGGSLRLSC','WFRQAPGQGLEAVA','YADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYC','WGQGTLVTVSS']
+        source_frame=candidate.get('framework_core',source_frame)
         frame = re.fullmatch('([ACDEFGHIKLMNPQRSTVWY]{5,30})'.join(map(re.escape,source_frame)),candidate['sequence'])
         assert frame and len(mono_ca)==candidate['length']
         assert len(mono_sg)==candidate['sequence'].count('C')
-        core_resids=[mono_ca.res_id[len(source_frame[0])-1],mono_ca.res_id[frame.start(3)-1]]
+        core_resids=[mono_ca.res_id[candidate.get('framework_cys1_index0',len(source_frame[0])-1)],mono_ca.res_id[frame.start(3)-1]]
         core_indices=[list(mono_sg.res_id).index(r) for r in core_resids]
         core_distance=float(sg_dist[core_indices[0],core_indices[1]])
         def pairable(indices):

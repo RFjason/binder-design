@@ -52,7 +52,7 @@ while time.monotonic()-start<5.5*3600:
    if not task.isdigit():continue
    task=int(task)
    isgen=arr in genids
-   stop=(isgen and (p['new_reserved']>=c['new_quota'] or c['batches'][task]['method'] in failed_methods))
+   stop=(isgen and (p['new_reserved']>=c['new_quota'] or c['batches'][task].get('canary_route',c['batches'][task]['method']) in failed_methods))
    stop=stop or (total>=c['new_gpu_stage_stop_threshold'] and arr in gpuids)
    stop=stop or reason.startswith('DependencyNeverSatisfied')
    if stop:

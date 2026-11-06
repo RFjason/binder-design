@@ -63,10 +63,16 @@ canaries={b['method']:i for i,b in enumerate(batches[:4])}
 for i,b in enumerate(batches):
  b.update(task_id=i,canary_task=canaries[b['method']],output_dir=str(ROOT/'generation'/b['batch_id']),generation_partition='a800',scoring_partition='a800')
 assert len(batches)==306
+if (HERE/'config/multiframe_batches.json').exists():
+ extra=json.loads((HERE/'config/multiframe_batches.json').read_text())
+ batches+=extra
+ for b in extra:canaries[b['canary_route']]=b['canary_task']
 c=dict(campaign='scale5000',remote_root=str(ROOT),baseline_root=OLD,baseline_scored=1127,new_quota=3873,target=5000,batches=batches,primary_batches=274,canary_tasks=canaries,generation_concurrency=6,scoring_concurrency=2,baseline_allocated_gpu_hours=74.19666666666662,total_gpu_hours_budget=200,new_gpu_stage_stop_threshold=193)
+if len(batches)>306:c.update(multiframe_pilot_tasks=[306,323],generation_concurrency_primary=4,generation_concurrency_pilot=2,scoring_concurrency_primary=1,scoring_concurrency_pilot=1)
 write(HERE/'config/campaign.json',c)
 (HERE/'config/batches.tsv').write_bytes(''.join(f"{b['task_id']}\t{b['method']}\t{b['batch_id']}\t{b['generation_partition']}\t{b['scoring_partition']}\t{b['canary_task']}\n" for b in batches).encode())
 for name in ('predict_esmfold2.py','predict.slurm','audit_canary_scores.py','run_bc2_gpu_required.py'):
+ if (HERE/'scripts'/name).exists():continue
  s=(OLD_LOCAL/'scripts'/name).read_text().replace(OLD,str(ROOT))
  if name=='audit_canary_scores.py':
   s=s.replace("choices=['bulk1','bc2_recovery']","choices=['bulk1','bc2_recovery','scale5000']")

@@ -17,6 +17,8 @@ campaign=read_json(CONFIG);ROOT=Path(campaign['remote_root'])
 b=campaign['batches'][int(os.environ['S5K_TASK'])];label='scale5000_'+b['batch_id'];source=Path(b['output_dir'])
 AA=dict(zip('ALA ARG ASN ASP CYS GLN GLU GLY HIS ILE LEU LYS MET PHE PRO SER THR TRP TYR VAL'.split(),'ARNDCQEGHILKMFPSTWYV'))
 core=['QVQLVESGGGLVQPGGSLRLSC','WFRQAPGQGLEAVA','YADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYC','WGQGTLVTVS']
+contract=read_json(b['framework_contract']) if b.get('framework_contract') else None
+if contract:core=contract['core']
 pattern=re.compile('([ACDEFGHIKLMNPQRSTVWY]{5,30})'.join(map(re.escape,core)))
 canonical=read_json(ROOT/'P19438.json')['sequence']['value']
 if b['method']=='rfd4':files=sorted((source/'inference_samples').rglob('*_generated.cif'))
@@ -41,7 +43,7 @@ with registry_lock(ROOT):
             source_sequence=seq
             # The coordinate scaffold ends at IMGT127. Score the complete mature
             # sequence including S128; do not invent coordinates in the reference.
-            seq=seq+'S'
+            seq=seq if contract else seq+'S'
             assert 100<=len(seq)<=150
             digest=hashlib.sha256(seq.encode()).hexdigest();cid='TNFR1_s5k_'+b['batch_id']+'_'+digest[:12]
             binder=atoms[atoms.chain_id==binder_id];ca=binder[binder.atom_name=='CA']
@@ -49,7 +51,7 @@ with registry_lock(ROOT):
             geometry=None;core_distance=None
             if len(sg)==seq.count('C'):
                 dist=np.linalg.norm(sg.coord[:,None,:]-sg.coord[None,:,:],axis=-1);np.fill_diagonal(dist,np.inf)
-                res=[ca.res_id[len(core[0])-1],ca.res_id[match.start(3)-1]]
+                res=[ca.res_id[contract['cys1_index0'] if contract else len(core[0])-1],ca.res_id[match.start(3)-1]]
                 indices=[list(sg.res_id).index(x) for x in res];core_distance=float(dist[indices[0],indices[1]])
                 def pairable(rest):
                     if not rest:return True
@@ -64,9 +66,13 @@ with registry_lock(ROOT):
                  'optimization_parent':b.get('parent_design_id'),'generation_seed':b['seed'],
                  'source_file':str(path),'source_sha256':hashlib.sha256(path.read_bytes()).hexdigest(),
                  'canonical_target_verified':True,'framework_identity_verified':True,'frame_endpoints_checked':True,
-                 'fixed_framework_residues':84,'cdr_sequences':list(match.groups()),'cdr_lengths':list(map(len,match.groups())),
-                 'source_sequence':source_sequence,'maturation':'append_IMGT_S128_before_folding',
-                 'reference_terminal_S128_coordinates':'absent; DockQ uses aligned resolved residues',
+                 'fixed_framework_residues':sum(map(len,core)) if contract else 84,'cdr_sequences':list(match.groups()),'cdr_lengths':list(map(len,match.groups())),
+                 'framework_id':b.get('framework_id','h-NbBCII10'),
+                 'framework_core':core if contract else core[:-1]+[core[-1]+'S'],
+                 'framework_cys1_index0':contract['cys1_index0'] if contract else len(core[0])-1,
+                 'cdr_definition':'IMGT' if contract else 'legacy source design segments',
+                 'source_sequence':source_sequence,'maturation':'complete_IMGT_domain_before_design' if contract else 'append_IMGT_S128_before_folding',
+                 'reference_terminal_S128_coordinates':'present' if contract else 'absent; DockQ uses aligned resolved residues',
                  'cysteine_count':seq.count('C'),'cysteine_geometry_ok':geometry,'core_cysteine_SG_distance_A':core_distance,
                  'source_atom_scope':'backbone_only' if set(binder.atom_name)<=set(['N','CA','C','O','CB']) else 'all_or_partial_sidechains',
                  'source_SG_atom_count':len(sg),'novelty_status':'NOT_RUN','status':'PENDING_FROZEN_SCORING',
