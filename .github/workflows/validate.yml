@@ -11,3 +11,5 @@ jobs:
         with:
           python-version: '3.12'
       - run: python tools/validate_results.py
+      - run: python analyses/20261106-partner-pr-independent-review/scripts/validate_review.py
+      - run: python analyses/20261106-partner-pr-independent-review/scripts/recompute.py --local-only

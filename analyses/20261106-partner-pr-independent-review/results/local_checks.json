@@ -1,0 +1,137 @@
+{
+  "input_hash_checks": [
+    {
+      "path": "campaigns/tnfr1-vhh-20261103/shortlist/candidates.csv",
+      "matches": true
+    },
+    {
+      "path": "campaigns/tnfr1-vhh-20261103/shortlist/candidates.fasta",
+      "matches": true
+    },
+    {
+      "path": "campaigns/tnfr1-vhh-20261103/inputs/h-NbBCII10_complete.cif",
+      "matches": true
+    },
+    {
+      "path": "campaigns/tnfr1-vhh-20261103/config/scoring_protocol_v1.json",
+      "matches": true
+    },
+    {
+      "path": "analyses/20261105-compliance-novelty-audit/reference_library/EGFR_known_binders.fasta",
+      "matches": true
+    },
+    {
+      "path": "analyses/20261105-compliance-novelty-audit/reference_library/GLP1R_known_binders.fasta",
+      "matches": true
+    },
+    {
+      "path": "analyses/20261105-compliance-novelty-audit/reference_library/IL7Ra_known_binders.fasta",
+      "matches": true
+    },
+    {
+      "path": "analyses/20261105-compliance-novelty-audit/reference_library/TL1A_known_binders.fasta",
+      "matches": true
+    },
+    {
+      "path": "analyses/20261105-compliance-novelty-audit/reference_library/TNFR1_known_binders.fasta",
+      "matches": true
+    },
+    {
+      "path": "analyses/20261105-compliance-novelty-audit/reference_library/TNFa_known_binders.fasta",
+      "matches": true
+    },
+    {
+      "path": "analyses/20261105-compliance-novelty-audit/reference_library/TfR1_known_binders.fasta",
+      "matches": true
+    }
+  ],
+  "route": [
+    {
+      "method": "rfd4",
+      "sequences": 520,
+      "source_parents_with_output": 520,
+      "passing_sequences": 4,
+      "passing_parents": 4,
+      "ipsae_ge_0p6": 4,
+      "ipsae_pass_but_pose_fail": 0,
+      "pose_dockq_median": 0.04725957171366471
+    },
+    {
+      "method": "rfantibody",
+      "sequences": 357,
+      "source_parents_with_output": 90,
+      "passing_sequences": 0,
+      "passing_parents": 0,
+      "ipsae_ge_0p6": 0,
+      "ipsae_pass_but_pose_fail": 0,
+      "pose_dockq_median": 0.019206761549217514
+    },
+    {
+      "method": "bindcraft2",
+      "sequences": 250,
+      "source_parents_with_output": 25,
+      "passing_sequences": 15,
+      "passing_parents": 4,
+      "ipsae_ge_0p6": 15,
+      "ipsae_pass_but_pose_fail": 0,
+      "pose_dockq_median": 0.636138016517628
+    }
+  ],
+  "patch": [
+    {
+      "method": "rfd4",
+      "patch": "crd2",
+      "sequences": 260,
+      "parents_with_output": 260,
+      "passing_sequences": 3,
+      "passing_parents": 3
+    },
+    {
+      "method": "rfd4",
+      "patch": "crd3",
+      "sequences": 260,
+      "parents_with_output": 260,
+      "passing_sequences": 1,
+      "passing_parents": 1
+    },
+    {
+      "method": "rfantibody",
+      "patch": "crd2",
+      "sequences": 198,
+      "parents_with_output": 50,
+      "passing_sequences": 0,
+      "passing_parents": 0
+    },
+    {
+      "method": "rfantibody",
+      "patch": "crd3",
+      "sequences": 159,
+      "parents_with_output": 40,
+      "passing_sequences": 0,
+      "passing_parents": 0
+    },
+    {
+      "method": "bindcraft2",
+      "patch": "crd2",
+      "sequences": 110,
+      "parents_with_output": 11,
+      "passing_sequences": 4,
+      "passing_parents": 2
+    },
+    {
+      "method": "bindcraft2",
+      "patch": "crd3",
+      "sequences": 140,
+      "parents_with_output": 14,
+      "passing_sequences": 11,
+      "passing_parents": 2
+    }
+  ],
+  "cdr2_omission_repro": [
+    [
+      "q2",
+      "q1"
+    ]
+  ],
+  "missing_novelty_backend_exit_code": 0
+}
