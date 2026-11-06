@@ -1,0 +1,64 @@
+{
+  "seed": 0,
+  "n": 1320,
+  "positive": 354,
+  "negative": 966,
+  "positive_median": 0.7978088855743408,
+  "negative_median": 0.6420039534568787,
+  "five_seed_max_minus_seed0_median": 0.009222596883773804,
+  "five_seed_max_minus_seed0_mean": 0.03615733981132507,
+  "five_seed_gap_gt_0p1": 121,
+  "five_seed_changes_ge_0p6": 73,
+  "calibration": [
+    {
+      "threshold": 0.5,
+      "TP": 326,
+      "FP": 618,
+      "FN": 28,
+      "TN": 348
+    },
+    {
+      "threshold": 0.55,
+      "TP": 316,
+      "FP": 578,
+      "FN": 38,
+      "TN": 388
+    },
+    {
+      "threshold": 0.6,
+      "TP": 309,
+      "FP": 535,
+      "FN": 45,
+      "TN": 431
+    },
+    {
+      "threshold": 0.65,
+      "TP": 298,
+      "FP": 475,
+      "FN": 56,
+      "TN": 491
+    },
+    {
+      "threshold": 0.7,
+      "TP": 279,
+      "FP": 415,
+      "FN": 75,
+      "TN": 551
+    },
+    {
+      "threshold": 0.8,
+      "TP": 176,
+      "FP": 191,
+      "FN": 178,
+      "TN": 775
+    }
+  ],
+  "source_sha256": {
+    "cofold_predictions.parquet": "ba48010610daa9b9d184aa1ddb419beebdf728ccf745f5a8f3b48e4041e1a87d",
+    "design_summary.parquet": "3e796869b8dc0c90d7ab0e12daf25308c0cf272d04c6a5e27281f903ecd18744"
+  },
+  "all1440_seed_gap_median": 0.0101328045129776,
+  "all1440_seed_gap_mean": 0.0368383452296257,
+  "five_seed_additional_true_binders_at_0p6": 13,
+  "five_seed_additional_false_binders_at_0p6": 60
+}

@@ -1,0 +1,7 @@
+method,patch,sequences,parents_with_output,passing_sequences,passing_parents
+rfd4,crd2,260,260,3,3
+rfd4,crd3,260,260,1,1
+rfantibody,crd2,198,50,0,0
+rfantibody,crd3,159,40,0,0
+bindcraft2,crd2,110,11,4,2
+bindcraft2,crd3,140,14,11,2

@@ -1,0 +1,4 @@
+method,sequences,source_parents_with_output,passing_sequences,passing_parents,ipsae_ge_0p6,ipsae_pass_but_pose_fail,pose_dockq_median
+rfd4,520,520,4,4,4,0,0.04725957171366471
+rfantibody,357,90,0,0,0,0,0.019206761549217514
+bindcraft2,250,25,15,4,15,0,0.636138016517628

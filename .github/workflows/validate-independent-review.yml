@@ -1,0 +1,25 @@
+name: Validate independent review evidence
+on:
+  push:
+    paths:
+      - 'analyses/20261106-partner-pr-independent-review/**'
+      - 'campaigns/tnfr1-vhh-20261103/**'
+      - '.github/workflows/validate-independent-review.yml'
+  pull_request:
+    paths:
+      - 'analyses/20261106-partner-pr-independent-review/**'
+      - 'campaigns/tnfr1-vhh-20261103/**'
+      - '.github/workflows/validate-independent-review.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  independent_evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+      - run: python analyses/20261106-partner-pr-independent-review/scripts/validate_review.py
+      - run: python analyses/20261106-partner-pr-independent-review/scripts/recompute.py --local-only
