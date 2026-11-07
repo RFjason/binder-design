@@ -1,0 +1,46 @@
+{
+  "core": "benchmark",
+  "modality": "VHH",
+  "targets": [
+    {
+      "name": "TNFR1",
+      "target_path": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261106_scale5000/inputs/TNFR1_mature_canonical.pdb",
+      "chains": "A",
+      "hotspots": "134,142,140"
+    }
+  ],
+  "binder_scaffold": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261106_scale5000/inputs/h-NbBCII10_complete.cif",
+  "mutate_positions": "H26-35,H55-60,H102-117",
+  "weights_binder_intra_coldspot": 0.0,
+  "weights_binder_coldspot": 1.0,
+  "min_scaffold_sequence_retained_final": 1.0,
+  "number_of_final_designs": 1,
+  "max_trajectories": 1,
+  "auto_multi_gpu": false,
+  "design_workers": 1,
+  "min_plddt_refine": 0.65,
+  "min_plddt_mutate": 0.65,
+  "min_iptm_final": 0.6,
+  "min_monomer_plddt_final": 0.7,
+  "project_folder": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_vhh_20261106_scale5000/generation/bc2_crd3_10",
+  "save_failed_refolds": true,
+  "save_failed_trajectories": true,
+  "archive_trajectories": false,
+  "campaign_seed": 610021,
+  "aa_bias": {
+    "C": 0,
+    "F": 0.7,
+    "W": 0.3,
+    "Y": 0.9
+  },
+  "losses": {
+    "binder_coldspot": {
+      "params": {
+        "designed_only": false
+      }
+    }
+  },
+  "save_design_trajectory": true,
+  "save_design_sequences": true,
+  "sparse_output": false
+}

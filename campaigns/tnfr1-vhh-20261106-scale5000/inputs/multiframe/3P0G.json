@@ -1,0 +1,34 @@
+{
+  "framework_id": "native_3P0G",
+  "pdb": "3P0G",
+  "source_url": "https://www.rcsb.org/structure/3P0G",
+  "source_fasta_sha256": "710f6792337f724567bc9ebda76f538c5196c56875f889d3511f7cf224375f58",
+  "source_pdb_sha256": "de53e603dcc306af411374d208f340a8685f5072a2a77bc64175d067cb73fbc9",
+  "raw_entity_sequence": "QVQLQESGGGLVQAGGSLRLSCAASGSIFSINTMGWYRQAPGKQRELVAAIHSGGSTNYANSVKGRFTISRDNAANTVYLQMNSLKPEDTAVYYCNVKDYGAVLYEYDYWGQGTQVTVSSHHHHHH",
+  "sequence": "QVQLQESGGGLVQAGGSLRLSCAASGSIFSINTMGWYRQAPGKQRELVAAIHSGGSTNYANSVKGRFTISRDNAANTVYLQMNSLKPEDTAVYYCNVKDYGAVLYEYDYWGQGTQVTVSS",
+  "core": [
+    "QVQLQESGGGLVQAGGSLRLSCAAS",
+    "MGWYRQAPGKQRELVAA",
+    "NYANSVKGRFTISRDNAANTVYLQMNSLKPEDTAVYYC",
+    "WGQGTQVTVSS"
+  ],
+  "cdr_spans0": [
+    [
+      25,
+      33
+    ],
+    [
+      50,
+      57
+    ],
+    [
+      95,
+      109
+    ]
+  ],
+  "cys1_index0": 21,
+  "source_terminal_imgt": 128,
+  "mature_tail_complete": true,
+  "coordinate_preparation": "seed0 ESMFold2 monomer within the first GPU generation task; not original experimental coordinates",
+  "framework_family_claim": "native PDB-derived scaffold; not the engineered sybody library consensus"
+}

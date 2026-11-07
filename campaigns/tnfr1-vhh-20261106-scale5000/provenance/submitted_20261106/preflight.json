@@ -1,0 +1,56 @@
+{
+  "ok": true,
+  "job_id": "64675206",
+  "native_bc2": [
+    {
+      "patch": "crd2",
+      "checkpoints": [
+        "/dssg/home/acct-clshzh/jasoncao1280/BindCraft/params/params_model_1_multimer_v3.npz",
+        "/dssg/home/acct-clshzh/jasoncao1280/BindCraft/params/params_model_3_multimer_v3.npz",
+        "/dssg/home/acct-clshzh/jasoncao1280/BindCraft/params/params_model_4_multimer_v3.npz",
+        "/dssg/home/acct-clshzh/jasoncao1280/BindCraft/params/params_model_2_multimer_v3.npz",
+        "/dssg/home/acct-clshzh/jasoncao1280/BindCraft/params/params_model_5_multimer_v3.npz",
+        "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/bindcraft/weights/proteinmpnn/weights_negative/v_48_020.npz"
+      ]
+    },
+    {
+      "patch": "crd3",
+      "checkpoints": [
+        "/dssg/home/acct-clshzh/jasoncao1280/BindCraft/params/params_model_1_multimer_v3.npz",
+        "/dssg/home/acct-clshzh/jasoncao1280/BindCraft/params/params_model_3_multimer_v3.npz",
+        "/dssg/home/acct-clshzh/jasoncao1280/BindCraft/params/params_model_4_multimer_v3.npz",
+        "/dssg/home/acct-clshzh/jasoncao1280/BindCraft/params/params_model_2_multimer_v3.npz",
+        "/dssg/home/acct-clshzh/jasoncao1280/BindCraft/params/params_model_5_multimer_v3.npz",
+        "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/bindcraft/weights/proteinmpnn/weights_negative/v_48_020.npz"
+      ]
+    }
+  ],
+  "hashes": {
+    "config/batches.tsv": "b9283d08dc11c4564e57b5909d1e680f3d98324d70116d462c941fa4a939f4af",
+    "config/campaign.json": "00480834ffe100b195eb8486fd758d4ff09df21a0b92993c791579d6ff5ef9a4",
+    "scripts/predict_esmfold2.py": "1ed1717934fc9caf731f4f65ee203c06d6b823c9f35911095f6af27d2e4cb6ae",
+    "scripts/submit_wave.sh": "0c81cf107a9258635f273642d116f816d66fdad4c342ec723fb625772c2d55c4",
+    "scripts/collect_scale5000.py": "284835b8fb82fd0e53715c87e35b11b674ac39912dabd8a2b3a81a6f28bd7917",
+    "scripts/collection.slurm": "b166a9dcc9140b1172b0895aa0a83b499d1684d94555fb506471209b6405d445",
+    "scripts/validate_parent_native.py": "69aa0e5faee66d281ed8186e3c5c7a13156cf2f84b499667c0f6b8323938ba72",
+    "scripts/preflight_bc2.py": "fd4554436578da3182e99fd7ddf19ce492e5599e17230e7cf27d08c48378e5ed",
+    "scripts/monitor.py": "b809825564e1bda2cd2cc3ce6c46be385650445c2de9bb0cdcc1d5ce8807b124",
+    "scripts/prepare_remote.py": "31e314edf3518396b92b305fda5721e593a719a95a4fb1900964a5b91e27bfc7",
+    "scripts/generation.slurm": "c462861e5c7f70b639538fc59a6381fb98d469b3f0a5672234c1598c9887b297",
+    "scripts/predict.slurm": "739806855d484b60f2151f273d7c942aea1aa34775a4d20ad7eb591f3d8824be",
+    "scripts/scoring.slurm": "f31333b55d399d71992b85fd39f174b2ea645ca22c031c60180ff6570a79294c",
+    "scripts/s5k_common.py": "4e933096266da093710b33ad3b3211034c5b80fdbd52f79e87ac82516fc84733",
+    "scripts/prepare.slurm": "5a25f6f0ab9ae49cbc916e0acbcc4d5e25efd8c14d6ac1950422ce79cf7f271f",
+    "scripts/audit.slurm": "72283d2fde06368b93b6f5b04f4c981a37c233a1211a6a429da3beb0e053bce8",
+    "scripts/submit.sh": "9b0c4083bbac79731580a3b3a58696703eab2cc83988340b076b988475f3916e",
+    "scripts/gpu_guard.py": "ffc9d1f23f565dbc248cad14e3bcfa709fddb317897006d44d62300f2e67651d",
+    "scripts/write_wave_submission_local.py": "607bb02f0af7037b7d77f20426f780716e929bad88eebf2d8ecfbc3ddee47c62",
+    "scripts/prepare_slurm_local.py": "a556b0d4df305437bc51f8873dc3168c0077e7bf09d821feb5028f546b7cdd7e",
+    "scripts/monitor.slurm": "53b8c88040e03b83e5b492eff457f7d039030e6205ee91e7d2f86c98a1f83689",
+    "scripts/audit_canary_scores.py": "c0de14305f26d8bfb82d29eae523edb31f91c8f410ef92f9e24f0f9b6fbc237a",
+    "scripts/run_scale5000.py": "19b3395a53630a05b0b0a239759e62730eb17f17cb43f16ae89e3ad08275b627",
+    "scripts/run_bc2_gpu_required.py": "cdd2957616841018ad0afb33fbc37838a1cbeb0c5a00bc2cc055f48911865507",
+    "scripts/reserve.slurm": "e18c120126132c0a55a2daf4e746ab09c38cff0fca78b827ed0f61685e3dc571",
+    "scripts/prepare_local.py": "a0a221c737120cb37461071a73df2a62edfd1949865c083c67019ffa1fcb545f"
+  }
+}

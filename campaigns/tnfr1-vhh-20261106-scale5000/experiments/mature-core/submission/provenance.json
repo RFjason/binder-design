@@ -1,0 +1,22 @@
+{
+  "source_sha256": {
+    "tnfr1-vhh-20261103/results/all_candidates.jsonl": "4a4442faca05a960a88b7798669b67e7d6f0351a23e7ef87eb783ee530a059ba",
+    "tnfr1-vhh-20261106-scale5000/results/progress_20261107/scored_candidates.jsonl": "64ee6ea7b11cf650c790a72b434f12591b0a7cf219bf5c440e8c545cb7790753",
+    "tnfr1-vhh-20261106-scale5000/scripts/predict_esmfold2.py": "1ed1717934fc9caf731f4f65ee203c06d6b823c9f35911095f6af27d2e4cb6ae",
+    "tnfr1-vhh-20261103/config/scoring_protocol_v1.json": "1f08b22b86dea650ae5f715fb1a423c837b33db9f4238d6b99317d75648020c8"
+  },
+  "staged_sha256": {
+    "inputs/cohort.json": "e5f4b9c013bea1e066284673bb50d38083efcace77c857a8a9b9e9ce4dd4a2a1",
+    "inputs/manifest.json": "57226ab9b2fb321b918943cf32263196005037ee8ee49c0aeb7c99c22eeab288",
+    "inputs/source_paths.txt": "51e19e3ddc33239b9bf2e708a6226a09544444000d01437d976891a0f98435e5",
+    "inputs/TNFR1_mature_L30_T211.a3m": "d815becf212211e3da8f1e32896e12828aa9ad6adaf597b382f6ebf740de2268",
+    "P19438.json": "a1968c7772daa7b30e2f8af0b0795f40b7d42c6907861605eca6db333b6dec9a",
+    "protocol.json": "bcb79babdee16dd5710064a0840f97e80eaaf10eb9674e8af3b0fc27b307206b",
+    "scripts/analyze.py": "bfc063fdbbe4cbfd81a6fdb86e27935c5e07e7e89b69c54f617cdaa8274b78e9",
+    "scripts/cluster.slurm": "ef174e2d7533481146aab3c3cb81b20ca2c995ee121b03dc21a2612a27cee20e",
+    "scripts/gpu_budget.py": "161122695587bde26d29052c7beaf6d5740d90e15938977333ac887d5f96e13b",
+    "scripts/predict_esmfold2.py": "b42994e4c0ff386c251918c6197f23b8692e6ffe42fe6a06245c8b005cd44006",
+    "scripts/rescore.slurm": "d8fdaa23387987fb4aa242a43162cd99087d657affab34d20e3ab4107597b856",
+    "scripts/submit.sh": "1b636177581a63932d5b3ac130b23be6f29521a23c5c9daa53fe0a3e3d5ad968"
+  }
+}
