@@ -1,0 +1,75 @@
+{
+  "scope": "partial snapshot of audited v1 scores, not final submission or experimental validation",
+  "protocol_id": "TNFR1_VHH_ESMFold2_single_seed_v1_20261103",
+  "target_range_inclusive": [
+    1,
+    211
+  ],
+  "assay_core_mature_rescoring_completed": false,
+  "baseline_scored": 1127,
+  "new_scored": 515,
+  "cumulative_scored": 1642,
+  "new_screen_pass": 2,
+  "new_passing_parent_ids": [
+    "rfd4_crd2_compact_02:tnfr1_crd2_compact_rep4_generated",
+    "rfd4_crd2_long_04:tnfr1_crd2_long_rep19_generated"
+  ],
+  "new_parent_count": 422,
+  "new_scored_by_method": {
+    "rfd4": 400,
+    "bindcraft2": 51,
+    "rfantibody": 64
+  },
+  "new_scored_by_framework": {
+    "h-NbBCII10": 464,
+    "native_1ZVH": 51
+  },
+  "best_new_ipsae_min": 0.703771,
+  "final_eligible": 0,
+  "audit_errors": [],
+  "source_report_sha256": {
+    "canary_result_scale5000_bc2_native_1ZVH_crd2_00.json": "53c6ce2da22e9fa07ad1504d890b817ee5883aca75c2e0eca6b54c16f82e62a5",
+    "canary_result_scale5000_bc2_native_1ZVH_crd2_01.json": "376fe20990c89082394adbf7977bd707f161ed82141a1415849e11d07dc4d7b9",
+    "canary_result_scale5000_bc2_native_1ZVH_crd2_02.json": "8b398b165ec3e4145d5e481cd2e702d9f4f9c7d57de5a869382889b2c17ff379",
+    "canary_result_scale5000_bc2_native_1ZVH_crd3_00.json": "203ffbcf775333ea17e914d4057a0571cc8dfb2c7bb38c1b91e5d048fc31e6b4",
+    "canary_result_scale5000_bc2_native_1ZVH_crd3_01.json": "7cd94003f32b3858e5e2a9c003184827fc344abb66afd98808e07290d620f17f",
+    "canary_result_scale5000_bc2_native_1ZVH_crd3_02.json": "6086e292e38aa12ec7020ebdabe201982819aeb23ec2fb6724047c2be3f0355d",
+    "canary_result_scale5000_bc2_native_3K1K_crd2_00.json": "a6682d4b6336f06d62003a65f28963cf51e9e2413bc82f63c5fe1a4ffdfd5241",
+    "canary_result_scale5000_bc2_native_3K1K_crd2_01.json": "841e30fdd2f53ffffc55241962362042c7fb9ed5ff9775ac5a42cc359d639bf1",
+    "canary_result_scale5000_bc2_native_3K1K_crd2_02.json": "61209ceb8d54368f41ba554154186caa6db545a487729c11f8a022b37ffcbcfb",
+    "canary_result_scale5000_bc2_native_3K1K_crd3_00.json": "cb0f7d2f9b7aab0c2b2ebfdd4f9ae24f7148f54f1a04cc737d375c15b1ac5659",
+    "canary_result_scale5000_bc2_native_3K1K_crd3_01.json": "2acfcfb128e34a091ea1518226118eefde6f408ad669d2a571918cc38653026f",
+    "canary_result_scale5000_bc2_native_3K1K_crd3_02.json": "b65b05d5501ebd9fb7ea776cb72a24a7f4efc24c82b8f0fdedbdb46d93dee500",
+    "canary_result_scale5000_rfantibody_crd2_00.json": "38007f3170fa74769ea67836d38d725f29dfb9610a17ab770687018c31fda938",
+    "canary_result_scale5000_rfantibody_crd2_02.json": "db713ecf61a13275a46cd8afa3195212d7819c66d51ebad8915e99d648aa6c04",
+    "canary_result_scale5000_rfantibody_crd3_01.json": "bf1911ce213cc1c1de63d3d45fbcad5a72a1c38dc8e180d5398449e8960d5352",
+    "canary_result_scale5000_rfantibody_crd3_03.json": "bff8dbd9602cb7bd2bebf73648aabb4800bdcfc331c2c9ae528a6498d7db6c49",
+    "canary_result_scale5000_rfd4_crd2_compact_00.json": "41c829b64257173d2ffa5ecbd9f5c4f56e09610e7048ce0fea5dcb5159758643",
+    "canary_result_scale5000_rfd4_crd2_compact_01.json": "102e6d2c78987dd8ce7b9d4e705507d503718d17e877413529da89be798398b1",
+    "canary_result_scale5000_rfd4_crd2_compact_02.json": "ad5e692c9e2bbb9e455f893e4873f20e107a45c4fdf9cdb45c235dd1f2930b6f",
+    "canary_result_scale5000_rfd4_crd2_compact_03.json": "8a8ff846baffcabf50cae30eb544ee74a9a1cf02e3fd6d2a823c04cc7279600e",
+    "canary_result_scale5000_rfd4_crd2_compact_04.json": "3a811fe22ffedcf8ec7c7be6c083d32fb2487f155109b4d75406215771221afe",
+    "canary_result_scale5000_rfd4_crd2_long_00.json": "ad82423fbe24f6a574d619a28bf86a95546a9c76508979dba2a50de2f5d3f729",
+    "canary_result_scale5000_rfd4_crd2_long_01.json": "1405931a1c93ec064ec02280b05d853be5a8b696a38b077cd05bb750c54f0eaa",
+    "canary_result_scale5000_rfd4_crd2_long_02.json": "3407c67a808a6f96e73f0d073d722beafaefad6a8caa8f7ac7c8a8f49314ae65",
+    "canary_result_scale5000_rfd4_crd2_long_03.json": "06f44d300ee8ab087a5c5bd2a65b4213d80d4f244435816469fb1fecbc1623ba",
+    "canary_result_scale5000_rfd4_crd2_long_04.json": "6299c9fbcd907a0aa9d661e2c5ceee03438641efea817962ac3207be2d731a5f",
+    "canary_result_scale5000_rfd4_crd3_compact_00.json": "ee55d9a4a8c46ea4a020e56f62b79564ce1c0a2c3934d755a4aaf0ec6564a153",
+    "canary_result_scale5000_rfd4_crd3_compact_01.json": "4fd3196d77b63ccd3b8961e8de5750787dc568b4c259cbd317cab2814d11758b",
+    "canary_result_scale5000_rfd4_crd3_compact_02.json": "56428abd95dc85acb4fadb05c154d7fc55d45b76974ae34a723ff1cf4499bfb7",
+    "canary_result_scale5000_rfd4_crd3_compact_03.json": "5a94cdd6552429e6c768085d1930680ec7ed3fa99edf68a2424270c81ea21e0b",
+    "canary_result_scale5000_rfd4_crd3_compact_04.json": "b77d912f11793f80cdb09b5bef2bcbd26972b7d0beae359d2388e82cffdf54fc",
+    "canary_result_scale5000_rfd4_crd3_long_00.json": "dfd0e33df0511c5380a643d023ad9a1f281a2ebb844fb2db4b60dc7cbd735e02",
+    "canary_result_scale5000_rfd4_crd3_long_01.json": "a86023a37ef4b2c5e379b7b2efa843ff8547b2ec8c34c0c8394d68ea25defd7c",
+    "canary_result_scale5000_rfd4_crd3_long_02.json": "7f38e966f89fc62b597a15fa32796a914ce2b7c36aa5a3e16c6902846a7cf68e",
+    "canary_result_scale5000_rfd4_crd3_long_03.json": "2434b64b84101ea7ead821db98eeec5eebc35a83a1f2381dcd4fadf09e8e9ae5",
+    "canary_result_scale5000_rfd4_crd3_long_04.json": "133870f33b00bc9c5dc16884115ee5fcc94e22e70c82f575c409752b87076eca"
+  },
+  "coordinate_files_included": false,
+  "output_sha256": {
+    "scored_candidates.csv": "acf33f751211a9ab1270565c253b5d3a9fa7e41d795453634cf62aca1b188743",
+    "scored_candidates.jsonl": "64ee6ea7b11cf650c790a72b434f12591b0a7cf219bf5c440e8c545cb7790753",
+    "source_partition_recovery_20261107.tsv": "ef8aa731329d27a0d60a7f025ad1ea3c8c6777525a25b6fb936d2e20e3a53dd0",
+    "source_progress.json": "c0957a9bee5f85d6b19621d47ea268e621dac9c4086ccdf201647e3370546a13"
+  }
+}
