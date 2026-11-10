@@ -1,0 +1,27 @@
+{
+  "source": "user-supplied organizing committee target update",
+  "uniprot": "P19438-1",
+  "core_range_inclusive": [
+    30,
+    211
+  ],
+  "core_length": 182,
+  "core_sequence_sha256": "b977f5b0c0cf5688a2262bf0c0fe8e40d19f9f49a9da70bb09932434da550212",
+  "tag": {
+    "type": "His",
+    "position": "C-terminal",
+    "length": null,
+    "linker": null,
+    "retained_during_affinity_assay": null
+  },
+  "expression_system": null,
+  "immobilization_method": null,
+  "complete_tagged_sequence_available": false,
+  "generation_matches_core": true,
+  "historical_scoring_range_inclusive": [
+    1,
+    211
+  ],
+  "historical_scoring_protocol_changed": false,
+  "mature_construct_validation_status": "PLANNED_NOT_RUN"
+}

@@ -1,0 +1,14 @@
+{
+  "campaign": "scale5000",
+  "updated_epoch": 1794026551.2106404,
+  "baseline_scored": 1127,
+  "new_reserved": 1153,
+  "new_scored_and_audited": 515,
+  "cumulative_scored": 1642,
+  "target": 5000,
+  "collection_batches": 68,
+  "new_quality_pass": 2,
+  "baseline_quality_pass": 19,
+  "audit_failures": [],
+  "final_submission_eligible": 0
+}

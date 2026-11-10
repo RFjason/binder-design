@@ -1,0 +1,73 @@
+{
+  "ok": true,
+  "job_id": "64675206",
+  "parents": [
+    {
+      "index": 0,
+      "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_04ca5213f78c",
+      "source_sha256": "675cbb03648f9bc4ad50991db534cb2f3b4e2f0244edcb7c8e5e23288ea9045f",
+      "input_sha256": "4ae8d0e482468e704f1f892dad6853b55d46f2f0970728110ceb7dd2d9232666",
+      "loops": [
+        14,
+        10,
+        19
+      ]
+    },
+    {
+      "index": 1,
+      "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_8fced7a5fd5b",
+      "source_sha256": "80c3fc2f96334f329db6206edd234fbe9b51a1771e058d691fa3dfe6bacb08fb",
+      "input_sha256": "fc560984d71e684cd3c59f3d41ce0bd1b4de65afec03231baadc5a8a117915c8",
+      "loops": [
+        13,
+        9,
+        10
+      ]
+    },
+    {
+      "index": 2,
+      "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_12_083b9fc2dcc0",
+      "source_sha256": "c663d8089221849ed496ba4c320291bc25e60a9fae9fd70ce65eb4f320eba29a",
+      "input_sha256": "c50d1033ef50b8713e1ec068ca8b9670d3fa43293f828b201eca39603b529f5e",
+      "loops": [
+        16,
+        10,
+        18
+      ]
+    },
+    {
+      "index": 3,
+      "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_08_60371bf2a410",
+      "source_sha256": "20e5756029f631d1cb1ccec777b775a4e68f18747bdd2b554ff0ad107a53b360",
+      "input_sha256": "7678289201d7c7a4db06596b3b50d90a19364d94d1b1601c0fa674666f4da4ea",
+      "loops": [
+        16,
+        10,
+        18
+      ]
+    },
+    {
+      "index": 4,
+      "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_01_7d878eb23d8e",
+      "source_sha256": "9c0d158b5b5e3fa932819b821825ab5370ddc66de8b02df21cbbbc2fed1cfb65",
+      "input_sha256": "ac94e734b0334b15b1741feac018a7bd0f36250544c30373443e52cb597b7984",
+      "loops": [
+        16,
+        10,
+        18
+      ]
+    },
+    {
+      "index": 5,
+      "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_ab9de9edd9d5",
+      "source_sha256": "fad5fbbeed6138109b597f42ba5cf353b290fe88e567e10a659e8df6912299b6",
+      "input_sha256": "02c9c1dc867072199be63119a7b15e88ae398ce16331752f3000e7e413545f79",
+      "loops": [
+        15,
+        9,
+        19
+      ]
+    }
+  ],
+  "msa_sha256": "e9b5842143af0f98b72addf251e1f6207d3ae40addbec6484acaea0b737d4192"
+}

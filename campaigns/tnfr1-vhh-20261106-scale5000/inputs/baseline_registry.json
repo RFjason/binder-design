@@ -1,0 +1,4510 @@
+{
+  "da832a0f33acc2890e699293b5d0df3d62589458cf9f98bae309db41a2808e8b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_8fced7a5fd5b"
+  },
+  "a9b3ef8b2118ca1ca0000e406c7fd620a2811d16ef3dec2f0bdcf2f7a4855f5e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_203250d5c341"
+  },
+  "44dd2f9c4ef70fcda28f493245ed40976fe0d596f00afb5f21fdbebba510c367": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_3d4bb6dbe6ef"
+  },
+  "e9b5307d5937514b05744e0a3923110fb859395f3a97543edc5b2715178470b9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_65a7d122d0cc"
+  },
+  "4f3481c2f867e3c154de0bf3d401a3a07a9dc506f92b8bea2aa376885da9d61b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_de38b5b8dffd"
+  },
+  "031dcd82f84afb898d615136b77a20c20c72d567e666a61b46d1b1f636c14a51": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_f3e9090a3bc7"
+  },
+  "e738fdbc481280012ad22da60c824822a2589f13140c03ac46cb98c0d7ca0635": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_8d57eb434a12"
+  },
+  "1dce4507ed628654cf64474bee942182a5f732e91394e65b5c671a6fdd7cd7d9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_bf4208b6c1a3"
+  },
+  "bf301586320f014f1467b75f222d0de4055182493dd40d67c223a7251e500b97": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_04ca5213f78c"
+  },
+  "dad52c573f1d772aeae0a8cbc6989cd92399dbde783b858d89ab34b86cc5e915": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_9a7253825d68"
+  },
+  "9fd6b5321d9e5d5c08ea91622064dab61874b6b0c36ab30d728a730326b199de": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_2c7aa98120fe"
+  },
+  "354f28f85dd4058989a31f341e8748fb1040ff20bcf77d60fb29ed0f801065ca": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_16_d6d7c130646d"
+  },
+  "f97d03a02f4af41cba0ebc651443cdd324539fb5fd592dcc46bdcdbb7dbbc362": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_fe0d12bf75bb"
+  },
+  "9e4761a62661fc427b084887d554f6bdc1061a27dc0c8a53c2b6c2ecd980470e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_08_14c12a1d7ac8"
+  },
+  "7f97ca8ab8afd97640a45462c4cb19aafb9b9a3b3a6afaae27465c1719f1e0a7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_08_245eee99a81f"
+  },
+  "3d344d9ef0795124ef16af095f4a96b346104a90adab7b37dc631eb50490045b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_ab9de9edd9d5"
+  },
+  "41ca8fb0c31689d99d47ebb70e6c22ad3c61b25c6d54c53fa2352105034e6234": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_12_083b9fc2dcc0"
+  },
+  "80023bb99e665c55be9de6a933825538b993548fc44eaa22c836e558e9f4a21e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_01_7d878eb23d8e"
+  },
+  "ba4a4b10c1fea76130fc5331aaf4e37d8d197094e7714042109bda8030e0b31e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_08_60371bf2a410"
+  },
+  "522dc3477d26278292cf08037aed22f0cbab08bf602ab22a9d56b9646e6500b3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_08_38753f947678"
+  },
+  "91b6009ba14d8d4da83e9ffac4b4215271243f23eabb351dc6ebbea4563d5983": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_01_a7bdfda09b53"
+  },
+  "8f45a7262d493754f1de6dc410b87b4d1bd7d2a28a14975df0a0e6b7ac7d887f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_08_997ce10c4704"
+  },
+  "1e685b7e6bf5c024c86042f54680c5078e89a6aef69c818ab9485b79f5541e1f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_14_59106f2fa6a1"
+  },
+  "05b2ff0b03cf9f5b95a46affd0db55e590936e73f3ef6b90517ae37a5600416c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_08_6f51f3254571"
+  },
+  "abc9ae5c28cdaae63e44376b5c88ffb28d1c6e86b6fa754cb82d12b78678b2e0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_01_907a0c918145"
+  },
+  "6eda9c5ba9795ce24cf4f6e7516bea8b0af8beb345ba745984b5a6f7e2a61bcd": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_01_8c8651204b94"
+  },
+  "552119e4d976ffb106895fabd5431bcec6fca1e95e3e0a0c7849320a31194fb5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_12_43fc26b4a254"
+  },
+  "e11076c8160a74dd6f786339ced3f7b0f8fc0be5fb0fc2fcd4804d1ff3597c44": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_01_e8b5f79f59e0"
+  },
+  "edaa2b36422525a09d6f6f0794e21603191a84298c4751c4b6f5457804c05b69": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_01_f7d3ddf7e505"
+  },
+  "aa454318a8636f319fe0265830437397ae9c554fcc952135d7180689401800b3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_01_159d8be8ee51"
+  },
+  "55d8b2ab51a7e6351c49b1377cf9a8c7b3b527bfff2a0aa4be979e4632287ca9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_08_b1b2034c7080"
+  },
+  "166dad789cb119ee66a11a9d1a871c192e55cf844b0e00a829975113017eee3b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_08_5ed526efbf5d"
+  },
+  "c06c87db24a036acf8ad034c87b1090979a96cbdcaf6ca0f622577e19580e622": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_01_cee3e8f9c111"
+  },
+  "0bce23d56a16e4e93a195aa11e863f96f1b4773457e2602bed0e1f687a557987": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_aa4f4a9ee7a5"
+  },
+  "839ffef9a60cddcbc0b2cc7430730ad4ca41417e53f683b8dec5b0433850c6b8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_6033557006af"
+  },
+  "8dc642ae13e57c6a96dbc2f28b8f16d29956e51434e45dcfe87583ce6e3a44db": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_08_304e8f234494"
+  },
+  "e5c0bc49591220156b68a88e7e67eea58ce73d847c4bf345f6a13373dc40d56e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_15_4e97ba858d68"
+  },
+  "da3f7a0031d109ea6cae7f26b028d6600173113e29cfafd0ff86e719a6ace33b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_12_e607e49d9441"
+  },
+  "8a59c568e57451429b078a810124cf395a2c3dec83d15406b931cc707251dc1a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_01_e974e3888c81"
+  },
+  "872628578f744775efeef68b5dc8409c57059cd829e1fa43a1175a478fd155f9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_01_590bef83d3f2"
+  },
+  "e38deda14a9cd9932603a3f9fc38f656ce5a22a8fafef2494b8552a985621774": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_14_1eb1e27852a2"
+  },
+  "e8fecd09b03b6ef5f4453f62b7f1af5c8bc20e2a00013490ab249442bc9a8837": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_12_e6f4674ad31e"
+  },
+  "8291f56b40de212741dbebb50bc19d2e73d7fc90edfb3777509e211c68438d6e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_08_c52d96049108"
+  },
+  "81fca66253ba7b6a60e2291fab2019f26fe5079590563de02554af3709bf3b11": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_6531e22c449a"
+  },
+  "7de478a482e000696f094f479988205576021742747199f5d5af596cd49a9258": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_15_5efcc425c52e"
+  },
+  "30c0c83095be43fbe4dd811ae241c87728b4aa728fe7fb0a8df7253e6831e779": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_15_ed45f2976220"
+  },
+  "edb710789f17fe40084a04b483ad8bb74a9ef0ecb8c3a033a88bb3b33cf341dd": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_15_a29438c066c8"
+  },
+  "7afa496cd4387918ebb613686c2702646cec5db23a8d3b55d075789e5a06e073": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_15_8c84789de9f3"
+  },
+  "6d545018bc72e3d4f8703dafd7f9c1c66ec34e2e71210aa7cb37ad66761e70cf": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_ea559bfd3e49"
+  },
+  "d11bd9cd34e62c4d1eca3efef11eccc318bd2b2fcd73d6ef35de54c5228fee46": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_15_50602a787f37"
+  },
+  "a0a19447d99062c7fb8651e94de3e804f80f2b411e8940887103065b0299ed03": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_15_f9387b62f7e4"
+  },
+  "9c8f6391a7305eaebb8082f1e2b5a3fa92a49865565518927adcfdec0504d4ae": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_12_fa99774b4b77"
+  },
+  "83bcd13ff0dd40da2dc666ec5c3b37b6990539184a623f2cb80be86647cc8582": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_5d3a6d13016c"
+  },
+  "37d6075214da2537614ecbc202cfefb9a49d379049f0d57dfae471dca8b731fd": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_15_8bd87abc7fb3"
+  },
+  "2dbedafbb6a7290e113e6bcd9f35a8b940ce5ceb83380b352e1ae491c0631920": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_0be5133e3abf"
+  },
+  "8309a470f678b5bb845a5f3568dcaa7b8e29faea629d51b7c14016aa84be9ffd": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_98303d015d3d"
+  },
+  "e27cfd992c0a4fe802a017027ebb83f61bac72a539a9a1a79deba06cf79a1941": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_09_01de555a9345"
+  },
+  "3d64e3726d53a03992057ffbc0e0f4db90795429ebcb2ed4b61a00f1531f2eba": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_bb9b5c7a9ee2"
+  },
+  "cdeea82c5f02a49c0037802f0518e9bf70e7560603a12add248148a848da49a9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_ffc95aa5ba70"
+  },
+  "6592f75572ad36a6bf2111fdaaa72450c530bad4c7b650702cd8b3bf516f9dd6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_15_9eb597d5158d"
+  },
+  "68e302d74396bdd126565637c9df5b9189f95ccedd879733f71163cd8b36da0e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_19_2b7ccb2d9fac"
+  },
+  "8971cfd89586748d0baf30b6b0288f2ee1dd2dbe01fc2117c3b4a1127f8bb985": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_40cbf65a1c5d"
+  },
+  "7273fd4fefd3cca5f07ed1b8922a36d60608a0fe24cac812754058ac773bdc9f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_19_1abaa0c789be"
+  },
+  "b07f33ed9b4c7912e8b1b5e6d7dd00b8176cc8a159f7e1b9095b2c48cfbbe0fb": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_bdb24a51fe77"
+  },
+  "48debc0c9d3b3fc35c158d413a4723618d0c067623a7a69e69c43fded1ea61ec": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_15_e2704839f250"
+  },
+  "dee4364ef8b14d368b1f68b90b8a6af551587d750b57360bf62c3f25b1b9b0ee": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_19_c734acb1abd9"
+  },
+  "8d95995e79cbdf888f1d1dd51a2099d9c30120570e81599805709a8d830e975f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_8a61a6526f20"
+  },
+  "edd76b0d5700105302a122815fe92f6057999908351d129b5aa6f3717091abb2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_07_7488f8ba8548"
+  },
+  "1128b2c15d8e3d5cbc4aa5146858949354fd01ef5e7e710352a0d44f8f62dbf7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_45f03619ba6f"
+  },
+  "8479a7d2c49bb68397cacf5382e1b088e915aac18d5be9aa7489382cae61101a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_ec0911f0fd2c"
+  },
+  "8f75de82185e18670ba8e5deb855b3ddbb80ead9430d76dec012667aecdaf51a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_aee3f7295904"
+  },
+  "9d7c843351755783ca26ece584769d40b5290cbdcbbe5ec09cd243e0ca8b7363": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_dd257eb66225"
+  },
+  "db77866302e3f8cc68d5c9d2b26e57d490ae9769add029007acde256965487dd": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_08b7f56434f9"
+  },
+  "f8fb7bcb6adcea35fbaa275d8f9b3062f50080fceffe95552c37d588715e7b15": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_b119429cf3e4"
+  },
+  "a2b5db3e04677e84bf4c88c242b546b2d8b0e4bc4fd6ada88c16b1728feed242": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_11a14cd905ab"
+  },
+  "f7adae433df5afee6171c516892e932518416088da4f145c8f1b8600c09d6f04": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_07_b558afd553be"
+  },
+  "941986921f6e0c4753eac63c32b1d141351e8ee866f040db8d371dba88ff2d5b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_18170d0bb92a"
+  },
+  "6943baafbb5a7f58b537b233e7922a8a8baa31745eba5b72d77f34cb10374066": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_14_31c3ae56f799"
+  },
+  "cbf62a3c0b612b7138e94328d9995d28cbc6a489c15e5f7d88ddb92d0972c08a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_2aa5da27aa5b"
+  },
+  "9e02733f2557892b7db10e3567c8d3e916609a037fa99638f1f38f9b02870dc3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_c861495baae1"
+  },
+  "fae79cac1804225d80aa4837918745d6a20b69b370a9f69602f0c797e152ec35": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_17_472c9809fa0e"
+  },
+  "7ecfdff48fad9aa791056a7e7863967a5293822c6980d3a2fffe8395f3a129bc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_822705f8db98"
+  },
+  "2eaf451d4e4bc4f356b8ff849058ccd7dc7417e30bd333ff4f21d25a362dfe3c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_6b2450421ba2"
+  },
+  "5e1305b39d0ed93efc4851f4adef7bfef010e900f24ed832f33733b882e63eb5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_07_aa486a655026"
+  },
+  "54c62a6c9a706040ab88119aaab877e68a8d722bc460deee0a50ca22de6acee6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_9f710e92c8d4"
+  },
+  "a4cb1879e442903a5e5bc7e90885114d1b56d32cf1e84628ce9ae96588f91ee1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_8ee59dc9c7b7"
+  },
+  "5aa1d21cf3a044b29d1ab34bb2552a02a2edeb32ad266091a3376da2519ff8ba": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_02_f79f3010b1ca"
+  },
+  "75da3e950634befba2a5d8f2095a74fdfacfc35ebeaae6960b331538d924fb7e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_7f69480f8fe8"
+  },
+  "2ab606422d40d880a5b15052c577968e2aac4bd23742f8375693d205be43e7e2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_14_6750958590bd"
+  },
+  "aaae40df5c25b9a26067c829b276a8fb265c6eb2f89b83e0f07ce9d20aa50aea": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_101aeef17fb4"
+  },
+  "bc37f0102000734efc8b591bab9c309ea5d3308a7a94f07ecee9f16216726c10": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_09_fc35348eaa3c"
+  },
+  "33100ff48c076c2ccf4a8da3ff3267474fb06ef8f97a1a8bfeae5676cc11fe5e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_56c64635947d"
+  },
+  "8ce53b574bf4fae5b1bd51136e7ca2153a8093d8fd32e0f740042ea53f5fee4e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_7966b0b9c61a"
+  },
+  "10c86975263acab741813e2c1ba56e102f6a66cb4c6484f51bc6693fa578cfb1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_3677adf04b1d"
+  },
+  "617dfd73e07f61f4a64cc913d732156f3fffccdb90f9854f22dc778a425d0b04": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_d5ef77d9b8e4"
+  },
+  "0b198da8e11e077d3ed689f4a6aa3629a9c40abae66aba618a0e9a2cddc7a14b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_0aee675e8999"
+  },
+  "375dca1fd2c2ed35397fc85ef8443c4d0171563b874a91309777e458c7a22406": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_09_7d7ec6138dfe"
+  },
+  "c2bbe8a30f71121dca8baf506294f78d67346e7e3fd5372897e47ff352659da0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_650b749e4711"
+  },
+  "96e568aa1ccbbe0a95895e868630603992f6906c5487f7142c80365bc0ef0734": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_e5943338eee2"
+  },
+  "4ca2251bacbf4216fa8a55f7609fafd81567e94c7bb782784b01cf65b71ee4db": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_07_7d21a09b4ba5"
+  },
+  "48d6af5b8201342048580d6d61170b3083e7998f52aeadcc56985a15ef7f291c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_5fecc519ecd0"
+  },
+  "df6ad9934bf86e1ae06a365d9bbf24f4cdfbe1df7f7c2c1b8275d562bdd9c460": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_7b4ae28301c8"
+  },
+  "84635c14f73c8654ba4bbce9eeee6a9009573cf569c55e032b2a1b03653307be": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_0371ebd5e8c9"
+  },
+  "bfb74e3c547a38898f02a726d59ad54811a8ccfbb9f4fc5039adb76abdaca0fc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_a2b1d1807ede"
+  },
+  "3402480e0ad642b1e0b23d28749732b782d0433464f37291c99b075d604209e0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_23f60198592f"
+  },
+  "f3945b3c7cde13bcbeb9b1ada5e57296c73ace7ddc048f013c08a6b44a845511": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_97bc4021ab07"
+  },
+  "f1d3cd00e3f4a5d4feabf1d203bc1b44d3ee676c1ed56d8f7fc31bb14cef9e0b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_03b616f8ccde"
+  },
+  "2eb10b0aa7979e431e94f6d5d1dd61ef913f377756516cf13892261495751ed8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_999a5ae6bbca"
+  },
+  "bfd31ead85ca69c5be2670c424676cbdc4d21b02dcdbb3ea9877669cbb4f5c80": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_143ac30bf4a9"
+  },
+  "02fcea7f886420d08eb592f17e47fbfb517195d49193461b3745ccf1df35a4a0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_09_f87b26ff84a1"
+  },
+  "d3b23619391b603a412e8ebc46609935fcefe677fe684f7977a77e1671570432": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_9fec109d8670"
+  },
+  "fd9678a27d9a31a58311c24668c2824827820db27402e1e45f613ef60d9232cb": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_0046ba1f0214"
+  },
+  "fa0610408d64a3816968493c12f2c2e7980c15e61b0574418d42f47064b4ced9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_8eda3f6629c2"
+  },
+  "364deed698af87bb12231989adb27bf47ef3fd91c49e73c0e36116002c0e6bc6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_07_f761ebeb45d2"
+  },
+  "55d0b27563132e986f106bd0d586e0f240f543190c8e61102f2e8be8c0e1fb6b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_f1de5a3482f7"
+  },
+  "1ff7e43bdaf0ca2d4d070f70e538824aad353907cbc0272a1d8eb157f427c36a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_f0246feba0b1"
+  },
+  "e46b4b270050946f943436e7269763ea59115c712a9fe922f4fdf25b3279edd2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_3bd3dde64da5"
+  },
+  "3564efab22ab4c6c821445aba8609e1194b0b7c3ff8d0e58276a44e48af1c7fe": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_355f42136045"
+  },
+  "de55a214a1fae106800427669e9d0190b5d97b2bb96ef1b8050323e9583becf4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_36ec93ee6edf"
+  },
+  "e31295f2d7198d740fa076b7342b8f44d8de62423c9edd431ad0e771e727fa6c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_33acc15b41ad"
+  },
+  "fab144d617fd70c6b3edea105390f8d529eef9500145e448405e76ab95c17d78": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_ce0cb1c0332b"
+  },
+  "12644f6cf9474a5b2df31911793660e901c98c5c016980a5f8386fa1bb6cf08e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_7f3ca654550c"
+  },
+  "109f77e4264db92313015e389f54f79c4950cd74115c435b0b1cea882bae3070": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_ddd9057a07b4"
+  },
+  "8b07d6e0573410418a29674048bcfe7912040cc22a7fb10164fcffc7bf199d43": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_fcccc7c92824"
+  },
+  "deca234127c865799a7d02e63d356eb75735edaf9b561ac7b8d5ea898cad150b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_09_afc95198b2b2"
+  },
+  "ea74fe90ddc0574ae2226775a87a982d751f8c569928a2a238fcda35eec2029a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_fa66e20efdc1"
+  },
+  "ae8a6c1b7f596bd64bb7ed6eaed9ad900827bcfed5fee250b3a53b04aca9b0da": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_d51af581e16a"
+  },
+  "9565b51b2be598da44856fd4d97e0525db403a1d8c53ff96377dc47fa4ed0f0d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_337984029772"
+  },
+  "9a261d2af39046919cb462c76669d8d5f83a3a35d2e674ca0fd7d774ef6bc4e6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_07_23d59c1fb8a4"
+  },
+  "a15accd4c35fe1694baf9e456a8fdaecfd70e9690cad61f64fe7c0ed52472ee6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_5c00d68dac1f"
+  },
+  "83a415004e4da2ee90aabd7e19e0a5709a649d8576f7bc24d698529240d762ef": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_980ee36dc1e9"
+  },
+  "d57f0e880f3a0a80b243cdd72034320b2b179ba860162398c644fcb1cff3dcb1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_bb1fd558cccc"
+  },
+  "08d935592a51e386fb09b44404f48ef5047fa3ef8f23f1c54f74d7efd5783829": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_56369fd8b231"
+  },
+  "b783988bd610d9d7c893e986e8da99ffcb13b705cdc5d2370ad229e7b8219480": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_caed677db5df"
+  },
+  "fdd5d2270780f8270e26c59ff4ff93bc99de5678e3351865fbb9b303f055010b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_dfac80bd3414"
+  },
+  "551918d67e0876426fc52b24ad235cc2fa1aa8702511419f5a6bc6d9a62b836f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_07_98bd8d3d45c4"
+  },
+  "dcf5bcce0b7d81bc00b065d7417a4cae980b4b80e77dced277691307f9999a77": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_56765e596e9e"
+  },
+  "8560d09a208aba607675ffdd5b4a1bc110e13822614964340c36eb94ef63404f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_07_299c52a29b0f"
+  },
+  "9c2b40ac13e51de9c6d18fe63c89a5430547e857f19e523304e3cf2e94c04095": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_5660e90a4895"
+  },
+  "96efbd93531128bec833c025994247a8f5b1100e12eae467d84654fbb74941be": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_3a0a8306ba34"
+  },
+  "3839e9e984be02d52376021420d5ccd69ebce206aaaf4c8529f23da3684b4314": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_0f0416b1d5d0"
+  },
+  "000b17cb2c06c6b78ccfc604a0601086a535f2507427dc6ae6a5a3cf18543761": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_95f89a97e2c4"
+  },
+  "e66dfb2e8b7f8e81446ae041e3701048d72dc27ed93ade745c79c0711dbecf35": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_d2eb127f1645"
+  },
+  "c14a35b3aed040d1bb50966fb7442c93dd4fce7cf74b36b6a46be27a621f7c77": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_09_40d241e31eaa"
+  },
+  "14cc486c6dc74623b898391d2c38ee6c59777582d6bf3ad5b6e347ec68a9a6dd": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_d7698c703164"
+  },
+  "a0535f96e140be1e98528b1862cdb90e0f28a9cd6838315de8c46ef26a0cff0d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_c31b6add3c50"
+  },
+  "40c298987dc79c6c0d7fe3e5ac398f442955331ca3405b12717d522d8b24fb4c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_09_bbbbd97917e6"
+  },
+  "c9b2389794382e8397b0c7ce23287357bcf77d030d151682d1a5f5da7126e61d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_65a7ec960842"
+  },
+  "7ff5407de5d81a73d00571358cc51ec8594c110e6f9035cb25037a73e2340db5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_07_4f8dfe3a4804"
+  },
+  "3b51e8d38bf7ea701df91d08ef026709e7dc1460d73c14dfa5934a4e6883b227": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_3eb876859bb1"
+  },
+  "b17f18cefb870c719a5a276ee7085e36a2bd0b5ef402a9f4de897f5e31e0f526": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_19_b9a333674f3e"
+  },
+  "082eb4c4eb6efefd0cf41117b67140e993294821d349d7eb2853882b742163ac": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_4112a2c1a393"
+  },
+  "ce48ba991573486e98186f1478e1e0efefff038c5642188086659fc69dc8eb1f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_dfa6b4b6850f"
+  },
+  "e48d0ba09328a415d1f0047219c6eb1c129ce6c03f1b4b866be2e8e966cbfe9a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_07_ea1dd9f5f465"
+  },
+  "ed0dadec81100b6ded29db9c4cd6d7a0f5efc27a93e22b88c8ce0134a5532663": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_12a9436df46a"
+  },
+  "7eca3d50b6733f47af1187396f29788f5a575ba75c977b33c990a36e4242e6c2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_f1dd75bbb1df"
+  },
+  "8656127125e8c9189bcca99b04e5edcea808b0a7583e8fe4d455a447e1e9170b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_aea9d32b3f8d"
+  },
+  "8c1aaceb32d7d9a1f45af9ebf47bae06ab15ccc4a4be55ca50fcb523c856e047": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_7957b9c34d6d"
+  },
+  "1145114da852806c7a33c3b7e53c9ffd6a3619936d4c8abe60d32923f3a0d6d3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_05_b3431cf91504"
+  },
+  "4c48e9206c8b5c7ecad73490ad370ed0502a91a50c25301c0a3776e26615383c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_f32c9b08bea4"
+  },
+  "106735863c0536beb2657047dee9772828dc98ddb25e13a9d02ef9380c3a6ca2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_a1963848bced"
+  },
+  "77332fae7164c974b23bde5e4aa3146299b4a7383bc9a6266198ad6ee5b643f9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_d8ac24374105"
+  },
+  "6a338a6da9c38117f7150baa980204c51950904da6803f341653e71c3479c38f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_09_8291aac69c39"
+  },
+  "593c647346d01c2a62a5750ebc86d2387f85edad99776e72f4787dae0a0d27a0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_834a8fed9b76"
+  },
+  "f928961ed54f71e0b9ddb72dc5af126796220f664c6d55168b6388e9a9d99893": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_801138219cbd"
+  },
+  "36897a67c0f8ac5b9c136b5ff43d27616a8bbbe560b40bfdb61c1cdfc28cfd55": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_456a26b5099f"
+  },
+  "9bd1f83f0462b4139b51935d37b134c9d4793aec3e275090d89a91e644f81887": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_ff7e215c4f56"
+  },
+  "3d124472cd11f34c75143ed6853916192772bf12ecef5b1411b0d1e84db00a0c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_6e8889d1aebc"
+  },
+  "e76ad3cad2a8931d2df1f7c0aa51203dc18d7367649fc6e5cd1fe4431daff08e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_25decfb4d5c8"
+  },
+  "80bff1b4438aff41079f4056da3e20c280754cd0a0c8625ebf24485f2a32bfa7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_9b9d92146b13"
+  },
+  "6ba725665e9c650d657a3f2ec4947df3284bea9b5e545e0c8306ccc6de88e4aa": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_12_b85821ddb66d"
+  },
+  "24afedb461642d4a73f09671fdd3a06ceacf8a2d5696415bf85da1388783b642": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_250f4e937765"
+  },
+  "f33f0e6ea278b78e5e86db388422f243a2d74d33c8727ff052ea4cccfbca85bf": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_9ca7b96635ef"
+  },
+  "7788b3861ff1e25700a4cd1ed665ed47e6c011046af9a2d814dc1adfa369937e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_e9b2505cfe72"
+  },
+  "d87caab2b2cf4b33e1024d8e932b8ffe853e79ee60c0d4a41d7a30f2edf4d59b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_39a48cd6801c"
+  },
+  "98b35ec06df22e77e1ba477b9a4f0134890ca5dd69f375fc328c175cdf5c9a38": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_09_17591e5b6682"
+  },
+  "66e56b44f50a300adc4121db0a4cd1e031aed76c314534ae3ed99b90d09db9fd": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_b8f88e893a89"
+  },
+  "cdee3ecb6ac7d0b25c6e0c6816f63a641d207aa078189a8919061df239dc250d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_09_752389b4b2df"
+  },
+  "e7cc2e5a89e911093683f01beeface99c791f571f312d455b585631cd7e4159f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_847963d4b785"
+  },
+  "1ec20c7823c33ffab6a50953c46394615d2df6350c5bf34f84b335b4a65911f8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_34ffe679a629"
+  },
+  "9f40eb53bfe44b807fd91d62d04bf42aa62c1b6cda1d94cf5bcfae6ecb976101": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_12_e1e99b709b6e"
+  },
+  "2b59fd92310e55ac171677ee4650842027137ae05f3a19ed98b64f564763703e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_ce988401ba14"
+  },
+  "040fdbc7f93db08ce8c9fc8b334a7407c30d675fd00308259865f164af4c7107": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_19_cfefc496f5af"
+  },
+  "f5afcfb9df48bfdf6ed365c0738b0220fc34eba38a833f0162789f2524af71f4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_b603473b6197"
+  },
+  "e635e256327f3122a24b3577cf942a94837c70c0ececa96c3a2862d32d6bfb39": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_5437772185d1"
+  },
+  "2a452e82d08eb03391534381fcf8e8614a093acd162b465305f45ea1f4de7d09": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_21603940b9f3"
+  },
+  "ef4c3955543926eb507eb455c6f7901fd331a26aa48ac480ff6e5bb3c8e5a200": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_19_3a7b31d6923f"
+  },
+  "f40b31cea748b813a12a88a36ddb8d18f6d59424003ead4b6e880e0caec51716": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_ea0cc238ce4c"
+  },
+  "cace2824b12bf41ad6ef07929a1fd93611a568b9f282e8e1bd20bad31615ba9a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_9cdc7cfafb5d"
+  },
+  "0665dc1fbd333a704bba9f91d88237f3debf51bbcc70400034689dec29f2606f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_c025ff9a7373"
+  },
+  "11ea38f30e7bd6571c523243940899ca47caf3c017f3d7457be8dc4aeec45bec": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_e27932473ec5"
+  },
+  "9543d5ceb8554718c11c398024d3c167026a2cb3b7749b172c08a3239918ad7c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_19_b5b39d1a4703"
+  },
+  "77e409283337292e785b5910366dbb5fdef3ca92921a37827945d24d1beb53a1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_f5de67c8f807"
+  },
+  "7bc6c174f1bedaf8acf6ad267d118d25cff2ffcac0720a67baac6c9c7a4abd74": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_c913bd4e228c"
+  },
+  "4a1146e56c249111dac9cf8dea482d3042d1626a9d0e8b5bfd51931883bed0c1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_f9c9c68bca6c"
+  },
+  "bc0732b3149afa738dacd39c4fe9da02a28d3cebf4a28d03081e1e8f11117fd1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_dc26110a7030"
+  },
+  "e4a01adb184a5e95f52a27dc751e2fe88c7a793777b25c591558be15a5459af0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_319b1863ed82"
+  },
+  "a5ce42beb2bbb8e298d252522217e448915e3ddd1950172e37c3c10f83e9593a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_17_e9019d80092b"
+  },
+  "98d76c78d88f1454087a270bb120ada5c560cb7bc89de2a374e9da081ecab70c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_5541fadb76c6"
+  },
+  "9299950d363b7b151fc21967a6435c28edaeab440980c8836dd0b44c401778e5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_8fcd79e4eb91"
+  },
+  "4b437a367f6e1ba5d79d83b8da358de8812a96beebc728d19f4bc7e424e791d4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_ef44c468c49c"
+  },
+  "aac05db01bc8fe8d87e22d182c33de26be2bdf1260ee9971eb33e9eaafd30144": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_131047f8a4ad"
+  },
+  "6b5f37d2b7b09a4bb1669530d3da85f3228ab469cfcc80fa88c9f1b528086709": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_12_6c835c00ea1a"
+  },
+  "db85882b29d42e7b2e4873545bda0c821835ef11c81351a7aede6d3a0561f1bf": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_a9f383a064cf"
+  },
+  "57e1d77c227442db20689b5f1215d325673b0e7f201cab7465aa28bcf226efcd": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_718fcbb319ae"
+  },
+  "4dcec53aa02e6b0a105379805c8cf767e383324339ceca37472ed019ce41e633": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_03_ecf76a510881"
+  },
+  "9e4571dbfeb9f3c183c0c7b52b2dfb8c953ee63033b70bdc686d1c7daf1bd2fc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_1b75a234a5ea"
+  },
+  "a535e406e60e19df14723ecd7405af03cdbd83b581779e080121abac8c7541b9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_4bdd69a578cc"
+  },
+  "e4a4e6eb7c257d120b4be9ea9b4cc6307f877e8b25836b1491bfe1772ba83252": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_19_04856d04817c"
+  },
+  "4d971170b990320ac0aa4caca60627e4e0f6d08b4335e546d768d86ccb4d28f0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_bd216968ec52"
+  },
+  "462b42b9fe982dc206df48c78adbcace4a99902415e199828e58814c08650cc6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_e60ad03787c8"
+  },
+  "e5a869213791d01232924eaf746e0383234e48cb3de4b123d002edb60ef4dba1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_19_58814c138ae3"
+  },
+  "7074d6346d4ed10d650c16b671b4ac309f02b51df6da8494fe9b5e1108ebb0c2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_55695eeb39a6"
+  },
+  "15b5a172d598bd64a49882c753d884a1b1bf5db16a97253dea6cb166b495e031": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_591db4a9f664"
+  },
+  "a8526520c110dc4e7f4c35552bf9ce58f61f1249471ed4bf1a609ea75a5898e4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_2cdafcc97f2b"
+  },
+  "e796e36c49b9ff10442ce996a04b0997953598a78c1ce2f3a374b649941321f4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_d54905983ccf"
+  },
+  "fba5e9e5d4730eb8fda77aba8b30e6c779ce0d20d3b456d37f4dc91953317b48": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_09986ff71fa2"
+  },
+  "d860c4d693f06058af19398422e2d9e0fe863fc242455f7114941dc05c7eec38": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_d5cdd70c6597"
+  },
+  "d24757763c0b05547b2217d50b073559996d211ca972edec794cf2e261c530fd": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_19_6c15fe624d66"
+  },
+  "0e8cee2eb2982b24c6a6371c4ead8aa6b59c4f3d33c8fe30d1990f00e3eaafb2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_17_18f11747c0b2"
+  },
+  "f35495a9a10bf2bcf3a32316f1dd54478e57f314809f0c95676b23f1e4c6076f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_1712440c5f9b"
+  },
+  "e2e3773cdd883c51435238945850d2e7e1678a1821aeb673c57ea6c7ebe1ceb2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_5248a45e0e75"
+  },
+  "d5a037d0beb3bbb6218b4ed256e4808b10bcf947b6dbce05626a806ba2f88202": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_03_305fe5020ebb"
+  },
+  "a7e48462ea916c1c49e662f4266b677e27a8d0c98938ffa1ecb03a3861177541": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_b559d4402edf"
+  },
+  "02e95404c3f8676eeb2a4daa526784d05b315fce5baa24bdbd5e5fc0d2407759": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_dcc0e37b1fa1"
+  },
+  "fdefc5f59a58e9484d31cea551536458d33ef318660adb624e431e9a15c66752": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_bfb758abb664"
+  },
+  "98b21b12f8d71a37631a066b6d851cd0534ea76bccc876d34756e223cf91bfa6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_15_e2dfd25660fb"
+  },
+  "13a208cbee49fffa707b133df652f5c121975eb29cdd667cc3efb7f43b7d1f42": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_12_dffe5bfb66dc"
+  },
+  "a0cbd31ba05f6f02a85533edda234d0be9e01fc047913643179b40053ffe2fd3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_19_b1cb3985af53"
+  },
+  "833eb06165673c334072e3c2776cd868e009ad8ddfd6717d62c9f1c6240b0153": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_19_6059b80d0687"
+  },
+  "361b1eee6477f20e6681cb54e11f164ed610b71e1c52d89483e496a416decaf9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_fa96ef3715d0"
+  },
+  "d16bbf60229905635149b270c45710e273d0fd52dc6f2b32ee6bffc3b4e6a7b2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_19_d0057e953f6b"
+  },
+  "48faa02f3de8644bfd352b9e43c6fc3b6126d425240b4982a76bd3aa43df42d5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_29e11b723f4a"
+  },
+  "18f8b8bb20bea20523af8108308d5529947dea3b57fe06b24a1719b423989ec5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_17_5730c634c3d1"
+  },
+  "ad3cb517af47cfb5fe75fbcaa599485a872fff7d3a60b7d5f62e30406c59de50": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_0fc4f77f237d"
+  },
+  "a5726c208de3674ccd75152d7c68d3e8008dac3e542cce8e08f4dacbdf5dc2a0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_17_134a56b7ca24"
+  },
+  "03e88d9b924607f59c058a6f2029e13bdc9f5e68b0456a784f1912ef9d720a97": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_ad715ef82827"
+  },
+  "79d46b8a9b7b3879d9fb37b70170c6b1724f06854497c61cd90f4afcc0e415f2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_17_d0466aaa0d31"
+  },
+  "010bd756e157207d8d9fd45a9e7d943f3b5d456373290aef13a7e68bdfc6512b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_17_940ca3c30b36"
+  },
+  "25a7bedf26118c992c01cc2f3c08b0a0c5fde3fbd745afe5e99f5944a98a9332": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_94c26fc4df1a"
+  },
+  "35b97b834120a4078b107d475dd489a633e88478279551159254d2132f5f1d4d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_19_9f6c30d37bd2"
+  },
+  "f7b8db7e89d7319626b9a52a0d7c74aff7abf379b57bab1c064f45cdce2d94b5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_a9ee7dc2c87b"
+  },
+  "f494f52a4376318adce111a0186e948473dafc79ceaed13cdefbae8966ef901c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_19_ac9933d06d34"
+  },
+  "0f603f5f821f5f6123e072832d93dfd9837e71bc9573ac8d36bc6962b9951dcf": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_82cbe19ef0c6"
+  },
+  "b78687fe5b823f2fb9f5e9374ce8e7e648b6646428438dc172180f9fa4a66708": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_19_ff3462cc518b"
+  },
+  "91480172c4117cfd65d6603e984f1d3b904d2fcca7fbcf26f9b9454aeb712703": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_04d7dee3e83e"
+  },
+  "c5e52cd6ca17287d411ab9236c3cb3785057e951ffa3b95d338bdc3ac88c7662": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_e687b0ed1e87"
+  },
+  "ee22a0f42beb99f56e2a81ded2377009b935a6b7ccd09d73bf26d1f216679c2a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_17_a32af0fb763f"
+  },
+  "0b7f4664df52d0bbe26bf3b477476ecede97200528eecedc47dca14b3b818beb": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_d0730e7f2fa8"
+  },
+  "8a69a249caf157894854846c08dba310dd31e64d6c076adce44636b871d36084": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_87d85836c8a9"
+  },
+  "fde1fbd450a56a939f6f46563e89cf978cd06f9c997a7611b065a644c3e8c12f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_19_b49c50f06bb7"
+  },
+  "96f6333e2460dfdd5dc832c3188d807fd05425fd52b48eb39ee35036a5669bba": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_b2a8c48e5d0f"
+  },
+  "69cdf23c99b9c2374b0da0b56f2e447c1a8770f92c103cc7382fedfa3db10a5c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_19_8ae97bb3690f"
+  },
+  "51194da96fd1d399122de4caee83b2d5d6b690cab2d81341d2fba234870a5126": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_17_4460ef3b22b8"
+  },
+  "579ccc9c49037289fc5b90aa57512824d78487c1be4f7d7abad634f2baf3e7cc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_f86a0160400d"
+  },
+  "3bc965be9030197d14488451e78de54b986f0f1bf8d7127caf37436e25e7e643": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_17_4ba08c45ec64"
+  },
+  "a27c5f843b7bc7f0d980b962914456a268276b20424f61e0a9aad776b8ea5a5b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_15_236ebfe91ecc"
+  },
+  "712a58aaedfdaeeb3a8b273004bfe2cddff23b4e15b3d747719f54826897db8d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_adec01433a96"
+  },
+  "39c37d0c1c74d2a1dd5184438d0e6df8bd3b826bf8e8fa1674e5ddd1d71c2a1d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_11ebc53f5f9b"
+  },
+  "ddfd0b04bfc609639f6d700b09b3da0a45f38a24be22adf079347f4bcc6d7b84": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_17_d3919daaa2d6"
+  },
+  "72e3cefdcc4bfac627901ca90095befadfc595daf990b4f698a6fc4236712840": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_17_3edfbd3b97ab"
+  },
+  "53d98d280982178096b308dfbd72ab228d3ce68303baf8f75daa0e3e8f9bdb43": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_fd7ade479747"
+  },
+  "dc30fd68d5c48dcfd7d496bd9e7d7690b0a249cc82b21daf9d32d66d250920ac": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_54cd627ddd75"
+  },
+  "1bb76ef2fb3896b85c4529f50df406b587b32f38d5526ba7675d4ae2fc90be2e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_14_535d5d7b55d2"
+  },
+  "02ec5bdbb7808eb2d68245c7b91a2770c9e5698c44dca1630e701c3358014c91": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_17_9be2019c5148"
+  },
+  "11a450e3dc938b326b14440b329e7807e38fe3fcecc3bbef99110003b98dae4d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_19_19efc2e1a44e"
+  },
+  "8f5efd8224a053837bec72ed44b9d628379ed979dfbe502de889226c74dfa1c0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_e4d2a7864636"
+  },
+  "02367791c4c0783813dae7512f322fd5e1d4ff6f675bfbed95bc89283ddfa29e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_17_85ad0da62ed0"
+  },
+  "06621060a1899ee765d23e57c351642c94bdfbab8bbff33faba22ae25cbc9ab1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_17_d2bc4f3dae7a"
+  },
+  "6ed3452ce439cdbafe744b7f89ae92a180e08419071c2e324098cdc4a3abbf22": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_bf3eab90d801"
+  },
+  "b2b16060f4003af621b545796f31d6f30e2fc627a2e9a6d36273bbc02e260b9e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_17_b7605d63f84e"
+  },
+  "200bd691f926aa547182148620d8af6f1e24d2be27194b5842805cb9485794f4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_5c80c1c638d6"
+  },
+  "1e562ac6d87bf1ac9eff8ae456720666d485037049937289f7c993f163c05064": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_1beb30b07a63"
+  },
+  "ce64a6bf0c876f6043aecaf29a4487a40232bef8a574415af28d9d1af46e287a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_14b1b0eb3206"
+  },
+  "c01d1687a0fbe8a10d704b9195a449b446e66c3421c1eccc46b05b60cf5d5468": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_2f6f649c8c4f"
+  },
+  "1e8643272bddddabf90fd613c64a6995b08eef6d12b2cb6c320753396fa62482": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_d74bbace779d"
+  },
+  "39b7164593d49d108e052137ceea0c834a3363c52cbc4bd224ac18c2ee54bb77": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_73925e024d85"
+  },
+  "a04ff4e3ee6e95cf0504fde7677751a4c6e9abfb6568867fcfcffb9536289d79": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_12_9e0287fcb1ce"
+  },
+  "d47217752105171b775136f479251a25e6c0e9341aa751099594c34e4f068ab1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_9178b298f551"
+  },
+  "af9e1695e6d1e203090d222675e0b260f30bb8fe2472425ec321e08a0d4a859c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_17_88658aae31a3"
+  },
+  "9aa26849fddff760ec753ab9f1b2b10db31323635dde1a9948683ee38eb76600": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_a8441d6f4439"
+  },
+  "96443770661838878db9812de8b42e842501c3cfc3683ce401ed7f4d10f0df30": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_36897e860403"
+  },
+  "f40dac03660aa17a81b944912e5fa8f6881f1838c02eb57b10944f23ceb5d2b9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_15_eaccbd1bb6ec"
+  },
+  "23ac34797663a11a372788171ee63d9e5a2456c59d39a66751035ac4eed8a1ce": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_17_b5b9f85baed1"
+  },
+  "a098275c41cbf7550645714a837bcf76a008fc047e8485033b7aa2ed57431786": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_05_caa38b89f25d"
+  },
+  "7b616eac5c123483d3919f5a1eb5261aeeab10280d75a64243f9252c2ae58563": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_bf430f14778b"
+  },
+  "291876d6fa008d4b742b94bf15e142073492a8e591f53210fb335185d8bb61b8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_19_8fe5460e0fec"
+  },
+  "1bf5ce483670f2cc8ddd00bd3140e5401627d073d46159e8ad445801ca84d0c8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_14_f37de964dc01"
+  },
+  "69c54388dd0689643899b7a113f9b419edeb8fc63c6aad53aa4d63419686886b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_12_ea2dd5953605"
+  },
+  "8688cf20b4672bb446b76c231c5102a351f979d8da699198655ed9e2bd6e7f26": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_17_950325083854"
+  },
+  "b74fce42649936cf0028d9a1806d5d6561d096893a3579769d8dd0267904d439": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_12_82d3233813b8"
+  },
+  "a8601cf1ddedd2ce60d5fa586dfef6f3d4c6dc77b96193b0c46df2ff31aa16e1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_420952a70e81"
+  },
+  "0d1f85ddec177e53e8eb0dc741e928d7acdc1466b0919941ca7791ffd057e166": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_5073c2e30f32"
+  },
+  "54c7f94df33181d3750518c7c66e904cc5112bcbc94802d9f0376e5bd6192bed": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_81735bfa7750"
+  },
+  "9bd60f734dcc94f9e444499e2d2346c00dde269576ad89bf0984d3f8dafaff99": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_a124a00f12b8"
+  },
+  "066aeddc155130e76553b45c334009ca3928f029f39f7df73400ba3d93db4afc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_12_f3635749b10d"
+  },
+  "2567e8d04ead95cdea28eb98963b0b09660b828003c06dd3e6ed8f9dd4ea97ef": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_3235d676a6ac"
+  },
+  "c19dcd2db8ed02f2b541e4d1f305a2130552cc78751db63cd37b08f928c14b06": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_12_729561f18eb9"
+  },
+  "aaeefcb339da858ae5e6048377c06609013f64db5de8c94bd48dd38ffdf269b5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_5afa20910c9c"
+  },
+  "2ba157225fb3694bfcf2155412e73dee99f0495865a750fe3b51dfd5662c68b5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_15_e8387f57b8fb"
+  },
+  "53a156e90d93c1bc7c91869caa539a3ee5d93ee03ef60f1c08653021fa2a5927": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_15_1d0d7fc41fae"
+  },
+  "cfafaa1a6622e2e12c7d8b0e784e4e21c243954e040833d8847851fddd884288": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_05eb210d1aeb"
+  },
+  "0c88b9119040fc1e0e298c684ddc541f1319e8c6b8fa9b1a5127d45c04301b91": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_15_e1a18202f17c"
+  },
+  "9723e3c341faff20a1faa78394839aef971325fb60947ef245e6a3f5cad5dc9a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_5617dbf4c051"
+  },
+  "ca8eb22ff629b4fc883026a4ced5dba3aaaf2b894bacd89803efab7163832228": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_6db6d7d10a11"
+  },
+  "bf7e6a9af9a8aa03a35f029b32eb3751a406cfbf6ad849aa03d1e11f8df7989f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_b9f3d023384f"
+  },
+  "dc1604ed0ae60b434d283f655475f479960197cb71da51f8303660da73402e1f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_1c159d3f7ec0"
+  },
+  "edd2be3c076219273db0fda1632e547cf36d0c647d21198243ebba71d6e9f4ec": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_40642946140f"
+  },
+  "96992bb1a1247d23b3e0f89587d73acd2fd0fb5524721f957980c8e272051795": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_09_73f4b51faba8"
+  },
+  "110167ebab6331abb828d87ccbe0f914986ceafc859bb0148e3e179ed14ac75f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_05_a1c58e1cc19e"
+  },
+  "417f4e7cb22082f37e3f99832a37e6593a3beb4fd3e49e766970a5c1f87bd7e6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_7b476fa8ec0d"
+  },
+  "fde346e44ef89bff06fd43c3a98d349bb9681af0bb82fc6493592a2a16b10b61": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_9181a121c6cc"
+  },
+  "d4a726d8e07260e51db89730537e2d0cc5c9258409be5f8579c0b9962018e7a1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_14_b0493c3d71a9"
+  },
+  "bdc1a89f474a101846e09034ff84f7168829d30b86a9162dd23ae4d38c8b76da": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_6df99768eeea"
+  },
+  "66cc1ed28cf8a7441cfde7ea34f4577b2b87bdbf47e1b28f0cfc4803b351353f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_ebfb48460fba"
+  },
+  "eb647883ca92870cf95973131421e86170a5b3f5b74ed5229741ca8bbfecf644": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_18_7493e648cf34"
+  },
+  "5e8e80e7036053a5d2f8cd19fbfaff4fb88cb2b448028c07e3d6ad235ae7b413": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_fb21f7078299"
+  },
+  "5b278b7001cb6419aebf55132b12f48bbd5d2f9ba7a869e5151ee5319793fca1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_18_f0a2c68846b3"
+  },
+  "829830b6f0f0539090c274b8af9ab2761b9bafe7c098b35d5fcb5ed2ff231d1f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_12_67c4a2945352"
+  },
+  "87414f1c8755849aa5d8d53f3acb0326a65a2f2babb9e1eb18ce23a498797b51": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_03_49a1f0328ac1"
+  },
+  "86a2e7c4a5cdbc9762537ede67ec7f0329c0328d077a6c3f1df2871a5fa08d46": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_09_e4753aea113d"
+  },
+  "10ecceacce7c681fed6816508b3c95d89630e21417ce7bbbdc75e3d6170f03a0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_03_d70508d29738"
+  },
+  "378aef4b95c971cd7bccde848d81fc9adfb5509473db40513d6782df9e4abd9b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_cc904f816a84"
+  },
+  "aa810e3054879230bc25349378cbdd8bd27223e4d6d497bf71f14ebd48ddda8f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_03_386e3105b3ef"
+  },
+  "727b84d181c2cfcb5337ea17aee04a9c8d4b54009b5e3dde86e5007f06dd3935": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_9e60e4bf565d"
+  },
+  "dfe3518f2beb4329c046e64feadb1447a3a245833caed443a8002a20bfb7bc74": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_03_266955ae0b9a"
+  },
+  "b0e14aafd45c6e880238318d343a1998c0c76b06f02e3a80f6e4a5b14fad9d33": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_cbe8904716ee"
+  },
+  "752d996b729b500455f2bbac05cdf80b78b8db805e1ba0f7ad9fdaff1026cf93": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_09_27e8ef19c00b"
+  },
+  "fe1b0fdb906b245e4f80f038263c6beda606abb4de2524dbfa5522b80e018665": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_e49270da3d5b"
+  },
+  "77bda16da13434d32f18d611c8dd8f7bf5dc20a7480395001871c7401a897c5f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_b62e1fb1b33f"
+  },
+  "d7b818a04e8de5f56a8c23b6738cd3da0c0e094bbf304c95035e84964a6a227f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_0902f9c4499c"
+  },
+  "55118e0378bb3d90ebf2f6cfcaa260f715f522cfba2e5be3fe2c3623759319d3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_f74b99226eed"
+  },
+  "b6f22899e3dabb31ca3d6d2bfc0c587169f650871000d643ddad91839af86655": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_14_8d7388797079"
+  },
+  "9bdeae19a47cf561d4752f7ba2adffab78411f81ebb9ba1c3bb9be91545f1ac8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_634a40d4b008"
+  },
+  "9d1117009ad2d52abac5a8c3afe47be4798d3bc329bfc61658418d016e33341d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_13d82ac14ad8"
+  },
+  "154bc89894bda4192686f6a216a0e611dc1492ad3aa5768d5e215e11c052bd3b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_ba30d6fb2dd3"
+  },
+  "c6857942c7bab22dd546a0fa248c82362ac29b399c8e24b9255e1b524fb16e6f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_bb13ca360cb9"
+  },
+  "8af67ed2d76760485af103f56f0259dec41d4c368ed4bb5ddeb926735e760e96": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_4211927c731c"
+  },
+  "dfe83bbed430ef0574e9d3f4bfc6a07d32c76677693df76829cbcb59b25c9fd4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_05_1817b3f6cc08"
+  },
+  "810d26a75d5465190832fed4c407d24bfbf5f76b0ea0dc027a8b8a1ef4d501ef": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_e720f40789d0"
+  },
+  "8cefb9154f9ea9cb4597b1580bb04bf8b1876b90ccffb06a2e769989c3b59907": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_9605d53f0d92"
+  },
+  "e1e1a5515e92330aed3838aa7123aac915e62af08c212dffb14fa9a64a9ef6f3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_12_303f15bd5971"
+  },
+  "d54f7927b8773cc005cea23243b4ec2933df0e9e3f5b44e786fe4291d0596a77": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_9916ae74c7de"
+  },
+  "fba18475c1fd20edcebbe3bea4c541e7adf1a83645de34899fb96b8548459a3b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_14_eec4c965916b"
+  },
+  "c07f93f2ab807592585bf24582a91a4d2088bc8cfa1b6b0ef1f390e0827e2218": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_14_fdd3d74e907c"
+  },
+  "478d0ed940e14d324d874d224124f848181ce4c28b9e308825ad73820ddb82e6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_f1665020b639"
+  },
+  "25a5d0d41f3b517e10455b7c694bcb9c60b370ebdcc8e0cc9e5e706fa6717792": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_09_cd42c95c8efc"
+  },
+  "cc76e08d501714772b6cbf8f0b1f40453e5be3fd6b68dc476bc6a4388320eb31": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_18_2ef50d6bca4b"
+  },
+  "45154c070fb80b628cef0a172f03b4488331cddaf8d2eeed566a203fe5af8957": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_5d5c636dcab5"
+  },
+  "46568b11fa45ba8b5b289e8d0fbc44630541ffd91667a49de2839965c50d4e0b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_6c12b50d358e"
+  },
+  "228443f4668349a38c53345bef0f5cf04741cd450296266b66abe92612908edc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_eadd3a0cc672"
+  },
+  "2eb321e8b9077d16d0719c65ec20ade5f8037e94548d5f342db6f7edc39d47bb": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_02_b0cc390579c5"
+  },
+  "a4836ef7fac69b45e8044bf5591ddfd432b6c9ac354f48833119eadb8bf1cf49": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_09_901e468c685a"
+  },
+  "8597159b86d8ec31ecdd69b0583aa714795cfb8dc2c2878be074195e340ea489": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_09_934a8c712696"
+  },
+  "4027606455e61a1a1f503db2b130272d31671c0d2596daf2882fd58f29d62a93": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_04_b79e52fc4d35"
+  },
+  "12ee261c93667bce0c4bccc060418ae83ef52bc4e870ec21581be4b1304e364f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_04_f47d5c0f25f0"
+  },
+  "7f8cb037ff0e62a494362b6463ac126024f5761bf198aa32fcc749b2e6834b89": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_09_55b23b8cfbfa"
+  },
+  "6b2c75ae0c024d380592e996f118c69369575afa5d4deeefa4cf220583041e33": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_1bde93ee14c3"
+  },
+  "b4c069633de552959ad70af1de5b407f8d1d63be76427cfa2f9d300d5a62526b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_09_a22c4b399589"
+  },
+  "3f7a310af92a9ebccc8d712e7988876b85dfde2d1042c03a2076b61f90702adc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_04_eec3425b3050"
+  },
+  "64fdea7ebebeeef169d8d23dab893964bdbafcbb05d593d47d599836e6f665d2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_4d1c7264d128"
+  },
+  "8a0dff4acbdcd60254c45a51c449c5116c13266b33f1a18cf1f417a42ac37525": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_05_6a5444f60437"
+  },
+  "1a0d4ec3ab8fa631eda135b781811eac70f12fcee46e343608b15de574caae25": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_04_01db9a6897da"
+  },
+  "cd92190edd7e401c11ca76915bef1439c09fe372efc4d16e2b7a523ee133dcec": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_f6bbdb0705d1"
+  },
+  "148b30d7f59b200671293c19a9a0727fd6b0b7d6bb3e29e38deac9f1f658ea8e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_594f4fee2eaf"
+  },
+  "91a2d4051a559477b511f9002b92448053c6b88a81a3eb005a60d29cd9ea9a7d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_9506707fcd04"
+  },
+  "e0f9a50cf54df3937a1809a0b006789450b20d189c0a79aecd00a9f3154eec00": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_256ef87b947b"
+  },
+  "209cefab91b41e79c33e45af29384372fc771f94fc5efa8a2c1c0d2819c5a0d2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_69cd640f8ac7"
+  },
+  "4df7fa19a3dee609293b2b9e87127441b0c6807114bc88c3532c4d8d96084c28": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_03_d49fd2632736"
+  },
+  "54cfc777b87bf56b9a0352345d28eae98d27e265cc5e8ba2c2c0f02446c7ffef": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_0a15cc818bed"
+  },
+  "dfa555cc8019e6951e53e835aad40dbb2a20b0fbafab0d304c65437986da8a17": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_04_4df440768d45"
+  },
+  "4342f3f5d4c6ba599a66507b52c84035b661844591b055aed6b010762127d388": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_55df2858b8ff"
+  },
+  "41b578e35547f4f02f40640911a3425cad6eeb11e1d50149aabc40cd863a6380": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_d499dba353b3"
+  },
+  "1a289951667959a95bac1a50e057b7052f4f1261651a41d39589392e7a7575ff": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_03_973305e6ec3e"
+  },
+  "69338e5216211911d8818284fc070221861e9db4068eda5fff9ee8c042692ad0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_d6237249f830"
+  },
+  "a6cfe13dd35cb8fe3507da4d22b102a547038cbbe4e9d3239e58b688b72da8b7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_0008078a887a"
+  },
+  "4834758091a2654aeeca154c9864378c99302c31dff22d5f801e4edeef026182": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_aa76e62a4ccf"
+  },
+  "dbaa54433f505990aeb068d7dac405dda0d6f0b8cf5a86715204e7a6d1688716": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_05_9b391f2f15e5"
+  },
+  "615c7119f6394378702b47e8195128ea33326bdb6a45cffe48f2cc75076bb0b5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_09_80e5bb7665fa"
+  },
+  "748cbad6b3c3e40cebc2da43502c6eb29752a002c55f37265af204874e331ee9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_8e32e9604b5f"
+  },
+  "ae3149e5c5d90727d07fc4ccedbf977f5fdc6221cf0b67376a6dbed9d5e48ee4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_02_ed2b905922ea"
+  },
+  "d17457c37190dec6e23c04fe9b7317ba4a71dcc55652568bbada9cdae31f2d95": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_04_d2098dafcfd9"
+  },
+  "5f3aedc5d2c0ca008be19739acf63bea1c2d3c7d45242029f885867027a0cf85": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_18_437eec321d3b"
+  },
+  "fe60f4c05085d1c46ad37c6552d1a2fcf0b2d03fad82dffd8e211e5910fa3ec9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_03_a6335a8bd313"
+  },
+  "ae7d2b80342e8028619a24565040248335aaaf8a3ae70c2ce2fc9e8a97f9be46": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_add212829699"
+  },
+  "bce91c10213dd8c18553f51df1ff438dbc0c3a298b0ceefd28902692bb268b42": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_60ece9ecb6a2"
+  },
+  "286421cea3ffb92ecf26ccd12a92d3ba8dd0981c9c37493c508ece860ac50b4e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_f12936f8231c"
+  },
+  "ed0f897808b71380b231a2a43c661ef8e5284022b88a3037067788608f7c46de": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_c55fe74b7e14"
+  },
+  "a5ef74b0a2322a0eb8cd4c02d29f8892845307c5b15004686a5bdc144af71ff3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_b7ad3bf03e93"
+  },
+  "f9539bb0c38f819a3f8a14afbe701b5247092b6500ba39b7b3022e4b0269591e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_b02ef3e44975"
+  },
+  "5b5c8a84c8612874aa4de914984f6c8d3fbf76c1ab46689bf9638e1e76110d2e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_67a83e1e7e60"
+  },
+  "9567c95b1f7bb537ac80505018830a8a9f4e06f6abe77b68a5d2fbf706283464": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_c685db4d188c"
+  },
+  "b786def97685796b25b7a453c76f0fc6a0176b2dab75a892be075bc2fc1043cf": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_18_a17aed6d5df6"
+  },
+  "16cbf121130759def9f135066556db926d4b456b0d8a83ad4acbf3c44c993e1b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_04_f0ce82bcb5f2"
+  },
+  "8b7562f7cdc60be319bfb94e9e2db1d5cb10de16a8cc17aabfb40b5705be26df": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_05_037a31674ce1"
+  },
+  "07b83f412bae3569684fbb29ff594e06ea500e50604e8712bee07adf0c3d3083": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_eb19c887789e"
+  },
+  "191beb51d51f75b308abd92746976d8427d6c98c4eac3e6f98cbdf8d385e5fc4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_341beea0baaf"
+  },
+  "eda00d3624afdda9efda267b5d9f53489528131194cc289df9c3310792e72961": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_cdd8bc97d43e"
+  },
+  "759b4ee2112439158fe9295945018be503caf23552004dcce33a5b6d8d08159a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_05_e180cfec290f"
+  },
+  "6527c639ef06ee46192a39902a4ef2612802babea8865ec6278432a5e0dfa54e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_5ff6bf9acafa"
+  },
+  "6a19740f0e7b6f22fd017419b032b72eaf8fd2eae548dafed4ddba573f139ce5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_18_494280627f97"
+  },
+  "0a98c0f5cd77d2fc703ba6131e63fab38fd57b1c4c57f6082a97a79acbe81c83": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_02_de6e3bbf368c"
+  },
+  "4c8e7df2c7a5f2ec446d53b357ef8adf5643327943d5ad87bba089cd241f3bac": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_cb36ea3dfb7d"
+  },
+  "d4d545a50f7de36a28ce8ddd56a9c1fdda06379968a38c433d5d27b37f201ddb": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_77709e32a68c"
+  },
+  "dffaba516855c090d8e0c4731cfdea6e934ae481c21dccebb47c8538ae8ef997": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_491c6527b917"
+  },
+  "c97d5a18ecd7838a9eea1596a31348954ea14a94d0c77e7dc72a29013f313b1f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_d3b8640aaa3a"
+  },
+  "8381558af75ee45aef41b4cdbdf62e0a9a4cc9e1163c9de0d0211ca42bb9889d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_e6fddca96cb0"
+  },
+  "c247762fda9915a382996dafe4555bebec9978b9084f7d0bfea094e872bdb76e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_a178fe7a0a3c"
+  },
+  "f9a9cafd8c52c98df79a8fbc1eef749b18d10cbb4ec3b631ac14f2a9629ec567": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_866f690e053d"
+  },
+  "5e5d41d7d089e27f0aa0c6aac9a4e4db329485a26a35d300aed289377b6bd2ed": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_e0e1d130ab59"
+  },
+  "b58e60be2670beb4963cde094ddf174edb05613862bd9043cac642dd701269c8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_05332c70ca87"
+  },
+  "324b3d36d5450060877c1bfb07af76d6ffc5d827eefa5fcaafddab54406786e0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_56795268a652"
+  },
+  "bf4977d8031fb7b44faac171dde388ff5cf3a4c39bf55e78ea5dfdc0f7c95893": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_5c9e04780848"
+  },
+  "ad9264a167af7dee58e898a2fe759908caec6e3c247bd942771f0a12ccf297e9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_1e448cb90077"
+  },
+  "0c504102faaaefe54b62b156947029204978b7d7991977ab707ca4ad51ff0f60": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_462357a62d72"
+  },
+  "5360569cd783a6f8914038632c12b63bf41f087f7321428c6c136b464e27441e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_09_33caf98212be"
+  },
+  "d5e51992b8d25c1807b271e4a9f58e1c7839336e4861e65661c3db93e9d0b221": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_6186e4bdcdcf"
+  },
+  "251cf8c3cc791200dd15162fe7ab11d94e5f8dda3c2173a80f20e2efffa80319": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_00_822d1e1986cb"
+  },
+  "e09f7c8e3d4fe5f6dac156be6597903d70ee3052cb1dbef17246135f57417942": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_0040717f0aa3"
+  },
+  "edc372a2ef32f7ced966eefbe1cff43eb2cf97f743103201eaad3eaaec776d60": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_12_7089c3074dab"
+  },
+  "78de206fadcb024fd4a4f9f2f2d646f327b067fe2745200c758593c05f32cd08": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_02_9ad68ea7e9e0"
+  },
+  "5370c6a63425c8998d03bda61ce6f479933e497affcb2af4c6eb5f1194423198": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_fdaca63612ed"
+  },
+  "0da8f567533298a003159fe43c1fb9dafb41a31172cbd9b492aaff3a587369d9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_029c446b2dff"
+  },
+  "a71091905a14a1d950990a5e33685875c476b1c915ceff440d79c6a0a4de04b9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_d0de4e9fa9b4"
+  },
+  "4e5216b6f1ba0d0b29ba28adfb2311259777db2f46267ce4d9ec81db8684d19d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_03_b89c824b1357"
+  },
+  "06e2cd4dc35de0fdf761a6f29f2e406eab394248e2af51c7300f5432be83f184": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_03_a39b1b56f2bc"
+  },
+  "0bf7194cac7e2fc5f0c2b66994716a8ba5d57e9b4549164f66d90274c1afbc00": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_b1e8bd38013f"
+  },
+  "d1792ed5335923ecd38d95fae40e43a64730ee280cf749f90e24bbe3d8035717": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_f244a27729ab"
+  },
+  "ec9174b0f0d66cf38a000cb4e4591f9e3bdb4d99f06322797ca36247d99f6ce7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_4f0c1ca12534"
+  },
+  "c9ac50cc3e8be94afa80a3b645b2d8f7b031864d6cf0185e6c8658936f10bfa2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_02_379048f29d03"
+  },
+  "893ae68b751be95dece514f95920c87a21e34117567a9c0e6647f2c15d7d5cbb": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_52ba0ce6614d"
+  },
+  "5cd7d6fbf5a9deb8350350ef993568e4b2a45ddf0e065790da55789f4f610d7b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_12_2f481c764111"
+  },
+  "a5869369c85d7539482dafaea9ffe95e53343baa26ca9cf26b33ee3090a2522f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_be6175551678"
+  },
+  "0ad729d614c77a9c498632097117e1340800e02efab7e5a47ea2b2b37022b47b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_d872a9b71e06"
+  },
+  "b900669223acd4987c30bf9976e7977912c56322bb148503475ade963879639a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_f3b3b8f53cba"
+  },
+  "ded9fd086f82fdea61e011019da577f0cdf51dd30d236194e2ffdf9f8e19ae1c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_03_ca60a30cbd40"
+  },
+  "f730a247158a3e9c46695c8065bb2d7bd56eb460bf2ba160b11c3a0d062473a9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_8a23b34d3934"
+  },
+  "da877d145519133aacb030006b2f9b40be02ad2b71b902c447f367727c2a2667": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_02_c8c9f90ab727"
+  },
+  "8ce6f26e6c5989d36ccfc59b30ab284f145fbea8f7477dd9b809bc44ebd5b26d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_12_7498b2a3902f"
+  },
+  "040641f746b53f5a6cfb23210c291b8ff480da6018c57a29061b7084afcfc440": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_18_aea9ec17e65e"
+  },
+  "b5b9cb8049ebcf8b96c477e8f33fa4417a6000d0bd08bbb9caaa97530ccb67ee": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_02_b32d4a6a1085"
+  },
+  "40d9eecf68a3efa543acd3b4fa9074b75cf49c5de295baeeea0f2b494ae3ca06": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_05_3622bcac14e2"
+  },
+  "6045b1d826fc6be7577d18add48e99a1876783f241f5f065301d736b9913f831": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_b75317b53201"
+  },
+  "33bc9097d4c103682327f03da1d1eb10d9a4fecfcc2afd75fc312cb8c375d1d0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_02_6be38e0b38b4"
+  },
+  "2f796359957689e390e43d519cb3974000e1d8fa6d290cded12cf7bb75071f81": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_da446da6d400"
+  },
+  "56eede053c721507125506426648705748f720f5495b2142ff84e3ea7a332173": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_5ae9ec32fbbc"
+  },
+  "b7b254753a24f5b6b8c48ac0a984d73f3664e70e71fc567c2a269491cb99ae58": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_7a045f9c8e43"
+  },
+  "464755890bd2381f2aada7000d1ba026565399f08a26ead0395a123de5078169": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_e24fe60315a2"
+  },
+  "526861833c70ef31bbcfb941cf7517619a3a075b826110656ea3c6091d72b88f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_4df1fcb2d6f3"
+  },
+  "7fb8bbbb2608624fcfd8232e1477f43af767615f8007d531ec1c6bfbba492981": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_2b29ed745f2d"
+  },
+  "a8a98b60eeee0e6a8d2400c2e9de87f60e62e452937f6d4af70d3f113c580bc5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_eaa4615c8d8f"
+  },
+  "70fb0b87c6dfdd8f086402eef329d764eac689728ab0b0370d1b0be6497b92d7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_18_0fdc567ecbd9"
+  },
+  "18a74fb852aaa361ad825688e1cd59953a0181b31758e31300c9fbc95fc285af": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_02_869c9f2f6e5c"
+  },
+  "e1539f912287817506f9041bf9393546e2a85c7e488a1e3a3e46f5ac4e505b8e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_a5f5235af37e"
+  },
+  "1d0b3d8b53e32cfa42eb458e79edad229277694bd2c7e12ef852fcd1ebe3dc37": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_02_fce5d6101886"
+  },
+  "8ef45709e59b1d9cff5a2cad88aecf4fbfa245747fa56016676233aed0867b7e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_75cc2d05709e"
+  },
+  "b5e237123e5285c878f23e9c9c0eabeee18f0734141d0bc97cc27deb8c1b0092": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_b0ef71f23433"
+  },
+  "f7678028ddd8a816d28637688513330e152b60a179025bbfa4376dd5281a5bc9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_f96793f68da2"
+  },
+  "9d88760186100986403494a05625cfe89dbcf0f1b5341f886d85025db7b0ad12": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_6482b8c24e64"
+  },
+  "61bfe2b445ba2108c5bbbeddbf9dd832f1c7f978bf2c6d9014d3cb7f46ea4c5b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_02_a5ecad5f9bcf"
+  },
+  "4f908bd6faeb880913cba0bdbcd556e403b8aa79a679ce08542bae6c4c50b3af": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_02_3a82e0c21fd7"
+  },
+  "ada445e70fe1a326a455c49750f63f32dd6d3a5ee5e01c8152fcb3dadf880f74": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_dc3216fe47b3"
+  },
+  "d1b6278985421f4f91a5683accb4d4d4f9476ee5aa27cc97cc401d14caebcabe": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_71bf94ed6ff7"
+  },
+  "c2881b7d7b0c37e21a31e8d69aaccfc48c52a91ff9e7d2b442d93767287a5c76": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_c0edf3077a78"
+  },
+  "82e1a231c40a822a69a6f29e11e79f32ea869bd1537c906ddab2f96adb3db827": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_04_f3db7a73e2a8"
+  },
+  "5b6e3a2b393e7aaf0379e9ba9dbd534f9e66f46a0a3bfbdb55a2a599924a901d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_13c35fdba1a4"
+  },
+  "e96b60512deadeaf0a6b0c65f7eb9a94620cc424b912bd803ee9c8671579d922": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_260313ab5fe0"
+  },
+  "351e58b3ce6e82639060b3381a3bcc9170bef6e1453e106995177e597b251417": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_5585b90e8341"
+  },
+  "36bf6073e3803b4905e2272f5a8c2853fdf2c90d0f76382908a6df5fa1c7bc1e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_12a4041fbfcc"
+  },
+  "a36639c6dec7ed78688c62258465a6dd36668b98a5440e709cf302b1dc7758a6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_04_ed74fb97e4b2"
+  },
+  "48b0b71e3181e57363c712e3f281b38ea814a6efa7aaee7339aea4646e0744e1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_03_95833175c99c"
+  },
+  "da3fc3a2731c166910d4a7ec10e2df1722ac0d8029adbb3d45743313950e0bfc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_18_386bfadda926"
+  },
+  "de2e42235fd17e13ed3a54c1767620667852561fa386572b8d7769bf8ebdc2fa": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_04_2bd2e8eba4a9"
+  },
+  "c4ab0abd81ecb8c4226d358e851a3d38302748c3bf4763ba54eda426188aea38": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_f837127746e0"
+  },
+  "57b3a5806cf32eae10ec2c055032c47c9d8b86685bc740a33b9c6bf27f24fd2c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_d7998f671bf4"
+  },
+  "c3c71d0460ac244a5461579347971ba23dcaec5ac477ecc282ee5944061f53a9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_02_15e871baf4f5"
+  },
+  "b86fe9007a474f3e3e479c2377dde65b9fac5c6991489669ade8235904ae8de3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_02_3b14075ffff8"
+  },
+  "b1bd5f9448d4d45fc07a509950d3c934644c21e2a25980b71b5fe410dc5034d1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_02_5fdfb7105fd2"
+  },
+  "f7ff22790f12fe93f038a850050c281c6d806927607004856a17a0ee4980dc05": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_02_b90f9af572e1"
+  },
+  "52757eca820ae504ad73e38a25d8f8e9ad7c5757955b4883a49204fdee7f4ebf": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_03_3c2837471253"
+  },
+  "07d434f07ad07d772743b22aba38baf16bf87079d6bcda0286d5dda6c34bee1d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_03_abe8a3c07ddc"
+  },
+  "7b161682ad594f7e6e0bdd0311853d9282e75b4274f27c571f0e9c0306e6e3ee": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_03_bd534aa24131"
+  },
+  "dfa90f056ea94cdebd31df690e58dbad488c7d5488d39b2e24b6dbac1e60cd03": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_03_bff87cb87473"
+  },
+  "3b2ed456aa058416d93b21a7877a5f2418b0de65357bd6c59fe455bd6b5984d1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_03_ce9215b47551"
+  },
+  "7e4ab960c45510f7937e692acd7b67f33551d6b87d1ede1da03668ea8a2adc4b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_03_d153b11c01ea"
+  },
+  "0e48ca5c49a31f2663cb2bf9c27b5454be142ae47de6b6c2c83ce375616858ca": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_03_fd81a4d5451b"
+  },
+  "4190f7e887923c94433dc0a963322a2bf7ce03a97fc804fcf9d058e150afc4ba": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_04_0cbafb6cdd7a"
+  },
+  "05a1ba659f455ee340a1c54cbb6b3997b2dc0d7698fd10cfd16d60398308a48e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_04_1189a89d53f5"
+  },
+  "735eb69cfe7042f25958130ffa796a5fa58802e18c29d746248f3c103b6856a9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_04_8765058aa8c0"
+  },
+  "15a2f7ec7089cfba0bd0b30982a597b5b4c1fa746a7d3d5aece75c41bcd90d95": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_04_ac01cbd7ce34"
+  },
+  "87fab98bcd33df9dc8d1c59e49fb3497d25811e267641a16c8ba789e4c3a430c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_04_d20882ee7ed3"
+  },
+  "c84d4b5688fe738769fdd70f4595448c526850d0f25edcfe47fb980ee133bdf6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_04_d2faf232463f"
+  },
+  "92511d308ce567ea0d2101cff72e7209f884afff6d88a7309d7d2c2a3bd580f4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_12_4fcb304f2679"
+  },
+  "40e4c7e69a402c8a40659aae6c6f7aaa12a3b42a05700c465421cea513aaf62e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_15_0bc2c23158f4"
+  },
+  "a445fe0a91ca0e17a97fca516bcbb1c09d9b1c0f73d6ef3d1fb08640e9606ec0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_15_1dfea570d9ad"
+  },
+  "be9a90658299d5559712fe2a40a083a77cebca976c25f4f985ca0c7ca9d9e70b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_15_7f3419718a86"
+  },
+  "8d74affafdd9ef7cbb0c129ca9209c80d2db8983bca3ffc419f5c2dee36dce6e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_15_bf327b18b3e9"
+  },
+  "2841de29c148541b60ac102ce95fcfcd51a550ab71a9297ba90a93e1e3726ed9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd2_17_b4bdacab3917"
+  },
+  "d1f0de9c375333b163954b7bae40c5f5df57721b16ccbbf8344d110a62e947c1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_00_15b9b09ed232"
+  },
+  "cff191c3f8589a096c6c3a770664ea2cfdc242c9dcdb13535d63b1289fce1dff": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_00_215d43299cec"
+  },
+  "7059fa80bd2e8fd0dd8d93e8a894d7dd039a996b670b1cbc43c74ef53b4dea91": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_00_2efc60bea23d"
+  },
+  "adbd06eeaae5309a332ffbff67366347db46b38cb571a23cf77cb70640c76758": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_00_370d11a0337b"
+  },
+  "e3a2660e263c37854ea22dec7f17637e1cbf912f4c04e26c40e52889e10bab5c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_00_46e127d2693d"
+  },
+  "ebb7415c7dbf43195946d8d5ef6e70ebf9e6a086caa5360fc4a17e97ce64eba3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_00_7a8a67383406"
+  },
+  "37572c5c7285b8149ef57bd9b5981e0c7fabcfbae06abfa32682f16e7779942c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_00_9e160aa0abd0"
+  },
+  "05914d2d5e684345430cb5305339466fed1393a5f20e7c7213d761feb6c7e3fe": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_00_c725abe8417f"
+  },
+  "f3d50b5a9e52817692cc1e9a9f1e8409ef9cc875bd27bb9397296d6435a7a278": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_00_f009b042df13"
+  },
+  "b647266e54a6a8b51c6359b0aae2cbfb7760a5e81110496a0468c68e43663ca0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_02_061f4efbf6bc"
+  },
+  "945aa94b2c0db953dbdb2da548ff39d7fe03da15497f6b365dabb01815b6cccd": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_02_2fe66ecc9bd4"
+  },
+  "ed9026a220f838601bfe93f910c6f5c8714b0bfc293ba7462a4ecc90b106c4ce": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_02_7d0de5c30039"
+  },
+  "ea9dc6b34ebaaac47566ef78cad576059d94be8cd1ba9a41fc35e05ef21596fc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_04_779ae23f2c92"
+  },
+  "cae4dbda87d140c6fbf6e95fbc8a993cfdeb5f5454051462129402327337b71d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_04_8fcfd0f08a9c"
+  },
+  "d57bc7962bfd4f35d903007b46c448f0a158e2a8f4d42d48f1e1650fb9c85a9d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_04_c57ab1f28d46"
+  },
+  "c03d45462b3f11a97621d42d9436ec88c20c80491b5a2459e782ed24bf0ef372": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_04_f44df7d275a2"
+  },
+  "8cd26873cd0dfbb564183bcbf15c86db85f9c9db0ea668fdd294bbc8d41203e8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_05_85b53ee7574e"
+  },
+  "f68de8d3a8dff8e75ead9ad5005670add1f2f2387dad90671079fcf7312f46e2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_06_1d7bde1ca49d"
+  },
+  "1d8c9d49c48b9d1400421c1e257e967380a06506171de4893e656eed7193e629": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_06_42c006bcbd9b"
+  },
+  "e3192128d823761336e413b483543aef9d0a390ec3a1c19c6fffafbefe5e51b9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_06_47622a45c851"
+  },
+  "17bbf8c493a54f9a6d0b8ef4ea5a0aac831cf21ab5e3db35bf6297fd20a7deeb": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_06_4c129cae1bff"
+  },
+  "4db5813ec5261264aa3f7f2babbbb0254bb6f8eabb94ba6ca283201b481a5d1f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_06_4df2416360c2"
+  },
+  "01536e1299d3d726ff5ab2d59175c8580a367491370aabc95fa2444fe3b4d196": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_06_a4b8c42697e7"
+  },
+  "f58e4cdb126d5aa773e74fe1f3b4c51365618d33696277ff231f2c3d11d630c7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_06_abc6277406ab"
+  },
+  "62d8647360204836925a9a6ab5fba02dfb556055744b4b8f43aacf0389bf9e25": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_06_ce7decb3fcb9"
+  },
+  "600557c5df26a2460358d931515fd580249a9c0bbec261359939e9963dae9ca0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_06_d34a25fcfd2a"
+  },
+  "0fb0d9faa511734f0058d43846511bc1d06fcfc8d9378631476ad4e0bbf49d40": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_06_df1ad160402a"
+  },
+  "74731ce0d40031e4aaddd085f63b2ee6945675fcf64187b75bd0015bd411263f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bc2_recovery_bc2_gpu_crd3_18_aebb701e0a3b"
+  },
+  "475b7cd23265a97717c5e8131815677c45a4cd4f8a78d856d4fc05f96f7f2dbb": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_13e15f9d2113"
+  },
+  "cf39be9a5c1358dd7d96fc46cf71116366f86cc8bb3e3411fa57e8e45ee3e6a2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_231cc45421f1"
+  },
+  "7c8c6cfcd65ca28ca70d5713e34b9d8936ed28ae4773b12535ae0bd2fd50d7e9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_2dab48150820"
+  },
+  "afcdccc92ee1c6f2aae919bd8f2abbae21b26b24c05e16e5ca837b05b7e324cc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_33d08330c0d0"
+  },
+  "45a6a2bf35304922c2cc3f67e2837d4ba44a3febdd5f2d727556dd30e226cd88": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_41b34ee3d826"
+  },
+  "cc31f7d2e6e17155c5d5a00ecad04ecc7cf5ffe995653357b5e9e07b00ef2c53": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_4922c53318f5"
+  },
+  "6d0ac01d32bff377aee7cd8b9def704a64c63c2fd212731e55835ec34d6ffed2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_5557b8d705ba"
+  },
+  "9673bb548933f7077cb736c7af9eb498b0efe92adef4f9ba48f33d6bb799e370": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_57fdce0f3290"
+  },
+  "c3c04bd19a1334201f6d51c02987451a3816034bad4fa16cd6e6b6a58908d5b4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_7becf47f6458"
+  },
+  "8a20635bd0593b5df3902c70441c23a55b1e54ed2a65bd6ecf0fdd506848fe59": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_8a7c39aa5ac7"
+  },
+  "2bebddcc5030036709fab0b0bd32b0c06f94a4f94f45f95e404015c294ff51f0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_92131d726b72"
+  },
+  "339787915d298615fe234d96973dfbde5886b042c90364d016931347836fd7aa": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_a86985a1a130"
+  },
+  "ea6a04a4f593152f0995d5e75bd2474188dac64e2b7c7666dad72ea01edd144b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_ab35b9bb9a1e"
+  },
+  "2cbfeeb1bb06c327421af4eafc932246167c4e40bb36e0edb53733e64d20ad50": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_b2a6565f2cf8"
+  },
+  "0e44f2b916111c054bc0fb7e0e6b8b18aa69de8c1ca2fd62a8d4e62b22f9fe1e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_b47e22543c3a"
+  },
+  "c998baf2f2bb3fe6f5a45ee8e509ce3dc6394093b5a11700f4e001ad7ad8c394": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_c2b55c25f071"
+  },
+  "1b56b6f3f49b0139e4ea12e603b9c9575e08dd471eda60571374b871070d8f25": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_ca814e80ff8f"
+  },
+  "fc47b572ace8390d5489472d1709ed0d787fd16af8a7c8d41b950af06f68ae7e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_ceb5842634a1"
+  },
+  "001eefcaefe7d8fadee78bc924e151995712d9b49e460cc9d79e5fe446a56a2b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_d82231de10fe"
+  },
+  "a93b139f4ed356cf298542ecc01f9f75a72c771f01c8bc7af7f567a0c0119e31": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_dfaa56a985e1"
+  },
+  "0ea0b439f7e35b1f6f0cec9b39056e3fe89932db538e48a3aed23c0603e96a2b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_e0a62f3d3480"
+  },
+  "4136100f43316f020ddae8a9a4f6f491fabaf2decf6f122c3371df0d9551e878": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_e2b1bc1a6441"
+  },
+  "42a6873b2afbb5cfbec088be1b4717aa196afba8d5d0a2ec8ad1f04e6174e9b3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_e39b874c0578"
+  },
+  "d2bd06cfe6cd6abf95b25a8b8512cb4ee71c3e542a8d4bbd1f2a953e1188e02c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_e8fa7a107b0f"
+  },
+  "bd2c46416895604b9a8a026078660379f5b23f11589a5d06562e1494a9dd8dec": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_fd5ccfea6d28"
+  },
+  "d6aab146f8a2f66623742f3cb2b55b09cc693a2cef3a780375e7e8a93ac7f8ed": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_00_fe106a68c41b"
+  },
+  "899d7ba4c964152574c28d03a757198a079759f92a61b7a750bfc68025e7c4fc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_025f429ef0a2"
+  },
+  "ce0c163be462bafe6873708c4f8c8a63f77ffa19f9a5aad3b063dcd1ae70782b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_0c5296aa102f"
+  },
+  "88afb741880b6c81b7713daff617b6643c006ccd861112cab41e5b3251ddde8a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_0d33947bb021"
+  },
+  "3d64ff7891911a51f01aae24cb2d78fa714db47121f46b2e38c10ac6ccee48e6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_0f4830b46211"
+  },
+  "c9a494778b88c16996129d30ed4948a0c016e8329cc9adefabc3f663d2bfe2ba": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_193d61a5dd26"
+  },
+  "32003537b565b4b71ec1b8b13c25a669dce18b603b6231cb7fa45c8f1e73be69": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_1c94c2f85a4e"
+  },
+  "3798b22a63976bbec988aea5efa02339f1836e941f1bb66f616681a6a92da79f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_29d5c55a869a"
+  },
+  "72eb156673bc075d35c46c973f8039879ad80e6727e3df64c7021b1893ff6b86": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_29e1e7b1e410"
+  },
+  "d5bd2e5fcb9f1ce0d1d3742e6c0e5ebf1b9809f7d58d5d3c1735c34c558806d8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_37baf15ff12a"
+  },
+  "2ae5606ff664fb60a6c91d9027bbbf726f2b418b91afca32ef53c8f482cdea15": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_3f88f691a1ef"
+  },
+  "a239a421fa5eee02e22b641d3e01027efcc190e1d0802d0596b08175a37aa235": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_42877235f8bc"
+  },
+  "698eeca1f9f64cbbb899525ceff1be5c9493ff8e650597805f96391c8434b264": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_490ab773b55c"
+  },
+  "03e9ae8fd60c328dffd456115ac2a5c1c97dc4846df19db8006bc575ea5f952e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_5f328570237c"
+  },
+  "01951ccb77ce9523f7129a97b3145800be22aedf52d39aa8dd358af584420966": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_6d12edca21f6"
+  },
+  "46613b1129691f66606eebb4b2ddce2237cae20cd84731ef38b8609f1e380240": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_707db05dca1d"
+  },
+  "d009d72f53512eb454e5a67a020e87b0d1403bc53fb6822dedd838a27bb95cdc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_75440f1cf6f7"
+  },
+  "54f41a7cf4575c66b59a19ec1b207183bfaa62368d1ed6b4415ec44a64d71b70": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_7835c255c331"
+  },
+  "e6fcf11a5e8ab7796b6bc0ad4e58272b8acfb9a98aaa1434330f73ab5817efd8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_888b893587b1"
+  },
+  "2e7693a19c830a96a2e01adb21972d3c72803678567846eb68b604635e127eb7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_a67a7f167781"
+  },
+  "89482e4500a57bd7de592d1d1077524d1e825bea284337113bb1f25b2022d0e3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_a7bebda5a32c"
+  },
+  "2798e0fab550bb87f0ba3e2d4c40e3cf315ff390ceed6731d82870bd836442a7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_be628520357a"
+  },
+  "294b9834ed0eaed2ce4852e531111aafd7181ed09f070cdf52be9db9044dcd39": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_befe24465a20"
+  },
+  "58d23d2004dcf561988b1efe8fb8f27ac824bcec320d5804d62c08c6c5d6c9a8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_c177cd74710c"
+  },
+  "cfc197f04c7bf3e44c5df321ca9edc48e51edc66f66503dd8f606803470083d7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_c7e6020cc69d"
+  },
+  "1dd28498f9aeaa121d54391071207d53e79889866ce88abea60e9450841be273": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_f3a9800fe440"
+  },
+  "e27e75874587933a57559d7a5b8b0bab48406687837cef6cccbf9b9516930ad5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_f58636446489"
+  },
+  "4334df860e0447edb7665c6ba1e95b1bb9ac73c28e82063a4d22a5212cd9ebb1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_fb19cbeff7df"
+  },
+  "08652f13176e714c4ee879168358704360dfbfca7a2ae98357e6e54dae58c933": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_01_fb3f9c3014fb"
+  },
+  "4143bac700af1620b75329498bb1cdbb290db96b1386dcd4699ddbbd485ac481": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_002583de2d37"
+  },
+  "22ae5e91a04d7f3ba097516dd7a2860c7697d2a32575278fc5b7fc39affa234c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_06c2fee02deb"
+  },
+  "bc55a3c3ff5f0b3eef72c3204deae47d8362f83e9037a52baca9103bf05ce964": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_0e9142769b6a"
+  },
+  "2e49247b905dbe2a12b0ae12e7c8c2db604db06e9daeec438c70c333ea32b611": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_1884ed0574ad"
+  },
+  "e30df256e10692aacafe5c1a67d05ece864eebba9924705a136f7c5c923bf37a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_28c85ec1ec97"
+  },
+  "fee44f24ec87a167ee779bb394bd65785004dcf191621384fc84f6f8f580d984": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_39031c182cfa"
+  },
+  "6d5f02b9a9919da5b368c999a60e9c79f7bd7ecb8a0d4f9718e799cdaa3f11be": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_4e06f665dcf5"
+  },
+  "b1e251f052c1de85f1547f3050a56ba16f27b9482efbf7e6aacf03c621a6513b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_4e453ab625b2"
+  },
+  "a6b0e31afffce88a0c6d68274f7926676ee1d04a1216793436b25846a2a8ca38": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_5259fa5aeb3c"
+  },
+  "566f45cd980886b07d3efe36a9beb423fa37a155ec9c76b9709bcbd4689e6a13": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_54a0f45b9296"
+  },
+  "7785c0c5a4774eb97dd48b9dc8ea68b1d1df7afb30e77290bd6ee10130f124f9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_7bc0b51ca0fe"
+  },
+  "92035555096f85a2fd40c939ae90086c179e8d6f9e1af7faffbcc3b9078915a9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_7c6902c3f900"
+  },
+  "8558f2927e194ff3e1c54ee0497ce66b9692485fb679549c425999af26fe25d0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_85f262ae4c77"
+  },
+  "141e5bc6d3ec610195c0b8a61f6d0593c15bbf70ee3e8c5f3f9d928873f758df": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_86dbefdcb254"
+  },
+  "bbe37f2ff26f6bf15af7f84e914933226f29bbe712ebb68c9a2683eb166d1a62": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_8fd371087d90"
+  },
+  "760ff9f568aec6116e5ef4dac857f5468aee74a7f10355ffaa00bdb8e000827d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_8fed2d1a46cc"
+  },
+  "980def1e5d061e9e1a4fcd6da8b31e61d5612a603a9f25e29ae5b2e50f7437de": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_9598318c54db"
+  },
+  "974ae8531a4391892fae9bae23290f18b72abed48b4b6aebead124c48ce195e5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_961525d493aa"
+  },
+  "4d78a874fe5a74abb0bc0d0dc2ecae3ac62a5d0404d1c3915df34b783ad29452": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_97ee30c22516"
+  },
+  "ce2a142bfafb0c81c5efb3c103aa093b796747d5a0a3d0614d6d59f420d5e96d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_a740faa6089a"
+  },
+  "73a96bccfc91a17685ce561640ac1fdf25e969fd0b6ae2f2d80e8016c34a1389": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_aa0adf8c319e"
+  },
+  "6ad756b750dda084284769ba9599a619189fcfa3233d82e4562ef597928adea0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_b521c454cd8d"
+  },
+  "a1197466ea48cf5751a34644e19df785a729bdb0ca262b0457b2e053f55afe80": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_dd94a4590b4e"
+  },
+  "f5178f7d88caf13f3a3fd2858a5523f7a9749ee2d7071720cbb762425aee96c7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_f95d62db562f"
+  },
+  "c341c2ce4df44332f4def641ea4689335bf660cfeed3d9c0ab1f0ae32746647a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_02_f9f637c55180"
+  },
+  "977b33d37ef390a67c69375f0ea93bfde2d0fe4637927c9c42c3353a50ea8714": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_0248955f8e56"
+  },
+  "468de67c4054e31d8f70df3eb94b68075783f10da4a5cac53c9f6353447202de": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_03fd0a8f5c77"
+  },
+  "0b4faaab18de5207f6c6833b33c41e2cb4540ce42164b40738940e257adb83c7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_05e11d703239"
+  },
+  "278c6aee03d0631579bcb3c002b1ddad6781e738f8794cfc7de8b43c2c3d9e6b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_0d187d6955a3"
+  },
+  "48af296d4a80c828314e6a1a918e4da082b777bd13c5a5eb0b106ec645c24ef0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_0fbd548bee27"
+  },
+  "fdfa7dec481ce71a590a6bceaa214640759005b9d88aea6e2fe1ac16530c8633": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_1dfaabd833ac"
+  },
+  "229dce1b67430485b0cf2c85456bd404b7e8a3498d528a6559ed3f9031194366": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_301f68034526"
+  },
+  "e17c16acf67af82f22899a114c8e4e673970d70a44b4c2291317f39484932db7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_45fdc2848365"
+  },
+  "40e380d4e862535756ae0c5b3c68045d76b9f774e36f3ca144c3d1da05d55f6d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_48a18e84110f"
+  },
+  "243ea0b50c1c60704401a7a8299629ac0eab47bac2ce33b6b7c0af3c32229a9e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_492ecec170b5"
+  },
+  "d7103d967fa0ca2b1ec85da1d5e9ad17dba01a02f6b8dd81c6aca3189e736018": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_62521551d447"
+  },
+  "3e0ad44cd7c2b6269136d0d69e7ec235655a643c58284be3a70eb78c35351aa0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_67e0df6735bb"
+  },
+  "89e73f1fbf9746c836ec3d707e0faa35fa38721073106c8ef6c8467819153a57": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_6f048e155bf9"
+  },
+  "07ed866193660caca165e6e084a4a59811ab86405aedd2b5b2078c35aa0b2f72": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_7ac361cdbb30"
+  },
+  "682cbd5d30c9dab94153fa716442567e23ad8904e2371ca4703ab8230b0b8750": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_a08e2449bb72"
+  },
+  "c76d164347da09f70d0a2536b82ff54fb65b4df095aa64d0e418760840cc4282": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_a0c5bb25b51d"
+  },
+  "2261ab752f3c5377abb96cbfa9a3231c3a88e4e161f131b011663d2ad2745481": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_a4d6d5a81c8c"
+  },
+  "3a8ca0a2a9325f3641d6f0f5c3894c638a84c3c954791b494b38361f22bdfedc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_a9ebcbd6eb09"
+  },
+  "2fedab334a59ce761e7cc0467f19f71fb2bc93da4ebb923e6e2d9cf5d99ad6e4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_aa99a96163b9"
+  },
+  "b4083c49e567414458687617e8f537360ea8212b6ffbd45949161b3f194718c0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_cf4e633629c1"
+  },
+  "74106ac17c3b664efb6b2d65e0c8e969fd134a21ac8b8b946eda576d90591743": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_d2ffac32431f"
+  },
+  "128ba350611b21efa63af8d83046056a5ed32975c096ce45fac4fc1134b5fda9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_03_f86429c7e0dc"
+  },
+  "55237fe3ec6ff9cfe7c35ea46d892e477fad3b44af4e87dbbc0bf8be7ae64625": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_213f52e54f80"
+  },
+  "5dedafec3f07b05043025177ad2652d5742ba05b86c19492926fef818f0fbd8a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_271a5c7104a5"
+  },
+  "3fc8b2d7d0801df7ef2d25ab085c725cbde81ca565a6b0e0a2254c1ce90d1fa7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_30987b4a04ff"
+  },
+  "185009e4fea725692b6cb4405f27bbe343437a899ec2d8d5f3dbbe3030f7aaca": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_332b0f90d5e3"
+  },
+  "4ff1b21cc194d062672d81dd725e6eaa5982f4f9ec12bde9ab00a2ddc1d69386": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_353f663dc6ac"
+  },
+  "3ac27935494fc7d4e69ef330e5e8abe5677d7fe38fc21ed98341a104afad1916": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_3e49ce3ffd86"
+  },
+  "61d8bf12a6ea94de457b3de9b32f81a1a2cfe7770ea1e4cbe2c2cfe4a2ef05cc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_409c9af1640c"
+  },
+  "a28599f3e2c4a42c014944f467d5bc94a89e56fe8e4bac69bb902745c2e18952": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_4cd0db595154"
+  },
+  "494b1d8ab6576589898ca5e8076bbb435316e5b10a5c6aacea900721bfe4c974": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_507e13368744"
+  },
+  "29bdcabb8c460761c844793c193e3968395e6e87a032d020475f4b948d2f2d03": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_51e6498f926b"
+  },
+  "94b9d0b6a761f3afb97183117afc9f351d4deb045a57b52327276fa03243ea20": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_592f1e216918"
+  },
+  "a7b54e462c62ea0029da643d92025ffc0903c1adda5327203f544820355bfcf4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_5daf305dba4e"
+  },
+  "46213602cdc738fb27e20922fe929e2cfbbe02e0aebdf39ae92de0ed5af21419": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_689c8d64c2e5"
+  },
+  "85c27c7c49056880fd0212408127d9f510095e26ac9ed65527ba60bc9e95b370": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_6953f4161213"
+  },
+  "992200adfca99bc7e41e54e8f3525c375b94b96ae738587fbf1957a47ced3843": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_708db575475c"
+  },
+  "a611abad347332ce27fa8d21e53ce328ed6c65e5f6b5b6e9dd727f633139188b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_8a8339d800ea"
+  },
+  "f86a9731c86f1df57a9bffee7e928f4aecb720951261a20a44ec1536008b1644": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_8cfd321d7ae8"
+  },
+  "3e2e704cee6ec1cc51d74ce26e3aac63053a8ce02e73aa1c76d273a501f22182": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_8d312d3d1101"
+  },
+  "aa7823eef82ea87b8174283258342f7c1c7640219c0cb78c33bd8d168a698535": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_a89e08268461"
+  },
+  "f277f1b8def8abc85131bf6aea637c8ff660b82ac4f87cc66c241b7d1202ff6d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_bcdeb67f1087"
+  },
+  "6bcf0d1e7bba5421d896b6af9ec7a3583594a8c45c8f71efed48cb45b90df648": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_c3e13df83a73"
+  },
+  "70408720dc075f440b02e3bd4b911ba705bca15dd11d0f5a6b6b27d5875bf226": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_c7392606b53a"
+  },
+  "89ea00aaf7aadb95edd66295cec42f6f0e1e9869449c78b166a4c99c056d0d3d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_cbc5d82b45fa"
+  },
+  "163eabc3be103754c4907fd7a4bdead4f28bc261b79a6807c51387d0a138b9c2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_ce7545725da7"
+  },
+  "e51a3be210f1ae71e3e28e30d57574470421b49f0247ca182794cd06a8cb04ac": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_cf28e3fe922f"
+  },
+  "b9679354ec3a83524c07b75eeaefd4d9912662acd850cbd4a372d0109c98562e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_d0e2a0a49145"
+  },
+  "a11f7a557acaffecb4588aeeab5fd733b2fb154916c3e2bf44f8a003129bdef7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_dbacefc97514"
+  },
+  "5658425bc24687cc7e26fa79e16fcb2a1507b4c566320a2b0f3263049be98e05": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_dd4520d9845e"
+  },
+  "b72646f9d5affb95d02b94c47ba680f301d3f0dd202dfb7137e1c964ff2d9889": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_e9fac41824af"
+  },
+  "5e02c213da34e74e95ae02edfae069643931f8f41720641b31878b3f3800575a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd2_04_f8b57a3beeb2"
+  },
+  "9fb1b2483bdc8c0286d85950ec768b4cf53700c141185b18adad755d13f514f5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_0184784624cb"
+  },
+  "487969f9c30c9decd360215ba85fe29e616d756c8bcc1e192724452c3521768b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_1009d1b33dd8"
+  },
+  "4f7a0d0b0c330299ab7b16b378c20a1cde93d6f9b0215d3c91ba08edd15a7ea6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_21ac6ccbbdcc"
+  },
+  "c1796c7e599cc9fe3c16781bb0c4a41d398ae0e0a6f336771bfd40e0f052559e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_25ec47f2b6b2"
+  },
+  "6a2e0a1d26d38cc2f9304acc7ef8016b2f3f8820f200b0b7f002b9a2885fbef6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_27cf45738d40"
+  },
+  "6e2c5899ae3809dc67189e2403635ffc262a871cc66085707454d919db93f13d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_2a3ebdcea4ad"
+  },
+  "22e693b8c4a76cdfe9b21c619a18815201cd944b78a03d90985ce2963c8e6d77": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_33c627caa702"
+  },
+  "0784517d01af22c3d033b15b96ba96285457762bd2f4a360d563eef92c0b0134": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_3c39075ca30d"
+  },
+  "94ec8d9e155af3947da57a76a1094d891730130fd8c4ae2605e34f2d982dd793": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_408660cc6657"
+  },
+  "7581def7878ba95ff4565e7a523d614f8bedc47bcec4d553d303c83d0047a8b7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_441f24ba2231"
+  },
+  "ac65b880b2d932dd994033dc3d05b231074f710c421fe5123e03b10bd0578e9c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_45c5f39cdc33"
+  },
+  "4aa6a503249bea0b5283a54422ff9f7b8976ee9ff3345252eb28cea2dec1fa60": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_51a6c8f8a3df"
+  },
+  "67afca790c972f5684f658a67ff7acb7614b292cf2735272d0b6392f2c63fdd6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_53a00a34b366"
+  },
+  "fda1bd963468d940eceadc586a0f64da12a2337512430be08cd48f85841e9694": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_53bba2f11dfe"
+  },
+  "4c6e654f84a66dd8ce3357e3083cc7d22420f67a7e47a935183aa5321b85f01d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_5ff66efe2d21"
+  },
+  "7f4d62fee0751802bb4cc247bb92b779e0aa11c1269010b1350dbf92d376fc6e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_69118d430539"
+  },
+  "96180d66578febd394393fe26a4745f95facb00e4f4118e1a35e5f2d5c98da46": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_73202073029b"
+  },
+  "bad890324219bed9d4039a8e2d09085e0af6f1fac01938f9734a756503b94385": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_75527bf4b1a2"
+  },
+  "08290ab8aa95b3baa4a8520bc5d5d3115947b8c892362838cc9b8b5f47e18e05": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_76ecffbfd499"
+  },
+  "a2f69a2ba58d7f0d882b1bd30b68fccfe73666d3f1e14183ef63b67f895c8c60": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_7f9ca3a12a88"
+  },
+  "61e7069fa9148bcb5b895ae22e01b9eba41d1196c8b6a0cf5cca091941c390b1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_8a182e4ad43c"
+  },
+  "a0272f4b0752185047016b6daa219d906a31d0eba8be1f0fd7c0fc9f1240d27d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_8c47ff53addb"
+  },
+  "27ecedf930ce20b6759810ce205b7bd87f83eaf7b83fefa1b172dfd9841d5e9c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_90af599e7ce4"
+  },
+  "85bda7479bd8cdee59022fb1a38c13172e70453867fe1f3300c04422b2489d2e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_9c1c3d4fffed"
+  },
+  "10d0012a1a20e276fd17acaf60f2deb78fb5dfe2f1223081af42c15d4fee254f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_a2ddb614e83e"
+  },
+  "977ba8fee9c6b83374b14c17ee813befb42897eccb6ae36904a589f8e952739c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_aae6b8ade65f"
+  },
+  "c68b842fede2c637cb79f6f353891ef9308f01132f9a2236ef792c511b02577d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_aec45e1e2d68"
+  },
+  "36d47a2a5b4a1f08a60f15911224dfecac50b77f9ca6e3fc71485aceb4f754a9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_b100f5e3b2f9"
+  },
+  "1db753883c71672a07d95a0d9e65af042a68e71246a8fc52f8b637fc4efea8ca": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_dd6a3dfad3c3"
+  },
+  "4f7a4985a3044cc4d5ab01d25b0366b17afb327d660d4cd87c33a499e1303f5c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_dea6dd550bd8"
+  },
+  "a8dcaec77146e219a18829ea8bafc6588b2a74adf0da46db9183f2e262275bed": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_e1f47ad2bf27"
+  },
+  "291057eb9aa4f8ce36fe475224695ce79594a30c571719630fe1042710ccab13": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_e2d0f79aeefe"
+  },
+  "66400594bcb923ca709762d698cb6e9eefce585340af75c644904e789080cf9e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_e834e977a10e"
+  },
+  "b4158a57d2e89464fc950f6b31627f280343ae3b616937a2896924ecd32265e5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_00_f686bff17fdf"
+  },
+  "c04445a35d538b4565fb7af9d35f0041266aafc3f1639f8b9399ede7df5fad86": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_1434fa515bab"
+  },
+  "3f3bc7abb2080d39705d039b157eabda55566499c5e1bcbf5f8b63f3830203cb": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_1de52791941e"
+  },
+  "e49435529d8ce85f0c8ea7eb47d6539ce1e28c2c36fa925868c2fe5ca84174c0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_215d135f1f89"
+  },
+  "d3a9b80227554026cc654fc92a5a8f12f6c5dc029adb3ff468005845b5826d18": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_23a829879077"
+  },
+  "6d2d004da4ebe0395ee06937f6924b949a8c81f586d31f88a6e199fa89bdcb38": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_251f70518fd1"
+  },
+  "c5e041df9a23c9abcc879ffb309ac9d2382c22909375a6c38881e45e591eb5a3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_32a5bf943535"
+  },
+  "c4f6add1b9736c2f787f0a22591926f8d4c0e85caabe80740c927298b882f1eb": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_3c68c4d11ecc"
+  },
+  "b5cf1d4c0495fa8dc623da615e436043ddcc6badd9247ccb52b0e94f213cb369": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_4268c27decf5"
+  },
+  "c87255e99d0d5396f37d3006efb76bce909c3788b4dab70ab55d6f5bb4b801d2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_504ef5783377"
+  },
+  "d42275428cd5e8283592a6eaf8cad30411f798f2ca0c23c6dd48d4c78f9d3714": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_521572f77468"
+  },
+  "9df59c0e77ffcb030cb331fd680a9fd0492a8b226ef6ef861497e82d69c812b1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_7189d9a90de3"
+  },
+  "6e24826ec9ffcaa67d129bb13fb8beb4a9b303cdc483599ecfd990d3cadfaf76": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_871873101ff3"
+  },
+  "b5b0128a682491428ee66df8d82734e0bb378d458a63e95f900176d13b9ca170": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_8e0bd918a41e"
+  },
+  "fa36d7f8ebda0ef44589acd3a08263415349b61d6fd2ac53123c484c8ea400c4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_a0d459682fc1"
+  },
+  "98c4814e809db87dd27db14d6d47f06ec137667ef69cb30d20a582128179c4a8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_acccfe44547a"
+  },
+  "774b2ca8a4bfa3e58d7cf7fe08474f5d4f14e6a1203a5c39211d2f23a5a56766": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_b9c715179c1d"
+  },
+  "0ec0101f692d712ee1fe11b896ec45848a387e118b340d486123ba867d58030e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_ba0a80c8ee9b"
+  },
+  "711bae30a0fbb422ce8a2647c52a8e6152efa1d9722a6e7e1a1dae10d7c530d7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_bf87afc3bb46"
+  },
+  "14feb4e6f5673d9dda45ef94c9f4cf9513d17785aa1835b11af933d2cf86dc07": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_bfe489a22d1e"
+  },
+  "71978b301c2cc82d8625d93f51f92f61bf0d7e2f7b3d1c446dd7ea67162ac745": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_c61134b99975"
+  },
+  "4414573afad7d87c4b061901a3415875ea7589163a15303cc7b27d4dd392d213": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_d82a3a2cbfe1"
+  },
+  "60dad5d8273bc126034acd22472d3cd62c6807e755b23f1e0546a2ab7837b5e8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_f1d2689cea19"
+  },
+  "4843130f1057848f67b518e06eea67e1d5fd15bd191e56791ef6a9804ab2dbd8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_01_f2c48f51075f"
+  },
+  "c6b200a23be7da7a0e50c36bde4270fec7fecbdf8804782fe70abf9d23e733f6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_136c96bdc6c6"
+  },
+  "9899c0a4e94a28f04427ac991ef3b4e3bafeaeb09bcd2268594c78e4634901ff": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_1c8eb063b12e"
+  },
+  "e45c8a97dfed1c43b945ce9057a008799c9e3e28b403f5583f37a6b284a857c7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_2587d5478b01"
+  },
+  "dd234b8b527793426af2f809b354cce6d44c0fcaa3a035aadaf29ef0a2e2a08a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_2621e0397e14"
+  },
+  "eb5abe3ae49c854caac76a1c639b9906e99a1b97431bdd52ec0437350f998a7a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_2faa3e644a93"
+  },
+  "19a883e23d4d7ea5bfc27fcefebd79c057720c9b2e58b3aa213e4141b3782736": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_393bd3513499"
+  },
+  "f02d9e5fcee5dae588b86d0094270de0b8967e3f3fb785eef3b09ca21a5f3c31": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_4214299350a4"
+  },
+  "9ba2fd5fbdb91199c794ffe7e6d2382e5dd351df4ff2c6d4fbd04ae27b92e379": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_4f1610f23e97"
+  },
+  "391cb4c591f3ef94a83605f130e395effcb52ef173478dfee854a429a3b8f3d3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_50c2a28656a9"
+  },
+  "35060d2d34e7adbb5089b09ec108468e676bd7bbc852042dbc61caa36cba1b5a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_62e004736bde"
+  },
+  "a8fb54b979879a0d742b66bf6acb58cfde1a3b2a8997b6eb2478dbc06d324f39": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_630e47976028"
+  },
+  "a0b901d1d8a7f34d4511864eb5f3d29e7aac45dd913024c2b75bac3b7b344d55": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_6cf50d12bdae"
+  },
+  "c48f8b3fa3026781448b7c307609057bfeaffbef7e4d4b9ad35a3deb4a6b877e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_6f0b42460c18"
+  },
+  "2f057b418ffc99a3c8bed62ac23fc4b46cffdd79b5b97286243fe5f51a2c0400": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_7eff8814fb39"
+  },
+  "2dc92b7c7d22c1e370cf8c9771c45c4cbe0a0c790a5bc11935b2af75ac2bbfa6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_81414f5b280a"
+  },
+  "337af2038b1616875fe4f3f366e0436860e2da7819569e944495cb88f1c1e4d4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_884517b12a5d"
+  },
+  "41b8696ec698452e221447a9a5cc5bc56a5d6e556bc291ae4b524425fdd21d40": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_8a5e2009ccb6"
+  },
+  "43330d871c59d02c8f28475e4f16444a19a70234e24f6217c84e1d0e5ad0be10": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_8c9a0d1df837"
+  },
+  "eae66b83d32fa4a2609d47800b2972b1ba352b86238cf39d99e39318f2c61c06": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_974355741835"
+  },
+  "1cf8dd458e15260c86f50300d10da8d373de74e9fdda4d47ae9f406d23946117": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_9da00da8518c"
+  },
+  "e1623d938a490845a96e1f7502d2d13da5a09b7d35c320310b089049753909b1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_a07bfbc92a80"
+  },
+  "5313e1896147c92ae2a23e657df20e529bc1bf979e9cc2e3bd6e043199aff283": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_b08d68a29ea0"
+  },
+  "0255ea4db8b170e71f4b502a9fc7a35866eab60474d5d649c51db09924c5d684": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_b357d8a8ac95"
+  },
+  "a8a0f5df65b88d3c9cc9b6b9eca80ac68838e3daf6b97543b920d9dc6770cbe6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_b53a0b2addb9"
+  },
+  "375a6175cc79182d4d0a65fdbaea11166fd5318dfec60c823cddabb311c8168f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_bb4b11f99359"
+  },
+  "36a7d873bc0482311b77d9ac7b817f2827092b684335af8c758c0a3710c6c269": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_bdb7ad569acc"
+  },
+  "e72769d80d7c15010fe494c33ecde667fa42ba0a5450e9f281e7978eabc28030": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_c116314a2c01"
+  },
+  "a5abbb91f053bbee69a6832a659c1bb73d218b825eb623f0d7333dca3208fd9c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_c63832c91dee"
+  },
+  "3d2971f72e1daadfced311c5d9999ce62e31684a89e869e0d6dc70687bc596f3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_ca03ae164653"
+  },
+  "5a89ee282e9ae163bd40e15737b4e47857053f0f0b2f7d399bf6891c9ba4adb1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_ce74e5c7154d"
+  },
+  "d1012ea4c9955d83e2e2589db41d968ae51b32dec90730926ed247c76f34f04d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_d3ab54773d3d"
+  },
+  "1391987586466b2eb7487970eeb8a54f1905ba17d4a364ca6e1cedf8e2ed3169": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_e6be4f5c91e2"
+  },
+  "6aca91f34e041850ff7c2220e22abbb9f73e413ace2ca094abba842181849241": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_f7f71880bcbe"
+  },
+  "dcca235e2a2902e7a2ac3778d159de8a55808452e30cee14c5738d895190f2eb": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_02_fcea4990eac9"
+  },
+  "99f2c6904e4cb7dd0f1ce71d7e173455d16b4f0a196db63a337f682cc4c3007b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_0cb1235405ef"
+  },
+  "0ce68eb59ff91d8e68b99576dc055b85572ac36d0842f405a30759a262b41140": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_2739b77fb74d"
+  },
+  "46895e45f77492e7c5fb7150d2db2f27cd083af0ea7ec5633f36d8376f6dbd54": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_30ff6d4c0014"
+  },
+  "f1964a53c92a26a953c39c7de8145ec21f5bceee52f24a4a27718c26a7a4f592": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_31dfc45ce2c2"
+  },
+  "2918420478b264234f38f08089d86ce85e1e0dac1bc8a7d2b1df1822b5a533d3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_39da3092f227"
+  },
+  "3974715802e1bbf3ae041189c0137ab422a805fd17d2ca7b8d0c646202564f99": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_3e3114ca5a87"
+  },
+  "6491a8deae007153c6cdd0b18c1dc2c056d5e71b11c51bb3a3e1ca496ab60b98": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_4087473f3d1d"
+  },
+  "1e47a5a57bcaf33d27e1f1a6f3a00dc27c62ccc02a28860241f3a727b7172998": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_4f0ac04759c6"
+  },
+  "ca4d444060e4a71bfd411a97970f0abf749c7321325e2451382a786f03add880": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_663d6a55229c"
+  },
+  "260ae4867f784c18ebfc2a06b11641a389f6de0513f755a0038c773803932108": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_6cf72a4e605a"
+  },
+  "1338d29fd988c880f8b37e2e708534f5eadccad756ae1ce4319281fbb2ab0370": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_76493801d254"
+  },
+  "93a51daee96f96ac8a0bcfa86b707180522c829305fb760e166458e220220886": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_7e3b52e3d342"
+  },
+  "87b2ffcfa92152d7916d40d7b1c3b8e653362bcf403fd8810baf041db836c8dc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_7f30e69f6c57"
+  },
+  "8b6f1e2a2ac637601d29e4863e498bbfc8c802118fc78d6356b44f96c4168126": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_8109587c7dfb"
+  },
+  "5af1378461af7d7b6bc30d6c580ba200a5ea3d9f9b44fe90267bae073bed284d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_8732b6b663bd"
+  },
+  "cd000f8a9df1e27fdab9261f583fb4f1a03a329749f18d33d6408152d1416a3a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_8aaa621731d0"
+  },
+  "7ac94cb9bf3bd606c6fe738ee895529795308f634573f964b47fec5fbdbe5d6b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_8bffb36114e4"
+  },
+  "156347b8ed392430e3302c111f56cb990876daff1544637e4f8b8bb7b9fa279b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_9447a44b51f2"
+  },
+  "06594320e7f0457b09e42fa7c0db0282508e9a36fac06552defe19934c93777a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_9d5b63b635bc"
+  },
+  "56ad00343bf34406b09c186a551dfcafebf648f3bfffbc39a824303685704fc1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_a9eac4579bfb"
+  },
+  "6b0b1acc190ae48c7bfbe972bbfb0bf3a6532aad59643f9513c606d01480c7c1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_c2733c393adc"
+  },
+  "8bbae06e5caaf7ae8419769d6a6562dc3c83f75d67e7e0c540aa532796c5d29e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_c6e2cd21db82"
+  },
+  "d359bfdb1499293d18538a41bf57536d41e9bbeb6a4fe97de7fabab6c6e552d7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_cf20a22cccc9"
+  },
+  "f5ac8cfcbdd7df19992e4e725d8a8f656c51c3c8e50a0bf52ee9c25f33aae6a1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_d0d0d0f20589"
+  },
+  "0988120a5a2d1b68efd3f320cf1b5c8f5fb67c90accfa47532f69a1f7af555a7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_e434886705b1"
+  },
+  "74990f3ad261f91ff7d3c2230692943a88d6781a07aaef9f624a2548f2059ed0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfantibody_crd3_03_e863267956ec"
+  },
+  "84ccc46ed5ee31d2d4af3d0adbbf0940f8691584f17be67996a54ad698e7a97c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_10f8d096786e"
+  },
+  "b5f76d8a4947fde9c885c41843a68a57387ebf2f5ef16215b59f7156ed7c49bf": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_30ab7ca77e78"
+  },
+  "032b12b756c4b1de2f7e7089aaa03893b2a49bb37733a50dc8f2b427f7f47b25": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_481531bee713"
+  },
+  "48f3b7d8fec4ac222922d4aad81285959d6cc484690988ffa34f48cad079031c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_6edccfb9605e"
+  },
+  "47aefd2268cffed80c52ed7c3de73e506612862d8fd25da9ef245ba4e4be88b9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_72cb4d672ef1"
+  },
+  "13eaf0f4d0648cec4d032e9ab32bc9f4ad6ca259c60243246bea3531dc3e21d3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_8a2bd384c946"
+  },
+  "3afc7ef49af24a3522d3288a120d1f805f81960d6c6159da48d8c7c8af24adad": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_8d466b9a4e86"
+  },
+  "e218201c485b8dcfc12b0ef605b4051d0807bcbb49266e4834d517f9aa35ebf1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_9f879a444b4f"
+  },
+  "9206e97de0a08536709769ea3a7006dad01aac432f0eed0a519bcf870d3b7041": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_ab44f6f5676e"
+  },
+  "bd4dff87ac161197a77f00be6bccac83f123d1f2b64122fdae2124016a83bb2c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_ac15ac09abef"
+  },
+  "cd2a548709332ff10ae0ad98f088d8e4c806396062c00db797f3c6d593f9e31c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_bbb2c2745506"
+  },
+  "5a78435c249995bf8b0ce38cb8b082d844c6c96d70e05b4f046660a46c767ebd": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_c2d4e940770f"
+  },
+  "30aba58eef7049382269dc2df10f061a00ee23eeea9aa29520635994bb01675e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_c345408f0102"
+  },
+  "9d25641d11cd76a70569f670cefcf7d00f14e81e0c20634132af3fd52ba40e60": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_00_ec7b9ad93663"
+  },
+  "7dd09f06971eec4ea2b9db48534fee6c0786a5fc4b69ba9bea014894d9215c20": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_23ea8ff87582"
+  },
+  "dfba34d99260b2fe1b7fcec45f4e873e09d657af6bb4c8b33c7fda98d96faf80": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_2ac4875b79a2"
+  },
+  "7a1f868fd5dcc0195b695d4d0dfa0704cb01598a80018f19842fb9470d439df6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_321a2f073f38"
+  },
+  "5d7993cc5c063882e355dc7ee78b2e8fd4ddc196f6c7015b8862b79355136e66": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_474dd64a8b6e"
+  },
+  "c2edb08b7e4679f54f6c7e9400c1e88d884110a2557d59c7ef5f21f8d502acf5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_59e532e4f161"
+  },
+  "dcb60e898558d9faa9566fac99ba237fed681c00f0489dfe4791feaa79ea9db8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_5cd7fe10fd56"
+  },
+  "097e41d659ee60c520a4ac4af2561e2b426a69cee0723637fcaeb2b0a8aeac67": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_5e755aaec1af"
+  },
+  "9ea1175fc727294e6f15e289fbc172fcd3df1c40886b41b90bb1e2334f7f022c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_5f64b44f0b64"
+  },
+  "c56b804f959dc9d6aa0f8f5881596cbc85e381b4b09262382da81fd9dcb9f9cc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_60cf0676ab4a"
+  },
+  "218f97838bfdca09bad621710c68baf5c642ae0f275b8f11d00c236540a63c63": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_9ec85b399f7c"
+  },
+  "4aabc67bb7d76ac711049b16c75453b75432dc170379aa4ee35df4870df3949a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_a1ab568d7dfe"
+  },
+  "2c7a7d0bf94884f2b6437c6ab975c3ca5186b93d70dd47e5029a263b27326bdb": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_bc50102df10a"
+  },
+  "cb4e4c2fd7d2ffe4e441988b76550cebdf12a16ecd273285ea9ebaef4f111b3c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_f559f5e63ed7"
+  },
+  "d953be87b1ae214a4e0f45abd54300d15a3f2c2b12789c24b3ffb38865342e03": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_f9d4c0751d64"
+  },
+  "24f49e35d846438f7acb686d130c3bb70c0ef26cfaf4c75099caa4aa73b5db1e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_01_fb7d778c6380"
+  },
+  "6663b742470aae5cb3eb1ffabfc73c604766d5a16ae23e0f51f997f0b4e754ac": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_0633758de352"
+  },
+  "0d5b3305b3f003f1ea5043a40221dbc00cd413f6f481fe847d5acc25dfcc56ef": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_4d36c210ca08"
+  },
+  "38a8176ab5eab68d7c2e3758bba92310c14004dbcfe35354c077445c19321843": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_6e6e056500f3"
+  },
+  "527081dd973056e738fed37fa386437ba1d626bef435f711d59c92bc79b598d6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_75cd99374497"
+  },
+  "3313594ba12a9a80abc051089a5daa758c24b435c904a5686d0b47ffb5eb76c6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_83d54a2713ad"
+  },
+  "518ac74133bd25e5bc02598c2864c0cd405ffb30aac62562d86d0b3a6aa118a9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_9e12300d7dcc"
+  },
+  "a2799b8ff815584a7357bec920f9506547abb483be0d4e7e5563e7a3e982da2d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_adbd56789e9f"
+  },
+  "580556048f51683fd55301411dd69e3169093f7f41b03768f4b1261ee61c7445": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_dc05755605d6"
+  },
+  "7311a0dd53a5b62a3be09acd5bb1efffa7d317d1d1173a6b24d8f357c59b9d6f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_ec4cbdb5b7bb"
+  },
+  "c994379950da1e0d439c1ad29c6e77baab9d9fd4bba2f740f1a280422f2f104d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_f65b0d2f31d8"
+  },
+  "ed28637e126372c858830ef458c9368d14aa63615f5b863e34a624020188d770": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_f6be1cf3fd4e"
+  },
+  "a4302dcb70313dfedd810e1d0092cb2930755c7421d63d3d11d4aaf9cdda12c8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_f755f38edc82"
+  },
+  "3346cfcb7a54b92eb8df5d13fa9a8e1261189f05e5f374af8c883784b8b7bc41": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_fd93c0a95827"
+  },
+  "bb95f4f66d4ed2356064ece410a7969eb95b29b59bd4fc64880a8538087ba454": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_02_ff209a74b7d2"
+  },
+  "ee91caa0b81ac3fc3436bdaffb30c2ba9139f1a40afed6da36502acc742b7ac5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_047bb03fc89b"
+  },
+  "a77ba5c4f3b58a3f10ebe4a19cf8f2ad3720a2a64361dad96530aa61ba0b42ff": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_0b3ae9aec734"
+  },
+  "264cb824a4368c1ad695d8066c9c4bfbf6ce3bfea2a9c1f47a2cb956d054998b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_11932bcfd9b5"
+  },
+  "10d245221334843e9d637b1719f12b8c4d2be3a0066d62ea42f4424ef6035504": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_34e9aa11e83e"
+  },
+  "7b0a6b24ae92fcfbf6be6ba642cec87858d051b8e26095d8d707be1969e0e6bd": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_43a7c9b8cc51"
+  },
+  "48e3d4b2700008b6dd00fc54336e6876fc5c6324dc026a27e6995a47cbd75908": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_64920078727c"
+  },
+  "ee535da5f5e842fe5b1ad970334001b9c48ca885b88b2e771648f6abd0dbf726": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_7d8c963b3b59"
+  },
+  "b26e31dedcfa31d37722a6ed53df51a24739d089bd67d5a0e297db74b996da97": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_832bf3ca9c1b"
+  },
+  "a7e937f3b02c0534c709d1c53d2ad117e57382845674ebcc84338a46a9d40ddd": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_862230182b5e"
+  },
+  "4a376c7a1e6165a779330921b9f8fc1ab4c8c9b97d85a0e9c81a56b2097e7e56": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_91f98891bb33"
+  },
+  "d0bee0c5f2f8afbd6694353e9660108e89ce87602ea12a2622d7c15004230f34": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_a845c4b5286b"
+  },
+  "b533cc91a3b63414e75680969902742efd348524b22d585bfb8adac53f2c0909": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_ac10b187555e"
+  },
+  "39a9082b8ccd1c5678033896a200aae56ebcd8b5ea249e89b2b649af456fa017": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_c1f6f825a56b"
+  },
+  "cf4b7efc29be33c6c29207e466348f95b1e3b740f054a28c1203f7cd69f867ee": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_d9b53f5982a1"
+  },
+  "c1326a59412b2cb6a79958baed229b69c95a6ee64568b50c24456ba87824709f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_eea86193a1a4"
+  },
+  "bf3190e065d269d92ef4d5452aec85c5417342d1e7a8b7458beab3ef114352e3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_03_ff7c97e868dd"
+  },
+  "d81a73a0276c14045a16e9f08d4ff7b015ec2eb28fd6e9e0feb348f5fd383997": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_0b3b33e1bbdb"
+  },
+  "c40f7524605f4cfcc06ef1230ec1e467e33195ce38a540ece44ddaee5b0303b6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_3079e65c4ece"
+  },
+  "383becf2d13e0e0d51c6321ebef8b22bafd18d30985771778ae7c5794a804013": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_3b054c892af8"
+  },
+  "66d2aaa9e4658d8c1c96f9a7d26456697e68579747c7905b42fba1b01918c84c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_3e3825148c65"
+  },
+  "5df7a3500d39fee9c1008d9443cd6380013f39add130e6fc2ad6ba401eebc395": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_577207165421"
+  },
+  "7ff830650a4b0217ead158e14cafecc82d9b65f8f33674615cfe31bf6d47c988": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_71cee61832fc"
+  },
+  "6c792537f74369468cfc8c63c23bbdebe735e04910e1218dfdaf47da3b774cfb": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_76acaebb04e6"
+  },
+  "0487b16a1ac2651b919ccbf34b82ca6103a2fab3ee28ccaf12103b796b2af205": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_a1ee107aebfb"
+  },
+  "6539a09ea1ad7790a17d35fd2968386e03061599bf3036f7f78da773b0dc9f8b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_a4de103bdcbf"
+  },
+  "8024298c9a6e565545ed88eabfe74b73b5f8df1e4775610a61a2d0521b8bb8b7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_a936ddf49204"
+  },
+  "3261957f9506b29b3b6d6e5315d08a9fe405d631d27b2b541c671b4c2302341d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_b927996d7bf0"
+  },
+  "10d132de2f1b57df6898384c5103a12f851f251c821924bc4b1513d2a38d61da": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_cbeb6949929f"
+  },
+  "5407746e631be3b5dec7ac351a25f13d56cbdd2882fda602fade294d0bb248f2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_d3c7e52ebb0c"
+  },
+  "b20b7ee006d6f7ed0cafb6b979b2f38586874493e595c91e5cfb948d4b5d664a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_d4f10b9da723"
+  },
+  "6fba51a7918739db23166166cbbf7b16cf4699ba7eeeb255fe33fc161e55dde8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_04_f0961ae162a4"
+  },
+  "db5839c6589ea737569940783df72da74e904173f8c433ed74737fd93e49c9d2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_0c56fe07b8ea"
+  },
+  "87dfdcff6eaba918a87a5ced82833c1c0c4c2784c6fcd2136c5285bf1df4724a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_0d034e1e084d"
+  },
+  "04ef3abd60c1ff8d1c7849d52d5bd07a9d4839365db7078f489ce2204264c708": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_1a81f612494a"
+  },
+  "adbc304123fa7711a8d4ada12782ce87772756c4ee1f57c1c5cc59f15711f707": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_39d05e6a2d7a"
+  },
+  "837ef7644e437a5ea4b05f7254da5f89230baee04bf5a90208e0c44305b4a85a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_3e576852b6cf"
+  },
+  "5262524fef4d50166e97e0912a2fae9d62e96436c72abee910a70891228e0d2f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_5a349f069880"
+  },
+  "c8279749cde9a2a70b2a691a5bc08b3f4d37f652971c3da02e863ed01f68de3f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_5e4ad3cfe5b9"
+  },
+  "e5fb604758a76e36c84cb747df68f4d8bb3f39b409b69c60cf9c6d3b179f44d0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_64743a96f6ff"
+  },
+  "54f1ac52c6304ff2e2a39419a1e443fe5411fd0e57ef63f671062a1a6f64ff11": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_813743a24a31"
+  },
+  "4ae64939287eaadc0e44e61b185439fa02f749bc8f8f3aaf928098003fdb78cc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_8ead7ceb80b9"
+  },
+  "3f33f7cc92bd7019a1ed4a64100689032ee7ea08adb033838f4c23f73ffbfa2f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_a67f28d02459"
+  },
+  "7fdfa41e2acd1749ab4d0b5c78cf67192f4f443a44a37757a00e8a39b454ee43": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_ace67f1a6826"
+  },
+  "db7528995f19d76042324750543ecc9d847c60ad0f915aa1f1a2e1226c95ef3b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_af4a4b632f2b"
+  },
+  "d880465b6823281643218a89da5d7bc066aceaf09dcf3001b1f58add7d1eea35": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_bdfeb3f9a7a6"
+  },
+  "0df932fbd28c4018184c7668a0924e9958996f9b6ee050f94b96204661d384d7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_c92eb0cb4cb5"
+  },
+  "5a75b44707845d1e89d420230f8b8942dd58ad2e76b00926fb33ed1ae961fec6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_ef8c3c1c37a1"
+  },
+  "3784e24522b1a5320fa5106b8847b35e00f12e33f33a3b5f1c26f91dfdf4388f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_compact_07_f2358f2f4fa6"
+  },
+  "9984bbb69cb7927d5fac6318bf698991812506b309ccc5d64aba6d1ea676c9f0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_02948eb8c6ed"
+  },
+  "4bfae818f600b553463ea7356866b63e6f099c8054ff6844c0521c37786f8f54": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_03df33295db0"
+  },
+  "5e92128b006616a795dda1342e5ba8b8b3fdd705086b21f1aabb6ea3521583bf": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_19a8213cf2a9"
+  },
+  "a9a9d38420acbff52c44f12a1196010f7e0690942dc9952a896bcc6cd2152d56": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_3efa4ce1467c"
+  },
+  "70e5756faf53fc8fc2ba77e652e789f8829270d65bafbe1b5a731fa37d9fd567": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_3efd72caa62b"
+  },
+  "9a332f2fcc75546a36276218c11452905a1244c6e8935e94e06498bdd14109a0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_4323c2f1dd41"
+  },
+  "992733194061a62809a72386022b499a40ebd37cb322288fe337271a54a8b76d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_50b678b7d89f"
+  },
+  "4ab41cc2f600eb2b51191de3dde72235ecf7f95c5bea291b83e47b3a460e17a3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_5282fde5dd41"
+  },
+  "ecb96cb7b7f411cc4a925a868dab09dd6ce6b172cac0eee628eba14d2b4cdd9d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_5b9823e033f3"
+  },
+  "84e574ddd56b1e151e868d24c1142ddf967bcd5663641286322ce702b045b007": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_64a9da297bb3"
+  },
+  "efaa40d2707b5802f4fc5ec32d796381dc7811aab2e6f84973eb3e23c55c29bf": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_6c8a4cb59439"
+  },
+  "818fd92464edd85a8a33c327cb80d90b5551baa6734e4a296a659fcfa347196b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_6d1210358cde"
+  },
+  "6b0c2085b9ced3e783c2214a6c89f0531b41fda39bb79379060f79ad9e342f43": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_885db7ede4cd"
+  },
+  "d551df748d4db4a081e0281947c76cad9f36429638c8ac17c5dc9bbac2acb840": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_8e0954128977"
+  },
+  "7949904698f8a9b2187d3c750d425cdfb53981c2331f4f9a486146e3ef6d50ba": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_b1f44d055d59"
+  },
+  "f50a18a3a262631a5bafcfab5dffc62b00fce55930e1aad3d1f9c34a713c2af2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_bd652eeed41f"
+  },
+  "aba1d44a07947a60b45a5b1101212284a7856ff568b5010d1d366d2ba07e25a4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_ca94dee3ba73"
+  },
+  "03a759c303d318cbb8b02c22c7a184219ef5f78e6794effdf3fc7775c1701fae": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_d2ab1773a4fd"
+  },
+  "61e47d2c81948b55a95a37819dda8d0f55c5613aefe9c7ffc43f602dbbf8506a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_00_e0bab9e42189"
+  },
+  "86b5d1a06bb17fb55c50c2da573b8b0988f90a320a3d91602b85b7c72f227cea": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_1bca5079117b"
+  },
+  "190ee27c699202001166b3dbb1b7f1b9f95a743911d52768a9b1578bae7a40aa": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_55bf7acd798a"
+  },
+  "69bf03a2666c25e9927a6b57bf9eacc57a2476ec7862730bc4cd23a788e589bd": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_5b76feb4b3fa"
+  },
+  "7ac97cd3822c186cc230046673f23c17130b07ae5084b2029e17eff660e13f92": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_61d41f18e3e0"
+  },
+  "79589ec71e2e8083a438801c51206cb6e7ef1d18b991da9b1542d6f2f3f35b56": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_736101a86b1b"
+  },
+  "3b28b7477d297be16fffa069bcce1b54b935484d8de6396e07f8e5e33e81c720": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_7fe71f2c5409"
+  },
+  "65c3eafdc71c1c926953dc09214f140bc7c647ea245743fdea8322da3cd33ffb": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_b20b2ad595da"
+  },
+  "f52fdf590e8c2cf465fd6903c4c04c4932c3d2c03a4532a9c97a6a34fbef213b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_c00e31fd9e90"
+  },
+  "d62fa4bf78d7201224c3d69da860494276ac6c70cb7704f6c381676b257b02f3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_d19fd9b900b8"
+  },
+  "853b4c8ecdc05e367f53888834688e657530ed1fc5775686757b72c884ae8b75": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_d1cafbb21cad"
+  },
+  "69bad3a0bbc2c2c5b29ccb966b7c6fc1b8a1aee22657cabbf7a067b9ed8f116c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_01_e570e701ec4a"
+  },
+  "042a2682e2eab42789a87ac1fcd33fe556fc10f15e49e6a0a26f0b1f8219a730": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_01f1a93f9a5e"
+  },
+  "fc0372b88f2d5058f5b91a28992b81c45285d05607de0221ca5927f9799ea343": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_262e7dec4ee7"
+  },
+  "9a3e2859dc7d339fc922e48294de5ed6ff100810507c7df2e56d1cf69811bc5b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_4049c9cf5bdb"
+  },
+  "4c9bbcf9198d02f25705f07252084787f1337727fa554a7acbb5d5a7ed4d4b9d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_5176c5ae6bad"
+  },
+  "8ce0eaa82a65978061d5d41816766c265572168e0346431c1e233782cd5e1287": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_5e974820c006"
+  },
+  "26d8da77b701f32b2a2e34c826b6054d82226e4a0106bfa28436dc9f901036af": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_6e0c206ef457"
+  },
+  "d894ae9aaa0f16b7d7424bf92ee4e9ebd0a62737775ec4359cf737e070544d69": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_6f7b3f171716"
+  },
+  "2b295c6c4ee6a468f04fa3b85a34bd66a5d1e5bbfe551ed4c4b1b291ea1e4601": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_7615fc07d328"
+  },
+  "ff6c8e6fb07ddfccaab665d8808aa40f74c074950a8276d1953d9c8325ae256b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_a2b859ad91ec"
+  },
+  "f1beb872b7ff0bd54fc23e456a0a2b4ad4c6ce2586f0a9d025836e804264edea": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_a566c329dbc1"
+  },
+  "ffb70641ece3e1a6765368c49b4e8caa65da3d8a973468375334a2acd4207a66": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_bbd28d8bcbfc"
+  },
+  "cbc759c34ad495abb06460e17ca16dbbb9ddcef9b937e2b017480529e9c6cd91": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_c319b99da9d0"
+  },
+  "50eba33fee53d7d54212066882559a3ff745fe7bdd721057ad8a4112f288e093": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_02_ef772ede7dbe"
+  },
+  "5f0ce36d95d3d62cd83157e9d03c2cb52043aa25ad2c9ea39546543f53620e06": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_094cca437f19"
+  },
+  "6035006803e9ae2b28025452d4f7272b1b60542885000db61922041ae428937f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_13c678993693"
+  },
+  "5d20c6059fe602fa2251ea5b31f966394db3c5ae369c33b42524e037dcd590e8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_1bc18eb887d6"
+  },
+  "cb7be48141ff68e7720127c06125e73926bda899c027bf33cc16a34bfdcd63c7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_1f4435a41fc1"
+  },
+  "f656185e809ba0da8c23519e4311249bd01702faa044c99309af41a570ad10ad": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_3f89e92aaa27"
+  },
+  "4eb9cdbcc381a5a2a5f4404faad08b933861160b2b8aecf59b491ccc98599298": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_45e301fb2752"
+  },
+  "21b0710dbc10aeb7de23c68a3d156f8d2e00af8bf74bb4e67df198c1730052c1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_5219972e5036"
+  },
+  "d2ea32e1300bc111ecd75abf2b0a7a2abdc694999a3542b6e762ed98ffe33b9a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_65d2dd562739"
+  },
+  "573f9a2eec834776dc3d650641edfbc8bb0d5731af7506f8619b5c323e217181": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_671d125e1e31"
+  },
+  "05ca8bc900209a459ee9dddc6c3a280c1bf2038f7f5efcc09862507796076a2a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_72b6e51677ea"
+  },
+  "d54faa3b44a6197555ee0377fa02410ea3d2c3f945220fe942d6272d76498808": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_77bd312a1344"
+  },
+  "6731f12edc9433d1923bca81957cc6e65c9070da5f7c0e9d86bda75c31da4e42": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_886cc7ca1cd6"
+  },
+  "85a786529302b1f8252d42ce79e80773d835f74f4c1fedb3ce7fd2b4b28415c4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_d13a35abe76a"
+  },
+  "eddd363bd6983df24c218b62cbd3bd0f232ee4e23753e64421ada478a7cc1196": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_e341426a711e"
+  },
+  "907728650e097fc818bf91725309e2739c3db80e9381054e7adbf734b17ee25a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_e5ec432f525d"
+  },
+  "baf02847729cec924034824803fd19ae958a2367da9ec793a56d4c87789fdf2c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_03_ffde38f25c1e"
+  },
+  "f17d79a25699394bbd6894536762d6d124588309fdf563a5b2b10a2f7548f63d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_0df3c441f315"
+  },
+  "fed4d9100346a5de88d3172b6b59b9d1c49632444c75beef18a68fe2c8ce840c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_129f391fab3f"
+  },
+  "d043778e2ebbc0b1017c7c5ed1d692c97edfa9d4f67efb440b58efe68260846c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_397d2f977874"
+  },
+  "bb73148c8ee90030f273b71b58e772e59087d2a38d7c9f4b6ae2ddd3715873fb": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_40e37ebb0c3d"
+  },
+  "92dcc3bd2f6e1b7722ac5e5278d086b6d46a5a716175acf05084d1600570cf53": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_42526c618322"
+  },
+  "ab842ea283d6f398de6e1645294b7897fdd37864484e055e6735fd1de27105b4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_4956acd6c6e7"
+  },
+  "713286448fa4045e774b330a0b04bb373ba505f773af0368c558e215653dfe5f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_4b0527552820"
+  },
+  "e0a7e19c5610338191650574805fe347f06898c2b73f8c5482af569b916c163d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_5dd360530d12"
+  },
+  "065919d56a76ed9ddb0c35009be7078d65b66c0edda8f2933c2e88cf682a48bb": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_666bb0b72018"
+  },
+  "118f23c87c8d7ac07b3e32ee728831323ef609b804bf1c3da1f7230e39755958": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_96bf1a40c4c0"
+  },
+  "52370f9ca14b1ec6b639f188983e40691c796bea33d38134989624f358294280": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_acbcc802692c"
+  },
+  "7b5ab980e0b77e581879068f836367d9d2707276b576c571a6713390150c77fc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_c2053e50ebfb"
+  },
+  "ae88787e345859ad53de8aec18ab33b2074e62b2e896e40e5d8814998fd2967c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_db3fc4b9e713"
+  },
+  "12981dc421fd82dc8b014d65db38564e10d405db891dfbe3b61b30e6d55b0683": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_04_df6de673a9b4"
+  },
+  "4e93d3102aa81ae212293eeacaad66e5467fc38abd13befb7543cb040708a80d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_035097bf685c"
+  },
+  "f0241780f7a55597efbf518e7087deb7269d65e0f728d939e79c747ecf27ea92": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_1656238590d7"
+  },
+  "ae979f49c4b36b2c52b8b5602eef9d3619fb455c7cc85fcf0a28974ed7c755ce": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_3fcf85f05d2a"
+  },
+  "05f57875502989348657433a7449ea8a0a7fa9072febcdabef7e15615b39adbe": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_44cabb02f5ac"
+  },
+  "e5e37c3cdd10ecf91b628c6f964c16285223e8b89e40537e4abdba358c243c61": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_6548641ca18b"
+  },
+  "5f154ed843a1a394e1946d0d19c90c3d0e8525d444867a8c9ca05e3c3805aa5b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_6669fa4a7832"
+  },
+  "ec615b87f42550c2bb8906543b1f2b8695b579aabf4ac6969485949e9c752859": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_6d83e221a2f2"
+  },
+  "521a4b2378358cbc65385c28b651c507d3ddb3c0b57c54bc2365fbcb9b098aa4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_7aec27e5a56d"
+  },
+  "dd84e52e940d72b32cb0db98af84c1758b644eb5e63dec43ce42a6eebebdf9f0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_8f21efa512ba"
+  },
+  "dc978ca3b4e51459e9bae2e73d64a89373ddb00518b740e561ade7d28d104b88": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_9f0e4c213b19"
+  },
+  "d8738fe8ea24ed0ad1826e4dbf3004b93ba00fe81fce9de75953b1cc147ee294": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_af03f830b638"
+  },
+  "ca65f652b8f49c43c99dfad0331c6755b2d84aae0bb541f3f7025c8eb682a3d5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_c49f6efb162c"
+  },
+  "bcc7c561d9f25cd389e3d74c349170c9a0734c1d4a2ec52d4cf95790f99faeb6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_d90f68340552"
+  },
+  "9e2740822d8906c78046dec55f3aef824dd4700d2f48c2d66cff68b192436f60": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_dbe67adf3dc0"
+  },
+  "8c219ddc06bfc7ba5d6f2088a1927f500c5ef2039394a282b339b64bcb15866e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_06_f7e8cb5a2e11"
+  },
+  "dc0fb27c594f968c281bbffd6f6b9b4812951af4da88924950f21e047eefc99b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_0f5cf205a35f"
+  },
+  "90b56dad577406de57a063b7a3f0e608c5069b1c16b50ae682e48d43a6fc1e73": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_1c7c8aa7d46e"
+  },
+  "74ba5be2094d16a14a9fd39884b3492f026a5fba8106476d7fab26cd5d3ef2e0": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_2ef440be2c00"
+  },
+  "6d5ebee2b48a3d184f0aa35767660b75ff793b0a9b10bae9788baf3334764b28": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_3125079e006a"
+  },
+  "af0b8babb09a4125532a3cea6e856e4baed72c91e562b9adb0b758a76fd402ed": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_34645a4b1439"
+  },
+  "6908885c7e75de2d6989aaf9fa8a0ea9ff7c1569ba5a68ae49f52bfc09d9a8d4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_5dcbeb2002b9"
+  },
+  "2fe12c21dda72f5d5387692791097d62fd8e13e464107e6d375270e7058b8700": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_6001898111a2"
+  },
+  "3122a6837d06fcbcce3de49035942a8c63fcee6dd905399a0715be41e959dd31": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_66290128e385"
+  },
+  "c4e2636ad95504eec18f29e99bd6d64fc2bf9bbe6ce448c65748041195c8f1f3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_6ded831b4b08"
+  },
+  "6930ffe65f4919e0dd0fee1ec970f0053309f7e41aa123dd958b8869db1121e6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_d6fb4e46aec7"
+  },
+  "85b1cbbe79c4fe5f38f72f0d9e17da1248e5be70cdee38134b1113325c0c7893": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_e67510a7f144"
+  },
+  "4e636f175929f55cec72fa121183dcee02d8d11a88dc373a9e3748f260ce2ce1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_f1bdab17e337"
+  },
+  "26ef03cf10a050c07a2b7312506083b116c455bc8aa745d0804bf646b31efd3f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_f4253f3391ca"
+  },
+  "d31933507f241adde9d864903285fd977a96152a4ba1e54e2f4940e0745a46c6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd2_long_09_f600bfa8d65b"
+  },
+  "ca0495a4d157fedb04c76d47a01b2b63dbda5b4ec0fcdaa7e6c9390ade74b8a4": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_364d307dd0b1"
+  },
+  "d95eaa0730e496960a1cd6d31963ead861517382eb9a3ba636b2ee7e2c4c9456": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_3f503435408c"
+  },
+  "4ee023b28b0b71d619b68c6ebe7a12409eed2ee8e02038518af2405855222be2": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_48770001cd65"
+  },
+  "df2a54166f479ba3040230c86f7493124c9da92c7f2e46ec11f7ebce48fd576e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_8ecb74fe070b"
+  },
+  "7d4b325b41423cd48557d1a4206091c21bc8550349eec66f79e4a4550b9647aa": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_bcda50567ada"
+  },
+  "1352fe48b990810e1eb8ebbbb5f1a59d622b8006c1553480d1b92fc3b5e07764": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_00_dc99c17c34a0"
+  },
+  "00fa5c7a19eb9e84d413628accbe903add828c290faa79bd1ec92294e536b9a5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_304efc5ca204"
+  },
+  "4543cb455d941781dde01d4b6b535feab1450f477469bd26f263ac2b47aa741e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_3fc8d9d59635"
+  },
+  "8a935813465e975d3dce9ade91add3c03576805caece43886001ab0ad741426b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_63fa91a194cd"
+  },
+  "3b0ea95b745110ba1de9751afa19b13b9523abd14b6bfd2485d33bd13f4e7c77": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_65025a81955c"
+  },
+  "6299b13f07447b3ee48e92d7e741b93f8fed707c22e490f55d05503f667b1aec": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_6a18c44a7db6"
+  },
+  "e7dafc880fa7d52c9c75c252478751b25e307d4fce33c30db61e11994c2382ba": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_8d358e054f75"
+  },
+  "b7fb07f88cb577f2e879908d9722b23ffbb1f9db3bece35ecf328392f377e971": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_8fc9c6751690"
+  },
+  "21a85507c5eb28013b1ff53f0087c43e826f465b10452ce0383aea5e4e06926a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_9931b0f1f282"
+  },
+  "7d1b6f185484e2dd54d1ed64adc817665203ad31f1bc6762891805fb21b22aa7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_b88f00b237a7"
+  },
+  "e016f5b6eb5114363d4cd40f6fa6c94cf88d9aa680cafdecbac204146a74de10": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_bd1af20b88ee"
+  },
+  "d97140ad3a647c3d3af78ae2240fe0357ec8f9a95e9fcd784ab48a0a32f27540": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_c3ffbcd9147c"
+  },
+  "9cf8858ed08d0335f3faf7b698888fccddad6ad7531deaba4a2f67d7b3edbe9c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_01_c8f2e04b1882"
+  },
+  "2ac41fa1d08c746e917660b8815dd0945098c19a94d1fe8dbbf84d17feed75b5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_0e4c8f17ba92"
+  },
+  "2986ad57b456c69f35a55f9435b3fc5da8c9737e71cf4c4cf2e1ea292f0c1b5a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_1abd51adba4a"
+  },
+  "8495de3f755993701f6a46e47bb73c93da22a90993fba59c666bcf34be121362": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_1e77439e5382"
+  },
+  "eddcadbf0bdfd9c9b817dfa60ec19f568397286cfff235abc219530e66500979": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_3a76f11e0422"
+  },
+  "4735f7786e0f35695b01a505aec91451fa1cca0e4f41ede9e9960da2897fd6db": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_46719953d9ae"
+  },
+  "c6738d3af1a0faab067a7c6ae931d180a0f714255cd0f2a1322022b401675aef": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_61960af1ccf0"
+  },
+  "493bb2d80fa3e7ceb061e74ee0598a12f68db7d5b9f892da4eb2198cdb7f5245": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_75c56c834bc0"
+  },
+  "118a05673f1908b36c0b9f1a0349a1a84430ed003e2f2870e72fbc9806f064e5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_7a445fc1b497"
+  },
+  "6a52686bca516918e40c42d97133ffc211d6a438ff9e1a6c49f89f7bb505b088": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_8753e7a26bbd"
+  },
+  "6d7fb9c99a5a36bd4216095d219bdad87a8d2d7ce2a62b9ab8d7788c1a9ce43c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_994709dca0d1"
+  },
+  "04092c5849cd48f83f8f90cec30ef9d819c9a471db4b90b02f2721be94ddb58c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_9fcb3be4a8dc"
+  },
+  "a4c64716b785985e0a4d2fd5d9d29ab5c97bf41dce128954e955be2a7d324ee9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_d7de31235469"
+  },
+  "ffd0856daea7b7e2adf4f81927f3573afd4feb5d54d9bcbddb9c4f41b3dd83e6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_ec127ef137a6"
+  },
+  "5fe9a9c7396104a07bc434b10e4167086361af08832aa10d57dd1bee2c0cd303": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_f01194367441"
+  },
+  "7d6a301fe8fd4d36bbc51fc1e277c07db34bb4f6aec7cf4b30b28ea7ad79e4a3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_f3e74a9bdfd5"
+  },
+  "d507a8aeccebf01c5c25c328822769ea0c3f5605c0d5fc159c337325ee40dd5d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_02_f56087b2e3b1"
+  },
+  "a825c65403c295f9ff5e871fb4c7b3a242a7fdc57b4fbe035edd7602dd9a7cdd": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_2dce1d8e09b7"
+  },
+  "7957ff248046dfd1abecc4326ac16b82f6617668b8b040da2a9d15c7c2a3eae7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_48838caffc27"
+  },
+  "c57bb8bd2de9a1988731e3485040e494dd59d61a3e969f143e371788894bfb31": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_84780eb28be5"
+  },
+  "3aea8e33f702b72321880af56b68cc9289a545c308dfaa3693830dd10e1bd1dc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_a3dc556492c0"
+  },
+  "ddc97f60fd8d8a3bad571a67ea7e9e53c35b6fbb28c5e235a5f435d3a07ceed9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_ac55ca6bdb07"
+  },
+  "e775906248022201039225bf1668f7f402f8d8d642cb8152f509a504cdf99b60": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_03_ad0d8013d00f"
+  },
+  "b4bf04070b72718c7c642f8430a57870149437dcf726b56783a11d22c04b57a6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_01e71b1231bb"
+  },
+  "ea7b1ee253efb26eca06276af724991312fa51e5481f4303b81b4afe6bd6cf6d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_248dfd7f3de3"
+  },
+  "85c402e658b1d84167c46d6f4fed224e8e00ac422dc4bffcdef0d9d0ea136b5a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_45a28345a915"
+  },
+  "f8e96e537100e38ccd30bd1814dc646d27c15e6b10bf184c89b33db9bae170a5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_4a36dc6833a0"
+  },
+  "b378bd2dea515bc27efb6791c2c367199f0a0759eb17fc062b5e11378f346624": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_7374b3935109"
+  },
+  "9cfc49bf2af01bd1feb7fdb56d52236b7fed163d7f8bab7f27a883501257c105": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_83d3b12d6894"
+  },
+  "65c31ab579feee0fd60011e00a8331ad0853c6bb5c551440502099e4d3396753": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_b4c6e3ce78e3"
+  },
+  "0e13e10a3aa91fc5c8f8d9dc8d5cd745076f5b538c8d6cd45dc4d39387162201": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_bd522a2b0b9d"
+  },
+  "db659703c8175435b61631d9037bf4387b60421062446b7e45b89f854bd9306f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_c3cca0f1dca6"
+  },
+  "d6c3d37d439c7d57baf2d9ea78633e49d6b6335d3c88cdb2055d5132aeb7d33e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_f226d4fab9d8"
+  },
+  "5502a95ffe682680889259db9897ece02038c8b7ad422ab7f2fcf481a8245800": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_04_fc74bd53d6fa"
+  },
+  "949e7e6692e1621a7abc7e2694592d4bfe33d579a5a48758913266bd2399553a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_0c0e90e55e44"
+  },
+  "83fb386e9568fd7d8a89d02a7db792ae8dfe447c35e6d5ca4f629692e3dc7e87": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_321587179d7a"
+  },
+  "0a2cc768c0fcfba7375a8e19e372e4ecfbac07bfff01a5f02a225073db835053": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_3ff1743ba2d4"
+  },
+  "cb2d35476475d6d5e0c075e826a30cd1f0bb65948ea34dc26c29019390ae536d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_64f13c14aed2"
+  },
+  "1c71caca55c5a101549db269f74e0136fb8f7c0fa55b3a4262d594d1ed12cb1b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_69127ace4ce4"
+  },
+  "ab11d3b898636772be8509d6546ab51fca5ea0418551c65f4579296217105546": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_92f12a499365"
+  },
+  "96a7bfa506fe1cc1cc6f83583705efbe1d1a94c09a51b8698635d7ff6eba881f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_b601f4e15d46"
+  },
+  "bea7aa0ebc41cb5b42b2ee83d5edff4900532733b9cd1bbb6727bcc8c850f158": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_e11874c99243"
+  },
+  "80b649e1d408d493e8be6ef5ca2d18361e8df50d8ccc4367881bf2b1e6249c66": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_05_f5313a3ddfd2"
+  },
+  "ec3fee53691f2bd4eed662ddee4164ba28f119bff1beb52062f8e9e895c3e79e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_1c94c6afcb80"
+  },
+  "b79e782dc14fba3b8ec4e7028f0105ab4af6195f06d59bbb0304223e7adf6033": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_2b71d4e855b4"
+  },
+  "f23c4ee9193c94f89720bfed2b0fcf883a50f15b40681f50d1e23df35c0d0caa": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_47f97850a7a4"
+  },
+  "3cee7e5bd972cc9ab4bc90d1e17da0cdb827a6814d5f7e0dd8505642d9ad6111": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_4ff678107bd9"
+  },
+  "fb2399db6b5d4eff61e91108ae92fdcfe0911f08e924d9719fccf9200a9d8caf": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_538dd1b34045"
+  },
+  "fcd0ad6973622a880c4d7f88667ca9381032a45cdb163c2e4d5bef01ca8d3cf9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_55ab9f01c5a6"
+  },
+  "d39fe2204513c6b1483235e2cad25c77fbda6cf88255bfd7659722aabc405eb3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_77ed85ac634b"
+  },
+  "f8eee596878a49ccefd20fb6590aad527bc7429da5e9f51bb87f2e0dcd03e857": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_9a5dea73bd16"
+  },
+  "c66d58515fb43ac39cfaa59d8a726c0078fd45022ef12ebac0a7c66414f98190": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_b61b781529a2"
+  },
+  "6f62fb2f6277e46ea86dca944b449b41716fde1674a5ae96ded5dd568b369858": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_ef8b5873627d"
+  },
+  "64dd64c1876bd0ffa8fa3a3dffba11cd0271f5ef9e2ee70a43bede4b7761367e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_f61494d51eec"
+  },
+  "466041991b9cd511a03e5c26faf64f1932e7c46473ea386cb8b2a1878cb2d141": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_compact_08_f947882b121a"
+  },
+  "5482dd4d564117fd39df538cdc210c1542b2628d1c86fe46938b6d7f4bff37cb": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_056a8228d415"
+  },
+  "1937a47289e06fbe8513b3c9d9edfe0fd7fb3c1a3b7adb87a738ef91149cdea1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_395e8c3dd3d1"
+  },
+  "610f2cc108ed85286726006409a72b0b66f24bd69ac42267e2c60e6ebf687d41": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_3f74437f4838"
+  },
+  "56db044698de117961abfa02c51346c30dc5fc89a2794a81c7c103699861148d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_3fb4c9284ad0"
+  },
+  "915d990273524b41dae68f32c9f522a7341eb231889deb8720ba1885bebe0c1a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_410dd54380dd"
+  },
+  "bbc1c1848c32e78741197aa527b2a877dbff3f2e66aa6737921e2117bfc28095": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_4a5f3d327a1a"
+  },
+  "3f458d90f0b152f661ea9502ebc91665982b6ccab1914ca2c07fe1b69c19ff8e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_541ea8ce187b"
+  },
+  "9d80ea027a90d6a365457d64d237b2fad4772abb1c48250bee44e4ef20f16a3a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_63935c6d0fca"
+  },
+  "f300eefd5f54f8270a3a15134052895f3c29c9dc993bb0c780826911cacc52de": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_7f907efa60e8"
+  },
+  "da67b4d14d3925defc7881cdaf559c67d3cc873afabfbb00c7eed1f9b1f36f99": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_8c2e3b6dc858"
+  },
+  "977fd1dff0f45350e5eb6eeb7734d97ab0a013eec848f84903e21d5a1e3c3ee5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_9598e531ce1b"
+  },
+  "3d606b991107a2bb7014eb3d51d9ce1a95f52a0151329df2f0062c80e6474968": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_a873c802dbf9"
+  },
+  "59df0e23a6bfb5b15cc468a81269814a70a0e8c77dc2c4d62d113d09bed0c240": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_00_b68a6d9bfc92"
+  },
+  "1e724f8ef0c394ad6b02a3226179068ff7205634dbf92210a66afed3c88f5146": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_201d37d41ef2"
+  },
+  "f7f0217abc8af593fbbe950f69ed7da24aca7cfd0106d77859403a26873de516": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_24fb670f15b7"
+  },
+  "a6b45a0266331f4d1bc88db6793d4939b1b8c5949a04b86e0755a622f2aee56c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_458792ad0cb5"
+  },
+  "eece879e98fccff08d1e254b6b59510b3398ca2028ddbc2d9ad622bb954604da": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_47bf3b298b5b"
+  },
+  "3f339d9efb69f23aba27c0b8728df43df5705afaf5bbfbfaf41bd677213ce8a3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_54374c3b90ce"
+  },
+  "222213c297b5fb3fd3844120b319bafb5f8541e0e07d96c36d90e6bedb13bc84": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_729d10927be6"
+  },
+  "44f50f58faf7ae8403d76a08c50a5d61b24dc74fb91fd1c9f506025c1aa262ae": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_9cbbe9869a91"
+  },
+  "0a9258370c4925006ae2f28070f861d49f06112a00365a957e6f45fc460a24bc": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_a887e1c67204"
+  },
+  "410c43a9689a8fed8b88b22d1b2a640417165be81a8fb3757a0cfba0cf373826": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_c123e8f5126a"
+  },
+  "85d5212ffbd59678c97f932a4b4819b05d70a7a158e6f8d6b17629b061f71ff3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_d4a8cb24bab3"
+  },
+  "2567488967c4bb819940b4529f51ffba26f4eda9fcf37f3f44c2cd2e165dcc3b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_dc95c0d6d84c"
+  },
+  "fb5d8e8bde83edd0f8ff0383e42429d56f1140e212539cc283c0dcef120217b9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_dfe9c45a681c"
+  },
+  "3aae298a1ba9e6335c6428ce5aa68b9864c966b20c7476e7b6ce46c842382be5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_01_e663ee8e7530"
+  },
+  "ca76f117dfb4cb68e2a32e765da1469f67f4eee11c8fe543a74762fbaef853a6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_1c7d41255110"
+  },
+  "910826fa349369f26a0cec02e538afbd526d4d8bdb9214590fcfa5327115b75b": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_25e39a5117ec"
+  },
+  "0006bf41bdd16860b3b1c416ac6362c327fd3bebd002c74f080abe2fc798e05a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_2ff6b0a7a084"
+  },
+  "423356f4887622841aa05e5e59e7e6448330aa25e78a3e96afff625571f04118": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_3f2f32a2d7b2"
+  },
+  "7eb91af010cbe04150cd5668d9b4d00bf75f398e375ad100d48ecd0a0cb35c66": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_4546fdab4175"
+  },
+  "5fab19c9ba4c3833f803c2dd223ebb5c12b37d230ebd291f9218df83bf56f4c7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_7ab0cc3648ca"
+  },
+  "afc39f094474da74e843a7c37f2fae154eda33503b396f6069c317e23bbc1fef": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_90967d2d207d"
+  },
+  "286876bcd41638541feb2275d7bf58136e0b77949245f83a81007704d169630c": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_a017cda2d1b6"
+  },
+  "65fc1a068d4fbd1efa8a2c645c6ba9aa3c94db1bd08fbe67699821f98be65ff8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_a91877b68de9"
+  },
+  "b0aafef9fdee3ffd51956977fc46400bdac7e2aa79c977c9bd51ef6e504c06e8": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_bfd596810fde"
+  },
+  "b9ba828a89bdade0e3b550c6fccfbc8910aaadf1cd8e5c33308f34cc98471964": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_c50e7e8be5b9"
+  },
+  "26d9241e496b85d448abe2c7a11d3c11b861e8aa470957084aae76d7faa02fc7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_cb7b64652c90"
+  },
+  "a519420d285e507908def521d1e14356169d4e29edf228e4165b687a85bf9728": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_d9ac798106b9"
+  },
+  "e9d595d3cfc9bb3307d64fe94028334614110624d576bd95da88bd03d03c36e5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_de51d2085b38"
+  },
+  "58e9c57cb21b1895ae4517d7672be7913058988abca48ec8586048bd00bf6dc9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_02_f8adcf1dbcce"
+  },
+  "31a64ccd68a7c8c14f9246e0d6d2e3227e9d05843d1883dfc05bf96faa8f0644": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_0d3fba4a12a6"
+  },
+  "106343e5be96207df0d2dea0beb7784ca199d591a5f7c96944c607a1b4d48c71": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_18655484eb7d"
+  },
+  "9a0db75eb4e8f33d901484e1b60d7f3d7ce4ca882a37064886e15372fa06d4cd": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_19e93168a2f7"
+  },
+  "eae03c4f666ccfc518187962b32e5ecfc983a1f6047bb1bf53e2632d895e9dae": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_1be3dc9e87a7"
+  },
+  "0b9a0b9aa78306d44a22bce7bf49a7e5e3368e6f5f5010cdae4121f0b61021c1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_42df25dccee9"
+  },
+  "b114e7217edbdb2c302b575f72de55ee93826c772954820f90decaab9ebc0932": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_492ba85334d7"
+  },
+  "96808a07160ece1fbc303d3cfd05f0e7cd672b6ea3677a084da35bf15d04298e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_616e3b01aaf2"
+  },
+  "026bc9bcdf07363f11d77f6b32cf889cc2ff18ad6a14e2f7ac1f21050bbbfe1e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_8d54de87c082"
+  },
+  "0e0e4e9cb2ba5c4a9384a940e0e4b1c5a3c55141a50ebe20b153ae26413c1676": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_9a77f0ace6c3"
+  },
+  "db26b5b1a953d1190fae00c6c013f6b4a46c6815ced47c3384854fb4719bae70": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_add38d1e1472"
+  },
+  "ae3f0c579b0431f81e167d49d6bd31cbc95a5157f47e9161404626776e48fa29": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_cbdc8a9036f2"
+  },
+  "d0123e7f995d3122c8da53d9bde0a27e4bc5afdf6af26919b1ac8f8154e7332e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_d0563ee54798"
+  },
+  "877d4d6738bf416a8eb96a8c2eaeec51e8023eda4b90e1e0d61e83aec1de0a46": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_d1bd34712540"
+  },
+  "bc3bd00c58ca0ce624705153b313a213157bfa83d5c1f507502595849c8975d6": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_d4308c2a965b"
+  },
+  "c06af88172cc310ce89cc1cf932d02d080f57a0a49677d8f795c191bab2ad54d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_dc5c19c38373"
+  },
+  "60b2c1b7ff37bcbdb6841a28002cbdd8d85394340396e341a4bfba211fef4740": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_ebe4f83788b9"
+  },
+  "1af3b2afcc1bed8c448998c4aa08d8f045b61241909f08db0cbd89be38ccdf7e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_03_fcb321bc9114"
+  },
+  "eacf205e7b05d23f665aed7f96dfe9ac45dc21f5525738b23d17cd94d125a912": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_07d25e8482f3"
+  },
+  "95ef0804db8853104f7f6e2f645bc8df56b63bdb7538a5d98c969ed6e51e7129": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_1b4230916d9c"
+  },
+  "3ee1a6e9644141dd386824fab0a90cca2c3169af00b1047fdc34cc06b25675d9": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_2a7aa67c94ab"
+  },
+  "aac0541106ee394e26941fd1edb3746f879ad01c8b66a888d7e1ef91d68bf404": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_2f2f1fb2d248"
+  },
+  "c97e0f0efbe25898e7fdb47bc09e1d544ea27e1dbbb3b941c18a251c7b48130d": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_425e6d5fac1c"
+  },
+  "1cbefacff34c8ae3ab1f392816390efde3c845128fffd2a53b73256547daa7a3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_592e9a467187"
+  },
+  "8005486d677992b2f444999938e9e283655f90d6590bbb09c00085b3f6b41519": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_62c193797708"
+  },
+  "86db2b5c74bc3573858670b8befe257bc82ec9bd4640877824f3b95ec7f6b5c5": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_69dc31cfc595"
+  },
+  "ed6358deebed46ff8e1df181a994d8a10ac8c750d48b56bbfd7240ea3da28a80": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_6d7711aed470"
+  },
+  "3f5ea97e4e2b3354065f305948cfa8752e32a476b7e48aeb660fe53e3637678a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_a190564ccc22"
+  },
+  "dfd53941ff427d340e1eb7f66034a93d28317d7cf4756851687f01c28530f305": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_a5e091bfd48f"
+  },
+  "7e410f19a5283577e241a5740f12dab22b41c02c3729b194f682208a8628fe8a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_b7982d390302"
+  },
+  "4193b60b022082ecf9bcd44db5a5ad77f2e6efde49647e71570c67fa2cdc528f": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_c24988b3ccfa"
+  },
+  "91caacdec14faf679f5213b075d0ab4c08cd0e0edbcd230baa9791bcd89cd7c1": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_de7cd83928bd"
+  },
+  "c1c74c45fd8ade440c9684964b61e7231b18dd693e8de4363565ed98069a6409": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_04_fe190c345ba0"
+  },
+  "a915cd364426c27f6fbd6154cf12be353c89c8df460c14cd18ee102b0067cd79": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_10dca648b16c"
+  },
+  "cf818306e6547259045b976c73b07c6dac94d68e52ca0e348a969a78948d805e": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_196c68a848fe"
+  },
+  "3e463cfe2ab3d9a4f340f91b0d31d70cb4a10d8e13b660aa55a208dcd00be005": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_48a3bf5f5251"
+  },
+  "2a20790b52cc8c06a69d40d9883f241fd6e4269308f011355b3ca26bb4be5073": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_6f2dd3435434"
+  },
+  "8829cd55639c7126f647ec07161b14a21647a4cb060e258e6f0bef82a294589a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_7e19ec9edb4f"
+  },
+  "c0073ac2f82914223710e55f732972cc9f8575a157e484e3085913505b706910": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_813b3e4df76f"
+  },
+  "f41bf082dc261a5b502d3786d72f2acec9ea601f363018b1116c332dc72f4726": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_8a956b8adc2d"
+  },
+  "309535379384c5e1c3097df52e35edbccecfec25a0d4b91f71f8875e86027bb3": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_9c0e578c1c5b"
+  },
+  "bad2449eb5b5642617192ebf3c083ceb13373e0401bf1df4c0390f3ac4468799": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_a2d1f9b9a391"
+  },
+  "03c375a86331c742d1152c15478e9b622370ab26ab8dc1b3b1803238d5d15f55": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_bf699c983b7e"
+  },
+  "0507708b3cbc539d0bbd38c2ced8d5068796d30a797b07175bcbdfc4f2095514": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_c068a16b331e"
+  },
+  "a5486b1d00a6f7525fe05163eef29f268de3f45dc57454ea3956f8a73ccdd7f7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_c810a6366cd0"
+  },
+  "388e8e509916639c56410aa1c71bac0185e434d3a2df295912dfce0e054ae097": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_e65733957bf8"
+  },
+  "4a33fb52e7be8b5a254aa275e6c1cdf52b743a95325b3742e7a389adf57f795a": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_e6ede74ad0ba"
+  },
+  "67936c47f2b025c09d587f970474ea976c0d64ff19b81c694f14d59764581ca7": {
+    "origin": "baseline",
+    "design_id": "TNFR1_bulk1_rfd4_crd3_long_07_f323955a2909"
+  }
+}

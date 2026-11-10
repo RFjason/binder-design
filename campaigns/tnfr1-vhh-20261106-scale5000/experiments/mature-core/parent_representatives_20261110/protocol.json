@@ -1,0 +1,76 @@
+{
+  "protocol_id": "TNFR1_VHH_ESMFold2_L30_T211_core_v2_20261107",
+  "remote_root": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/tnfr1_parent_rescore_20261110",
+  "target": {
+    "uniprot": "P19438-1",
+    "mature_range": [
+      30,
+      211
+    ],
+    "mature_sequence_sha256": "b977f5b0c0cf5688a2262bf0c0fe8e40d19f9f49a9da70bb09932434da550212",
+    "msa": "inputs/TNFR1_mature_L30_T211.a3m",
+    "msa_sha256": "d815becf212211e3da8f1e32896e12828aa9ad6adaf597b382f6ebf740de2268",
+    "msa_rows": 5081,
+    "reference": "9S3I chain A",
+    "his_tag": "Declared at target C terminus; sequence/linker unknown; omitted from this experiment"
+  },
+  "binder": {
+    "modality": "one complete mature VHH domain",
+    "length": [
+      100,
+      150
+    ],
+    "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "signal_peptide": false,
+    "tags_or_fusions": false,
+    "msa": null,
+    "framework": "h-NbBCII10, complete FR4 including IMGT S128",
+    "framework_validation": "Exact source-core sequence and three intervening CDR segments, not an inferred VHH label from length"
+  },
+  "predictor": {
+    "implementation": "native esm==3.4.1.post1 ESMFold2 Full",
+    "seed": 0,
+    "num_diffusion_samples": 1,
+    "num_loops": 20,
+    "num_sampling_steps": 200,
+    "msa_max_depth": 1024,
+    "msa_column_mask_rate": 0.1,
+    "lm_dropout": 0.3,
+    "templates": false,
+    "initial_guess": false,
+    "target_msa_only": true
+  },
+  "score": {
+    "primary": "min(ipSAE_target_to_binder, ipSAE_binder_to_target)",
+    "pae_cutoff_A": 10,
+    "distance_cutoff_A": 10,
+    "variant": "d0res",
+    "reference_script_sha256": "10cf9b08c68c91e06cb28526cf2026f47a3980c9048fd3226d13e3304eaf1c27",
+    "best_of_seed_selection": false,
+    "pose_check": "DockQ vs original mature target design pose, chain mapping TH:TH"
+  },
+  "canary_gates": {
+    "pipeline": "Complete legal VHH and unchanged full mature target; frozen ESMFold2 prediction and PAE mapping; two ipSAE directions; independent monomer fold; successful DockQ adapter",
+    "computational_quality_provisional": {
+      "monomer_plddt_min": 70,
+      "pose_dockq_min": 0.23,
+      "ipsae_min_min": 0.6,
+      "all_cysteines_paired_geometry": true,
+      "disulfide_geometry_reference": "Complete ESMFold2 monomer; missing SG atoms in a backbone-only generation output are marked unassessable, not failed"
+    },
+    "final_rank_requires_additional_gates": [
+      "novelty",
+      "developability",
+      "glycan_accessibility",
+      "CDR_interface_engagement",
+      "diversity"
+    ]
+  },
+  "resources": {
+    "slurm_only": true,
+    "max_simultaneous_gpu": 8,
+    "pilot_gpu_hours_ceiling": 24,
+    "overall_gpu_hours_internal_ceiling": 200,
+    "canary_stage_only_submitted": true
+  }
+}

@@ -11,3 +11,4 @@ jobs:
         with:
           python-version: '3.12'
       - run: python tools/validate_results.py
+      - run: python campaigns/tnfr1-vhh-20261106-scale5000/scripts/validate_plan_local.py

@@ -1,0 +1,19 @@
+{
+  "updated_epoch": 1794272505.699751,
+  "progress": {
+    "campaign": "scale5000",
+    "updated_epoch": 1794272505.5864866,
+    "baseline_scored": 1127,
+    "new_reserved": 3873,
+    "new_scored_and_audited": 3873,
+    "cumulative_scored": 5000,
+    "target": 5000,
+    "collection_batches": 324,
+    "new_quality_pass": 97,
+    "baseline_quality_pass": 19,
+    "audit_failures": [],
+    "final_submission_eligible": 0
+  },
+  "target_reached": true,
+  "gpu_hours": 149.2283333333333
+}

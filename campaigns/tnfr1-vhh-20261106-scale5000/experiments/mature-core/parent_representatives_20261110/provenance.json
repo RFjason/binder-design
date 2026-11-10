@@ -1,0 +1,22 @@
+{
+  "selection": "highest v1 ipSAE_min per passing scale5000 parent; exact prior v2 matches reused",
+  "source_sha256": {
+    "results/completed_20261110/scored_candidates.jsonl": "a81934d680af78100da0590ca38f9b812b8bca11d25390dbe7ddae63de687f7d",
+    "experiments/mature-core/results/mature_core_scores.json": "d9d3ee96b2768517cb77c210ce3a692da35789ae1fb023b26b0af447d22f8e95",
+    "experiments/mature-core/submission/protocol.json": "bcb79babdee16dd5710064a0840f97e80eaaf10eb9674e8af3b0fc27b307206b",
+    "experiments/mature-core/submission/provenance.json": "da748889d16b7699634e2dbe09a05bed28b754f8fa17c8df75be0e6bb1fca6ac"
+  },
+  "staged_sha256": {
+    "inputs/cohort.json": "428567ce4624d048028eb3b77df5ddec3931cf44a77076a21f7b70ef8c8e8567",
+    "inputs/manifest.json": "3127c19de0fb353ae7298d9db19eeea30de9235a152fde1cd25a7eed4bf4570f",
+    "inputs/reference_paths.txt": "53051c940681d290d51d2145530d46959da349116453b6d0a8303ca199ae5e3b",
+    "inputs/reused.json": "fd5e9454572454b1a3ef3fb5740931a1be0d25b61471b03ba5abb7a9330f867f",
+    "inputs/TNFR1_mature_L30_T211.a3m": "d815becf212211e3da8f1e32896e12828aa9ad6adaf597b382f6ebf740de2268",
+    "P19438.json": "a1968c7772daa7b30e2f8af0b0795f40b7d42c6907861605eca6db333b6dec9a",
+    "protocol.json": "3f7feb2a7077fdb421cf2dfac06bed96c24f9c73ec5737e21385ecffcd24892c",
+    "scripts/analyze.py": "bfc063fdbbe4cbfd81a6fdb86e27935c5e07e7e89b69c54f617cdaa8274b78e9",
+    "scripts/gpu_budget.py": "161122695587bde26d29052c7beaf6d5740d90e15938977333ac887d5f96e13b",
+    "scripts/predict_esmfold2.py": "b42994e4c0ff386c251918c6197f23b8692e6ffe42fe6a06245c8b005cd44006",
+    "scripts/rescore.slurm": "e8e03806245208fb45de8d56803c44504c695d3d8ece2d367f6e24e2ed70f733"
+  }
+}

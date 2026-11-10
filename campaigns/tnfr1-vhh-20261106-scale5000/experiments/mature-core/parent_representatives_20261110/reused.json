@@ -1,0 +1,16 @@
+[
+  {
+    "source_design_id": "TNFR1_s5k_rfd4_crd2_compact_02_c7c90a4cab42",
+    "parent_id": "rfd4_crd2_compact_02:tnfr1_crd2_compact_rep4_generated",
+    "sequence_sha256": "c7c90a4cab4250a7cd61b3362bd615dffbe3a9e821ec6ded4767afe0f6377a6f",
+    "v2_ipsae_min": 0.645462,
+    "v2_quality_pass": true
+  },
+  {
+    "source_design_id": "TNFR1_s5k_rfd4_crd2_long_04_1eeaa5091769",
+    "parent_id": "rfd4_crd2_long_04:tnfr1_crd2_long_rep19_generated",
+    "sequence_sha256": "1eeaa5091769323ec8e8620a8218ca4589c1cf5e165857dd0112fd0982b90702",
+    "v2_ipsae_min": 0.634466,
+    "v2_quality_pass": true
+  }
+]
