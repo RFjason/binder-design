@@ -31,7 +31,17 @@ fields=['design_id','framework_id','structure_method','stratum','parent_id','seq
 with (args.output/'scored_candidates.csv').open('w',encoding='utf8',newline='') as f:
  w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore',lineterminator='\n');w.writeheader();w.writerows(ordered)
 passed=[r for r in ordered if r['computational_quality_pass']]
-for f in ('progress.json','partition_recovery_20261107.tsv'):
+for f in ('progress.json','partition_recovery_20261107.tsv','campaign_finished.json','slurm_cost.json','submission_ids.tsv'):
  if (args.reports/f).exists():(args.output/('source_'+f)).write_bytes((args.reports/f).read_bytes())
-write('summary.json',{'scope':'partial snapshot of audited v1 scores, not final submission or experimental validation','protocol_id':'TNFR1_VHH_ESMFold2_single_seed_v1_20261103','target_range_inclusive':[1,211],'assay_core_mature_rescoring_completed':False,'baseline_scored':1127,'new_scored':len(rows),'cumulative_scored':1127+len(rows),'new_screen_pass':len(passed),'new_passing_parent_ids':sorted({r['parent_id'] for r in passed}),'new_parent_count':len({r['parent_id'] for r in ordered}),'new_scored_by_method':dict(Counter(r['structure_method'] for r in ordered)),'new_scored_by_framework':dict(Counter(r['framework_id'] for r in ordered)),'best_new_ipsae_min':ordered[0]['ipsae_min'],'final_eligible':0,'audit_errors':errors,'source_report_sha256':sources,'coordinate_files_included':False,'output_sha256':{f.name:digest(f) for f in args.output.iterdir() if f.is_file() and f.name not in ('README.md','summary.json')}})
+scope='partial snapshot of audited v1 scores, not final submission or experimental validation'
+finish=args.reports/'campaign_finished.json'
+if finish.exists():
+ finished=json.loads(finish.read_text())
+ if finished['target_reached']:
+  progress=finished['progress']
+  assert len(rows)==progress['new_reserved']==progress['new_scored_and_audited']==campaign['new_quota']
+  assert len(rows)+progress['baseline_scored']==progress['cumulative_scored']==campaign['target']
+  assert len(passed)==progress['new_quality_pass'] and not errors
+  scope='complete generation and v1 scoring campaign; final candidate selection pending'
+write('summary.json',{'scope':scope,'protocol_id':'TNFR1_VHH_ESMFold2_single_seed_v1_20261103','target_range_inclusive':[1,211],'assay_core_mature_rescoring_completed':False,'baseline_scored':1127,'new_scored':len(rows),'cumulative_scored':1127+len(rows),'new_screen_pass':len(passed),'new_passing_parent_ids':sorted({r['parent_id'] for r in passed}),'new_parent_count':len({r['parent_id'] for r in ordered}),'new_scored_by_method':dict(Counter(r['structure_method'] for r in ordered)),'new_scored_by_framework':dict(Counter(r['framework_id'] for r in ordered)),'best_new_ipsae_min':ordered[0]['ipsae_min'],'final_eligible':0,'audit_errors':errors,'source_report_sha256':sources,'coordinate_files_included':False,'output_sha256':{f.name:digest(f) for f in args.output.iterdir() if f.is_file() and f.name not in ('README.md','summary.json')}})
 print((args.output/'summary.json').read_text(encoding='utf8').split('  "source_report_sha256"')[0])
