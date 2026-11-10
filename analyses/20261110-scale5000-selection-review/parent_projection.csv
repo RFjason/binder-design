@@ -1,0 +1,21 @@
+parent_id,passing_designs,best_design_id,best_v1_ipsae_min,measured_parent_delta,projected_v2_ipsae_min,verdict
+bc2_gpu_crd2_08:trajectory_1,44,TNFR1_s5k_mpnn_parent03_t04_1da2eecfc2e5,0.723061,-0.0308,0.6923,外推仍过线
+bc2_crd3_29:trajectory_1,10,TNFR1_s5k_bc2_crd3_29_1a79cd8cc025,0.662227,,,无实测 delta，需复评
+bc2_crd2_19:trajectory_1,8,TNFR1_s5k_bc2_crd2_19_7426f01b3eaa,0.629591,,,无实测 delta，需复评
+rfd4_crd2_compact_00:tnfr1_crd2_compact_rep1_generated,7,TNFR1_s5k_mpnn_parent01_t04_e79afce00578,0.701775,-0.6980,0.0038,外推掉线
+bc2_crd3_17:trajectory_1,6,TNFR1_s5k_bc2_crd3_17_000ba4dc2a61,0.647058,,,无实测 delta，需复评
+bc2_gpu_crd3_12:trajectory_1,5,TNFR1_s5k_mpnn_parent02_t01_3403963087e7,0.666151,-0.0756,0.5905,外推掉线
+bc2_crd2_00:trajectory_1,4,TNFR1_s5k_bc2_crd2_00_7c80a6a96a13,0.616330,,,无实测 delta，需复评
+rfd4_crd2_compact_02:tnfr1_crd2_compact_rep4_generated,1,TNFR1_s5k_rfd4_crd2_compact_02_c7c90a4cab42,0.703771,-0.0583,0.6455,外推仍过线
+rfd4_crd2_compact_26:tnfr1_crd2_compact_rep16_generated,1,TNFR1_s5k_rfd4_crd2_compact_26_63553d210326,0.702610,,,无实测 delta，需复评
+rfd4_crd2_compact_05:tnfr1_crd2_compact_rep7_generated,1,TNFR1_s5k_rfd4_crd2_compact_05_fcfdeeee7db6,0.678722,,,无实测 delta，需复评
+rfd4_crd2_long_32:tnfr1_crd2_long_rep16_generated,1,TNFR1_s5k_rfd4_crd2_long_32_01bbf79d2757,0.664108,,,无实测 delta，需复评
+rfd4_crd2_compact_15:tnfr1_crd2_compact_rep11_generated,1,TNFR1_s5k_rfd4_crd2_compact_15_39260b251ca1,0.654995,,,无实测 delta，需复评
+rfd4_crd2_long_28:tnfr1_crd2_long_rep15_generated,1,TNFR1_s5k_rfd4_crd2_long_28_7a33037ee399,0.643574,,,无实测 delta，需复评
+rfd4_crd2_long_04:tnfr1_crd2_long_rep19_generated,1,TNFR1_s5k_rfd4_crd2_long_04_1eeaa5091769,0.634510,-0.0000,0.6345,外推仍过线
+rfd4_crd2_long_03:tnfr1_crd2_long_rep5_generated,1,TNFR1_s5k_mpnn_parent00_t04_d7aedd9cb6bd,0.625953,+0.0025,0.6285,外推仍过线
+rfd4_crd2_long_19:tnfr1_crd2_long_rep8_generated,1,TNFR1_s5k_rfd4_crd2_long_19_5399c618b6de,0.625438,,,无实测 delta，需复评
+bc2_gpu_crd2_01:trajectory_1,1,TNFR1_s5k_mpnn_parent04_t01_8d610461a1df,0.608857,-0.0805,0.5284,外推掉线
+rfd4_crd2_compact_18:tnfr1_crd2_compact_rep11_generated,1,TNFR1_s5k_rfd4_crd2_compact_18_3ada81e41873,0.608478,,,无实测 delta，需复评
+rfd4_crd2_long_25:tnfr1_crd2_long_rep13_generated,1,TNFR1_s5k_rfd4_crd2_long_25_c61d290b162c,0.605704,,,无实测 delta，需复评
+bc2_crd3_04:trajectory_1,1,TNFR1_s5k_bc2_crd3_04_bdd10f386a45,0.600983,,,无实测 delta，需复评
