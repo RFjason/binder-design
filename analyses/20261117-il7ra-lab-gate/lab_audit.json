@@ -1,0 +1,2802 @@
+{
+  "run_id": "il7ra_lab_gate21_20261117",
+  "started_utc": "2026-11-17T07:56:21Z",
+  "finished_utc": "2026-11-17T10:22:00Z",
+  "gpu": "1 × NVIDIA RTX 3090",
+  "summary": {
+    "new_unique_scored": 80,
+    "ipsae_ge_0_60": 41,
+    "full_gate_pass": 23,
+    "stop_threshold": 21,
+    "score_failures": 0,
+    "gate_pass_ipsae_min_range": [
+      0.627026,
+      0.803705
+    ]
+  },
+  "protocol": {
+    "id": "IL7RA_E21_D239_local_pilot_v2_20261110",
+    "uniprot": "P16871-1",
+    "range": [
+      21,
+      239
+    ],
+    "target_sequence_sha256": "ecdc20f8346168dbf6fd9c54ee032b1b9f1dc64a43d027bb0e06f66017de371c",
+    "target_msa_sha256": "7d2c71c01ea5964b735494e68e0d9d251f4d227d12cfee6d8a45158663d325d9",
+    "target_msa_rows": 1033,
+    "predictor": {
+      "model_id": "biohub/ESMFold2",
+      "variant": "Full, 48 folding-trunk layers, MSA encoder enabled",
+      "implementation": "esm 3.4.1.post1 native ESMFold2InputBuilder.fold",
+      "seed": 0,
+      "num_diffusion_samples": 1,
+      "num_loops": 20,
+      "num_sampling_steps": 200,
+      "msa_max_depth": 1024,
+      "msa_column_mask_rate": 0.1,
+      "lm_dropout": 0.3
+    },
+    "templates": false,
+    "initial_guess": false,
+    "binder_msa": false,
+    "ipsae_sha256": "10cf9b08c68c91e06cb28526cf2026f47a3980c9048fd3226d13e3304eaf1c27",
+    "ipsae_min_directions": true,
+    "ipsae_cutoffs_angstrom": [
+      10,
+      10
+    ],
+    "lab_torch": "2.11.0+cu130"
+  },
+  "frozen_weight_revisions": {
+    "rfd4_source": "6fc44c060ef96d4c759bafeaa1eae1a66a5be67c",
+    "rfd4_weights": "a06e2509c7033b010fc43614e9fd840303588502"
+  },
+  "reference_replay": {
+    "lab_ipSAE_min": 0.852835,
+    "source_ipSAE_min": 0.854147,
+    "ipSAE_min_delta": -0.0013119999999999798,
+    "lab_monomer_plddt": 84.05464935302734,
+    "source_monomer_plddt": 84.08912658691406,
+    "monomer_plddt_delta": -0.03447723388671875,
+    "peak_gpu_gib": {
+      "lab_smoke_complex": 14.39,
+      "lab_smoke_monomer": 12.99
+    }
+  },
+  "batch_history": [
+    {
+      "id": "il7ra_lab_gate21_20261117_rfd4_00000",
+      "wave": 0,
+      "method": "rfd4",
+      "patch": "known",
+      "seed": 1711170000,
+      "replicates": 8,
+      "source_file_count": 8,
+      "cumulative_scored": 8,
+      "cumulative_ipsae_ge_0_60": 4,
+      "cumulative_full_gate_pass": 4
+    },
+    {
+      "id": "il7ra_lab_gate21_20261117_rfd4_00001",
+      "wave": 1,
+      "method": "rfd4",
+      "patch": "known",
+      "seed": 1711170001,
+      "replicates": 8,
+      "source_file_count": 8,
+      "cumulative_scored": 16,
+      "cumulative_ipsae_ge_0_60": 7,
+      "cumulative_full_gate_pass": 6
+    },
+    {
+      "id": "il7ra_lab_gate21_20261117_rfd4_00002",
+      "wave": 2,
+      "method": "rfd4",
+      "patch": "adjacent_1",
+      "seed": 1711170002,
+      "replicates": 8,
+      "source_file_count": 8,
+      "cumulative_scored": 24,
+      "cumulative_ipsae_ge_0_60": 11,
+      "cumulative_full_gate_pass": 7
+    },
+    {
+      "id": "il7ra_lab_gate21_20261117_rfd4_00003",
+      "wave": 3,
+      "method": "rfd4",
+      "patch": "known",
+      "seed": 1711170003,
+      "replicates": 8,
+      "source_file_count": 8,
+      "cumulative_scored": 32,
+      "cumulative_ipsae_ge_0_60": 16,
+      "cumulative_full_gate_pass": 9
+    },
+    {
+      "id": "il7ra_lab_gate21_20261117_rfd4_00004",
+      "wave": 4,
+      "method": "rfd4",
+      "patch": "other_1",
+      "seed": 1711170004,
+      "replicates": 8,
+      "source_file_count": 8,
+      "cumulative_scored": 40,
+      "cumulative_ipsae_ge_0_60": 20,
+      "cumulative_full_gate_pass": 9
+    },
+    {
+      "id": "il7ra_lab_gate21_20261117_rfd4_00005",
+      "wave": 5,
+      "method": "rfd4",
+      "patch": "known",
+      "seed": 1711170005,
+      "replicates": 8,
+      "source_file_count": 8,
+      "cumulative_scored": 48,
+      "cumulative_ipsae_ge_0_60": 24,
+      "cumulative_full_gate_pass": 12
+    },
+    {
+      "id": "il7ra_lab_gate21_20261117_rfd4_00006",
+      "wave": 6,
+      "method": "rfd4",
+      "patch": "known",
+      "seed": 1711170006,
+      "replicates": 8,
+      "source_file_count": 8,
+      "cumulative_scored": 56,
+      "cumulative_ipsae_ge_0_60": 27,
+      "cumulative_full_gate_pass": 13
+    },
+    {
+      "id": "il7ra_lab_gate21_20261117_rfd4_00007",
+      "wave": 7,
+      "method": "rfd4",
+      "patch": "known",
+      "seed": 1711170007,
+      "replicates": 8,
+      "source_file_count": 8,
+      "cumulative_scored": 64,
+      "cumulative_ipsae_ge_0_60": 31,
+      "cumulative_full_gate_pass": 17
+    },
+    {
+      "id": "il7ra_lab_gate21_20261117_rfd4_00008",
+      "wave": 8,
+      "method": "rfd4",
+      "patch": "known",
+      "seed": 1711170008,
+      "replicates": 8,
+      "source_file_count": 8,
+      "cumulative_scored": 72,
+      "cumulative_ipsae_ge_0_60": 35,
+      "cumulative_full_gate_pass": 19
+    },
+    {
+      "id": "il7ra_lab_gate21_20261117_rfd4_00009",
+      "wave": 9,
+      "method": "rfd4",
+      "patch": "known",
+      "seed": 1711170009,
+      "replicates": 8,
+      "source_file_count": 8,
+      "cumulative_scored": 80,
+      "cumulative_ipsae_ge_0_60": 41,
+      "cumulative_full_gate_pass": 23
+    }
+  ],
+  "batch_allocation_changes": [
+    {
+      "after_scored": 40,
+      "observed": {
+        "known": [
+          8,
+          24
+        ],
+        "adjacent_1": [
+          1,
+          8
+        ],
+        "other_1": [
+          0,
+          8
+        ]
+      },
+      "allocation": [
+        {
+          "wave": 6,
+          "method": "rfd4",
+          "patch": "known",
+          "seed": 1711170006
+        },
+        {
+          "wave": 8,
+          "method": "rfd4",
+          "patch": "known",
+          "seed": 1711170008
+        }
+      ]
+    },
+    {
+      "after_scored": 64,
+      "after_passed": 17,
+      "next_wave": 9,
+      "method": "rfd4",
+      "patch": "known"
+    }
+  ],
+  "lab_evidence_sha256": {
+    "inputs/design_batches.json": "81e83e74195cead718b2e99063b218c1d42c3788b1db37108d978e4a2d422c31",
+    "scoring_protocol.json": "16a1791c11d89ade041c85e6ce824e4c81d3289e90838d563385ec73c9dbb1b8",
+    "reports/candidates.json": "238d50bc3c9b0f4ef6b28e3045ac328a40437be11cc03413f5b02ccd86277e2e",
+    "reports/pilot_audit.json": "f0ec9b67e3182ff6eb1d2bf6632c29525c4f9bc1345e315f4db3e50702814d07",
+    "reports/gate_pass.json": "4300555c2ec567a8415528f6e86b140f0d4159faaf09d5fb43dfe579a996b39e",
+    "reports/gate_pass.fasta": "2a28e07b273281394dbb5d6a0e45dc5586141318b868b58a1e22099e0410537f",
+    "logs/controller.log": "21de4344de95b088bc7e74036296a1f0f05cf90fa5cd5a1321e8f41a70ed5b37",
+    "scripts/run_generation_lab.py": "3e56edca9d9729d8cd7515ecc446fca0c9182c9960e6fa1bc78984985bb4f2db",
+    "scripts/predict_esmfold2_lab.py": "c7443cda8d14984610bf2229bceb9f3a6df78910ae25c07f857fef972801be2f",
+    "scripts/audit_pilot_lab.py": "7449fbb5a63120dffdf6e388ad943bd218aeba1a135461df0a779163f7120d8a"
+  },
+  "rows": [
+    {
+      "id": "IL7RA_s5k_54e5f919c1215513",
+      "ipSAE_min": 0.815803,
+      "ipSAE_directions": {
+        "A_to_B": 0.815803,
+        "B_to_A": 0.893558
+      },
+      "ipTM": 0.9436233639717102,
+      "monomer_pLDDT": 85.70697021484375,
+      "monomer_rmsd_A": 0.4064411222934723,
+      "crystal_glycan_min_A": 0.9494150280952454,
+      "sequon_ND2_min_A": 4.014822006225586,
+      "unresolved_end_min_A": 16.347732543945312,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 68,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00004:il7ra_lab_gate21_20261117_rfd4_00004_5_generated",
+          "method": "rfd4",
+          "patch": "other_1",
+          "wave": 4,
+          "min_hotspots": 1,
+          "pose_ca_rmsd_A": 1.242613673210144,
+          "design_contact_recall": 1.0,
+          "hotspot_hits": 2
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_99475896c4a73ed4",
+      "ipSAE_min": 0.803705,
+      "ipSAE_directions": {
+        "A_to_B": 0.803705,
+        "B_to_A": 0.830511
+      },
+      "ipTM": 0.9401037096977234,
+      "monomer_pLDDT": 86.29598999023438,
+      "monomer_rmsd_A": 0.46854281425476074,
+      "crystal_glycan_min_A": 18.539289474487305,
+      "sequon_ND2_min_A": 12.061186790466309,
+      "unresolved_end_min_A": 24.44099998474121,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 67,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00006:il7ra_lab_gate21_20261117_rfd4_00006_0_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 6,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.418583631515503,
+          "design_contact_recall": 1.0,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_88c68659f30bbdb5",
+      "ipSAE_min": 0.799,
+      "ipSAE_directions": {
+        "A_to_B": 0.799,
+        "B_to_A": 0.839495
+      },
+      "ipTM": 0.9417030215263367,
+      "monomer_pLDDT": 84.24488067626953,
+      "monomer_rmsd_A": 0.3450179994106293,
+      "crystal_glycan_min_A": 13.017707824707031,
+      "sequon_ND2_min_A": 14.086198806762695,
+      "unresolved_end_min_A": 27.4512996673584,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 66,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00007:il7ra_lab_gate21_20261117_rfd4_00007_2_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 7,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.7282919883728027,
+          "design_contact_recall": 1.0,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_38adc2c162b5ffa3",
+      "ipSAE_min": 0.793722,
+      "ipSAE_directions": {
+        "A_to_B": 0.793722,
+        "B_to_A": 0.856201
+      },
+      "ipTM": 0.9375718235969543,
+      "monomer_pLDDT": 81.1874008178711,
+      "monomer_rmsd_A": 0.2965221107006073,
+      "crystal_glycan_min_A": 16.514320373535156,
+      "sequon_ND2_min_A": 15.497795104980469,
+      "unresolved_end_min_A": 26.66255760192871,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 67,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00007:il7ra_lab_gate21_20261117_rfd4_00007_5_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 7,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.400623321533203,
+          "design_contact_recall": 0.90625,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_3d49b84147a13632",
+      "ipSAE_min": 0.791019,
+      "ipSAE_directions": {
+        "A_to_B": 0.791019,
+        "B_to_A": 0.864045
+      },
+      "ipTM": 0.9421759247779846,
+      "monomer_pLDDT": 77.91060638427734,
+      "monomer_rmsd_A": 0.5677990317344666,
+      "crystal_glycan_min_A": 12.687241554260254,
+      "sequon_ND2_min_A": 13.296156883239746,
+      "unresolved_end_min_A": 21.798473358154297,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 59,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00009:il7ra_lab_gate21_20261117_rfd4_00009_7_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 9,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 4.39378023147583,
+          "design_contact_recall": 0.9583333333333334,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_67a10db7f58f511c",
+      "ipSAE_min": 0.7908,
+      "ipSAE_directions": {
+        "A_to_B": 0.7908,
+        "B_to_A": 0.851657
+      },
+      "ipTM": 0.9385185241699219,
+      "monomer_pLDDT": 82.15780639648438,
+      "monomer_rmsd_A": 0.4086816608905792,
+      "crystal_glycan_min_A": 16.041967391967773,
+      "sequon_ND2_min_A": 12.870246887207031,
+      "unresolved_end_min_A": 13.87343692779541,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 64,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00009:il7ra_lab_gate21_20261117_rfd4_00009_1_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 9,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 4.783348083496094,
+          "design_contact_recall": 0.8947368421052632,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_04c7048c57391cd3",
+      "ipSAE_min": 0.784723,
+      "ipSAE_directions": {
+        "A_to_B": 0.784723,
+        "B_to_A": 0.84773
+      },
+      "ipTM": 0.9385190606117249,
+      "monomer_pLDDT": 76.6635513305664,
+      "monomer_rmsd_A": 0.7364169359207153,
+      "crystal_glycan_min_A": 13.182976722717285,
+      "sequon_ND2_min_A": 15.098186492919922,
+      "unresolved_end_min_A": 20.12909698486328,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 61,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00009:il7ra_lab_gate21_20261117_rfd4_00009_3_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 9,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 5.7437615394592285,
+          "design_contact_recall": 0.9655172413793104,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_7442956085129526",
+      "ipSAE_min": 0.779592,
+      "ipSAE_directions": {
+        "A_to_B": 0.779592,
+        "B_to_A": 0.817782
+      },
+      "ipTM": 0.9278208017349243,
+      "monomer_pLDDT": 87.79242706298828,
+      "monomer_rmsd_A": 0.2631215453147888,
+      "crystal_glycan_min_A": 14.978967666625977,
+      "sequon_ND2_min_A": 14.350439071655273,
+      "unresolved_end_min_A": 28.78282356262207,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 73,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00005:il7ra_lab_gate21_20261117_rfd4_00005_7_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 5,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.7424097061157227,
+          "design_contact_recall": 0.9354838709677419,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_3dccfc258360c64f",
+      "ipSAE_min": 0.777666,
+      "ipSAE_directions": {
+        "A_to_B": 0.777666,
+        "B_to_A": 0.857428
+      },
+      "ipTM": 0.935814380645752,
+      "monomer_pLDDT": 74.59857177734375,
+      "monomer_rmsd_A": 2.063093423843384,
+      "crystal_glycan_min_A": 6.405397891998291,
+      "sequon_ND2_min_A": 5.609539031982422,
+      "unresolved_end_min_A": 12.16186809539795,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 4,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 61,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00004:il7ra_lab_gate21_20261117_rfd4_00004_4_generated",
+          "method": "rfd4",
+          "patch": "other_1",
+          "wave": 4,
+          "min_hotspots": 1,
+          "pose_ca_rmsd_A": 1.9142438173294067,
+          "design_contact_recall": 0.8888888888888888,
+          "hotspot_hits": 2
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_b7f52586c6d6e52b",
+      "ipSAE_min": 0.776864,
+      "ipSAE_directions": {
+        "A_to_B": 0.776864,
+        "B_to_A": 0.829886
+      },
+      "ipTM": 0.9332031607627869,
+      "monomer_pLDDT": 75.08538818359375,
+      "monomer_rmsd_A": 0.43863895535469055,
+      "crystal_glycan_min_A": 16.88936424255371,
+      "sequon_ND2_min_A": 16.5028076171875,
+      "unresolved_end_min_A": 26.68120002746582,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 67,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00005:il7ra_lab_gate21_20261117_rfd4_00005_3_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 5,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.2711195945739746,
+          "design_contact_recall": 0.8709677419354839,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_799e8016f4e3bc61",
+      "ipSAE_min": 0.776735,
+      "ipSAE_directions": {
+        "A_to_B": 0.776735,
+        "B_to_A": 0.839756
+      },
+      "ipTM": 0.9430225491523743,
+      "monomer_pLDDT": 88.93524169921875,
+      "monomer_rmsd_A": 0.24328210949897766,
+      "crystal_glycan_min_A": 12.220712661743164,
+      "sequon_ND2_min_A": 11.218658447265625,
+      "unresolved_end_min_A": 28.851865768432617,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 55,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00009:il7ra_lab_gate21_20261117_rfd4_00009_0_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 9,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.972980260848999,
+          "design_contact_recall": 0.7692307692307693,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_3a57aa1d084df65f",
+      "ipSAE_min": 0.768375,
+      "ipSAE_directions": {
+        "A_to_B": 0.768375,
+        "B_to_A": 0.805668
+      },
+      "ipTM": 0.9256101846694946,
+      "monomer_pLDDT": 89.69615173339844,
+      "monomer_rmsd_A": 0.2514035105705261,
+      "crystal_glycan_min_A": 12.946473121643066,
+      "sequon_ND2_min_A": 13.462726593017578,
+      "unresolved_end_min_A": 25.532323837280273,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 71,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00008:il7ra_lab_gate21_20261117_rfd4_00008_5_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 8,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.3079802989959717,
+          "design_contact_recall": 0.9629629629629629,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_5cf25510c26502db",
+      "ipSAE_min": 0.752622,
+      "ipSAE_directions": {
+        "A_to_B": 0.752622,
+        "B_to_A": 0.819043
+      },
+      "ipTM": 0.9231216311454773,
+      "monomer_pLDDT": 76.58210754394531,
+      "monomer_rmsd_A": 0.5237481594085693,
+      "crystal_glycan_min_A": 2.1545510292053223,
+      "sequon_ND2_min_A": 4.75916862487793,
+      "unresolved_end_min_A": 20.505008697509766,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 68,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00006:il7ra_lab_gate21_20261117_rfd4_00006_2_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 6,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 7.628906726837158,
+          "design_contact_recall": 0.9142857142857143,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_9ff89e3dbbd40afb",
+      "ipSAE_min": 0.742302,
+      "ipSAE_directions": {
+        "A_to_B": 0.742302,
+        "B_to_A": 0.813275
+      },
+      "ipTM": 0.924146294593811,
+      "monomer_pLDDT": 79.14917755126953,
+      "monomer_rmsd_A": 0.6314403414726257,
+      "crystal_glycan_min_A": 16.692697525024414,
+      "sequon_ND2_min_A": 13.55919075012207,
+      "unresolved_end_min_A": 25.160520553588867,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 68,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00009:il7ra_lab_gate21_20261117_rfd4_00009_4_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 9,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.474146604537964,
+          "design_contact_recall": 0.8947368421052632,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_2ba1aa8b482fca32",
+      "ipSAE_min": 0.727067,
+      "ipSAE_directions": {
+        "A_to_B": 0.727067,
+        "B_to_A": 0.804349
+      },
+      "ipTM": 0.9181716442108154,
+      "monomer_pLDDT": 89.9351806640625,
+      "monomer_rmsd_A": 0.22127996385097504,
+      "crystal_glycan_min_A": 15.984482765197754,
+      "sequon_ND2_min_A": 14.780378341674805,
+      "unresolved_end_min_A": 23.433488845825195,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 2,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 66,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00000:il7ra_lab_gate21_20261117_rfd4_00000_4_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 3.1064047813415527,
+          "design_contact_recall": 1.0,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_b852b2fba7486f7f",
+      "ipSAE_min": 0.725854,
+      "ipSAE_directions": {
+        "A_to_B": 0.725854,
+        "B_to_A": 0.79966
+      },
+      "ipTM": 0.9251812696456909,
+      "monomer_pLDDT": 79.91519927978516,
+      "monomer_rmsd_A": 0.8952100276947021,
+      "crystal_glycan_min_A": 16.41031837463379,
+      "sequon_ND2_min_A": 14.775469779968262,
+      "unresolved_end_min_A": 25.47866439819336,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 59,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00001:il7ra_lab_gate21_20261117_rfd4_00001_0_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 4.813228130340576,
+          "design_contact_recall": 0.8214285714285714,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_cb028de6ac0ca4df",
+      "ipSAE_min": 0.721673,
+      "ipSAE_directions": {
+        "A_to_B": 0.721673,
+        "B_to_A": 0.755467
+      },
+      "ipTM": 0.9166133999824524,
+      "monomer_pLDDT": 85.29792785644531,
+      "monomer_rmsd_A": 0.3198297917842865,
+      "crystal_glycan_min_A": 12.874674797058105,
+      "sequon_ND2_min_A": 12.296570777893066,
+      "unresolved_end_min_A": 31.767044067382812,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 71,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00005:il7ra_lab_gate21_20261117_rfd4_00005_5_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 5,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.796814441680908,
+          "design_contact_recall": 0.92,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_a5c0b9cf64e26ded",
+      "ipSAE_min": 0.714448,
+      "ipSAE_directions": {
+        "A_to_B": 0.714448,
+        "B_to_A": 0.792917
+      },
+      "ipTM": 0.910865068435669,
+      "monomer_pLDDT": 78.17927551269531,
+      "monomer_rmsd_A": 0.287944495677948,
+      "crystal_glycan_min_A": 15.970383644104004,
+      "sequon_ND2_min_A": 16.16617774963379,
+      "unresolved_end_min_A": 27.935091018676758,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 73,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00002:il7ra_lab_gate21_20261117_rfd4_00002_7_generated",
+          "method": "rfd4",
+          "patch": "adjacent_1",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.7705936431884766,
+          "design_contact_recall": 0.9,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_fdb7113b23a4a142",
+      "ipSAE_min": 0.700272,
+      "ipSAE_directions": {
+        "A_to_B": 0.700272,
+        "B_to_A": 0.804762
+      },
+      "ipTM": 0.9233943223953247,
+      "monomer_pLDDT": 75.05347442626953,
+      "monomer_rmsd_A": 0.5613817572593689,
+      "crystal_glycan_min_A": 15.469870567321777,
+      "sequon_ND2_min_A": 12.741385459899902,
+      "unresolved_end_min_A": 19.34013557434082,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 59,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00000:il7ra_lab_gate21_20261117_rfd4_00000_6_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 4.1456780433654785,
+          "design_contact_recall": 0.9782608695652174,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_c4c333f569e2ddd1",
+      "ipSAE_min": 0.69986,
+      "ipSAE_directions": {
+        "A_to_B": 0.69986,
+        "B_to_A": 0.757425
+      },
+      "ipTM": 0.8988179564476013,
+      "monomer_pLDDT": 78.00949096679688,
+      "monomer_rmsd_A": 2.4130425453186035,
+      "crystal_glycan_min_A": 12.847262382507324,
+      "sequon_ND2_min_A": 15.137041091918945,
+      "unresolved_end_min_A": 15.196857452392578,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 74,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00002:il7ra_lab_gate21_20261117_rfd4_00002_2_generated",
+          "method": "rfd4",
+          "patch": "adjacent_1",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 6.72926139831543,
+          "design_contact_recall": 0.7666666666666667,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_d49cbdd99337e7a7",
+      "ipSAE_min": 0.698058,
+      "ipSAE_directions": {
+        "A_to_B": 0.698058,
+        "B_to_A": 0.752704
+      },
+      "ipTM": 0.9032917618751526,
+      "monomer_pLDDT": 86.83169555664062,
+      "monomer_rmsd_A": 0.8307479023933411,
+      "crystal_glycan_min_A": 16.32476234436035,
+      "sequon_ND2_min_A": 13.946722984313965,
+      "unresolved_end_min_A": 28.168590545654297,
+      "interchain_clash_pairs": 2,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 70,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00001:il7ra_lab_gate21_20261117_rfd4_00001_6_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.2485331296920776,
+          "design_contact_recall": 0.96875,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_1816e8b2ea1d5527",
+      "ipSAE_min": 0.696989,
+      "ipSAE_directions": {
+        "A_to_B": 0.696989,
+        "B_to_A": 0.718894
+      },
+      "ipTM": 0.902934193611145,
+      "monomer_pLDDT": 89.1382827758789,
+      "monomer_rmsd_A": 0.3673042356967926,
+      "crystal_glycan_min_A": 15.170634269714355,
+      "sequon_ND2_min_A": 13.076131820678711,
+      "unresolved_end_min_A": 27.776220321655273,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 67,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00007:il7ra_lab_gate21_20261117_rfd4_00007_4_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 7,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 3.036153554916382,
+          "design_contact_recall": 0.8787878787878788,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_fb462d8221d208b9",
+      "ipSAE_min": 0.694752,
+      "ipSAE_directions": {
+        "A_to_B": 0.694752,
+        "B_to_A": 0.774345
+      },
+      "ipTM": 0.9122529625892639,
+      "monomer_pLDDT": 84.36058807373047,
+      "monomer_rmsd_A": 0.40251606702804565,
+      "crystal_glycan_min_A": 12.301011085510254,
+      "sequon_ND2_min_A": 12.996817588806152,
+      "unresolved_end_min_A": 21.234708786010742,
+      "interchain_clash_pairs": 1,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 61,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00009:il7ra_lab_gate21_20261117_rfd4_00009_2_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 9,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 3.931198835372925,
+          "design_contact_recall": 0.8,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_60bc4ef63727b75d",
+      "ipSAE_min": 0.693606,
+      "ipSAE_directions": {
+        "A_to_B": 0.693606,
+        "B_to_A": 0.79642
+      },
+      "ipTM": 0.903298556804657,
+      "monomer_pLDDT": 83.54806518554688,
+      "monomer_rmsd_A": 0.6033486723899841,
+      "crystal_glycan_min_A": 11.173352241516113,
+      "sequon_ND2_min_A": 10.314704895019531,
+      "unresolved_end_min_A": 28.191930770874023,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 66,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00003:il7ra_lab_gate21_20261117_rfd4_00003_1_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 3,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.8654170036315918,
+          "design_contact_recall": 0.8918918918918919,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_16dc7be62845ba16",
+      "ipSAE_min": 0.690638,
+      "ipSAE_directions": {
+        "A_to_B": 0.690638,
+        "B_to_A": 0.735989
+      },
+      "ipTM": 0.9162405133247375,
+      "monomer_pLDDT": 86.29814910888672,
+      "monomer_rmsd_A": 0.3815004825592041,
+      "crystal_glycan_min_A": 14.932687759399414,
+      "sequon_ND2_min_A": 8.988924026489258,
+      "unresolved_end_min_A": 32.01318359375,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 69,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00000:il7ra_lab_gate21_20261117_rfd4_00000_3_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.2215230464935303,
+          "design_contact_recall": 1.0,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_e1f68f707d91b499",
+      "ipSAE_min": 0.674505,
+      "ipSAE_directions": {
+        "A_to_B": 0.674505,
+        "B_to_A": 0.749989
+      },
+      "ipTM": 0.9071295857429504,
+      "monomer_pLDDT": 80.32002258300781,
+      "monomer_rmsd_A": 0.42705729603767395,
+      "crystal_glycan_min_A": 16.993900299072266,
+      "sequon_ND2_min_A": 15.234575271606445,
+      "unresolved_end_min_A": 14.000051498413086,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 62,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00003:il7ra_lab_gate21_20261117_rfd4_00003_2_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 3,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 8.74548053741455,
+          "design_contact_recall": 0.9565217391304348,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_d92974f5f1c4db69",
+      "ipSAE_min": 0.672415,
+      "ipSAE_directions": {
+        "A_to_B": 0.672415,
+        "B_to_A": 0.773595
+      },
+      "ipTM": 0.9110384583473206,
+      "monomer_pLDDT": 86.93795776367188,
+      "monomer_rmsd_A": 0.23129718005657196,
+      "crystal_glycan_min_A": 15.50915813446045,
+      "sequon_ND2_min_A": 15.09608268737793,
+      "unresolved_end_min_A": 27.73332405090332,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 58,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00007:il7ra_lab_gate21_20261117_rfd4_00007_3_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 7,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.7782894372940063,
+          "design_contact_recall": 0.8333333333333334,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_cab93a28a6d2dacf",
+      "ipSAE_min": 0.666873,
+      "ipSAE_directions": {
+        "A_to_B": 0.666873,
+        "B_to_A": 0.824691
+      },
+      "ipTM": 0.9203100204467773,
+      "monomer_pLDDT": 84.03384399414062,
+      "monomer_rmsd_A": 0.36874446272850037,
+      "crystal_glycan_min_A": 0.33713868260383606,
+      "sequon_ND2_min_A": 3.4938478469848633,
+      "unresolved_end_min_A": 20.381521224975586,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 55,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00004:il7ra_lab_gate21_20261117_rfd4_00004_2_generated",
+          "method": "rfd4",
+          "patch": "other_1",
+          "wave": 4,
+          "min_hotspots": 1,
+          "pose_ca_rmsd_A": 5.106925964355469,
+          "design_contact_recall": 0.9,
+          "hotspot_hits": 2
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_00767d738fd38664",
+      "ipSAE_min": 0.657431,
+      "ipSAE_directions": {
+        "A_to_B": 0.657431,
+        "B_to_A": 0.77999
+      },
+      "ipTM": 0.9040930271148682,
+      "monomer_pLDDT": 83.67182922363281,
+      "monomer_rmsd_A": 0.46481284499168396,
+      "crystal_glycan_min_A": 14.089396476745605,
+      "sequon_ND2_min_A": 15.393415451049805,
+      "unresolved_end_min_A": 29.12545394897461,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 61,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00001:il7ra_lab_gate21_20261117_rfd4_00001_7_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.776319980621338,
+          "design_contact_recall": 0.9705882352941176,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_04c1485d3a5dee06",
+      "ipSAE_min": 0.656076,
+      "ipSAE_directions": {
+        "A_to_B": 0.656076,
+        "B_to_A": 0.769685
+      },
+      "ipTM": 0.9112548232078552,
+      "monomer_pLDDT": 75.92461395263672,
+      "monomer_rmsd_A": 0.29319751262664795,
+      "crystal_glycan_min_A": 13.976932525634766,
+      "sequon_ND2_min_A": 14.670963287353516,
+      "unresolved_end_min_A": 24.705453872680664,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 62,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00005:il7ra_lab_gate21_20261117_rfd4_00005_0_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 5,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 8.039299011230469,
+          "design_contact_recall": 0.7727272727272727,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_73ebe713b4caa2f3",
+      "ipSAE_min": 0.655642,
+      "ipSAE_directions": {
+        "A_to_B": 0.655642,
+        "B_to_A": 0.739157
+      },
+      "ipTM": 0.9009702801704407,
+      "monomer_pLDDT": 87.24761962890625,
+      "monomer_rmsd_A": 0.39537206292152405,
+      "crystal_glycan_min_A": 13.0684814453125,
+      "sequon_ND2_min_A": 13.713080406188965,
+      "unresolved_end_min_A": 18.88759994506836,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 63,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00002:il7ra_lab_gate21_20261117_rfd4_00002_0_generated",
+          "method": "rfd4",
+          "patch": "adjacent_1",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 6.053781986236572,
+          "design_contact_recall": 0.75,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_e0a4100cae9bc42c",
+      "ipSAE_min": 0.650898,
+      "ipSAE_directions": {
+        "A_to_B": 0.650898,
+        "B_to_A": 0.758007
+      },
+      "ipTM": 0.9069153666496277,
+      "monomer_pLDDT": 74.81460571289062,
+      "monomer_rmsd_A": 0.4097084403038025,
+      "crystal_glycan_min_A": 16.62368392944336,
+      "sequon_ND2_min_A": 13.568371772766113,
+      "unresolved_end_min_A": 28.73032569885254,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 2,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 57,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00003:il7ra_lab_gate21_20261117_rfd4_00003_7_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 3,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.6614304780960083,
+          "design_contact_recall": 0.8260869565217391,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_8c14ed10c7905d97",
+      "ipSAE_min": 0.648513,
+      "ipSAE_directions": {
+        "A_to_B": 0.648513,
+        "B_to_A": 0.74884
+      },
+      "ipTM": 0.9089139699935913,
+      "monomer_pLDDT": 65.57516479492188,
+      "monomer_rmsd_A": 2.401334524154663,
+      "crystal_glycan_min_A": 14.275324821472168,
+      "sequon_ND2_min_A": 13.669573783874512,
+      "unresolved_end_min_A": 19.91783332824707,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 63,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00008:il7ra_lab_gate21_20261117_rfd4_00008_4_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 8,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 11.467896461486816,
+          "design_contact_recall": 0.13636363636363635,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_c27dbebbce563047",
+      "ipSAE_min": 0.645683,
+      "ipSAE_directions": {
+        "A_to_B": 0.645683,
+        "B_to_A": 0.768281
+      },
+      "ipTM": 0.9039969444274902,
+      "monomer_pLDDT": 80.66964721679688,
+      "monomer_rmsd_A": 0.3020918667316437,
+      "crystal_glycan_min_A": 15.008231163024902,
+      "sequon_ND2_min_A": 15.258462905883789,
+      "unresolved_end_min_A": 29.87678337097168,
+      "interchain_clash_pairs": 1,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 58,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00002:il7ra_lab_gate21_20261117_rfd4_00002_5_generated",
+          "method": "rfd4",
+          "patch": "adjacent_1",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.4801888465881348,
+          "design_contact_recall": 0.7857142857142857,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_1bd2ea7c0d2fc400",
+      "ipSAE_min": 0.643249,
+      "ipSAE_directions": {
+        "A_to_B": 0.643249,
+        "B_to_A": 0.748646
+      },
+      "ipTM": 0.9096767902374268,
+      "monomer_pLDDT": 86.96285247802734,
+      "monomer_rmsd_A": 0.3269258439540863,
+      "crystal_glycan_min_A": 16.93504524230957,
+      "sequon_ND2_min_A": 15.673707962036133,
+      "unresolved_end_min_A": 24.10710334777832,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 63,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00000:il7ra_lab_gate21_20261117_rfd4_00000_2_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 4.665041446685791,
+          "design_contact_recall": 0.8,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_0c589d01376640cb",
+      "ipSAE_min": 0.634733,
+      "ipSAE_directions": {
+        "A_to_B": 0.634733,
+        "B_to_A": 0.706085
+      },
+      "ipTM": 0.9065338969230652,
+      "monomer_pLDDT": 74.25309753417969,
+      "monomer_rmsd_A": 1.29037606716156,
+      "crystal_glycan_min_A": 14.615852355957031,
+      "sequon_ND2_min_A": 15.829754829406738,
+      "unresolved_end_min_A": 28.669668197631836,
+      "interchain_clash_pairs": 1,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 55,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00003:il7ra_lab_gate21_20261117_rfd4_00003_5_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 3,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 3.25769305229187,
+          "design_contact_recall": 0.8888888888888888,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_469b5fa7dcd70af0",
+      "ipSAE_min": 0.633194,
+      "ipSAE_directions": {
+        "A_to_B": 0.633194,
+        "B_to_A": 0.776529
+      },
+      "ipTM": 0.8956404328346252,
+      "monomer_pLDDT": 87.29291534423828,
+      "monomer_rmsd_A": 0.23323391377925873,
+      "crystal_glycan_min_A": 14.162652015686035,
+      "sequon_ND2_min_A": 13.99934196472168,
+      "unresolved_end_min_A": 28.96998405456543,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 2,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 56,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00003:il7ra_lab_gate21_20261117_rfd4_00003_6_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 3,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.1629778146743774,
+          "design_contact_recall": 0.967741935483871,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_5f61f35e16dfae1c",
+      "ipSAE_min": 0.627026,
+      "ipSAE_directions": {
+        "A_to_B": 0.627026,
+        "B_to_A": 0.781602
+      },
+      "ipTM": 0.9047297835350037,
+      "monomer_pLDDT": 84.84252166748047,
+      "monomer_rmsd_A": 0.43109452724456787,
+      "crystal_glycan_min_A": 9.418448448181152,
+      "sequon_ND2_min_A": 11.131624221801758,
+      "unresolved_end_min_A": 32.99665069580078,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": true,
+      "length": 56,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00008:il7ra_lab_gate21_20261117_rfd4_00008_0_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 8,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.6620010137557983,
+          "design_contact_recall": 0.8695652173913043,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": 0
+    },
+    {
+      "id": "IL7RA_s5k_956edd468bc5ef89",
+      "ipSAE_min": 0.624081,
+      "ipSAE_directions": {
+        "A_to_B": 0.624081,
+        "B_to_A": 0.685614
+      },
+      "ipTM": 0.8871738910675049,
+      "monomer_pLDDT": 83.68024444580078,
+      "monomer_rmsd_A": 0.25505751371383667,
+      "crystal_glycan_min_A": 16.131772994995117,
+      "sequon_ND2_min_A": 13.561517715454102,
+      "unresolved_end_min_A": 15.99330997467041,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 62,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00006:il7ra_lab_gate21_20261117_rfd4_00006_7_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 6,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 7.460793972015381,
+          "design_contact_recall": 0.9259259259259259,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_d65d230eae8397cd",
+      "ipSAE_min": 0.611585,
+      "ipSAE_directions": {
+        "A_to_B": 0.611585,
+        "B_to_A": 0.673065
+      },
+      "ipTM": 0.8988731503486633,
+      "monomer_pLDDT": 81.84002685546875,
+      "monomer_rmsd_A": 0.6489244699478149,
+      "crystal_glycan_min_A": 13.797715187072754,
+      "sequon_ND2_min_A": 13.535048484802246,
+      "unresolved_end_min_A": 28.35177230834961,
+      "interchain_clash_pairs": 1,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 58,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00008:il7ra_lab_gate21_20261117_rfd4_00008_6_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 8,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.3670153617858887,
+          "design_contact_recall": 0.8333333333333334,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_f86ea7f3b739cea7",
+      "ipSAE_min": 0.609384,
+      "ipSAE_directions": {
+        "A_to_B": 0.609384,
+        "B_to_A": 0.755028
+      },
+      "ipTM": 0.8928411602973938,
+      "monomer_pLDDT": 83.50823211669922,
+      "monomer_rmsd_A": 0.5419761538505554,
+      "crystal_glycan_min_A": 1.5775007009506226,
+      "sequon_ND2_min_A": 3.525449275970459,
+      "unresolved_end_min_A": 16.729684829711914,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 58,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00004:il7ra_lab_gate21_20261117_rfd4_00004_0_generated",
+          "method": "rfd4",
+          "patch": "other_1",
+          "wave": 4,
+          "min_hotspots": 1,
+          "pose_ca_rmsd_A": 4.457493782043457,
+          "design_contact_recall": 0.9,
+          "hotspot_hits": 2
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_b308c6faa93acd58",
+      "ipSAE_min": 0.59849,
+      "ipSAE_directions": {
+        "A_to_B": 0.59849,
+        "B_to_A": 0.661282
+      },
+      "ipTM": 0.8699957132339478,
+      "monomer_pLDDT": 84.01193237304688,
+      "monomer_rmsd_A": 0.3975788354873657,
+      "crystal_glycan_min_A": 15.898385047912598,
+      "sequon_ND2_min_A": 14.674051284790039,
+      "unresolved_end_min_A": 27.94853973388672,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 69,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00006:il7ra_lab_gate21_20261117_rfd4_00006_6_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 6,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 23.299257278442383,
+          "design_contact_recall": 0.22727272727272727,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_254150c384f75339",
+      "ipSAE_min": 0.564552,
+      "ipSAE_directions": {
+        "A_to_B": 0.564552,
+        "B_to_A": 0.712772
+      },
+      "ipTM": 0.8835521340370178,
+      "monomer_pLDDT": 83.69336700439453,
+      "monomer_rmsd_A": 0.39374858140945435,
+      "crystal_glycan_min_A": 13.447516441345215,
+      "sequon_ND2_min_A": 14.431585311889648,
+      "unresolved_end_min_A": 33.453269958496094,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 72,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00002:il7ra_lab_gate21_20261117_rfd4_00002_4_generated",
+          "method": "rfd4",
+          "patch": "adjacent_1",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 22.590999603271484,
+          "design_contact_recall": 0.05555555555555555,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_05bf3a58e26b0661",
+      "ipSAE_min": 0.5633,
+      "ipSAE_directions": {
+        "A_to_B": 0.5633,
+        "B_to_A": 0.674798
+      },
+      "ipTM": 0.8844314813613892,
+      "monomer_pLDDT": 91.27101135253906,
+      "monomer_rmsd_A": 0.21816088259220123,
+      "crystal_glycan_min_A": 14.452731132507324,
+      "sequon_ND2_min_A": 16.363279342651367,
+      "unresolved_end_min_A": 27.302968978881836,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 74,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00008:il7ra_lab_gate21_20261117_rfd4_00008_7_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 8,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 5.202003002166748,
+          "design_contact_recall": 0.95,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_5454188bbf4b7519",
+      "ipSAE_min": 0.555358,
+      "ipSAE_directions": {
+        "A_to_B": 0.555358,
+        "B_to_A": 0.645035
+      },
+      "ipTM": 0.8816697597503662,
+      "monomer_pLDDT": 79.26018524169922,
+      "monomer_rmsd_A": 1.2609639167785645,
+      "crystal_glycan_min_A": 14.936197280883789,
+      "sequon_ND2_min_A": 15.419157981872559,
+      "unresolved_end_min_A": 22.488752365112305,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 64,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00006:il7ra_lab_gate21_20261117_rfd4_00006_3_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 6,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 6.986606597900391,
+          "design_contact_recall": 0.972972972972973,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_d01f30d9a498a08a",
+      "ipSAE_min": 0.554124,
+      "ipSAE_directions": {
+        "A_to_B": 0.554124,
+        "B_to_A": 0.669598
+      },
+      "ipTM": 0.8855912685394287,
+      "monomer_pLDDT": 89.02136993408203,
+      "monomer_rmsd_A": 0.407747358083725,
+      "crystal_glycan_min_A": 13.600767135620117,
+      "sequon_ND2_min_A": 14.521382331848145,
+      "unresolved_end_min_A": 19.320602416992188,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 64,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00000:il7ra_lab_gate21_20261117_rfd4_00000_5_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 5.658769130706787,
+          "design_contact_recall": 0.78125,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_7dbf324a7a7805ce",
+      "ipSAE_min": 0.525903,
+      "ipSAE_directions": {
+        "A_to_B": 0.525903,
+        "B_to_A": 0.615576
+      },
+      "ipTM": 0.8540693521499634,
+      "monomer_pLDDT": 82.6380844116211,
+      "monomer_rmsd_A": 0.434129923582077,
+      "crystal_glycan_min_A": 3.414224863052368,
+      "sequon_ND2_min_A": 5.703044414520264,
+      "unresolved_end_min_A": 16.1229190826416,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 71,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00004:il7ra_lab_gate21_20261117_rfd4_00004_7_generated",
+          "method": "rfd4",
+          "patch": "other_1",
+          "wave": 4,
+          "min_hotspots": 1,
+          "pose_ca_rmsd_A": 3.2927446365356445,
+          "design_contact_recall": 0.9714285714285714,
+          "hotspot_hits": 2
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_3a5ebf6ad9c74c19",
+      "ipSAE_min": 0.497433,
+      "ipSAE_directions": {
+        "A_to_B": 0.497433,
+        "B_to_A": 0.63266
+      },
+      "ipTM": 0.8430230617523193,
+      "monomer_pLDDT": 91.30842590332031,
+      "monomer_rmsd_A": 0.14841102063655853,
+      "crystal_glycan_min_A": 16.512779235839844,
+      "sequon_ND2_min_A": 15.81339168548584,
+      "unresolved_end_min_A": 31.258556365966797,
+      "interchain_clash_pairs": 1,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 74,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00001:il7ra_lab_gate21_20261117_rfd4_00001_2_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 3.1295576095581055,
+          "design_contact_recall": 0.9615384615384616,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_82610e9d106e9b7e",
+      "ipSAE_min": 0.49462,
+      "ipSAE_directions": {
+        "A_to_B": 0.49462,
+        "B_to_A": 0.568101
+      },
+      "ipTM": 0.874530017375946,
+      "monomer_pLDDT": 71.2335205078125,
+      "monomer_rmsd_A": 0.7212417125701904,
+      "crystal_glycan_min_A": 11.069561004638672,
+      "sequon_ND2_min_A": 14.038810729980469,
+      "unresolved_end_min_A": 23.30449676513672,
+      "interchain_clash_pairs": 1,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 75,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00004:il7ra_lab_gate21_20261117_rfd4_00004_1_generated",
+          "method": "rfd4",
+          "patch": "other_1",
+          "wave": 4,
+          "min_hotspots": 1,
+          "pose_ca_rmsd_A": 42.45500564575195,
+          "design_contact_recall": 0.0,
+          "hotspot_hits": 0
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_79004868b0ad66d7",
+      "ipSAE_min": 0.492987,
+      "ipSAE_directions": {
+        "A_to_B": 0.492987,
+        "B_to_A": 0.671337
+      },
+      "ipTM": 0.8834978342056274,
+      "monomer_pLDDT": 81.69730377197266,
+      "monomer_rmsd_A": 0.29495784640312195,
+      "crystal_glycan_min_A": 14.455754280090332,
+      "sequon_ND2_min_A": 14.918951988220215,
+      "unresolved_end_min_A": 25.954561233520508,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 57,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00000:il7ra_lab_gate21_20261117_rfd4_00000_1_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.365242838859558,
+          "design_contact_recall": 0.8918918918918919,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_781370f4a4fd7b72",
+      "ipSAE_min": 0.390413,
+      "ipSAE_directions": {
+        "A_to_B": 0.390413,
+        "B_to_A": 0.518718
+      },
+      "ipTM": 0.8229320645332336,
+      "monomer_pLDDT": 76.84212493896484,
+      "monomer_rmsd_A": 0.9968051314353943,
+      "crystal_glycan_min_A": 13.673311233520508,
+      "sequon_ND2_min_A": 13.701580047607422,
+      "unresolved_end_min_A": 25.871992111206055,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 68,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00001:il7ra_lab_gate21_20261117_rfd4_00001_5_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 22.718721389770508,
+          "design_contact_recall": 0.06896551724137931,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_ba1b422fd92f4e30",
+      "ipSAE_min": 0.380871,
+      "ipSAE_directions": {
+        "A_to_B": 0.380871,
+        "B_to_A": 0.535235
+      },
+      "ipTM": 0.8458234071731567,
+      "monomer_pLDDT": 76.62374114990234,
+      "monomer_rmsd_A": 0.9874233603477478,
+      "crystal_glycan_min_A": 0.8026895523071289,
+      "sequon_ND2_min_A": 2.5053939819335938,
+      "unresolved_end_min_A": 17.597421646118164,
+      "interchain_clash_pairs": 1,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 59,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00004:il7ra_lab_gate21_20261117_rfd4_00004_6_generated",
+          "method": "rfd4",
+          "patch": "other_1",
+          "wave": 4,
+          "min_hotspots": 1,
+          "pose_ca_rmsd_A": 4.120096206665039,
+          "design_contact_recall": 0.9047619047619048,
+          "hotspot_hits": 2
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_fb53f56c15c17ec5",
+      "ipSAE_min": 0.357829,
+      "ipSAE_directions": {
+        "A_to_B": 0.357829,
+        "B_to_A": 0.545146
+      },
+      "ipTM": 0.8270657062530518,
+      "monomer_pLDDT": 82.68172454833984,
+      "monomer_rmsd_A": 0.4044795334339142,
+      "crystal_glycan_min_A": 19.419328689575195,
+      "sequon_ND2_min_A": 3.4131646156311035,
+      "unresolved_end_min_A": 3.123438835144043,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 64,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00009:il7ra_lab_gate21_20261117_rfd4_00009_5_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 9,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 34.802677154541016,
+          "design_contact_recall": 0.0,
+          "hotspot_hits": 2
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_b5a61f55815bbea7",
+      "ipSAE_min": 0.330481,
+      "ipSAE_directions": {
+        "A_to_B": 0.330481,
+        "B_to_A": 0.517412
+      },
+      "ipTM": 0.763399064540863,
+      "monomer_pLDDT": 74.16094207763672,
+      "monomer_rmsd_A": 1.0206066370010376,
+      "crystal_glycan_min_A": 11.478837966918945,
+      "sequon_ND2_min_A": 13.14254093170166,
+      "unresolved_end_min_A": 25.325305938720703,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 71,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00003:il7ra_lab_gate21_20261117_rfd4_00003_0_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 3,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 4.742396354675293,
+          "design_contact_recall": 0.64,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_22fd3ccfb049e381",
+      "ipSAE_min": 0.299314,
+      "ipSAE_directions": {
+        "A_to_B": 0.299314,
+        "B_to_A": 0.495158
+      },
+      "ipTM": 0.7803632020950317,
+      "monomer_pLDDT": 74.08538818359375,
+      "monomer_rmsd_A": 2.3043487071990967,
+      "crystal_glycan_min_A": 12.644439697265625,
+      "sequon_ND2_min_A": 12.979400634765625,
+      "unresolved_end_min_A": 33.622005462646484,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 69,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00008:il7ra_lab_gate21_20261117_rfd4_00008_1_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 8,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 25.275644302368164,
+          "design_contact_recall": 0.0,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_00e0604adc6964f8",
+      "ipSAE_min": 0.277681,
+      "ipSAE_directions": {
+        "A_to_B": 0.277681,
+        "B_to_A": 0.437169
+      },
+      "ipTM": 0.7580310702323914,
+      "monomer_pLDDT": 79.48185729980469,
+      "monomer_rmsd_A": 0.42038851976394653,
+      "crystal_glycan_min_A": 12.096687316894531,
+      "sequon_ND2_min_A": 13.889646530151367,
+      "unresolved_end_min_A": 32.5483283996582,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 69,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00008:il7ra_lab_gate21_20261117_rfd4_00008_3_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 8,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.7267166376113892,
+          "design_contact_recall": 0.7894736842105263,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_92f3a1feaa222a4f",
+      "ipSAE_min": 0.215445,
+      "ipSAE_directions": {
+        "A_to_B": 0.215445,
+        "B_to_A": 0.439304
+      },
+      "ipTM": 0.7672423124313354,
+      "monomer_pLDDT": 86.5174789428711,
+      "monomer_rmsd_A": 0.49482160806655884,
+      "crystal_glycan_min_A": 10.57970142364502,
+      "sequon_ND2_min_A": 11.949698448181152,
+      "unresolved_end_min_A": 30.011930465698242,
+      "interchain_clash_pairs": 2,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 55,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00007:il7ra_lab_gate21_20261117_rfd4_00007_1_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 7,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.0656626224517822,
+          "design_contact_recall": 0.8636363636363636,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_e2d36c0cadf47d68",
+      "ipSAE_min": 0.205677,
+      "ipSAE_directions": {
+        "A_to_B": 0.205677,
+        "B_to_A": 0.316782
+      },
+      "ipTM": 0.6780788898468018,
+      "monomer_pLDDT": 90.04207611083984,
+      "monomer_rmsd_A": 0.9962317943572998,
+      "crystal_glycan_min_A": 14.929786682128906,
+      "sequon_ND2_min_A": 17.82559585571289,
+      "unresolved_end_min_A": 30.49748420715332,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 72,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00006:il7ra_lab_gate21_20261117_rfd4_00006_5_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 6,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 10.925568580627441,
+          "design_contact_recall": 0.0,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_a7736083635b1d93",
+      "ipSAE_min": 0.175391,
+      "ipSAE_directions": {
+        "A_to_B": 0.175391,
+        "B_to_A": 0.353671
+      },
+      "ipTM": 0.7571694254875183,
+      "monomer_pLDDT": 74.76862335205078,
+      "monomer_rmsd_A": 0.9700037837028503,
+      "crystal_glycan_min_A": 13.061589241027832,
+      "sequon_ND2_min_A": 6.62259578704834,
+      "unresolved_end_min_A": 6.874683380126953,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 55,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00002:il7ra_lab_gate21_20261117_rfd4_00002_6_generated",
+          "method": "rfd4",
+          "patch": "adjacent_1",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 35.836334228515625,
+          "design_contact_recall": 0.0,
+          "hotspot_hits": 0
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_6ec851130c366706",
+      "ipSAE_min": 0.173669,
+      "ipSAE_directions": {
+        "A_to_B": 0.173669,
+        "B_to_A": 0.275349
+      },
+      "ipTM": 0.6892103552818298,
+      "monomer_pLDDT": 80.11569213867188,
+      "monomer_rmsd_A": 0.2585373520851135,
+      "crystal_glycan_min_A": 17.250070571899414,
+      "sequon_ND2_min_A": 16.522985458374023,
+      "unresolved_end_min_A": 28.425004959106445,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 68,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00002:il7ra_lab_gate21_20261117_rfd4_00002_3_generated",
+          "method": "rfd4",
+          "patch": "adjacent_1",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 5.682639122009277,
+          "design_contact_recall": 0.15,
+          "hotspot_hits": 2
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_34060ee189b8b971",
+      "ipSAE_min": 0.172518,
+      "ipSAE_directions": {
+        "A_to_B": 0.172518,
+        "B_to_A": 0.354046
+      },
+      "ipTM": 0.7420425415039062,
+      "monomer_pLDDT": 78.48582458496094,
+      "monomer_rmsd_A": 0.32839447259902954,
+      "crystal_glycan_min_A": 14.445093154907227,
+      "sequon_ND2_min_A": 14.151423454284668,
+      "unresolved_end_min_A": 34.40542221069336,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 55,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00008:il7ra_lab_gate21_20261117_rfd4_00008_2_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 8,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 3.4680380821228027,
+          "design_contact_recall": 0.8823529411764706,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_f8d89feb6e9936cb",
+      "ipSAE_min": 0.158719,
+      "ipSAE_directions": {
+        "A_to_B": 0.158719,
+        "B_to_A": 0.283238
+      },
+      "ipTM": 0.6941749453544617,
+      "monomer_pLDDT": 82.89544677734375,
+      "monomer_rmsd_A": 0.3416461646556854,
+      "crystal_glycan_min_A": 16.36389923095703,
+      "sequon_ND2_min_A": 15.80095100402832,
+      "unresolved_end_min_A": 26.529464721679688,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 67,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00005:il7ra_lab_gate21_20261117_rfd4_00005_2_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 5,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.601945161819458,
+          "design_contact_recall": 0.9666666666666667,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_a89de09f29d48ef3",
+      "ipSAE_min": 0.151016,
+      "ipSAE_directions": {
+        "A_to_B": 0.151016,
+        "B_to_A": 0.297502
+      },
+      "ipTM": 0.7047119736671448,
+      "monomer_pLDDT": 83.45722198486328,
+      "monomer_rmsd_A": 0.2167671173810959,
+      "crystal_glycan_min_A": 15.14416217803955,
+      "sequon_ND2_min_A": 15.477659225463867,
+      "unresolved_end_min_A": 26.420034408569336,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 2,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 60,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00001:il7ra_lab_gate21_20261117_rfd4_00001_3_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 4.922492504119873,
+          "design_contact_recall": 0.84,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_ad311054a949c6bd",
+      "ipSAE_min": 0.124133,
+      "ipSAE_directions": {
+        "A_to_B": 0.124133,
+        "B_to_A": 0.132648
+      },
+      "ipTM": 0.6361897587776184,
+      "monomer_pLDDT": 79.89759826660156,
+      "monomer_rmsd_A": 0.4048348069190979,
+      "crystal_glycan_min_A": 16.737682342529297,
+      "sequon_ND2_min_A": 19.651527404785156,
+      "unresolved_end_min_A": 28.42336654663086,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 74,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00001:il7ra_lab_gate21_20261117_rfd4_00001_4_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 18.237276077270508,
+          "design_contact_recall": 0.037037037037037035,
+          "hotspot_hits": 2
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_17ff0a061c83b4ab",
+      "ipSAE_min": 0.048995,
+      "ipSAE_directions": {
+        "A_to_B": 0.048995,
+        "B_to_A": 0.064046
+      },
+      "ipTM": 0.5159305334091187,
+      "monomer_pLDDT": 84.86610412597656,
+      "monomer_rmsd_A": 0.16256101429462433,
+      "crystal_glycan_min_A": 11.542149543762207,
+      "sequon_ND2_min_A": 15.66547966003418,
+      "unresolved_end_min_A": 29.87430763244629,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 69,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00007:il7ra_lab_gate21_20261117_rfd4_00007_6_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 7,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.1557841300964355,
+          "design_contact_recall": 0.7777777777777778,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_cfd1d2ba901a8698",
+      "ipSAE_min": 0.039361,
+      "ipSAE_directions": {
+        "A_to_B": 0.052285,
+        "B_to_A": 0.039361
+      },
+      "ipTM": 0.5783882141113281,
+      "monomer_pLDDT": 81.25482177734375,
+      "monomer_rmsd_A": 0.7232155203819275,
+      "crystal_glycan_min_A": 13.600119590759277,
+      "sequon_ND2_min_A": 13.734945297241211,
+      "unresolved_end_min_A": 27.435630798339844,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 56,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00006:il7ra_lab_gate21_20261117_rfd4_00006_4_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 6,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 25.22011947631836,
+          "design_contact_recall": 0.05,
+          "hotspot_hits": 1
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_1ea9c22213a5f164",
+      "ipSAE_min": 0.030702,
+      "ipSAE_directions": {
+        "A_to_B": 0.030702,
+        "B_to_A": 0.048782
+      },
+      "ipTM": 0.6118192672729492,
+      "monomer_pLDDT": 77.19178009033203,
+      "monomer_rmsd_A": 0.19122089445590973,
+      "crystal_glycan_min_A": 6.558597087860107,
+      "sequon_ND2_min_A": 11.663952827453613,
+      "unresolved_end_min_A": 3.6326889991760254,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 56,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00002:il7ra_lab_gate21_20261117_rfd4_00002_1_generated",
+          "method": "rfd4",
+          "patch": "adjacent_1",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 48.239662170410156,
+          "design_contact_recall": 0.0,
+          "hotspot_hits": 0
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_a83fd3104bc2fbdc",
+      "ipSAE_min": 0.013198,
+      "ipSAE_directions": {
+        "A_to_B": 0.023535,
+        "B_to_A": 0.013198
+      },
+      "ipTM": 0.5580052137374878,
+      "monomer_pLDDT": 83.0738754272461,
+      "monomer_rmsd_A": 0.3526899516582489,
+      "crystal_glycan_min_A": 0.5083330869674683,
+      "sequon_ND2_min_A": 3.1436965465545654,
+      "unresolved_end_min_A": 19.72067642211914,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 73,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00003:il7ra_lab_gate21_20261117_rfd4_00003_3_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 3,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 45.02516555786133,
+          "design_contact_recall": 0.0,
+          "hotspot_hits": 0
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_7b59373e5b4ce56f",
+      "ipSAE_min": 0.012209,
+      "ipSAE_directions": {
+        "A_to_B": 0.012209,
+        "B_to_A": 0.015932
+      },
+      "ipTM": 0.5304640531539917,
+      "monomer_pLDDT": 92.1533432006836,
+      "monomer_rmsd_A": 0.8196539282798767,
+      "crystal_glycan_min_A": 12.40137767791748,
+      "sequon_ND2_min_A": 14.493857383728027,
+      "unresolved_end_min_A": 34.32533645629883,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 70,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00009:il7ra_lab_gate21_20261117_rfd4_00009_6_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 9,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.675549030303955,
+          "design_contact_recall": 0.84375,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_5abd0431cbbecacc",
+      "ipSAE_min": 0.0,
+      "ipSAE_directions": {
+        "A_to_B": 0.0,
+        "B_to_A": 0.0
+      },
+      "ipTM": 0.3173007369041443,
+      "monomer_pLDDT": 93.18169403076172,
+      "monomer_rmsd_A": 0.1408987045288086,
+      "crystal_glycan_min_A": 11.52487564086914,
+      "sequon_ND2_min_A": 13.25403881072998,
+      "unresolved_end_min_A": 24.19021987915039,
+      "interchain_clash_pairs": 1,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 66,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00005:il7ra_lab_gate21_20261117_rfd4_00005_4_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 5,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 15.422808647155762,
+          "design_contact_recall": 0.07142857142857142,
+          "hotspot_hits": 2
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_716942bbc5737ed3",
+      "ipSAE_min": 0.0,
+      "ipSAE_directions": {
+        "A_to_B": 0.0,
+        "B_to_A": 0.0
+      },
+      "ipTM": 0.0777406319975853,
+      "monomer_pLDDT": 89.91165161132812,
+      "monomer_rmsd_A": 2.79937744140625,
+      "crystal_glycan_min_A": 11.194375991821289,
+      "sequon_ND2_min_A": 4.07066011428833,
+      "unresolved_end_min_A": 3.627614974975586,
+      "interchain_clash_pairs": 2,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 56,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00004:il7ra_lab_gate21_20261117_rfd4_00004_3_generated",
+          "method": "rfd4",
+          "patch": "other_1",
+          "wave": 4,
+          "min_hotspots": 1,
+          "pose_ca_rmsd_A": 62.887611389160156,
+          "design_contact_recall": 0.0,
+          "hotspot_hits": 0
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_b4dab6f99098de27",
+      "ipSAE_min": 0.0,
+      "ipSAE_directions": {
+        "A_to_B": 0.0,
+        "B_to_A": 0.0
+      },
+      "ipTM": 0.1063491627573967,
+      "monomer_pLDDT": 88.63553619384766,
+      "monomer_rmsd_A": 1.0474700927734375,
+      "crystal_glycan_min_A": 15.80919361114502,
+      "sequon_ND2_min_A": 15.976491928100586,
+      "unresolved_end_min_A": 29.172100067138672,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 66,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00000:il7ra_lab_gate21_20261117_rfd4_00000_0_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 61.756103515625,
+          "design_contact_recall": 0.0,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_c3c06b1dccd44f24",
+      "ipSAE_min": 0.0,
+      "ipSAE_directions": {
+        "A_to_B": 0.0,
+        "B_to_A": 0.0
+      },
+      "ipTM": 0.08974803239107132,
+      "monomer_pLDDT": 88.16173553466797,
+      "monomer_rmsd_A": 0.1997409462928772,
+      "crystal_glycan_min_A": 10.461692810058594,
+      "sequon_ND2_min_A": 12.372580528259277,
+      "unresolved_end_min_A": 30.23627471923828,
+      "interchain_clash_pairs": 3,
+      "cysteine_count": 1,
+      "paired_cysteines": false,
+      "pilot_gate": false,
+      "length": 60,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00007:il7ra_lab_gate21_20261117_rfd4_00007_7_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 7,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 17.673221588134766,
+          "design_contact_recall": 0.0,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_f19c6a3f87ca6f69",
+      "ipSAE_min": 0.0,
+      "ipSAE_directions": {
+        "A_to_B": 0.0,
+        "B_to_A": 0.0
+      },
+      "ipTM": 0.29720938205718994,
+      "monomer_pLDDT": 86.04710388183594,
+      "monomer_rmsd_A": 0.43438073992729187,
+      "crystal_glycan_min_A": 12.673895835876465,
+      "sequon_ND2_min_A": 14.688857078552246,
+      "unresolved_end_min_A": 18.90193748474121,
+      "interchain_clash_pairs": 2,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 75,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00000:il7ra_lab_gate21_20261117_rfd4_00000_7_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 23.901342391967773,
+          "design_contact_recall": 0.10526315789473684,
+          "hotspot_hits": 2
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_1b0d2201965d7e50",
+      "ipSAE_min": 0.0,
+      "ipSAE_directions": {
+        "A_to_B": 0.0,
+        "B_to_A": 0.0
+      },
+      "ipTM": 0.3417603075504303,
+      "monomer_pLDDT": 85.72090911865234,
+      "monomer_rmsd_A": 0.14742523431777954,
+      "crystal_glycan_min_A": 16.128475189208984,
+      "sequon_ND2_min_A": 17.17173194885254,
+      "unresolved_end_min_A": 25.007530212402344,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 75,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00006:il7ra_lab_gate21_20261117_rfd4_00006_1_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 6,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 20.614280700683594,
+          "design_contact_recall": 0.0,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_7b5005db956ab88b",
+      "ipSAE_min": 0.0,
+      "ipSAE_directions": {
+        "A_to_B": 0.0,
+        "B_to_A": 0.011653
+      },
+      "ipTM": 0.2095211148262024,
+      "monomer_pLDDT": 84.80457305908203,
+      "monomer_rmsd_A": 0.19142819941043854,
+      "crystal_glycan_min_A": 9.785735130310059,
+      "sequon_ND2_min_A": 11.867725372314453,
+      "unresolved_end_min_A": 31.252403259277344,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 57,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00001:il7ra_lab_gate21_20261117_rfd4_00001_1_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 4.983344078063965,
+          "design_contact_recall": 0.7333333333333333,
+          "hotspot_hits": 2
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_3331153d93f96c60",
+      "ipSAE_min": 0.0,
+      "ipSAE_directions": {
+        "A_to_B": 0.0,
+        "B_to_A": 0.0
+      },
+      "ipTM": 0.18673557043075562,
+      "monomer_pLDDT": 80.12689971923828,
+      "monomer_rmsd_A": 1.3437225818634033,
+      "crystal_glycan_min_A": 16.771469116210938,
+      "sequon_ND2_min_A": 16.736141204833984,
+      "unresolved_end_min_A": 25.618892669677734,
+      "interchain_clash_pairs": 4,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 59,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00003:il7ra_lab_gate21_20261117_rfd4_00003_4_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 3,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 10.769919395446777,
+          "design_contact_recall": 0.1111111111111111,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_986943f2b0b56a79",
+      "ipSAE_min": 0.0,
+      "ipSAE_directions": {
+        "A_to_B": 0.0,
+        "B_to_A": 0.0
+      },
+      "ipTM": 0.13578063249588013,
+      "monomer_pLDDT": 78.94979095458984,
+      "monomer_rmsd_A": 0.4455815255641937,
+      "crystal_glycan_min_A": 14.206076622009277,
+      "sequon_ND2_min_A": 14.685131072998047,
+      "unresolved_end_min_A": 28.927061080932617,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 59,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00005:il7ra_lab_gate21_20261117_rfd4_00005_1_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 5,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 36.5623779296875,
+          "design_contact_recall": 0.0,
+          "hotspot_hits": 1
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_8bbf3dc47d9a7ee3",
+      "ipSAE_min": 0.0,
+      "ipSAE_directions": {
+        "A_to_B": 0.0,
+        "B_to_A": 0.0
+      },
+      "ipTM": 0.170065239071846,
+      "monomer_pLDDT": 74.85660552978516,
+      "monomer_rmsd_A": 0.47428202629089355,
+      "crystal_glycan_min_A": 11.608617782592773,
+      "sequon_ND2_min_A": 14.628564834594727,
+      "unresolved_end_min_A": 30.671085357666016,
+      "interchain_clash_pairs": 4,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 69,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00007:il7ra_lab_gate21_20261117_rfd4_00007_0_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 7,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 13.724635124206543,
+          "design_contact_recall": 0.25,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    },
+    {
+      "id": "IL7RA_s5k_1c5092813a41da86",
+      "ipSAE_min": 0.0,
+      "ipSAE_directions": {
+        "A_to_B": 0.0,
+        "B_to_A": 0.0
+      },
+      "ipTM": 0.37454327940940857,
+      "monomer_pLDDT": 70.76670837402344,
+      "monomer_rmsd_A": 1.882630705833435,
+      "crystal_glycan_min_A": 17.1180362701416,
+      "sequon_ND2_min_A": 16.792469024658203,
+      "unresolved_end_min_A": 27.264949798583984,
+      "interchain_clash_pairs": 3,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "pilot_gate": false,
+      "length": 66,
+      "source_geometry": [
+        {
+          "parent": "il7ra_lab_gate21_20261117_rfd4_00005:il7ra_lab_gate21_20261117_rfd4_00005_6_generated",
+          "method": "rfd4",
+          "patch": "known",
+          "wave": 5,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 17.43144416809082,
+          "design_contact_recall": 0.0,
+          "hotspot_hits": 3
+        }
+      ],
+      "initial_public_reference_hit_count": null
+    }
+  ]
+}
