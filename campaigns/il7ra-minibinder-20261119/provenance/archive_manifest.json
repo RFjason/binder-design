@@ -1,0 +1,14 @@
+{
+  "release_tag": "il7ra-closeout-20261119",
+  "parts": [
+    {
+      "filename": "il7ra-passing-445-full-evidence.zip",
+      "bytes": 758570296,
+      "sha256": "8ff78c7c225a9745c52fb2625d8d835c39233c82f60b5a449decf96851e01f44",
+      "entries": 7785,
+      "candidate_count": 445,
+      "historical_rechecks": 20,
+      "contents": "Full complex/monomer prediction directories, original generation structures, and Top20 historical predictions."
+    }
+  ]
+}

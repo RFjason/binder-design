@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "scripts_parsed": 12,
+  "tm_align_identity": 1.0,
+  "batch_counts": {
+    "rfd4/known": 2000,
+    "rfd4/adjacent": 1200,
+    "rfd4/other": 800,
+    "bc2/known": 150,
+    "bc2/adjacent": 90,
+    "bc2/other": 60
+  },
+  "job": "64907272"
+}

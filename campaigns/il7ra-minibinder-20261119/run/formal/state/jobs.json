@@ -1,0 +1,342 @@
+[
+  {
+    "stage": "rfd4",
+    "wave": 0,
+    "job": "64907275",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_rfd4",
+      "--output=logs/rfd4_%A_%a.out",
+      "--array=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39%4",
+      "--partition=a800",
+      "--time=00:45:00",
+      "--export=ALL,SCALE_WAVE=0",
+      "scripts/generation.slurm",
+      "rfd4"
+    ]
+  },
+  {
+    "stage": "bc2",
+    "wave": 0,
+    "job": "64907276",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_bc2",
+      "--output=logs/bc2_%A_%a.out",
+      "--array=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59%2",
+      "--partition=a100",
+      "--time=00:45:00",
+      "--export=ALL,SCALE_WAVE=0",
+      "scripts/generation.slurm",
+      "bc2"
+    ]
+  },
+  {
+    "stage": "collect",
+    "wave": 0,
+    "job": "64907277",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_collect",
+      "--output=logs/collect_%A_%a.out",
+      "--dependency=afterany:64907275:64907276",
+      "--export=ALL,SCALE_WAVE=0",
+      "scripts/collection.slurm",
+      "collect_scale"
+    ]
+  },
+  {
+    "stage": "score",
+    "wave": 0,
+    "job": "64907278",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_score",
+      "--output=logs/score_%A_%a.out",
+      "--dependency=afterok:64907277",
+      "--array=0-59%2",
+      "--partition=a100",
+      "--time=00:45:00",
+      "--export=ALL,SCALE_WAVE=0",
+      "scripts/score.slurm",
+      "inputs/wave_0_score_%a.json"
+    ]
+  },
+  {
+    "stage": "audit",
+    "wave": 0,
+    "job": "64907279",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_audit",
+      "--output=logs/audit_%A_%a.out",
+      "--dependency=afterany:64907278",
+      "--export=ALL,SCALE_WAVE=0",
+      "scripts/audit.slurm"
+    ]
+  },
+  {
+    "stage": "advance",
+    "wave": 0,
+    "job": "64907280",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_advance",
+      "--output=logs/advance_%A_%a.out",
+      "--dependency=afterany:64907279",
+      "--export=ALL,SCALE_WAVE=0",
+      "scripts/collection.slurm",
+      "controller"
+    ]
+  },
+  {
+    "stage": "rfd4",
+    "wave": 1,
+    "job": "65171490",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_rfd4",
+      "--output=logs/rfd4_%A_%a.out",
+      "--array=40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79%4",
+      "--partition=a800",
+      "--time=00:45:00",
+      "--export=ALL,SCALE_WAVE=1",
+      "scripts/generation.slurm",
+      "rfd4"
+    ]
+  },
+  {
+    "stage": "bc2",
+    "wave": 1,
+    "job": "65171503",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_bc2",
+      "--output=logs/bc2_%A_%a.out",
+      "--array=60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119%2",
+      "--partition=a100",
+      "--time=00:45:00",
+      "--export=ALL,SCALE_WAVE=1",
+      "scripts/generation.slurm",
+      "bc2"
+    ]
+  },
+  {
+    "stage": "collect",
+    "wave": 1,
+    "job": "65171511",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_collect",
+      "--output=logs/collect_%A_%a.out",
+      "--dependency=afterany:65171490:65171503",
+      "--export=ALL,SCALE_WAVE=1",
+      "scripts/collection.slurm",
+      "collect_scale"
+    ]
+  },
+  {
+    "stage": "score",
+    "wave": 1,
+    "job": "65171522",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_score",
+      "--output=logs/score_%A_%a.out",
+      "--dependency=afterok:65171511",
+      "--array=0-59%2",
+      "--partition=a100",
+      "--time=00:45:00",
+      "--export=ALL,SCALE_WAVE=1",
+      "scripts/score.slurm",
+      "inputs/wave_1_score_%a.json"
+    ]
+  },
+  {
+    "stage": "audit",
+    "wave": 1,
+    "job": "65171534",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_audit",
+      "--output=logs/audit_%A_%a.out",
+      "--dependency=afterany:65171522",
+      "--export=ALL,SCALE_WAVE=1",
+      "scripts/audit.slurm"
+    ]
+  },
+  {
+    "stage": "advance",
+    "wave": 1,
+    "job": "65171544",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_advance",
+      "--output=logs/advance_%A_%a.out",
+      "--dependency=afterany:65171534",
+      "--export=ALL,SCALE_WAVE=1",
+      "scripts/collection.slurm",
+      "controller"
+    ]
+  },
+  {
+    "stage": "rfd4",
+    "wave": 2,
+    "job": "65615038",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_rfd4",
+      "--output=logs/rfd4_%A_%a.out",
+      "--array=80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119%4",
+      "--partition=a800",
+      "--time=00:45:00",
+      "--export=ALL,SCALE_WAVE=2",
+      "scripts/generation.slurm",
+      "rfd4"
+    ]
+  },
+  {
+    "stage": "bc2",
+    "wave": 2,
+    "job": "65615039",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_bc2",
+      "--output=logs/bc2_%A_%a.out",
+      "--array=120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179%2",
+      "--partition=a100",
+      "--time=00:45:00",
+      "--export=ALL,SCALE_WAVE=2",
+      "scripts/generation.slurm",
+      "bc2"
+    ]
+  },
+  {
+    "stage": "collect",
+    "wave": 2,
+    "job": "65615040",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_collect",
+      "--output=logs/collect_%A_%a.out",
+      "--dependency=afterany:65615038:65615039",
+      "--export=ALL,SCALE_WAVE=2",
+      "scripts/collection.slurm",
+      "collect_scale"
+    ]
+  },
+  {
+    "stage": "score",
+    "wave": 2,
+    "job": "65615041",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_score",
+      "--output=logs/score_%A_%a.out",
+      "--dependency=afterok:65615040",
+      "--array=0-59%2",
+      "--partition=a100",
+      "--time=00:45:00",
+      "--export=ALL,SCALE_WAVE=2",
+      "scripts/score.slurm",
+      "inputs/wave_2_score_%a.json"
+    ]
+  },
+  {
+    "stage": "audit",
+    "wave": 2,
+    "job": "65615042",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_audit",
+      "--output=logs/audit_%A_%a.out",
+      "--dependency=afterany:65615041",
+      "--export=ALL,SCALE_WAVE=2",
+      "scripts/audit.slurm"
+    ]
+  },
+  {
+    "stage": "advance",
+    "wave": 2,
+    "job": "65615043",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_advance",
+      "--output=logs/advance_%A_%a.out",
+      "--dependency=afterany:65615042",
+      "--export=ALL,SCALE_WAVE=2",
+      "scripts/collection.slurm",
+      "controller"
+    ]
+  },
+  {
+    "stage": "historical",
+    "wave": 2,
+    "job": "65866656",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_historical",
+      "--output=logs/historical_%A_%a.out",
+      "--array=0-3%2",
+      "--partition=a100",
+      "--time=00:15:00",
+      "--export=ALL,SCALE_WAVE=2",
+      "scripts/score.slurm",
+      "inputs/historical_score_%a.json"
+    ]
+  },
+  {
+    "stage": "finalize",
+    "wave": 2,
+    "job": "65866657",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--kill-on-invalid-dep=yes",
+      "--job-name=il7ra5k_finalize",
+      "--output=logs/finalize_%A_%a.out",
+      "--dependency=afterany:65866656",
+      "--export=ALL,SCALE_WAVE=2",
+      "scripts/collection.slurm",
+      "finalize_scale"
+    ]
+  }
+]

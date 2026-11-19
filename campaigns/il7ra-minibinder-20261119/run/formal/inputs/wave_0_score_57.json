@@ -1,0 +1,272 @@
+[
+  {
+    "id": "IL7RA_s5k_001544f40717eebc_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "LYDYYLSKLKHAIDEKDWDSFLQNIRAAEKNLSSEDFSHLLEDIKTYVENSNLSDEEKTELLDFINDKLEE"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_5710523373bb27e1_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "SFEEELTYFIEKEMENLKVPDSLKEEVKEKSLEKLLEMSKTESKEEVFASISSVVRNVYLEILEENE"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_f49f57fbaf86d3b2_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "SSALFNQYRAKILERLKPLIQSWSDEQKEKAHTIIDETVSEGIEKGETLEEIYQTVLEKLENS"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_08caaa5df100407a_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "SITINSVTPSATSATVTFTASSTDTFYVKASNSSSSHTVSALKLSDLSYAALVSGLTPNSTYTVTVFNLGGSSSSPVSFTTKS"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_96db9c7624f775ad_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "ATLSNLTVSEGKTATLVCTSSLAPITSASWTKDGSSITSGIKIEDSTRTTLTINNVTPSDSGTYTCTVTTPHGSSSASATLTVS"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_c13afb6c4a0b70bf_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "SEKLEELEEKLEELEEKLEELEERIEEVEEELEELKEQPENFDVERKIELLEELLEELEEEKEELEEEIEELEEEIEELE"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_346d5da272bb7515_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "SIEDTYQQVRWLLLNNRLDDAVDLLKELSEDDRQTILTKLSEDDNVLIRERTEDLKEKLEE"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_45130efae214345d_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "SDQEFLEEALSRSVSNLLTEVEDSLKENPDLDTLKEHKEELEDMLKFPLSEEDREKVESLLDKVLEKIEEK"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_c4fab7a5d3746b12_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "KKYKVQEGDDETTIEASDINDAIDKFLKSKNARLITRQEKGDSTRIYYMVGNEAHVATISLV"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_40dc1293455f323c_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "SFILEKLDELEEAIEEKDKTLAVNLLSSLKGKLSSSSSEILDLLDQIEEALDKDDYDTALELLEELKEKVSEDLE"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_559e3bcf443f69ba_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "ETYHLNKSFEDSFNKIYFNLDISSSDKCYFFLSECNSNTKPSLHYKNLPSSSEVVFEVNDYENLEFPMAYVYSDGSSIYYQDLTYIRKS"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_85f1c8991bcfe421_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "SNTVSYSISHDRLRNDTYTVKLYDMNGNLLDEQKSTASNKTISGSFSGNYTLGSDYIVAVYDSSTNELIASTTVTATS"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_0b95cb6e6433548d_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "VLKIYLSSDSVSVGEPILITATSTASTNITLQVYFNGELVAETDDPELTFTPSEAGTYTVVATSGSFSATDTFTVK"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_e22d8513dae7923f_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "SEELEEKKEQLSYLKEELEKLENNEEEHSDDYDSKEEEIEDIKERITVLEEEIEELEEE"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_37c25b7a48f1dc16_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "SSNVSIAEKIVQALEENSFLNSEELLEKTKIDSDTFNEFIHFLIEKNIIHSDMILPETLDFLKDWLSSKS"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_4a38027f7e337288_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "STPPKLSYEWNSSSSVTLSWTSASGLSSNVLYKLYKKNSDNSDTLIYSTHSDRSYTITNAKVGDTYYVSASSEDQTVESEEVTLE"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_3fc594f0b3576b4c_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "SKNELLDKLYELAKSALEKKDYDSFRDNVNTMMEHFSNTDSNLLDKLYELAKLAKSLEEWDVFNVLYDFLSIYAPDLASKLE"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_647ff49548771105_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "SFEELKKNWPTNWSDRIKLFDNLLKENPFLQTPEVTHKIANLILFGTSEELIDFLEEQIKNP"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_1ec98113e7c5718f_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "VISEEELEEAIKEIRDYYTSRGEPRVGLYAIGLLKRRVERFPEERSVEELIEESVSYAEKYTRMFGPWLSDKLIKEL"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_e96ebadad7a08090_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "STNLSKAKAELDTAAAEFKTKYSDDEVEYQLALAKKILELAEKYELTEEQKTELLTYAKEKHNLEDEYFDQVKLLL"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_05783d22178f5f38_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "MHLTTEQKEEIAKLLFDLYDSITKDEIKEFLKELFKEDVTDEDIDDIFSLWNELKEESE"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_ec85717f69ca02f1_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "SSFHLVATYDNDTATGTLKLFFNGKEIAHFDTDKNEWIWTEPEFANLFSPPSSDSLYNLAVSVEKTAVEKDELEKLLES"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_754c4490781f7e21_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "SISVSNLEFVSNDTISFTVTNSSSSPKTVNIEIYLKKFEKDDWEKVFEETVTLDANSSKTFHFTIPEEFLNDLEAVKVVVTDEDGNSTEEILNAK"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_2c6bc435de4d75db_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "SLSVSVTQTSSSTLTYSVSGHTGSLSVSIYKDAALLSSTSSASGTIENVEPNHTYTVLARDSTEEASASITT"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_ff4c9d8c0b0dd107_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "SDEEELLERVEELLENPENKELLKETKELAEKVEPDLLPVLNALEDENELVREEAIAILEDWLDSKK"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_c90c89fc1f13443d_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "ASISVTWNFTLEEKYVGKTVECIVYYRKEDSEEWNKTDPDKLTIESTNVSYSYTLENLEENENYYIFLRVLYEDEEIYFSDILKETAS"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_fc01532be4ffe0a9_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "SSSITISNISATTSSVTVTGTATGLENSELSVYIKNSNNEVVAESLTKTDSDGNFSVTVSANLTKNETYYVEVEDSSSDVKSDSVPFTAE"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_cf91bd047230d57e_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "STKEEILSLINQIKEAIEENDLEKVYSLSDELVEKLSSASDEVLEEVETDVDELKEEIDTFLEEKF"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_c3a81f2416805966_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "SNLEVIEKSLKELEKLIEEMFENPEKSGIPFKDIDWLRMIYHEYKDALSNLEYLGHLLKYSDSILEKIKKLGEELYKIFTTLREAMKKYYEENT"
+      }
+    ]
+  },
+  {
+    "id": "IL7RA_s5k_66937a3d219fe1d1_monomer",
+    "chains": [
+      {
+        "id": "B",
+        "sequence": "MVPEQVKKAWKYFQENWDEVMRSVITSHEQHDQAFDIWWKVDMALYKAMNPEYVGKPPSIEEILEIIREKIEEAKKLGFEKLTEFLEKLKEILEE"
+      }
+    ]
+  }
+]

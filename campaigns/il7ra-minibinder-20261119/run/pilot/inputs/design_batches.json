@@ -1,0 +1,254 @@
+[
+  {
+    "id": "rfd4_il7_face_55_00",
+    "method": "rfd4",
+    "patch": "il7_face",
+    "min_length": 55,
+    "max_length": 75,
+    "seed": 711000,
+    "replicates": 12
+  },
+  {
+    "id": "bc2_il7_face_55_00",
+    "method": "bc2",
+    "patch": "il7_face",
+    "min_length": 55,
+    "max_length": 75,
+    "seed": 711001,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_il7_face_55_01",
+    "method": "bc2",
+    "patch": "il7_face",
+    "min_length": 55,
+    "max_length": 75,
+    "seed": 711002,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_il7_face_55_02",
+    "method": "bc2",
+    "patch": "il7_face",
+    "min_length": 55,
+    "max_length": 75,
+    "seed": 711003,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_il7_face_55_03",
+    "method": "bc2",
+    "patch": "il7_face",
+    "min_length": 55,
+    "max_length": 75,
+    "seed": 711004,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_il7_face_55_04",
+    "method": "bc2",
+    "patch": "il7_face",
+    "min_length": 55,
+    "max_length": 75,
+    "seed": 711005,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_il7_face_55_05",
+    "method": "bc2",
+    "patch": "il7_face",
+    "min_length": 55,
+    "max_length": 75,
+    "seed": 711006,
+    "replicates": 1
+  },
+  {
+    "id": "rfd4_il7_face_76_00",
+    "method": "rfd4",
+    "patch": "il7_face",
+    "min_length": 76,
+    "max_length": 95,
+    "seed": 711007,
+    "replicates": 12
+  },
+  {
+    "id": "bc2_il7_face_76_00",
+    "method": "bc2",
+    "patch": "il7_face",
+    "min_length": 76,
+    "max_length": 95,
+    "seed": 711008,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_il7_face_76_01",
+    "method": "bc2",
+    "patch": "il7_face",
+    "min_length": 76,
+    "max_length": 95,
+    "seed": 711009,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_il7_face_76_02",
+    "method": "bc2",
+    "patch": "il7_face",
+    "min_length": 76,
+    "max_length": 95,
+    "seed": 711010,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_il7_face_76_03",
+    "method": "bc2",
+    "patch": "il7_face",
+    "min_length": 76,
+    "max_length": 95,
+    "seed": 711011,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_il7_face_76_04",
+    "method": "bc2",
+    "patch": "il7_face",
+    "min_length": 76,
+    "max_length": 95,
+    "seed": 711012,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_il7_face_76_05",
+    "method": "bc2",
+    "patch": "il7_face",
+    "min_length": 76,
+    "max_length": 95,
+    "seed": 711013,
+    "replicates": 1
+  },
+  {
+    "id": "rfd4_distal_face_55_00",
+    "method": "rfd4",
+    "patch": "distal_face",
+    "min_length": 55,
+    "max_length": 75,
+    "seed": 711014,
+    "replicates": 12
+  },
+  {
+    "id": "bc2_distal_face_55_00",
+    "method": "bc2",
+    "patch": "distal_face",
+    "min_length": 55,
+    "max_length": 75,
+    "seed": 711015,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_distal_face_55_01",
+    "method": "bc2",
+    "patch": "distal_face",
+    "min_length": 55,
+    "max_length": 75,
+    "seed": 711016,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_distal_face_55_02",
+    "method": "bc2",
+    "patch": "distal_face",
+    "min_length": 55,
+    "max_length": 75,
+    "seed": 711017,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_distal_face_55_03",
+    "method": "bc2",
+    "patch": "distal_face",
+    "min_length": 55,
+    "max_length": 75,
+    "seed": 711018,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_distal_face_55_04",
+    "method": "bc2",
+    "patch": "distal_face",
+    "min_length": 55,
+    "max_length": 75,
+    "seed": 711019,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_distal_face_55_05",
+    "method": "bc2",
+    "patch": "distal_face",
+    "min_length": 55,
+    "max_length": 75,
+    "seed": 711020,
+    "replicates": 1
+  },
+  {
+    "id": "rfd4_distal_face_76_00",
+    "method": "rfd4",
+    "patch": "distal_face",
+    "min_length": 76,
+    "max_length": 95,
+    "seed": 711021,
+    "replicates": 12
+  },
+  {
+    "id": "bc2_distal_face_76_00",
+    "method": "bc2",
+    "patch": "distal_face",
+    "min_length": 76,
+    "max_length": 95,
+    "seed": 711022,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_distal_face_76_01",
+    "method": "bc2",
+    "patch": "distal_face",
+    "min_length": 76,
+    "max_length": 95,
+    "seed": 711023,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_distal_face_76_02",
+    "method": "bc2",
+    "patch": "distal_face",
+    "min_length": 76,
+    "max_length": 95,
+    "seed": 711024,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_distal_face_76_03",
+    "method": "bc2",
+    "patch": "distal_face",
+    "min_length": 76,
+    "max_length": 95,
+    "seed": 711025,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_distal_face_76_04",
+    "method": "bc2",
+    "patch": "distal_face",
+    "min_length": 76,
+    "max_length": 95,
+    "seed": 711026,
+    "replicates": 1
+  },
+  {
+    "id": "bc2_distal_face_76_05",
+    "method": "bc2",
+    "patch": "distal_face",
+    "min_length": 76,
+    "max_length": 95,
+    "seed": 711027,
+    "replicates": 1
+  }
+]

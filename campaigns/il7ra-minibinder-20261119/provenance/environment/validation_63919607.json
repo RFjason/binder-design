@@ -1,0 +1,28 @@
+{
+  "job_id": "63919607",
+  "scope": "Generation only; no AF3 refolding, affinity or experimental validation",
+  "outputs": [
+    {
+      "task": "monomer",
+      "path": "/dssg/home/acct-clshzh/jasoncao1280/rfd4_deploy_20261022/runs/monomer_63919607/inference_samples/monomer-short/monomer-short_generated.cif",
+      "atoms": 795,
+      "chains": {
+        "A": 100
+      },
+      "sha256": "327efaf276abca95f21009a7ffc0f5b43764eceb4d96c9cdf8d1306ddbdd68e1"
+    },
+    {
+      "task": "pdl1",
+      "path": "/dssg/home/acct-clshzh/jasoncao1280/rfd4_deploy_20261022/runs/pdl1_63919607/inference_samples/pdl1_binder_0/pdl1_binder_0_generated.cif",
+      "atoms": 1627,
+      "chains": {
+        "A": 115,
+        "B": 89
+      },
+      "sha256": "ff37c8528ee3549ed53a2bc78d6b0764807e0825c7ee090947ae35a57bd1b674",
+      "target_ca_rmsd_angstrom": 0.15126541256904602,
+      "target_chain": "A",
+      "target_sequence_identity": 1.0
+    }
+  ]
+}

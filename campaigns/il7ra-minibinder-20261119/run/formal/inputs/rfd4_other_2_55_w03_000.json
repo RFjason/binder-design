@@ -1,0 +1,32 @@
+{
+  "rfd4_other_2_55_w03_000": {
+    "input": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111/inputs/receptor.cif",
+    "contig": "55-75, /0, A1-219",
+    "conditions": {
+      "C_CRDGRP": {
+        "1": [
+          {
+            "select": "sel('A/*/*/[N,CA,C,O]')"
+          }
+        ]
+      },
+      "C_SEQ": {
+        "true": [
+          {
+            "select": "sel('A')"
+          }
+        ]
+      },
+      "C_HOT": {
+        "true": [
+          {
+            "select": "sel('A/*/152/[OE1,CG]')"
+          },
+          {
+            "select": "sel('A/*/155/[OE1,OE2]')"
+          }
+        ]
+      }
+    }
+  }
+}

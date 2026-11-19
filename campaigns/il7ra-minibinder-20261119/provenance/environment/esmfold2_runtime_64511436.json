@@ -1,0 +1,182 @@
+{
+  "mode": "esmfold2",
+  "job_id": "64511436",
+  "hostname": "gpu14.pi.sjtu.edu.cn",
+  "python": "3.12.14 (main, Sep  2 2026, 23:27:36) [GCC 15.3.0]",
+  "executable": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/anthropic_pdl1_pipeline_20261006/envs/esmfold2-esm-cu128/bin/python",
+  "scope": "runtime audit, no design or prediction",
+  "started_utc": "2026-11-02T14:44:12Z",
+  "torch": "2.11.0+cu128",
+  "cuda_runtime": "12.8",
+  "cuda_available": true,
+  "gpu_name": "NVIDIA A100-SXM4-40GB",
+  "gpu_memory_bytes": 42297786368,
+  "esm_version": "3.4.1.post1",
+  "fold_signature": "(self, model: Any, input: esm.utils.structure.input_builder.StructurePredictionInput, *, num_loops: int = 20, num_sampling_steps: int = 200, num_diffusion_samples: int = 1, seed: int | None = None, noise_scale: float | None = None, step_scale: float | None = None, max_inference_sigma: float | None = None, lm_mask_pct: float | None = None, lm_dropout: float | None = 0.3, early_exit: bool | None = None, msa_max_depth: int | None = 1024, msa_column_mask_rate: float = 0.1, msa_subsample_at_inference: bool | None = None, include_embeddings: bool = False, complex_id: str = 'pred') -> esm.utils.structure.molecular_complex.MolecularComplexResult | list[esm.utils.structure.molecular_complex.MolecularComplexResult]",
+  "protein_input_signature": "(id: str | list[str], sequence: str, modifications: list[esm.utils.structure.input_builder.Modification] | None = None, msa: Optional[esm.utils.msa.msa.MSA] = None) -> None",
+  "fold_source": {
+    "path": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/anthropic_pdl1_pipeline_20261006/envs/esmfold2-esm-cu128/lib/python3.12/site-packages/esm/models/esmfold2/processor.py",
+    "sha256": "4ea69b7a41689722523f7f5c9e41aee5ea726e7c9e0b4a9d4d9ca9e1ac070a29"
+  },
+  "model_source": {
+    "path": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/anthropic_pdl1_pipeline_20261006/envs/esmfold2-esm-cu128/lib/python3.12/site-packages/esm/models/esmfold2/model.py",
+    "sha256": "9152de37bbd7febaab6dead56e2cee57a67c76eccd257594ef8b2e701057d177"
+  },
+  "weight_config_sha256": "72054c1af92f432ac2d8e0628ba08b377d04c6a8679b5128b798dbc7f644ddc8",
+  "checkpoint_config": {
+    "folding_trunk_num_hidden_layers": 48,
+    "num_loops": 20,
+    "num_diffusion_samples": 32,
+    "msa_encoder": {
+      "architectures": null,
+      "output_hidden_states": false,
+      "return_dict": true,
+      "dtype": null,
+      "chunk_size_feed_forward": 0,
+      "is_encoder_decoder": false,
+      "id2label": {
+        "0": "LABEL_0",
+        "1": "LABEL_1"
+      },
+      "label2id": {
+        "LABEL_0": 0,
+        "LABEL_1": 1
+      },
+      "problem_type": null,
+      "hidden_size": 128,
+      "outer_hidden_size": 32,
+      "num_hidden_layers": 4,
+      "num_attention_heads": 8,
+      "head_dim": 16,
+      "intermediate_size": 512,
+      "outer_product_chunk_size": null,
+      "_name_or_path": "",
+      "model_type": "",
+      "output_attentions": false,
+      "head_width": 16,
+      "enabled": true,
+      "overwrite": true,
+      "max_depth": 1024,
+      "column_mask_rate": 0.1
+    },
+    "disable_msa_features": false,
+    "structure_head": {
+      "architectures": null,
+      "output_hidden_states": false,
+      "return_dict": true,
+      "dtype": null,
+      "chunk_size_feed_forward": 0,
+      "is_encoder_decoder": false,
+      "id2label": {
+        "0": "LABEL_0",
+        "1": "LABEL_1"
+      },
+      "label2id": {
+        "LABEL_0": 0,
+        "LABEL_1": 1
+      },
+      "problem_type": null,
+      "diffusion_module": {
+        "architectures": null,
+        "output_hidden_states": false,
+        "return_dict": true,
+        "dtype": null,
+        "chunk_size_feed_forward": 0,
+        "is_encoder_decoder": false,
+        "id2label": {
+          "0": "LABEL_0",
+          "1": "LABEL_1"
+        },
+        "label2id": {
+          "LABEL_0": 0,
+          "LABEL_1": 1
+        },
+        "problem_type": null,
+        "sigma_data": 16.0,
+        "hidden_size": 768,
+        "fourier_dim": 256,
+        "num_hidden_layers": 12,
+        "num_attention_heads": 16,
+        "head_dim": 48,
+        "intermediate_size": 1536,
+        "pair_intermediate_size": 512,
+        "atom_encoder": {
+          "architectures": null,
+          "output_hidden_states": false,
+          "return_dict": true,
+          "dtype": null,
+          "chunk_size_feed_forward": 0,
+          "is_encoder_decoder": false,
+          "id2label": {
+            "0": "LABEL_0",
+            "1": "LABEL_1"
+          },
+          "label2id": {
+            "LABEL_0": 0,
+            "LABEL_1": 1
+          },
+          "problem_type": null,
+          "hidden_size": 128,
+          "output_dim": 768,
+          "num_hidden_layers": 3,
+          "num_attention_heads": 4,
+          "head_dim": 32,
+          "intermediate_size": 256,
+          "spatial_rope_base_frequency": 20.0,
+          "num_spatial_rope_pairs_per_axis": 2,
+          "num_uid_rope_pairs": 10,
+          "uid_rope_base_frequency": 10000.0,
+          "_name_or_path": "",
+          "model_type": "",
+          "output_attentions": false
+        },
+        "_name_or_path": "",
+        "model_type": "",
+        "output_attentions": false,
+        "token_hidden_size": 768,
+        "token_num_blocks": 12,
+        "token_num_heads": 16,
+        "transition_multiplier": 2,
+        "c_z": 256,
+        "c_s_inputs": 451,
+        "relpos_r_max": 32,
+        "relpos_s_max": 2
+      },
+      "num_distogram_bins": 64,
+      "num_diffusion_samples": 32,
+      "gamma_0": 0.8,
+      "gamma_min": 1.0,
+      "noise_scale": 1.003,
+      "step_scale": 1.5,
+      "inference_sigma_max_ratio": 160.0,
+      "inference_sigma_min_ratio": 0.0004,
+      "inference_exponent": 7.0,
+      "inference_num_steps": 14,
+      "inference_sigma_cap": 256.0,
+      "_name_or_path": "",
+      "model_type": "",
+      "output_attentions": false,
+      "distogram_bins": 64,
+      "inference_s_max": 160.0,
+      "inference_s_min": 0.0004,
+      "inference_p": 7.0,
+      "train_noise_log_mean": -1.2,
+      "train_noise_log_std": 1.5
+    }
+  },
+  "weight_shards": {
+    "model-00002-of-00006.safetensors": 4971194264,
+    "model-00005-of-00006.safetensors": 4934556472,
+    "model-00003-of-00006.safetensors": 4997460576,
+    "model-00004-of-00006.safetensors": 4979069192,
+    "model-00006-of-00006.safetensors": 1481396616,
+    "model-00001-of-00006.safetensors": 4955672788
+  },
+  "model_load_seconds": 88.69825476990081,
+  "loaded_model_class": "esm.models.esmfold2.model.EsmFold2Model",
+  "first_parameter_device": "cuda:0",
+  "allocated_gpu_bytes": 13721638912,
+  "full_model_loaded": true,
+  "structure_prediction_run": false,
+  "ok": true
+}

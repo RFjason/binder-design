@@ -1,0 +1,33 @@
+{
+  "targets": [
+    {
+      "name": "IL7RA",
+      "target_path": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111/inputs/receptor.pdb",
+      "chains": "A",
+      "hotspots": "84,100,105"
+    }
+  ],
+  "binder_lengths": [
+    76,
+    95
+  ],
+  "number_of_final_designs": 1,
+  "max_trajectories": 1,
+  "auto_multi_gpu": false,
+  "design_workers": 1,
+  "campaign_seed": 730484,
+  "min_plddt_refine": 0.65,
+  "min_iptm_anneal": 0.5,
+  "min_iptm_harden": 0.5,
+  "min_plddt_mutate": 0.65,
+  "min_iptm_mutate": 0.5,
+  "min_iptm_final": 0.6,
+  "min_monomer_plddt_final": 0.7,
+  "project_folder": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111/generation/bc2_adjacent_2_76_w04_005",
+  "aa_bias": {
+    "C": 0
+  },
+  "save_failed_refolds": true,
+  "save_failed_trajectories": true,
+  "archive_trajectories": false
+}

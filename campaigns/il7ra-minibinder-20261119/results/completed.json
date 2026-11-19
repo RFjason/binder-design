@@ -1,0 +1,18 @@
+{
+  "total_scored": 2855,
+  "original_target": 5000,
+  "generation_stopped_early": true,
+  "baseline": 78,
+  "new_scored": 2777,
+  "passing_new": 436,
+  "passing_total": 445,
+  "audit_failures": 0,
+  "fold_clusters_passing_combined": 209,
+  "interface_clusters_passing_combined": 18,
+  "representatives": 20,
+  "historical_rescored": 20,
+  "remaining_checks": [
+    "Full glycan accessibility",
+    "Complete target-specific patent and sequence novelty"
+  ]
+}

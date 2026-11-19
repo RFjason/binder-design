@@ -1,0 +1,35 @@
+{
+  "rfd4_distal_face_76_00": {
+    "input": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_minibinder_20261110/inputs/receptor.cif",
+    "contig": "76-95, /0, A1-219",
+    "conditions": {
+      "C_CRDGRP": {
+        "1": [
+          {
+            "select": "sel('A/*/*/[N,CA,C,O]')"
+          }
+        ]
+      },
+      "C_SEQ": {
+        "true": [
+          {
+            "select": "sel('A')"
+          }
+        ]
+      },
+      "C_HOT": {
+        "true": [
+          {
+            "select": "sel('A/*/66/[NH1,CD]')"
+          },
+          {
+            "select": "sel('A/*/69/[NE2,OE1]')"
+          },
+          {
+            "select": "sel('A/*/71/[CD1,CG1]')"
+          }
+        ]
+      }
+    }
+  }
+}
