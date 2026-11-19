@@ -1,6 +1,17 @@
 # Binder Design 协作项目
 
-本仓库用于蛋白 binder 设计的代码、计算结果和团队协作。当前首个项目为 **TNFR1 单域 VHH 设计**。
+本仓库用于蛋白 binder 设计的代码、计算结果和团队协作，包含 TNFR1 单域 VHH 与 IL‑7Rα minibinder 项目。
+
+## IL‑7Rα minibinder（2026‑11‑19 完成评分）
+
+2,855 条唯一序列全部完成独立评分和审计，445 条通过计算初筛，选出 20 条多样性代表；已停止后续生成。
+
+- [设计过程、参数与结果总结](campaigns/il7ra-minibinder-20261119/README.md)
+- [445 条通过候选序列](campaigns/il7ra-minibinder-20261119/passing/candidates.fasta) · [评分和结构索引](campaigns/il7ra-minibinder-20261119/passing/candidates.csv)
+- [Top20 序列](campaigns/il7ra-minibinder-20261119/top20/candidates.fasta) · [Top20 主/历史构建体评分](campaigns/il7ra-minibinder-20261119/top20/candidates.csv)
+- [完整结构、PAE 和生成来源附件](https://github.com/RFjason/binder-design/releases/tag/il7ra-closeout-20261119)
+
+## TNFR1 VHH 初始快照
 
 **当前结果属于计算筛选候选，尚未完成结合实验或最终提交审计。**
 

@@ -1,0 +1,16 @@
+{
+  "repo": "nvidia/RFD4-Proteina",
+  "revision": "a06e2509c7033b010fc43614e9fd840303588502",
+  "files": [
+    {
+      "path": "/dssg/home/acct-clshzh/jasoncao1280/rfd4_deploy_20261022/cache/huggingface/hub/models--nvidia--RFD4-Proteina/snapshots/a06e2509c7033b010fc43614e9fd840303588502/config.json",
+      "bytes": 7270,
+      "sha256": "154ea927ab8005b7eac2d047a792147fb4606ab4878e496aa8414b6b40dad368"
+    },
+    {
+      "path": "/dssg/home/acct-clshzh/jasoncao1280/rfd4_deploy_20261022/cache/huggingface/hub/models--nvidia--RFD4-Proteina/snapshots/a06e2509c7033b010fc43614e9fd840303588502/model.safetensors",
+      "bytes": 1742660596,
+      "sha256": "5b549dd61adb2f6c6b5cb95bda13f40f5e31556b4e6c755edc0ca6f011c68fb0"
+    }
+  ]
+}

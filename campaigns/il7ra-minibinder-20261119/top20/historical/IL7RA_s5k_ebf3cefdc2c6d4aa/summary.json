@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "id": "IL7RA_s5k_ebf3cefdc2c6d4aa_historical",
+  "job_id": "65867522",
+  "protocol_id": "IL7RA_E21_D239_local_pilot_v2_20261110",
+  "driver_sha256": "5bec044026ace94baa5f75bd65b79c7c1b49d3e4df0cdcf222dc8779d563fe0f",
+  "hostname": "gpu12.pi.sjtu.edu.cn",
+  "esm": "3.4.1.post1",
+  "kwargs": {
+    "num_loops": 20,
+    "num_sampling_steps": 200,
+    "num_diffusion_samples": 1,
+    "seed": 0,
+    "msa_max_depth": 1024,
+    "msa_column_mask_rate": 0.1,
+    "lm_dropout": 0.3
+  },
+  "templates": false,
+  "initial_guess": false,
+  "msa_records": [
+    {
+      "chain": "A",
+      "msa": "inputs/IL7RA_competition_M1_G236.a3m",
+      "rows": 1114,
+      "sha256": "1fda0efec3131529778e4deede284e4f7f06c6a1ba20d2bc2e1256f5263d4020"
+    },
+    {
+      "chain": "B",
+      "msa": null,
+      "rows": 0,
+      "sha256": null
+    }
+  ],
+  "fold_seconds": 23.983172887936234,
+  "peak_gpu_memory_bytes": 15666301440,
+  "pae_cif_mapping_validated": true,
+  "chain_plddt": {
+    "A": 82.50843811035156,
+    "B": 94.30499267578125
+  },
+  "ipsae_directions": {
+    "A_to_B": 0.856475,
+    "B_to_A": 0.899069
+  },
+  "ipsae_min": 0.856475,
+  "ipsae_max": 0.899069,
+  "ipTM": 0.9539094567298889,
+  "ipsae_script_sha256": "10cf9b08c68c91e06cb28526cf2026f47a3980c9048fd3226d13e3304eaf1c27"
+}

@@ -1,0 +1,32 @@
+{
+  "route_counts": {
+    "rfd4": {
+      "scored": 2448,
+      "passing": 428
+    },
+    "bc2": {
+      "scored": 407,
+      "passing": 17
+    }
+  },
+  "passing_by_patch": {
+    "known": 317,
+    "other_1": 7,
+    "il7_face": 9,
+    "adjacent_1": 71,
+    "adjacent_2": 28,
+    "other_2": 13
+  },
+  "passing_rate": 0.15586690017513136,
+  "top20_parent_count": 20,
+  "top20_fold_clusters": 20,
+  "top20_interface_clusters": 3,
+  "top20_main_ipSAE_range": [
+    0.830419,
+    0.867592
+  ],
+  "top20_historical_ipSAE_range": [
+    0.807653,
+    0.872165
+  ]
+}

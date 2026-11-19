@@ -1,0 +1,39 @@
+{
+  "mode": "bindcraft2",
+  "job_id": "64511436",
+  "hostname": "gpu14.pi.sjtu.edu.cn",
+  "python": "3.14.7 (main, Aug  7 2026, 02:26:00) [Clang 22.1.3 ]",
+  "executable": "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/.venv/bin/python",
+  "scope": "runtime audit, no design or prediction",
+  "started_utc": "2026-11-02T14:43:52Z",
+  "package_version": "1.0.1",
+  "jax": "0.11.2",
+  "package_file": "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/bindcraft/__init__.py",
+  "devices": [
+    "cuda:0"
+  ],
+  "source_hashes": {
+    "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/bindcraft/settings.py": "d88f87212929bfc7a8ae186189eab70a527d04aa2d89f5d6adee1f6af4993cfa",
+    "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/bindcraft/cli.py": "3c50f8899aad6dfa082dc73d264e8f0d039501c832068ba02f4ab25e3ed33f3c",
+    "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/bindcraft/af2.py": "d7ecdd18ab68d3ee2884dc456871226ad13751a59cf6ab04c10410559e5082a5",
+    "/dssg/home/acct-clshzh/jasoncao1280/BindCraft2/bindcraft/preflight.py": "1004b3f331a85c3ee2e25f2890d5456fc2dac8b6bcba1688e5f9cd5d824b70f2"
+  },
+  "af2_weight_sizes": {
+    "params_model_3_multimer_v3.npz": 373043148,
+    "params_model_5.npz": 371712506,
+    "params_model_1_ptm.npz": 373103340,
+    "params_model_4_multimer_v3.npz": 373043148,
+    "params_model_3_ptm.npz": 371746284,
+    "params_model_1_multimer_v3.npz": 373043148,
+    "params_model_2.npz": 373069562,
+    "params_model_5_multimer_v3.npz": 373043148,
+    "params_model_4_ptm.npz": 371746284,
+    "params_model_3.npz": 371712506,
+    "params_model_2_multimer_v3.npz": 373043148,
+    "params_model_5_ptm.npz": 371746284,
+    "params_model_1.npz": 373069562,
+    "params_model_4.npz": 371712506,
+    "params_model_2_ptm.npz": 373103340
+  },
+  "ok": true
+}

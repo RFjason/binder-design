@@ -1,0 +1,2158 @@
+{
+  "policy": "Descending ipSAE_min, at most one representative per selected parent and per fold/interface pair; stop at 20.",
+  "algorithm_source": "run/formal/scripts/select_scale.py",
+  "ranking_construct": "P16871-1 E21-D239",
+  "historical_construct": "M1-G236, sensitivity only; not used to rerank",
+  "selected": [
+    {
+      "selection_rank": 1,
+      "id": "IL7RA_s5k_fba3f5f69438d184",
+      "sequence": "SSIKDSLVSKLEEILEETENEDMKDFLEKAISAIKETESDTELKLVIQELIAILEDYLKTFPDDETAKKALEVLKNALSELEE",
+      "ipSAE_min": 0.867592,
+      "target_contacts": [
+        77,
+        78,
+        79,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        122,
+        124,
+        125,
+        158,
+        159,
+        160,
+        161,
+        162,
+        184,
+        210,
+        211,
+        212,
+        213
+      ],
+      "ipSAE_directions": {
+        "A_to_B": 0.870686,
+        "B_to_A": 0.867592
+      },
+      "ipTM": 0.9530020952224731,
+      "monomer_pLDDT": 89.00121307373047,
+      "monomer_rmsd_A": 0.2588847875595093,
+      "crystal_glycan_min_A": 13.583579063415527,
+      "sequon_ND2_min_A": 10.814353942871094,
+      "unresolved_end_min_A": 28.92681121826172,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 0,
+      "source_geometry": [
+        {
+          "parent": "rfd4_known_76_w00_005:rfd4_known_76_w00_005_15_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.8853263854980469,
+          "design_contact_recall": 0.9512195121951219,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_known_76_w00_005:rfd4_known_76_w00_005_15_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.8853263854980469,
+          "design_contact_recall": 0.9512195121951219,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 0,
+      "interface_cluster": 0,
+      "sources": [
+        {
+          "parent": "rfd4_known_76_w00_005:rfd4_known_76_w00_005_15_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.8853263854980469,
+          "design_contact_recall": 0.9512195121951219,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111",
+      "selected_source": {
+        "parent": "rfd4_known_76_w00_005:rfd4_known_76_w00_005_15_generated",
+        "patch": "known",
+        "method": "rfd4",
+        "wave": 0,
+        "min_hotspots": 2,
+        "pose_ca_rmsd_A": 1.8853263854980469,
+        "design_contact_recall": 0.9512195121951219,
+        "hotspots_contacted": [
+          159,
+          211,
+          212
+        ]
+      },
+      "ipSAE_min_M1_G236": 0.846922
+    },
+    {
+      "selection_rank": 2,
+      "id": "IL7RA_s5k_023286807b1c761e",
+      "sequence": "SLEEEKELLILTIEEFLELVKQLKSLDSDDQEKYFPTLKTDIVNTLNDLADKYPDFKDFLESLSDKVSEAENLDELETILKNALEELKE",
+      "ipSAE_min": 0.86677,
+      "target_contacts": [
+        75,
+        76,
+        77,
+        78,
+        99,
+        100,
+        101,
+        102,
+        103,
+        122,
+        158,
+        159,
+        160,
+        161,
+        162,
+        184,
+        185,
+        210,
+        211,
+        212,
+        213
+      ],
+      "ipSAE_directions": {
+        "A_to_B": 0.86677,
+        "B_to_A": 0.871343
+      },
+      "ipTM": 0.9492828845977783,
+      "monomer_pLDDT": 89.7138900756836,
+      "monomer_rmsd_A": 0.195061594247818,
+      "crystal_glycan_min_A": 13.423645973205566,
+      "sequon_ND2_min_A": 9.805814743041992,
+      "unresolved_end_min_A": 24.659801483154297,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 0,
+      "source_geometry": [
+        {
+          "parent": "rfd4_known_76_w01_007:rfd4_known_76_w01_007_13_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.2893576622009277,
+          "design_contact_recall": 0.9310344827586207,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_known_76_w01_007:rfd4_known_76_w01_007_13_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.2893576622009277,
+          "design_contact_recall": 0.9310344827586207,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 1,
+      "interface_cluster": 0,
+      "sources": [
+        {
+          "parent": "rfd4_known_76_w01_007:rfd4_known_76_w01_007_13_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.2893576622009277,
+          "design_contact_recall": 0.9310344827586207,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111",
+      "selected_source": {
+        "parent": "rfd4_known_76_w01_007:rfd4_known_76_w01_007_13_generated",
+        "patch": "known",
+        "method": "rfd4",
+        "wave": 1,
+        "min_hotspots": 2,
+        "pose_ca_rmsd_A": 2.2893576622009277,
+        "design_contact_recall": 0.9310344827586207,
+        "hotspots_contacted": [
+          159,
+          211,
+          212
+        ]
+      },
+      "ipSAE_min_M1_G236": 0.86015
+    },
+    {
+      "selection_rank": 3,
+      "id": "IL7RA_s5k_ebf3cefdc2c6d4aa",
+      "sequence": "SVTEFVNQFHQVLTESQREKLEVVIHELLEAEIPFHLIKEWVLRALDGKTKTEAGTFVDDLYAHRHDPSKVVSMLLNA",
+      "ipSAE_min": 0.866547,
+      "target_contacts": [
+        43,
+        45,
+        48,
+        54,
+        56,
+        86,
+        88,
+        89,
+        90,
+        91,
+        93,
+        95,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        204,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225
+      ],
+      "ipSAE_directions": {
+        "A_to_B": 0.866547,
+        "B_to_A": 0.899316
+      },
+      "ipTM": 0.9556732177734375,
+      "monomer_pLDDT": 92.87210083007812,
+      "monomer_rmsd_A": 0.25474321842193604,
+      "crystal_glycan_min_A": 3.752938985824585,
+      "sequon_ND2_min_A": 6.141068935394287,
+      "unresolved_end_min_A": 16.53962516784668,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 0,
+      "source_geometry": [
+        {
+          "parent": "rfd4_other_1_76_w02_003:rfd4_other_1_76_w02_003_7_generated",
+          "patch": "other_1",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 1,
+          "pose_ca_rmsd_A": 3.407090187072754,
+          "design_contact_recall": 0.76,
+          "hotspots_contacted": [
+            86,
+            89
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_other_1_76_w02_003:rfd4_other_1_76_w02_003_7_generated",
+          "patch": "other_1",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 1,
+          "pose_ca_rmsd_A": 3.407090187072754,
+          "design_contact_recall": 0.76,
+          "hotspots_contacted": [
+            86,
+            89
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 2,
+      "interface_cluster": 1,
+      "sources": [
+        {
+          "parent": "rfd4_other_1_76_w02_003:rfd4_other_1_76_w02_003_7_generated",
+          "patch": "other_1",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 1,
+          "pose_ca_rmsd_A": 3.407090187072754,
+          "design_contact_recall": 0.76,
+          "hotspots_contacted": [
+            86,
+            89
+          ]
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111",
+      "selected_source": {
+        "parent": "rfd4_other_1_76_w02_003:rfd4_other_1_76_w02_003_7_generated",
+        "patch": "other_1",
+        "method": "rfd4",
+        "wave": 2,
+        "min_hotspots": 1,
+        "pose_ca_rmsd_A": 3.407090187072754,
+        "design_contact_recall": 0.76,
+        "hotspots_contacted": [
+          86,
+          89
+        ]
+      },
+      "ipSAE_min_M1_G236": 0.856475
+    },
+    {
+      "selection_rank": 4,
+      "id": "IL7RA_s5k_6007274ab95e86eb",
+      "sequence": "SESKINSLLSKIKTALENEDYTLANEYLAELQDILANTSTEKAEEVKEKIDSIYDEVTS",
+      "ipSAE_min": 0.865203,
+      "target_contacts": [
+        76,
+        77,
+        78,
+        79,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        122,
+        124,
+        125,
+        158,
+        159,
+        161,
+        162,
+        210,
+        211,
+        212,
+        213,
+        214
+      ],
+      "ipSAE_directions": {
+        "A_to_B": 0.865203,
+        "B_to_A": 0.874453
+      },
+      "ipTM": 0.9645659923553467,
+      "monomer_pLDDT": 84.46359252929688,
+      "monomer_rmsd_A": 0.9524766802787781,
+      "crystal_glycan_min_A": 15.314006805419922,
+      "sequon_ND2_min_A": 11.90854549407959,
+      "unresolved_end_min_A": 26.317607879638672,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 1,
+      "source_geometry": [
+        {
+          "parent": "rfd4_known_55_w02_018:rfd4_known_55_w02_018_13_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.3194756507873535,
+          "design_contact_recall": 0.9459459459459459,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_known_55_w02_018:rfd4_known_55_w02_018_13_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.3194756507873535,
+          "design_contact_recall": 0.9459459459459459,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 3,
+      "interface_cluster": 0,
+      "sources": [
+        {
+          "parent": "rfd4_known_55_w02_018:rfd4_known_55_w02_018_13_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.3194756507873535,
+          "design_contact_recall": 0.9459459459459459,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111",
+      "selected_source": {
+        "parent": "rfd4_known_55_w02_018:rfd4_known_55_w02_018_13_generated",
+        "patch": "known",
+        "method": "rfd4",
+        "wave": 2,
+        "min_hotspots": 2,
+        "pose_ca_rmsd_A": 1.3194756507873535,
+        "design_contact_recall": 0.9459459459459459,
+        "hotspots_contacted": [
+          159,
+          211,
+          212
+        ]
+      },
+      "ipSAE_min_M1_G236": 0.85943
+    },
+    {
+      "selection_rank": 5,
+      "id": "IL7RA_s5k_bf8af894a3634434",
+      "sequence": "STEKLSIAKEIISTLKSSENPLVKEAGEQLDLALELEPDTALHLLEDLLHATNQDFDNYDIDKLKDFLESALS",
+      "ipSAE_min": 0.861151,
+      "target_contacts": [
+        75,
+        76,
+        77,
+        78,
+        81,
+        100,
+        101,
+        102,
+        103,
+        104,
+        120,
+        122,
+        124,
+        158,
+        159,
+        160,
+        161,
+        162,
+        210,
+        211,
+        212,
+        213
+      ],
+      "ipSAE_directions": {
+        "A_to_B": 0.861151,
+        "B_to_A": 0.86626
+      },
+      "ipTM": 0.9533591270446777,
+      "monomer_pLDDT": 85.62098693847656,
+      "monomer_rmsd_A": 0.4642343521118164,
+      "crystal_glycan_min_A": 16.551042556762695,
+      "sequon_ND2_min_A": 16.18042755126953,
+      "unresolved_end_min_A": 26.148784637451172,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 0,
+      "source_geometry": [
+        {
+          "parent": "rfd4_known_55_w01_002:rfd4_known_55_w01_002_1_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.207268476486206,
+          "design_contact_recall": 0.9393939393939394,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_known_55_w01_002:rfd4_known_55_w01_002_1_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.207268476486206,
+          "design_contact_recall": 0.9393939393939394,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 4,
+      "interface_cluster": 0,
+      "sources": [
+        {
+          "parent": "rfd4_known_55_w01_002:rfd4_known_55_w01_002_1_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.207268476486206,
+          "design_contact_recall": 0.9393939393939394,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111",
+      "selected_source": {
+        "parent": "rfd4_known_55_w01_002:rfd4_known_55_w01_002_1_generated",
+        "patch": "known",
+        "method": "rfd4",
+        "wave": 1,
+        "min_hotspots": 2,
+        "pose_ca_rmsd_A": 2.207268476486206,
+        "design_contact_recall": 0.9393939393939394,
+        "hotspots_contacted": [
+          159,
+          211,
+          212
+        ]
+      },
+      "ipSAE_min_M1_G236": 0.870279
+    },
+    {
+      "selection_rank": 6,
+      "id": "IL7RA_s5k_36d47dbbd91797f0",
+      "sequence": "SPEIEEFKALLEQFVSVQDLDYVADFVKVVEFYYKDYPDEVTSLMLEHFSKLSSEVQDKLLEELNKKDNLKPLYEALSS",
+      "ipSAE_min": 0.858384,
+      "target_contacts": [
+        75,
+        76,
+        77,
+        78,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        158,
+        159,
+        160,
+        161,
+        162,
+        211,
+        212,
+        213
+      ],
+      "ipSAE_directions": {
+        "A_to_B": 0.858384,
+        "B_to_A": 0.882484
+      },
+      "ipTM": 0.9503077268600464,
+      "monomer_pLDDT": 92.87662506103516,
+      "monomer_rmsd_A": 0.17141002416610718,
+      "crystal_glycan_min_A": 13.789730072021484,
+      "sequon_ND2_min_A": 14.549545288085938,
+      "unresolved_end_min_A": 26.676477432250977,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 0,
+      "source_geometry": [
+        {
+          "parent": "rfd4_known_76_w02_017:rfd4_known_76_w02_017_12_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 4.504789352416992,
+          "design_contact_recall": 0.9655172413793104,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_known_76_w02_017:rfd4_known_76_w02_017_12_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 4.504789352416992,
+          "design_contact_recall": 0.9655172413793104,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 5,
+      "interface_cluster": 0,
+      "sources": [
+        {
+          "parent": "rfd4_known_76_w02_017:rfd4_known_76_w02_017_12_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 4.504789352416992,
+          "design_contact_recall": 0.9655172413793104,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111",
+      "selected_source": {
+        "parent": "rfd4_known_76_w02_017:rfd4_known_76_w02_017_12_generated",
+        "patch": "known",
+        "method": "rfd4",
+        "wave": 2,
+        "min_hotspots": 2,
+        "pose_ca_rmsd_A": 4.504789352416992,
+        "design_contact_recall": 0.9655172413793104,
+        "hotspots_contacted": [
+          159,
+          211,
+          212
+        ]
+      },
+      "ipSAE_min_M1_G236": 0.85847
+    },
+    {
+      "selection_rank": 7,
+      "id": "IL7RA_pilot_e8446e8e908ae068",
+      "sequence": "SFLSNLKSLEESISSLTDSQLKIIQEKLIPVIQLLSDDDADTAKTILNNLYSKESSTASISDSDLLDKINEVL",
+      "ipSAE_min": 0.854147,
+      "ipSAE_directions": {
+        "A_to_B": 0.854147,
+        "B_to_A": 0.866111
+      },
+      "ipTM": 0.9512895345687866,
+      "monomer_pLDDT": 84.08912658691406,
+      "monomer_rmsd_A": 0.42372456192970276,
+      "crystal_glycan_min_A": 15.437073707580566,
+      "sequon_ND2_min_A": 12.502912521362305,
+      "unresolved_end_min_A": 27.02826499938965,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 0,
+      "source_geometry": [
+        {
+          "parent": "rfd4_il7_face_55_00:rfd4_il7_face_55_00_0_generated",
+          "patch": "il7_face",
+          "method": "rfd4",
+          "pose_ca_rmsd_A": 1.8312584161758423,
+          "design_contact_recall": 0.9545454545454546,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_il7_face_55_00:rfd4_il7_face_55_00_0_generated",
+          "patch": "il7_face",
+          "method": "rfd4",
+          "pose_ca_rmsd_A": 1.8312584161758423,
+          "design_contact_recall": 0.9545454545454546,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 6,
+      "interface_cluster": 0,
+      "sources": [
+        {
+          "parent": "rfd4_il7_face_55_00:rfd4_il7_face_55_00_0_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "pose_ca_rmsd_A": 1.8312584161758423,
+          "design_contact_recall": 0.9545454545454546,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ],
+          "wave": -1
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_minibinder_20261110",
+      "selected_source": {
+        "parent": "rfd4_il7_face_55_00:rfd4_il7_face_55_00_0_generated",
+        "patch": "known",
+        "method": "rfd4",
+        "pose_ca_rmsd_A": 1.8312584161758423,
+        "design_contact_recall": 0.9545454545454546,
+        "hotspots_contacted": [
+          159,
+          211,
+          212
+        ],
+        "wave": -1
+      },
+      "ipSAE_min_M1_G236": 0.860888
+    },
+    {
+      "selection_rank": 8,
+      "id": "IL7RA_pilot_a8d46103b3f88d0f",
+      "sequence": "SEELISQIKEAISEEDWDTAGNLIVELASSADLDDIKKALELAKEALEKVENPETKELFEELVEKLEQTISELEER",
+      "ipSAE_min": 0.851996,
+      "ipSAE_directions": {
+        "A_to_B": 0.851996,
+        "B_to_A": 0.869893
+      },
+      "ipTM": 0.9506083130836487,
+      "monomer_pLDDT": 82.79829406738281,
+      "monomer_rmsd_A": 0.3854629695415497,
+      "crystal_glycan_min_A": 16.713302612304688,
+      "sequon_ND2_min_A": 10.639192581176758,
+      "unresolved_end_min_A": 26.33182144165039,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 0,
+      "source_geometry": [
+        {
+          "parent": "rfd4_il7_face_76_00:rfd4_il7_face_76_00_3_generated",
+          "patch": "il7_face",
+          "method": "rfd4",
+          "pose_ca_rmsd_A": 3.8892834186553955,
+          "design_contact_recall": 0.9534883720930233,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_il7_face_76_00:rfd4_il7_face_76_00_3_generated",
+          "patch": "il7_face",
+          "method": "rfd4",
+          "pose_ca_rmsd_A": 3.8892834186553955,
+          "design_contact_recall": 0.9534883720930233,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 7,
+      "interface_cluster": 0,
+      "sources": [
+        {
+          "parent": "rfd4_il7_face_76_00:rfd4_il7_face_76_00_3_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "pose_ca_rmsd_A": 3.8892834186553955,
+          "design_contact_recall": 0.9534883720930233,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ],
+          "wave": -1
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_minibinder_20261110",
+      "selected_source": {
+        "parent": "rfd4_il7_face_76_00:rfd4_il7_face_76_00_3_generated",
+        "patch": "known",
+        "method": "rfd4",
+        "pose_ca_rmsd_A": 3.8892834186553955,
+        "design_contact_recall": 0.9534883720930233,
+        "hotspots_contacted": [
+          159,
+          211,
+          212
+        ],
+        "wave": -1
+      },
+      "ipSAE_min_M1_G236": 0.872165
+    },
+    {
+      "selection_rank": 9,
+      "id": "IL7RA_s5k_ccfdfedf8b6a7a05",
+      "sequence": "STSEKILEELKALIDQLLEEAKKHNPVDFLEEVLEESSGLDKALVSLVLAIYKKEDTTTAKEELITKLKEELKLTEEEAEKIATELEDYIKEKL",
+      "ipSAE_min": 0.848487,
+      "target_contacts": [
+        78,
+        79,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        120,
+        122,
+        155,
+        158,
+        159,
+        160,
+        161,
+        162,
+        184,
+        211,
+        212,
+        213,
+        214
+      ],
+      "ipSAE_directions": {
+        "A_to_B": 0.851207,
+        "B_to_A": 0.848487
+      },
+      "ipTM": 0.9432132840156555,
+      "monomer_pLDDT": 87.68526458740234,
+      "monomer_rmsd_A": 0.34215518832206726,
+      "crystal_glycan_min_A": 11.784113883972168,
+      "sequon_ND2_min_A": 11.833600044250488,
+      "unresolved_end_min_A": 22.346162796020508,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 0,
+      "source_geometry": [
+        {
+          "parent": "rfd4_known_76_w02_013:rfd4_known_76_w02_013_5_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 3.4455277919769287,
+          "design_contact_recall": 0.868421052631579,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_known_76_w02_013:rfd4_known_76_w02_013_5_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 3.4455277919769287,
+          "design_contact_recall": 0.868421052631579,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 8,
+      "interface_cluster": 0,
+      "sources": [
+        {
+          "parent": "rfd4_known_76_w02_013:rfd4_known_76_w02_013_5_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 3.4455277919769287,
+          "design_contact_recall": 0.868421052631579,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111",
+      "selected_source": {
+        "parent": "rfd4_known_76_w02_013:rfd4_known_76_w02_013_5_generated",
+        "patch": "known",
+        "method": "rfd4",
+        "wave": 2,
+        "min_hotspots": 2,
+        "pose_ca_rmsd_A": 3.4455277919769287,
+        "design_contact_recall": 0.868421052631579,
+        "hotspots_contacted": [
+          159,
+          211,
+          212
+        ]
+      },
+      "ipSAE_min_M1_G236": 0.838702
+    },
+    {
+      "selection_rank": 10,
+      "id": "IL7RA_s5k_3c1066dd08bb77a2",
+      "sequence": "DELLTKIENLHKEVEEYYEETEDPLKKLKLEELLVMLEDLKEAYEKKLITKEEAEEEFEKLKELFEEIKEE",
+      "ipSAE_min": 0.84664,
+      "target_contacts": [
+        78,
+        100,
+        101,
+        102,
+        122,
+        124,
+        155,
+        158,
+        159,
+        160,
+        161,
+        162,
+        184,
+        211,
+        212,
+        213
+      ],
+      "ipSAE_directions": {
+        "A_to_B": 0.84664,
+        "B_to_A": 0.851034
+      },
+      "ipTM": 0.951749324798584,
+      "monomer_pLDDT": 86.7655258178711,
+      "monomer_rmsd_A": 0.36358439922332764,
+      "crystal_glycan_min_A": 12.59971809387207,
+      "sequon_ND2_min_A": 12.575005531311035,
+      "unresolved_end_min_A": 23.385356903076172,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 0,
+      "source_geometry": [
+        {
+          "parent": "rfd4_known_55_w02_006:rfd4_known_55_w02_006_7_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 4.616847515106201,
+          "design_contact_recall": 0.8571428571428571,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_known_55_w02_006:rfd4_known_55_w02_006_7_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 4.616847515106201,
+          "design_contact_recall": 0.8571428571428571,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 9,
+      "interface_cluster": 0,
+      "sources": [
+        {
+          "parent": "rfd4_known_55_w02_006:rfd4_known_55_w02_006_7_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 4.616847515106201,
+          "design_contact_recall": 0.8571428571428571,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111",
+      "selected_source": {
+        "parent": "rfd4_known_55_w02_006:rfd4_known_55_w02_006_7_generated",
+        "patch": "known",
+        "method": "rfd4",
+        "wave": 2,
+        "min_hotspots": 2,
+        "pose_ca_rmsd_A": 4.616847515106201,
+        "design_contact_recall": 0.8571428571428571,
+        "hotspots_contacted": [
+          159,
+          211,
+          212
+        ]
+      },
+      "ipSAE_min_M1_G236": 0.849239
+    },
+    {
+      "selection_rank": 11,
+      "id": "IL7RA_s5k_9d6fa5f9f306f288",
+      "sequence": "SVKEKIISLLKQAIELIKKKTDESLMEALALLDEALALASEAELDEVVDLILKAMTALNEKKYDEAIEYINQAISVLEE",
+      "ipSAE_min": 0.842931,
+      "target_contacts": [
+        77,
+        78,
+        79,
+        97,
+        99,
+        100,
+        101,
+        102,
+        103,
+        122,
+        124,
+        158,
+        159,
+        160,
+        161,
+        162,
+        211,
+        212,
+        213
+      ],
+      "ipSAE_directions": {
+        "A_to_B": 0.842931,
+        "B_to_A": 0.858166
+      },
+      "ipTM": 0.947546660900116,
+      "monomer_pLDDT": 91.7110824584961,
+      "monomer_rmsd_A": 0.24406149983406067,
+      "crystal_glycan_min_A": 11.927424430847168,
+      "sequon_ND2_min_A": 13.728775024414062,
+      "unresolved_end_min_A": 28.335891723632812,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 0,
+      "source_geometry": [
+        {
+          "parent": "rfd4_known_76_w01_005:rfd4_known_76_w01_005_0_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 3.8629839420318604,
+          "design_contact_recall": 0.9655172413793104,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_known_76_w01_005:rfd4_known_76_w01_005_0_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 3.8629839420318604,
+          "design_contact_recall": 0.9655172413793104,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 10,
+      "interface_cluster": 0,
+      "sources": [
+        {
+          "parent": "rfd4_known_76_w01_005:rfd4_known_76_w01_005_0_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 3.8629839420318604,
+          "design_contact_recall": 0.9655172413793104,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111",
+      "selected_source": {
+        "parent": "rfd4_known_76_w01_005:rfd4_known_76_w01_005_0_generated",
+        "patch": "known",
+        "method": "rfd4",
+        "wave": 1,
+        "min_hotspots": 2,
+        "pose_ca_rmsd_A": 3.8629839420318604,
+        "design_contact_recall": 0.9655172413793104,
+        "hotspots_contacted": [
+          159,
+          211,
+          212
+        ]
+      },
+      "ipSAE_min_M1_G236": 0.809964
+    },
+    {
+      "selection_rank": 12,
+      "id": "IL7RA_s5k_665ed6a398be852d",
+      "sequence": "SEEERLKEKKEFLLSKKPELSSEEQELLEALLRIEFEDKTIEEVAKELGISKDTLLSKLDKLIVKLDS",
+      "ipSAE_min": 0.841956,
+      "target_contacts": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        120,
+        121,
+        122,
+        124,
+        125,
+        126,
+        158,
+        159,
+        160,
+        161,
+        162,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216
+      ],
+      "ipSAE_directions": {
+        "A_to_B": 0.841956,
+        "B_to_A": 0.852104
+      },
+      "ipTM": 0.9529710412025452,
+      "monomer_pLDDT": 80.62815856933594,
+      "monomer_rmsd_A": 0.26179927587509155,
+      "crystal_glycan_min_A": 16.99592399597168,
+      "sequon_ND2_min_A": 12.708235740661621,
+      "unresolved_end_min_A": 19.651304244995117,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 0,
+      "source_geometry": [
+        {
+          "parent": "rfd4_adjacent_2_55_w01_004:rfd4_adjacent_2_55_w01_004_6_generated",
+          "patch": "adjacent_2",
+          "method": "rfd4",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.295814037322998,
+          "design_contact_recall": 0.8780487804878049,
+          "hotspots_contacted": [
+            104,
+            120,
+            125
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_adjacent_2_55_w01_004:rfd4_adjacent_2_55_w01_004_6_generated",
+          "patch": "adjacent_2",
+          "method": "rfd4",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.295814037322998,
+          "design_contact_recall": 0.8780487804878049,
+          "hotspots_contacted": [
+            104,
+            120,
+            125
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 11,
+      "interface_cluster": 2,
+      "sources": [
+        {
+          "parent": "rfd4_adjacent_2_55_w01_004:rfd4_adjacent_2_55_w01_004_6_generated",
+          "patch": "adjacent_2",
+          "method": "rfd4",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.295814037322998,
+          "design_contact_recall": 0.8780487804878049,
+          "hotspots_contacted": [
+            104,
+            120,
+            125
+          ]
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111",
+      "selected_source": {
+        "parent": "rfd4_adjacent_2_55_w01_004:rfd4_adjacent_2_55_w01_004_6_generated",
+        "patch": "adjacent_2",
+        "method": "rfd4",
+        "wave": 1,
+        "min_hotspots": 2,
+        "pose_ca_rmsd_A": 1.295814037322998,
+        "design_contact_recall": 0.8780487804878049,
+        "hotspots_contacted": [
+          104,
+          120,
+          125
+        ]
+      },
+      "ipSAE_min_M1_G236": 0.846282
+    },
+    {
+      "selection_rank": 13,
+      "id": "IL7RA_s5k_9a9473c5864c0dea",
+      "sequence": "STLKSLAEEIKALIEQLVDAGYSIETAASLVEADFQEKMPDYTVSISVDGNTVTIHVSKGNDSYTLTFTIE",
+      "ipSAE_min": 0.841657,
+      "target_contacts": [
+        53,
+        78,
+        99,
+        100,
+        101,
+        102,
+        104,
+        122,
+        124,
+        125,
+        158,
+        159,
+        160,
+        161,
+        162,
+        211,
+        212,
+        213,
+        214
+      ],
+      "ipSAE_directions": {
+        "A_to_B": 0.841657,
+        "B_to_A": 0.857431
+      },
+      "ipTM": 0.9505133032798767,
+      "monomer_pLDDT": 89.12649536132812,
+      "monomer_rmsd_A": 0.1687755584716797,
+      "crystal_glycan_min_A": 14.03482723236084,
+      "sequon_ND2_min_A": 14.523608207702637,
+      "unresolved_end_min_A": 27.000093460083008,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 1,
+      "source_geometry": [
+        {
+          "parent": "rfd4_known_55_w02_008:rfd4_known_55_w02_008_1_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 0.7857853770256042,
+          "design_contact_recall": 1.0,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_known_55_w02_008:rfd4_known_55_w02_008_1_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 0.7857853770256042,
+          "design_contact_recall": 1.0,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 12,
+      "interface_cluster": 0,
+      "sources": [
+        {
+          "parent": "rfd4_known_55_w02_008:rfd4_known_55_w02_008_1_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 0.7857853770256042,
+          "design_contact_recall": 1.0,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111",
+      "selected_source": {
+        "parent": "rfd4_known_55_w02_008:rfd4_known_55_w02_008_1_generated",
+        "patch": "known",
+        "method": "rfd4",
+        "wave": 2,
+        "min_hotspots": 2,
+        "pose_ca_rmsd_A": 0.7857853770256042,
+        "design_contact_recall": 1.0,
+        "hotspots_contacted": [
+          159,
+          211,
+          212
+        ]
+      },
+      "ipSAE_min_M1_G236": 0.841959
+    },
+    {
+      "selection_rank": 14,
+      "id": "IL7RA_s5k_f38be16073dc9d23",
+      "sequence": "SEFEQFVLVEVYLAENPDATNQEIAEALNLPLSTVETFVKEIREGTSVQEKFPEKTEKQIESAVLAAEKKLS",
+      "ipSAE_min": 0.839198,
+      "target_contacts": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        100,
+        102,
+        103,
+        104,
+        122,
+        158,
+        159,
+        161,
+        162,
+        210,
+        211,
+        212,
+        213,
+        214
+      ],
+      "ipSAE_directions": {
+        "A_to_B": 0.839198,
+        "B_to_A": 0.845485
+      },
+      "ipTM": 0.9500278830528259,
+      "monomer_pLDDT": 87.925537109375,
+      "monomer_rmsd_A": 0.3390161991119385,
+      "crystal_glycan_min_A": 17.98309898376465,
+      "sequon_ND2_min_A": 16.743362426757812,
+      "unresolved_end_min_A": 24.113265991210938,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 0,
+      "source_geometry": [
+        {
+          "parent": "rfd4_adjacent_1_55_w00_004:rfd4_adjacent_1_55_w00_004_16_generated",
+          "patch": "adjacent_1",
+          "method": "rfd4",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.9913735389709473,
+          "design_contact_recall": 0.9166666666666666,
+          "hotspots_contacted": [
+            158,
+            159,
+            161
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_adjacent_1_55_w00_004:rfd4_adjacent_1_55_w00_004_16_generated",
+          "patch": "adjacent_1",
+          "method": "rfd4",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.9913735389709473,
+          "design_contact_recall": 0.9166666666666666,
+          "hotspots_contacted": [
+            158,
+            159,
+            161
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 13,
+      "interface_cluster": 0,
+      "sources": [
+        {
+          "parent": "rfd4_adjacent_1_55_w00_004:rfd4_adjacent_1_55_w00_004_16_generated",
+          "patch": "adjacent_1",
+          "method": "rfd4",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.9913735389709473,
+          "design_contact_recall": 0.9166666666666666,
+          "hotspots_contacted": [
+            158,
+            159,
+            161
+          ]
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111",
+      "selected_source": {
+        "parent": "rfd4_adjacent_1_55_w00_004:rfd4_adjacent_1_55_w00_004_16_generated",
+        "patch": "adjacent_1",
+        "method": "rfd4",
+        "wave": 0,
+        "min_hotspots": 2,
+        "pose_ca_rmsd_A": 2.9913735389709473,
+        "design_contact_recall": 0.9166666666666666,
+        "hotspots_contacted": [
+          158,
+          159,
+          161
+        ]
+      },
+      "ipSAE_min_M1_G236": 0.854825
+    },
+    {
+      "selection_rank": 15,
+      "id": "IL7RA_s5k_810d33a1146e9f64",
+      "sequence": "SFFEQIRDEINEAIEPVEHKLTPEQKTELNNLIGELSEADSKEDFTKASEIKNQILTIINSAK",
+      "ipSAE_min": 0.837972,
+      "target_contacts": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        122,
+        124,
+        125,
+        158,
+        159,
+        160,
+        161,
+        162,
+        210,
+        211,
+        212,
+        213,
+        214
+      ],
+      "ipSAE_directions": {
+        "A_to_B": 0.837972,
+        "B_to_A": 0.879571
+      },
+      "ipTM": 0.9543735384941101,
+      "monomer_pLDDT": 81.80419158935547,
+      "monomer_rmsd_A": 0.8815825581550598,
+      "crystal_glycan_min_A": 14.000328063964844,
+      "sequon_ND2_min_A": 13.962377548217773,
+      "unresolved_end_min_A": 25.483903884887695,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 0,
+      "source_geometry": [
+        {
+          "parent": "rfd4_known_55_w00_010:rfd4_known_55_w00_010_17_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 3.641019582748413,
+          "design_contact_recall": 0.9183673469387755,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_known_55_w00_010:rfd4_known_55_w00_010_17_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 3.641019582748413,
+          "design_contact_recall": 0.9183673469387755,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 14,
+      "interface_cluster": 0,
+      "sources": [
+        {
+          "parent": "rfd4_known_55_w00_010:rfd4_known_55_w00_010_17_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 3.641019582748413,
+          "design_contact_recall": 0.9183673469387755,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111",
+      "selected_source": {
+        "parent": "rfd4_known_55_w00_010:rfd4_known_55_w00_010_17_generated",
+        "patch": "known",
+        "method": "rfd4",
+        "wave": 0,
+        "min_hotspots": 2,
+        "pose_ca_rmsd_A": 3.641019582748413,
+        "design_contact_recall": 0.9183673469387755,
+        "hotspots_contacted": [
+          159,
+          211,
+          212
+        ]
+      },
+      "ipSAE_min_M1_G236": 0.85452
+    },
+    {
+      "selection_rank": 16,
+      "id": "IL7RA_s5k_b99734f889cf7874",
+      "sequence": "TSILVTLKVNRIPDTLKVGTVVTVKNHSNNFTFTGTVSEIDRENNEITVKTSDTNVLENLHPNDLVDVTYFDSEGREETFPARVLSVHEE",
+      "ipSAE_min": 0.836075,
+      "target_contacts": [
+        78,
+        100,
+        101,
+        102,
+        103,
+        122,
+        124,
+        125,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        184,
+        210,
+        211,
+        212,
+        213,
+        214
+      ],
+      "ipSAE_directions": {
+        "A_to_B": 0.836075,
+        "B_to_A": 0.85791
+      },
+      "ipTM": 0.9378794431686401,
+      "monomer_pLDDT": 91.31388092041016,
+      "monomer_rmsd_A": 0.5053067803382874,
+      "crystal_glycan_min_A": 14.108606338500977,
+      "sequon_ND2_min_A": 11.642335891723633,
+      "unresolved_end_min_A": 27.972740173339844,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 2,
+      "source_geometry": [
+        {
+          "parent": "rfd4_known_76_w01_011:rfd4_known_76_w01_011_10_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.2637548446655273,
+          "design_contact_recall": 0.9642857142857143,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_known_76_w01_011:rfd4_known_76_w01_011_10_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.2637548446655273,
+          "design_contact_recall": 0.9642857142857143,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 15,
+      "interface_cluster": 0,
+      "sources": [
+        {
+          "parent": "rfd4_known_76_w01_011:rfd4_known_76_w01_011_10_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.2637548446655273,
+          "design_contact_recall": 0.9642857142857143,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111",
+      "selected_source": {
+        "parent": "rfd4_known_76_w01_011:rfd4_known_76_w01_011_10_generated",
+        "patch": "known",
+        "method": "rfd4",
+        "wave": 1,
+        "min_hotspots": 2,
+        "pose_ca_rmsd_A": 2.2637548446655273,
+        "design_contact_recall": 0.9642857142857143,
+        "hotspots_contacted": [
+          159,
+          211,
+          212
+        ]
+      },
+      "ipSAE_min_M1_G236": 0.845287
+    },
+    {
+      "selection_rank": 17,
+      "id": "IL7RA_s5k_d10d10468dcca4a2",
+      "sequence": "ETEVLEELTYVLEKLEEAEHLDEVQTLATLLNDRFSDVPGVKDLYEKIQNATDLDEAKSLLLEMIETIAKHHNVYDDLKDKIEELRN",
+      "ipSAE_min": 0.835128,
+      "target_contacts": [
+        77,
+        100,
+        101,
+        102,
+        103,
+        104,
+        122,
+        124,
+        125,
+        158,
+        159,
+        162,
+        211,
+        212,
+        213,
+        214
+      ],
+      "ipSAE_directions": {
+        "A_to_B": 0.835128,
+        "B_to_A": 0.843086
+      },
+      "ipTM": 0.9390636682510376,
+      "monomer_pLDDT": 84.56873321533203,
+      "monomer_rmsd_A": 0.38370442390441895,
+      "crystal_glycan_min_A": 17.9948787689209,
+      "sequon_ND2_min_A": 14.841773986816406,
+      "unresolved_end_min_A": 27.49814224243164,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 1,
+      "source_geometry": [
+        {
+          "parent": "rfd4_adjacent_1_76_w02_003:rfd4_adjacent_1_76_w02_003_8_generated",
+          "patch": "adjacent_1",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.214916467666626,
+          "design_contact_recall": 1.0,
+          "hotspots_contacted": [
+            158,
+            159
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_adjacent_1_76_w02_003:rfd4_adjacent_1_76_w02_003_8_generated",
+          "patch": "adjacent_1",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.214916467666626,
+          "design_contact_recall": 1.0,
+          "hotspots_contacted": [
+            158,
+            159
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 16,
+      "interface_cluster": 0,
+      "sources": [
+        {
+          "parent": "rfd4_adjacent_1_76_w02_003:rfd4_adjacent_1_76_w02_003_8_generated",
+          "patch": "adjacent_1",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.214916467666626,
+          "design_contact_recall": 1.0,
+          "hotspots_contacted": [
+            158,
+            159
+          ]
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111",
+      "selected_source": {
+        "parent": "rfd4_adjacent_1_76_w02_003:rfd4_adjacent_1_76_w02_003_8_generated",
+        "patch": "adjacent_1",
+        "method": "rfd4",
+        "wave": 2,
+        "min_hotspots": 2,
+        "pose_ca_rmsd_A": 2.214916467666626,
+        "design_contact_recall": 1.0,
+        "hotspots_contacted": [
+          158,
+          159
+        ]
+      },
+      "ipSAE_min_M1_G236": 0.807653
+    },
+    {
+      "selection_rank": 18,
+      "id": "IL7RA_s5k_0d209c81c155522d",
+      "sequence": "SLEDKLEDLTSKALSASTLDDVLSYHDQLSDLVDENPDFVISKELGEKMNDVVAKISQMEAENSSS",
+      "ipSAE_min": 0.832008,
+      "target_contacts": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        124,
+        158,
+        159,
+        160,
+        161,
+        162,
+        210,
+        211,
+        212,
+        213
+      ],
+      "ipSAE_directions": {
+        "A_to_B": 0.832008,
+        "B_to_A": 0.882859
+      },
+      "ipTM": 0.9456012845039368,
+      "monomer_pLDDT": 82.02835083007812,
+      "monomer_rmsd_A": 0.9605275988578796,
+      "crystal_glycan_min_A": 13.748529434204102,
+      "sequon_ND2_min_A": 14.499611854553223,
+      "unresolved_end_min_A": 24.76128387451172,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 1,
+      "source_geometry": [
+        {
+          "parent": "rfd4_known_55_w00_006:rfd4_known_55_w00_006_15_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.2438578605651855,
+          "design_contact_recall": 0.9384615384615385,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_known_55_w00_006:rfd4_known_55_w00_006_15_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.2438578605651855,
+          "design_contact_recall": 0.9384615384615385,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 17,
+      "interface_cluster": 0,
+      "sources": [
+        {
+          "parent": "rfd4_known_55_w00_006:rfd4_known_55_w00_006_15_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 0,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.2438578605651855,
+          "design_contact_recall": 0.9384615384615385,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111",
+      "selected_source": {
+        "parent": "rfd4_known_55_w00_006:rfd4_known_55_w00_006_15_generated",
+        "patch": "known",
+        "method": "rfd4",
+        "wave": 0,
+        "min_hotspots": 2,
+        "pose_ca_rmsd_A": 2.2438578605651855,
+        "design_contact_recall": 0.9384615384615385,
+        "hotspots_contacted": [
+          159,
+          211,
+          212
+        ]
+      },
+      "ipSAE_min_M1_G236": 0.839875
+    },
+    {
+      "selection_rank": 19,
+      "id": "IL7RA_s5k_654c60d1b011b1d1",
+      "sequence": "SPLDNFKTAAENCLSFDDPDEFKTCLEDAVSNAKDDGVSSADIKEVTDEVIEKFEDKAS",
+      "ipSAE_min": 0.831091,
+      "target_contacts": [
+        53,
+        77,
+        78,
+        79,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        122,
+        124,
+        125,
+        158,
+        159,
+        160,
+        161,
+        162,
+        211,
+        212,
+        213,
+        214
+      ],
+      "ipSAE_directions": {
+        "A_to_B": 0.831091,
+        "B_to_A": 0.86648
+      },
+      "ipTM": 0.9559769630432129,
+      "monomer_pLDDT": 86.92388153076172,
+      "monomer_rmsd_A": 0.2695671617984772,
+      "crystal_glycan_min_A": 14.039563179016113,
+      "sequon_ND2_min_A": 14.4990873336792,
+      "unresolved_end_min_A": 28.095497131347656,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 2,
+      "paired_cysteines": true,
+      "binder_sequon_count": 0,
+      "source_geometry": [
+        {
+          "parent": "rfd4_known_55_w02_014:rfd4_known_55_w02_014_15_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.2132370471954346,
+          "design_contact_recall": 1.0,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_known_55_w02_014:rfd4_known_55_w02_014_15_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.2132370471954346,
+          "design_contact_recall": 1.0,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 18,
+      "interface_cluster": 0,
+      "sources": [
+        {
+          "parent": "rfd4_known_55_w02_014:rfd4_known_55_w02_014_15_generated",
+          "patch": "known",
+          "method": "rfd4",
+          "wave": 2,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 1.2132370471954346,
+          "design_contact_recall": 1.0,
+          "hotspots_contacted": [
+            159,
+            211,
+            212
+          ]
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111",
+      "selected_source": {
+        "parent": "rfd4_known_55_w02_014:rfd4_known_55_w02_014_15_generated",
+        "patch": "known",
+        "method": "rfd4",
+        "wave": 2,
+        "min_hotspots": 2,
+        "pose_ca_rmsd_A": 1.2132370471954346,
+        "design_contact_recall": 1.0,
+        "hotspots_contacted": [
+          159,
+          211,
+          212
+        ]
+      },
+      "ipSAE_min_M1_G236": 0.816665
+    },
+    {
+      "selection_rank": 20,
+      "id": "IL7RA_s5k_64097ef731c2808d",
+      "sequence": "SNLDKAKDLYDELVDLVLENDDSEEAINKRSDVSEEFKETVEKLSEDERKELLDYVNNKYEENSNKTAIEDLYNVVSDFLKSLI",
+      "ipSAE_min": 0.830419,
+      "target_contacts": [
+        76,
+        100,
+        101,
+        102,
+        103,
+        104,
+        120,
+        122,
+        125,
+        158,
+        159,
+        160,
+        161,
+        162,
+        210,
+        211,
+        212,
+        213,
+        214
+      ],
+      "ipSAE_directions": {
+        "A_to_B": 0.843438,
+        "B_to_A": 0.830419
+      },
+      "ipTM": 0.9423254132270813,
+      "monomer_pLDDT": 88.38371276855469,
+      "monomer_rmsd_A": 0.2048727571964264,
+      "crystal_glycan_min_A": 14.585158348083496,
+      "sequon_ND2_min_A": 8.8638334274292,
+      "unresolved_end_min_A": 20.259248733520508,
+      "interchain_clash_pairs": 0,
+      "cysteine_count": 0,
+      "paired_cysteines": true,
+      "binder_sequon_count": 1,
+      "source_geometry": [
+        {
+          "parent": "rfd4_adjacent_2_76_w01_005:rfd4_adjacent_2_76_w01_005_6_generated",
+          "patch": "adjacent_2",
+          "method": "rfd4",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.338463544845581,
+          "design_contact_recall": 0.9545454545454546,
+          "hotspots_contacted": [
+            104,
+            120,
+            125
+          ]
+        }
+      ],
+      "passing_sources": [
+        {
+          "parent": "rfd4_adjacent_2_76_w01_005:rfd4_adjacent_2_76_w01_005_6_generated",
+          "patch": "adjacent_2",
+          "method": "rfd4",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.338463544845581,
+          "design_contact_recall": 0.9545454545454546,
+          "hotspots_contacted": [
+            104,
+            120,
+            125
+          ]
+        }
+      ],
+      "initial_public_reference_hits": [],
+      "pilot_gate": true,
+      "fold_cluster": 19,
+      "interface_cluster": 0,
+      "sources": [
+        {
+          "parent": "rfd4_adjacent_2_76_w01_005:rfd4_adjacent_2_76_w01_005_6_generated",
+          "patch": "adjacent_2",
+          "method": "rfd4",
+          "wave": 1,
+          "min_hotspots": 2,
+          "pose_ca_rmsd_A": 2.338463544845581,
+          "design_contact_recall": 0.9545454545454546,
+          "hotspots_contacted": [
+            104,
+            120,
+            125
+          ]
+        }
+      ],
+      "origin": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111",
+      "selected_source": {
+        "parent": "rfd4_adjacent_2_76_w01_005:rfd4_adjacent_2_76_w01_005_6_generated",
+        "patch": "adjacent_2",
+        "method": "rfd4",
+        "wave": 1,
+        "min_hotspots": 2,
+        "pose_ca_rmsd_A": 2.338463544845581,
+        "design_contact_recall": 0.9545454545454546,
+        "hotspots_contacted": [
+          104,
+          120,
+          125
+        ]
+      },
+      "ipSAE_min_M1_G236": 0.831295
+    }
+  ]
+}

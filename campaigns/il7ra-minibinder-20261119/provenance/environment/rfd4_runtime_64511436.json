@@ -1,0 +1,37 @@
+{
+  "mode": "rfd4",
+  "job_id": "64511436",
+  "hostname": "gpu14.pi.sjtu.edu.cn",
+  "python": "3.12.15 (main, Oct  6 2026, 23:50:18) [GCC 15.3.0]",
+  "executable": "/dssg/home/acct-clshzh/jasoncao1280/rfd4_deploy_20261022/venv/bin/python",
+  "scope": "runtime audit, no design or prediction",
+  "started_utc": "2026-11-02T14:48:33Z",
+  "torch": "2.14.1+cu126",
+  "cuda_runtime": "12.6",
+  "cuda_available": true,
+  "gpu_name": "NVIDIA A100-SXM4-40GB",
+  "gpu_memory_bytes": 42297786368,
+  "package_file": "/dssg/home/acct-clshzh/jasoncao1280/rfd4_deploy_20261022/src/RFD4-Proteina/src/rfd4_proteina/__init__.py",
+  "rfd4-proteina_version": "0.0.3",
+  "atomworks_version": "3.0.4",
+  "tmol_version": "0.2.0",
+  "source_commit_record": "6fc44c060ef96d4c759bafeaa1eae1a66a5be67c",
+  "weights_manifest": {
+    "repo": "nvidia/RFD4-Proteina",
+    "revision": "a06e2509c7033b010fc43614e9fd840303588502",
+    "files": [
+      {
+        "path": "/dssg/home/acct-clshzh/jasoncao1280/rfd4_deploy_20261022/cache/huggingface/hub/models--nvidia--RFD4-Proteina/snapshots/a06e2509c7033b010fc43614e9fd840303588502/config.json",
+        "bytes": 7270,
+        "sha256": "154ea927ab8005b7eac2d047a792147fb4606ab4878e496aa8414b6b40dad368"
+      },
+      {
+        "path": "/dssg/home/acct-clshzh/jasoncao1280/rfd4_deploy_20261022/cache/huggingface/hub/models--nvidia--RFD4-Proteina/snapshots/a06e2509c7033b010fc43614e9fd840303588502/model.safetensors",
+        "bytes": 1742660596,
+        "sha256": "5b549dd61adb2f6c6b5cb95bda13f40f5e31556b4e6c755edc0ca6f011c68fb0"
+      }
+    ]
+  },
+  "generation_run": false,
+  "ok": true
+}

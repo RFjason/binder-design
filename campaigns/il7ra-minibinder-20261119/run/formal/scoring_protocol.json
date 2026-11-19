@@ -1,0 +1,47 @@
+{
+  "protocol_id": "IL7RA_E21_D239_local_pilot_v2_20261110",
+  "target": {
+    "uniprot": "P16871-1",
+    "start": 21,
+    "end": 239,
+    "length": 219,
+    "sequence_sha256": "ecdc20f8346168dbf6fd9c54ee032b1b9f1dc64a43d027bb0e06f66017de371c",
+    "fasta": "inputs/IL7RA_E21_D239.fasta",
+    "msa": {
+      "file": "inputs/IL7RA_E21_D239.a3m",
+      "sha256": "7d2c71c01ea5964b735494e68e0d9d251f4d227d12cfee6d8a45158663d325d9",
+      "rows": 1033,
+      "unique_aligned_rows": 1022,
+      "source": "ColabFold MMseqs2 env, public target only",
+      "members": [
+        "uniref.a3m",
+        "bfd.mgnify30.metaeuk30.smag30.a3m"
+      ],
+      "ticket": "m-3Q6gXOIRwxxLav_QIYAIlnZqmMm_PSv9lu7g",
+      "archive_sha256": "fdff402125cf78e5e099cca75bb15689c5f2af0936bb0fb54bad6c3625b0ff74"
+    },
+    "templates": false,
+    "assay_tag": "C-terminal His, omitted from sequence model"
+  },
+  "predictor": {
+    "model_id": "biohub/ESMFold2",
+    "variant": "Full, 48 folding-trunk layers, MSA encoder enabled",
+    "implementation": "esm 3.4.1.post1 native ESMFold2InputBuilder.fold",
+    "local_environment": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/anthropic_pdl1_pipeline_20261006/envs/esmfold2-esm-cu128",
+    "local_weights": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/anthropic_pdl1_pipeline_20261006/weights/ESMFold2",
+    "weights_identity": "Six sharded safetensors; hash manifest will identify exact local bundle without inventing a Hub revision",
+    "seed": 0,
+    "num_diffusion_samples": 1,
+    "num_loops": 20,
+    "num_sampling_steps": 200,
+    "msa_max_depth": 1024,
+    "msa_column_mask_rate": 0.1,
+    "lm_dropout": 0.3,
+    "other_parameters": "Use defaults of the frozen native fold interface and checkpoint; record effective arguments and source hashes"
+  },
+  "score": {
+    "local_source": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/anthropic_pdl1_pipeline_20261006/src/IPSAE/ipsae.py",
+    "primary": "min(ipSAE_binder_to_target, ipSAE_target_to_binder)",
+    "reference_script_sha256": "10cf9b08c68c91e06cb28526cf2026f47a3980c9048fd3226d13e3304eaf1c27"
+  }
+}

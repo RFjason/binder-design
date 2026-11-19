@@ -1,0 +1,90 @@
+{
+  "il7_face": [
+    {
+      "position": 159,
+      "residue": "Y",
+      "il7_distance": 3.51424241065979,
+      "glycan_distance": 13.473780262077286,
+      "sequon_nd2_distance": 14.437689781188965,
+      "termini_distance": 34.11882400512695,
+      "surface": 63.516632080078125,
+      "plddt": 83.81,
+      "atom_names": [
+        "OH",
+        "CE1"
+      ]
+    },
+    {
+      "position": 211,
+      "residue": "H",
+      "il7_distance": 4.592887878417969,
+      "glycan_distance": 19.73086929321289,
+      "sequon_nd2_distance": 13.934085845947266,
+      "termini_distance": 33.16569519042969,
+      "surface": 110.82976531982422,
+      "plddt": 83.34,
+      "atom_names": [
+        "CE1",
+        "CD2"
+      ]
+    },
+    {
+      "position": 212,
+      "residue": "Y",
+      "il7_distance": 2.952165126800537,
+      "glycan_distance": 21.522905349731445,
+      "sequon_nd2_distance": 17.339704513549805,
+      "termini_distance": 31.006040573120117,
+      "surface": 110.864013671875,
+      "plddt": 84.01,
+      "atom_names": [
+        "CE2",
+        "OH"
+      ]
+    }
+  ],
+  "distal_face": [
+    {
+      "position": 86,
+      "residue": "R",
+      "il7_distance": 14.735295295715332,
+      "glycan_distance": 9.276374011684482,
+      "sequon_nd2_distance": 9.553373336791992,
+      "termini_distance": 19.644189834594727,
+      "surface": 123.17193603515625,
+      "plddt": 90.73,
+      "atom_names": [
+        "NH1",
+        "CD"
+      ]
+    },
+    {
+      "position": 89,
+      "residue": "Q",
+      "il7_distance": 24.656963348388672,
+      "glycan_distance": 11.907206354366624,
+      "sequon_nd2_distance": 12.382376670837402,
+      "termini_distance": 15.884960174560547,
+      "surface": 128.94947814941406,
+      "plddt": 95.47,
+      "atom_names": [
+        "NE2",
+        "OE1"
+      ]
+    },
+    {
+      "position": 91,
+      "residue": "I",
+      "il7_distance": 22.256114959716797,
+      "glycan_distance": 14.462604815056162,
+      "sequon_nd2_distance": 14.849186897277832,
+      "termini_distance": 16.76426124572754,
+      "surface": 71.51765441894531,
+      "plddt": 91.02,
+      "atom_names": [
+        "CD1",
+        "CG1"
+      ]
+    }
+  ]
+}

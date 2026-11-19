@@ -1,0 +1,22 @@
+{
+  "target_count": 5000,
+  "baseline_count": 78,
+  "new_quota": 4922,
+  "baseline_root": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_minibinder_20261110",
+  "baseline_audit": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_minibinder_20261110/reports/pilot_audit.json",
+  "primary_waves": 5,
+  "score_shards": 60,
+  "generation_concurrency": {
+    "rfd4": 4,
+    "bc2": 2
+  },
+  "score_concurrency": 2,
+  "rfd4_partition": "a800",
+  "bc2_partition": "a100",
+  "score_partition": "a100",
+  "branch_weights": {
+    "known": 0.5,
+    "adjacent": 0.3,
+    "other": 0.2
+  }
+}

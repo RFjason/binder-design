@@ -1,0 +1,35 @@
+{
+  "rfd4_adjacent_2_76_w02_005": {
+    "input": "/dssg/home/acct-clshzh/jasoncao1280/benchmarks/il7ra_scale5000_20261111/inputs/receptor.cif",
+    "contig": "76-95, /0, A1-219",
+    "conditions": {
+      "C_CRDGRP": {
+        "1": [
+          {
+            "select": "sel('A/*/*/[N,CA,C,O]')"
+          }
+        ]
+      },
+      "C_SEQ": {
+        "true": [
+          {
+            "select": "sel('A')"
+          }
+        ]
+      },
+      "C_HOT": {
+        "true": [
+          {
+            "select": "sel('A/*/84/[NZ,CE]')"
+          },
+          {
+            "select": "sel('A/*/100/[NZ,CD]')"
+          },
+          {
+            "select": "sel('A/*/105/[CG2,OG1]')"
+          }
+        ]
+      }
+    }
+  }
+}

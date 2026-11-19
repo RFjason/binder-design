@@ -11,3 +11,4 @@ jobs:
         with:
           python-version: '3.12'
       - run: python tools/validate_results.py
+      - run: python tools/validate_il7ra_results.py
